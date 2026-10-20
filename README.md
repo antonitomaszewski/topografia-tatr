@@ -93,6 +93,6 @@ Skrypty, którymi pobrano i rozbito raporty TOPR na pojedyncze zdarzenia, są w 
 - **Model terenu:** [Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (Mapzen/AWS, m.in. SRTM).
 - **Opisy:** na podstawie polskiej Wikipedii (CC BY-SA 4.0).
 - **Zdjęcia:** Wikimedia Commons. Autor i licencja każdego zdjęcia są w `data/photos.json` i w podpisie po powiększeniu zdjęcia.
-- **Akcje ratownicze:** tygodniowe podsumowania działań ratowniczych publikowane na [topr.pl](https://topr.pl).
+- **Akcje ratownicze:** tygodniowe podsumowania działań ratowniczych z [topr.pl](https://topr.pl) (od 2026) i archiwalne „Kroniki TOPR” ze starej strony, zapisane w Wayback Machine (2017 – styczeń 2023). Statystyki i wzorce są w `data/topr/summary.md`.
 
 To materiał do nauki, nie mapa do nawigacji. Przebieg i zamknięcia szlaków sprawdzaj w aktualnych komunikatach TPN i TANAP.

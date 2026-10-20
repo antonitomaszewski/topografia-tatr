@@ -7,6 +7,8 @@ from collections import Counter, defaultdict
 D = sys.argv[1]
 A = {a['key']: a for a in json.load(open(os.path.join(D, 'articles.json')))}
 NORM = json.load(open(os.path.join(D, 'scripts', 'place_norm.json')))  # variant -> canonical
+ACCESS = {'Palenica Białczańska', 'Brzeziny', 'Kuźnice', 'Siwa Polana', 'Kiry', 'Zahradziska',
+          'Wodogrzmoty Mickiewicza', 'Zazadnia', 'Łysa Polana', 'Wierch Poroniec', 'Gonciska'}
 TYPES = ["uraz/wypadek", "zasłabnięcie/choroba", "zablokowanie/utknięcie (nie może zejść)", "zabłądzenie/poszukiwania",
          "lawina", "wspinaczka/taternictwo", "narciarstwo/skitury", "jaskinia", "śmiertelny", "inne"]
 
@@ -15,8 +17,8 @@ def norm(p):
     if p is None:
         return None
     p = re.sub(r'\s+', ' ', p.strip().strip('.,;'))
-    p = p.replace('–', '-') if False else p
-    return NORM.get(p, p)
+    q = NORM.get(p, p)
+    return q or None
 
 
 def week_of(a):
@@ -28,7 +30,7 @@ def week_of(a):
 
 
 incidents, problems = [], []
-for f in sorted(glob.glob(os.path.join(D, 'extracted', 'batch_*.jsonl'))):
+for f in sorted(glob.glob(os.path.join(D, 'extracted', '*.jsonl'))):
     for ln, line in enumerate(open(f)):
         if not line.strip():
             continue
@@ -56,6 +58,8 @@ for f in sorted(glob.glob(os.path.join(D, 'extracted', 'batch_*.jsonl'))):
             if q and q not in places:
                 places.append(q)
         pp = norm(r.get('primary_place'))
+        # trailheads / transport destinations are dropped unless they are the incident spot
+        places = [q for q in places if q == pp or q not in ACCESS]
         if pp and pp not in places:
             places.insert(0, pp)
         incidents.append({
@@ -90,6 +94,19 @@ incidents.sort(key=lambda i: (i['week'] or '', i['date'] or '', i['article_key']
 json.dump(incidents, open(os.path.join(D, 'incidents.json'), 'w'), ensure_ascii=False, indent=1)
 
 
+HUT = {'Schronisko Murowaniec': 'Hala Gąsienicowa',
+       'Schronisko w Dolinie Pięciu Stawów Polskich': 'Dolina Pięciu Stawów Polskich',
+       'Schronisko nad Morskim Okiem': 'Morskie Oko',
+       'Schronisko na Hali Kondratowej': 'Hala Kondratowa',
+       'Schronisko PTTK na Hali Ornak': 'Hala Ornak',
+       'Schronisko w Dolinie Chochołowskiej': 'Polana Chochołowska',
+       'Schronisko w Dolinie Roztoki': 'Dolina Roztoki'}
+
+
+def rk(p):
+    return HUT.get(p, p)
+
+
 def ranking(key_fn):
     cnt, types, ex, area = Counter(), defaultdict(Counter), defaultdict(list), defaultdict(Counter)
     for i in incidents:
@@ -104,8 +121,8 @@ def ranking(key_fn):
             for p, c in cnt.most_common()]
 
 
-prim = ranking(lambda i: [i['primary_place']] if i['primary_place'] else [])
-anym = ranking(lambda i: i['places'])
+prim = ranking(lambda i: [rk(i['primary_place'])] if i['primary_place'] else [])
+anym = ranking(lambda i: list(dict.fromkeys(rk(p) for p in i['places'])))
 json.dump(prim, open(os.path.join(D, 'places_ranking.json'), 'w'), ensure_ascii=False, indent=1)
 json.dump(anym, open(os.path.join(D, 'places_ranking_any_mention.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(incidents), 'incidents;', len(prim), 'primary places;', len(problems), 'problems')

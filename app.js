@@ -668,6 +668,12 @@ function overview(scope) {
 }
 
 /* ---------- Akcje TOPR ---------- */
+function yearSpans(list) {
+  const ys = [...new Set(list.map(i => +String(i.date || i.week || "").slice(0, 4)).filter(y => y > 2000))].sort();
+  const out = [];
+  for (const y of ys) { const l = out[out.length - 1]; if (l && l[1] === y - 1) l[1] = y; else out.push([y, y]); }
+  return out.map(([a, b]) => a === b ? a : a + "–" + b).join(", ");
+}
 function buildAkcje() {
   const P = $("#akcjePage");
   if (!INC.length) { P.innerHTML = `<header><h2>Akcje TOPR</h2><p>Brak danych z raportów.</p></header>`; return; }
@@ -676,7 +682,8 @@ function buildAkcje() {
   const types = {}; INC.forEach(i => types[i.type] = (types[i.type] || 0) + 1);
   const max = RANK.length ? RANK[0].count : 1;
   P.innerHTML = `<header><h2>Akcje TOPR</h2><p>Gdzie ratownicy interweniują najczęściej, według tygodniowych podsumowań działań ratowniczych publikowanych przez TOPR. Te miejsca trzeba znać najlepiej: dojście, sąsiednie doliny, szlaki zejściowe.</p></header>
-    <div class="statrow"><div class="stat"><b class="mono">${INC.length}</b><span>opisanych zdarzeń</span></div><div class="stat"><b class="mono">${weeks.length}</b><span>raportów tygodniowych</span></div><div class="stat"><b class="mono">${RANK.length}</b><span>różnych miejsc</span></div><div class="stat"><b class="mono" style="font-size:22px">${esc((dates[0] || weeks[0] || "").slice(0, 10))} – ${esc((dates[dates.length - 1] || weeks[weeks.length - 1] || "").slice(-10))}</b><span>zakres dat</span></div></div>
+    <div class="statrow"><div class="stat"><b class="mono">${INC.length}</b><span>opisanych zdarzeń</span></div><div class="stat"><b class="mono">${weeks.length}</b><span>raportów tygodniowych</span></div><div class="stat"><b class="mono">${RANK.length}</b><span>różnych miejsc</span></div><div class="stat"><b class="mono" style="font-size:22px">${esc(yearSpans(INC))}</b><span>lata z raportami</span></div></div>
+    <p class="empty" style="margin:0;font-size:13px">Źródło: tygodniowe kroniki TOPR (2017 – styczeń 2023, archiwum starej strony) i podsumowania działań ratowniczych z topr.pl (od 2026). Od lutego 2023 do stycznia 2026 TOPR nie publikował cotygodniowych podsumowań.</p>
     <div class="row"><button class="btn" id="akGame">Zagraj: gdzie była akcja?</button></div>
     <div class="facts">${Object.entries(types).sort((a, b) => b[1] - a[1]).map(([t, n]) => `<span class="tag">${esc(t)} <b class="mono">${n}</b></span>`).join("")}</div>
     <div class="cols" style="grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)">
