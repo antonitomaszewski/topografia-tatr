@@ -239,3 +239,9 @@ table.vt button{all:unset;cursor:pointer;color:var(--spruce);text-decoration:und
 .fixform .chk{display:flex;gap:8px;align-items:center;font-weight:400}
 .fixlist{margin:0;padding-left:1.1em;display:grid;gap:3px;font-size:14px}
 code{font-family:var(--f-mono);font-size:.9em;background:var(--soft);padding:1px 4px;border-radius:3px}
+
+/* lightbox paging */
+.lbnav{position:absolute;top:calc(50% - 60px);width:52px;height:72px;border:0;border-radius:8px;background:rgba(255,255,255,.14);color:#fff;font-size:44px;line-height:1;cursor:pointer}
+.lbnav:hover{background:rgba(255,255,255,.28)}
+.lbnav.prev{left:12px}.lbnav.next{right:12px}
+.thumbs img{background:var(--soft)}

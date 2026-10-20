@@ -493,16 +493,28 @@ function nearby(f, kinds, maxD = 2200, n = 10) {
   out.sort((a, b) => a[0] - b[0]);
   return out.slice(0, n).map(x => [x[1], x[2]]).sort((a, b) => a[0] - b[0]);
 }
-function photosNear(f, maxD = 2500) {
-  return PH.filter(p => norm(p.title_pl) === f.n || (p.lat && dist(f.lat, f.lon, +p.lat, +p.lon) < maxD)).slice(0, 9);
+// photos of a place: those naming it first, then the ones taken or showing something nearby
+function photosNear(f, maxD = 1500, n = 24) {
+  const scored = [];
+  for (const p of ALLPH) {
+    if (p.exclude) continue;
+    const named = [p.see, p.from].some(x => x && x.split(",").some(y => norm(y) === f.n));
+    const at = p.seeAt || p.cam || p.o;
+    const d = dist(f.lat, f.lon, at.lat, at.lon);
+    if (named || d < maxD) scored.push([named ? -1 : d, p]);
+  }
+  return scored.sort((a, b) => a[0] - b[0]).slice(0, n).map(x => x[1]);
 }
+const thumbUrl = p => p.u.replace(/\/1280px-/, "/330px-");
+let gallery = [];
 function factsHTML(item) {
   if (!item || !item.facts || !item.facts.length) return "";
   return `<div class="qa"><div class="kicker">Sprawdź się</div>${item.facts.map(x => `<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("")}</div>`;
 }
 function thumbsHTML(list) {
+  gallery = list;
   if (!list.length) return "";
-  return `<div class="thumbs">${list.map(p => `<img src="photos/${esc(p.file)}" alt="${esc(p.title_pl)}" data-ph="${esc(p.id || p.file)}" loading="lazy">`).join("")}</div>`;
+  return `<div class="kicker">Zdjęcia (${list.length})</div><div class="thumbs">${list.map((p, i) => `<img src="${esc(thumbUrl(p))}" alt="${esc(p.see || p.from || p.t)}" data-gi="${i}" loading="lazy">`).join("")}</div>`;
 }
 function incidentsHTML(list, n = 6) {
   if (!list.length) return "";
@@ -553,7 +565,7 @@ function renderPanel() {
     ${nb.length ? `<div class="kicker">W pobliżu (kierunek i odległość)</div><div class="near">${nb.map(([d, g]) => `<button data-id="${g.id}"><span>${esc(g.name)} <small>${kindLabel(g)}${g.ele ? ", " + g.ele + " m" : ""}</small></span><small class="mono">${DIRPL[bearing(f.lat, f.lon, g.lat, g.lon)]} ${fmtKm(d)}</small></button>`).join("")}</div>` : ""}
     <div class="row"><button class="btn ghost" id="pClose">Zamknij</button></div>`;
   $("#panel").querySelectorAll("[data-id]").forEach(b => b.onclick = () => select(FE[+b.dataset.id]));
-  $("#panel").querySelectorAll("[data-ph]").forEach(i => i.onclick = () => openPhoto(PH.find(p => (p.id || p.file) === i.dataset.ph)));
+  $("#panel").querySelectorAll("[data-gi]").forEach(i => i.onclick = () => openPhoto(gallery[+i.dataset.gi], true, gallery));
   $("#pClose").onclick = () => select(null);
 }
 
@@ -587,20 +599,48 @@ function normPhoto(p) {
 }
 ALLPH.forEach(normPhoto);
 const usable = p => !p.exclude && inScope(p);
-function openPhoto(p, reveal = true) {
+/* Lightbox; with a list it pages through it (arrows, ← →, swipe) */
+const LB = { list: null, i: 0, reveal: true };
+function openPhoto(p, reveal = true, list = null) {
   if (!p) return;
   if (p.file) p = CUR.find(c => c.u === "photos/" + p.file) || p;
-  const lb = $("#lightbox");
+  LB.list = list && list.length > 1 ? list : null; LB.i = LB.list ? Math.max(0, LB.list.indexOf(p)) : 0; LB.reveal = reveal;
+  renderLightbox(p);
+}
+function renderLightbox(p) {
+  const lb = $("#lightbox"), reveal = LB.reveal, L = LB.list;
   const name = p.see || p.from || p.label || p.t;
   lb.innerHTML = `<img src="${esc(p.u)}" alt="${reveal ? esc(name) : "Zdjęcie do rozpoznania"}">
+    ${L ? `<button class="lbnav prev" id="lbPrev" aria-label="Poprzednie zdjęcie">‹</button><button class="lbnav next" id="lbNext" aria-label="Następne zdjęcie">›</button>` : ""}
     <div class="cap">${reveal ? `<b style="font:600 24px var(--f-sign)">${esc(name)}</b>${p.from && p.see ? `<span>z: ${esc(p.from)}</span>` : ""}${p.t !== name ? `<span>${esc(p.t)}</span>` : ""}` : ""}
-    <small>Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ""}</small>
+    <small>${L ? `<span class="mono">${LB.i + 1} / ${L.length}</span> · ` : ""}Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ""}</small>
     <div class="row" style="justify-content:center"><button class="btn ghost" id="lbClose" style="color:#fff;border-color:#556">Zamknij</button></div></div>`;
   lb.hidden = false;
   $("#lbClose").onclick = () => lb.hidden = true;
+  if (L) {
+    $("#lbPrev").onclick = e => { e.stopPropagation(); stepPhoto(-1); };
+    $("#lbNext").onclick = e => { e.stopPropagation(); stepPhoto(1); };
+    [L[(LB.i + 1) % L.length], L[(LB.i - 1 + L.length) % L.length]].forEach(x => { new Image().src = x.u; });
+  }
 }
-document.addEventListener("keydown", e => { if (e.key === "Escape") $("#lightbox").hidden = true; });
-$("#lightbox").addEventListener("click", e => { if (e.target.id === "lightbox" || e.target.tagName === "IMG") $("#lightbox").hidden = true; });
+function stepPhoto(d) { const L = LB.list; if (!L) return; LB.i = (LB.i + d + L.length) % L.length; renderLightbox(L[LB.i]); }
+document.addEventListener("keydown", e => {
+  if ($("#lightbox").hidden) return;
+  if (e.key === "Escape") $("#lightbox").hidden = true;
+  if (e.key === "ArrowRight") stepPhoto(1);
+  if (e.key === "ArrowLeft") stepPhoto(-1);
+});
+$("#lightbox").addEventListener("click", e => {
+  if (e.target.id === "lightbox") $("#lightbox").hidden = true;
+  else if (e.target.tagName === "IMG") { if (LB.list) stepPhoto(1); else $("#lightbox").hidden = true; }
+});
+let touchX = null;
+$("#lightbox").addEventListener("touchstart", e => { touchX = e.touches[0].clientX; }, { passive: true });
+$("#lightbox").addEventListener("touchend", e => {
+  if (touchX == null) return;
+  const dx = e.changedTouches[0].clientX - touchX; touchX = null;
+  if (Math.abs(dx) > 50) stepPhoto(dx < 0 ? 1 : -1);
+});
 
 /* ---------- Routing ---------- */
 const VIEWS = ["gra", "akcje", "mapa"];
