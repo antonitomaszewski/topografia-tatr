@@ -1,7 +1,7 @@
 # Data pipeline. The site itself is static: `make serve` is all you need to run it.
 PY ?= python3
 
-.PHONY: serve fetch relief map topr data all
+.PHONY: serve fetch relief map photos topr data all
 
 serve:            ## run the site locally at http://localhost:8000
 	$(PY) -m http.server 8000
@@ -15,10 +15,13 @@ relief:           ## render relief.jpg from the elevation tiles
 map:              ## process OSM data and the border profile
 	cd tools && $(PY) process_osm.py && $(PY) border_profile.py
 
+photos:           ## collect game photo metadata from Wikimedia Commons (slow: API rate limits)
+	cd tools && $(PY) fetch_photos.py && $(PY) fetch_photos_cat.py
+
 topr:             ## locate TOPR report places on the map
 	cd tools && $(PY) geocode_topr.py
 
 data:             ## assemble data.js from everything in data/
 	cd tools && $(PY) build_data.py
 
-all: fetch relief map topr data
+all: fetch relief map photos topr data
