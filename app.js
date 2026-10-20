@@ -561,16 +561,39 @@ function renderPanel() {
 // curated photos (local files, subject named in title_pl) + Commons photos (camera location)
 const GP = (D.gamePhotos || []).filter(p => p.u);
 const CUR = PH.map(p => ({ u: "photos/" + p.file, label: p.title_pl, t: p.caption_pl || p.title_pl, a: p.author, l: p.license, src: p.source_url, lat: +p.lat, lon: +p.lon, pl: isPL(+p.lat, +p.lon), curated: true }));
-const photoKey = p => "foto:" + (p.src || p.u);
-// what the answer means: "sub" = the place shown (category/curated photos), otherwise where the camera stood
-const isSubject = p => p.sub || p.curated;
-const photoLabelOK = p => p.label && (isSubject(p) || (p.ld != null && p.ld <= 1.5));
+const photoId = p => p.src || p.u;
+const photoKey = p => "foto:" + photoId(p);
+/* Each photo answers two questions, each possibly unknown:
+   see  – what it shows (place name) and seeAt – where that place is,
+   from – name of the place it was taken from and cam – the camera point.
+   Geotagged photos know `cam` (and `from` when a named place is within 1.5 km);
+   category and curated photos know `see`. User corrections override both. */
+const ALLPH = [...CUR, ...GP];
+const repoFixes = D.photoFixes || {};
+const myFixes = store.get("photoFixes", {});
+function normPhoto(p) {
+  if (!p.o) p.o = { lat: p.lat, lon: p.lon };
+  const subj = p.sub || p.curated;
+  p.cam = subj ? null : { ...p.o };
+  p.see = subj ? p.label : null;
+  p.seeAt = subj ? { ...p.o } : null;
+  p.from = !subj && p.label && p.ld != null && p.ld <= 1.5 ? p.label : null;
+  const f = myFixes[photoId(p)] || repoFixes[photoId(p)];
+  p.fix = f || null; p.exclude = !!(f && f.exclude);
+  if (!f) return;
+  if (f.see) { p.see = f.see; const g = findByName(f.see.split(",")[0].trim()); p.seeAt = g ? { lat: g.lat, lon: g.lon } : (f.cam ? null : p.seeAt); }
+  if (f.from) p.from = f.from;
+  if (f.cam) p.cam = { ...f.cam };
+}
+ALLPH.forEach(normPhoto);
+const usable = p => !p.exclude && inScope(p);
 function openPhoto(p, reveal = true) {
   if (!p) return;
   if (p.file) p = CUR.find(c => c.u === "photos/" + p.file) || p;
   const lb = $("#lightbox");
-  lb.innerHTML = `<img src="${esc(p.u)}" alt="${reveal ? esc(p.label || p.t) : "Zdjęcie do rozpoznania"}">
-    <div class="cap">${reveal ? `<b style="font:600 24px var(--f-sign)">${esc(p.label || p.t)}</b>${p.label && p.t !== p.label ? `<span>${esc(p.t)}</span>` : ""}` : ""}
+  const name = p.see || p.from || p.label || p.t;
+  lb.innerHTML = `<img src="${esc(p.u)}" alt="${reveal ? esc(name) : "Zdjęcie do rozpoznania"}">
+    <div class="cap">${reveal ? `<b style="font:600 24px var(--f-sign)">${esc(name)}</b>${p.from && p.see ? `<span>z: ${esc(p.from)}</span>` : ""}${p.t !== name ? `<span>${esc(p.t)}</span>` : ""}` : ""}
     <small>Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ""}</small>
     <div class="row" style="justify-content:center"><button class="btn ghost" id="lbClose" style="color:#fff;border-color:#556">Zamknij</button></div></div>`;
   lb.hidden = false;
@@ -687,19 +710,24 @@ function maskPlaces(inc) {
 }
 const GEN = {
   photoWhere(used) {
-    const pool = GP.filter(p => inScope(p));
+    const pool = ALLPH.filter(p => usable(p) && (p.cam || p.seeAt));
     if (pool.length < 5) return null;
     const p = weightedPick(pool, photoKey, used); used.add(p);
-    return { type: "photoWhere", photo: p, key: photoKey(p), mapClick: true };
+    const ask = p.cam ? "from" : "see";
+    const at = ask === "from" ? p.cam : p.seeAt;
+    return { type: "photoWhere", photo: p, ask, at, key: photoKey(p) + ":" + ask, mapClick: true };
   },
   photoWhat(used) {
-    const pool = [...CUR, ...GP.filter(photoLabelOK)].filter(p => inScope(p));
+    const pool = ALLPH.filter(p => usable(p) && (p.see || p.from));
     if (pool.length < 8) return null;
     const p = weightedPick(pool, photoKey, used); used.add(p);
-    const others = [...new Set(pool.filter(o => o.label !== p.label && (!p.kind || !o.kind || o.kind === p.kind)).map(o => o.label))];
-    const near = others.map(l => { const o = pool.find(x => x.label === l); return [dist(p.lat, p.lon, o.lat, o.lon), l]; }).sort((a, b) => a[0] - b[0]);
+    const ask = p.see ? "see" : "from", answer = p[ask];
+    const pos = o => o.seeAt || o.cam || o.o;
+    const here = pos(p);
+    const others = [...new Map(pool.filter(o => o[ask] && o[ask] !== answer).map(o => [o[ask], o])).values()];
+    const near = others.map(o => [dist(here.lat, here.lon, pos(o).lat, pos(o).lon), o[ask]]).sort((x, y) => x[0] - y[0]);
     const opts = shuffle(near.slice(0, 7).map(x => x[1])).slice(0, 3);
-    return { type: "photoWhat", photo: p, key: photoKey(p), opts: shuffle([p.label, ...opts]), answer: p.label };
+    return { type: "photoWhat", photo: p, ask, key: photoKey(p) + ":" + ask, opts: shuffle([answer, ...opts]), answer };
   },
   mapWhere(used) {
     const pool = quizPool(); if (pool.length < 4) return null;
@@ -776,11 +804,18 @@ function buildHub() {
     </div>
     <div class="card" style="display:grid;gap:8px">
       <div class="kicker">Twoje postępy (zapisane w tej przeglądarce)</div>
-      <p style="margin:0" class="mono">${a} odpowiedzi · ${a ? Math.round(c / a * 100) : 0}% dobrych · ${e.length} różnych pytań · ${GP.length + CUR.length} zdjęć w grze</p>
+      <p style="margin:0" class="mono">${a} odpowiedzi · ${a ? Math.round(c / a * 100) : 0}% dobrych · ${e.length} różnych pytań · ${ALLPH.filter(p => !p.exclude).length} zdjęć w grze</p>
       ${weak.length ? `<div>Do powtórki: ${weak.map(([k]) => `<span class="tag">${esc(k.split(":").slice(1).join(":").replace(/^https?:\/\/\S+\/File:/, "zdjęcie: ").slice(0, 60))}</span>`).join(" ")}</div>` : ""}
       <div class="row">${a ? `<button class="btn ghost" id="qreset">Wyzeruj postępy</button>` : ""}<button class="btn ghost" id="openMap">Otwórz mapę z nazwami</button></div>
+    </div>
+    <div class="card" style="display:grid;gap:8px">
+      <div class="kicker">Twoje poprawki zdjęć</div>
+      ${(() => { const fx = Object.values(myFixes); return fx.length ? `<p style="margin:0">${fx.length} ${fx.length === 1 ? "poprawka" : fx.length < 5 ? "poprawki" : "poprawek"} zapisanych w tej przeglądarce${fx.filter(f => f.exclude).length ? `, w tym ${fx.filter(f => f.exclude).length} zdjęć wyłączonych z gry` : ""}.</p>
+        <ul class="fixlist">${Object.values(myFixes).slice(-8).reverse().map(f => `<li><b>${esc(f.see || f.from || (f.exclude ? "wyłączone" : "—"))}</b> <span class="empty">${esc(f.t || "")}${f.note ? " · " + esc(f.note) : ""}</span></li>`).join("")}</ul>` : `<p class="empty" style="margin:0">Po odpowiedzi przy zdjęciu kliknij „Popraw opis zdjęcia”, jeśli opis jest błędny.</p>`; })()}
+      <p class="empty" style="margin:0;font-size:13px">Żeby poprawki trafiły do repozytorium, pobierz plik i zapisz go jako <code>data/photo_fixes.json</code>, potem uruchom <code>make data</code>. Plik możesz też wczytać na innym urządzeniu.</p>
+      <div class="row"><button class="btn ghost" id="fxExport" ${Object.keys(myFixes).length ? "" : "disabled"}>Pobierz photo_fixes.json</button><label class="btn ghost" for="fxImport" style="cursor:pointer">Wczytaj plik poprawek</label><input type="file" id="fxImport" accept=".json,application/json" hidden></div>
     </div>`;
-  const updPool = () => { $("#qpool").textContent = quizPool().length + " obiektów · " + GP.filter(p => inScope(p)).length + " zdjęć w zakresie"; };
+  const updPool = () => { $("#qpool").textContent = quizPool().length + " obiektów · " + ALLPH.filter(usable).length + " zdjęć w zakresie"; };
   const segs = (id, key) => $(id).onclick = ev => { const b = ev.target.closest("button"); if (!b) return; qcfg[key] = b.dataset.k; store.set("qcfg", qcfg); $(id).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); updPool(); };
   segs("#qcat", "cat"); segs("#qscope", "scope"); segs("#qlevel", "level"); updPool();
   P.querySelectorAll(".mode").forEach(b => b.onclick = () => startGame(b.dataset.m));
@@ -788,6 +823,12 @@ function buildHub() {
   const hr = $("#hubResume"); if (hr) hr.onclick = () => go("mapa");
   const hq = $("#hubQuit"); if (hq) hq.onclick = () => { quitGame(false); buildHub(); };
   $("#openMap").onclick = () => { if (state.game) quitGame(false); go("mapa"); };
+  $("#fxExport").onclick = exportFixes;
+  $("#fxImport").onchange = async ev => {
+    const file = ev.target.files[0]; if (!file) return;
+    try { const data = JSON.parse(await file.text()); Object.assign(myFixes, data); store.set("photoFixes", myFixes); ALLPH.forEach(normPhoto); buildHub(); }
+    catch (e) { alertCard("Nie udało się wczytać pliku: to nie jest poprawny plik poprawek JSON."); }
+  };
 }
 
 /* ---------- Game: engine ---------- */
@@ -814,7 +855,7 @@ function showQuestion() {
   const g = state.game, q = cur();
   state.quiz = q; state.blind = true; $("#btnBlind").setAttribute("aria-pressed", "true");
   q.hideHot = true; q.hidePhotos = true; q.panel = gamePanel; q.bind = bindGame;
-  q.onMapClick = q.mapClick ? onGameClick : null;
+  q.onMapClick = onGameClick;
   if (q.type === "mapWhat") { const f = q.target, j = () => (Math.random() - .5) * 0.02; map.flyTo([f.lat + j(), f.lon + j() * 1.5], 13, { duration: .5 }); }
   else if (q.mapClick) overview(qcfg.scope);
   if (q.photo) { const nx = g.qs[g.i + 1]; if (nx && nx.photo) new Image().src = nx.photo.u; }
@@ -826,14 +867,16 @@ function finishQuestion(pts, ok) {
   redraw(); renderPanel();
 }
 function onGameClick(ll) {
-  const q = cur(); if (!q || q.answered) return;
+  const q = cur(); if (!q) return;
+  if (q.editing && q.pickCam) { q.draft.cam = { lat: +ll.lat.toFixed(5), lon: +ll.lng.toFixed(5) }; q.pickCam = false; q.show = { w: merc(ll.lat, ll.lng), lat: ll.lat, lon: ll.lng }; redraw(); renderPanel(); return; }
+  if (!q.mapClick || q.answered) return;
   q.click = [ll.lat, ll.lng];
   let d, pts;
   if (q.type === "photoWhere") {
-    const p = q.photo; d = dist(ll.lat, ll.lng, p.lat, p.lon); pts = isSubject(p) ? distPts(d, 600, 1500) : distPts(d, 250, 1500);
-    q.show = { w: merc(p.lat, p.lon), lat: p.lat, lon: p.lon };
-    const lf = photoLabelOK(p) ? findByName(p.label) : null;
-    q.reveal = new Set([...(lf ? [lf] : []), ...nearby({ lat: p.lat, lon: p.lon }, ["peak", "saddle", "hut", "lake", "valley"], 2500, 14).map(x => x[1])]);
+    const p = q.photo, at = q.at; d = dist(ll.lat, ll.lng, at.lat, at.lon); pts = q.ask === "see" ? distPts(d, 600, 1500) : distPts(d, 250, 1500);
+    q.show = { w: merc(at.lat, at.lon), lat: at.lat, lon: at.lon };
+    const named = [p.see, p.from].filter(Boolean).flatMap(n => n.split(",")).map(n => findByName(n.trim())).filter(Boolean);
+    q.reveal = new Set([...named, ...nearby({ lat: at.lat, lon: at.lon }, ["peak", "saddle", "hut", "lake", "valley"], 2500, 14).map(x => x[1])]);
   } else {
     const f = q.target; d = targetDist(f, ll.lat, ll.lng); pts = distPts(d, f.geom ? 300 : 150, f.geom ? 1100 : 800);
     q.show = f; q.reveal = new Set([f, ...nearby(f, ["peak", "saddle", "hut", "lake", "valley"], 2500, 12).map(x => x[1])]);
@@ -849,11 +892,46 @@ function nextQuestion() {
 }
 const TYPELABEL = { photoWhere: "Zdjęcie: gdzie?", photoWhat: "Zdjęcie: co to?", mapWhere: "Wskaż na mapie", mapWhat: "Co to jest?", topr: "Akcja TOPR", order: "Kolejność na grani", dir: "Kierunek", fact: "Pytanie" };
 const DIRBTN = { N: "Pn", NE: "Pn-Wsch", E: "Wsch", SE: "Pd-Wsch", S: "Pd", SW: "Pd-Zach", W: "Zach", NW: "Pn-Zach" };
+const placeOf = p => [p.see, p.from].filter(Boolean).flatMap(n => n.split(",")).map(n => findByName(n.trim())).find(Boolean) || null;
+function photoFacts(p) {
+  return `<dl class="pfacts"><dt>Widać</dt><dd>${esc(p.see || "nieopisane")}</dd><dt>Zrobione z</dt><dd>${esc(p.from || (p.cam ? "punkt na mapie (bez nazwy)" : "nieznane"))}${p.cam && p.ele && !(p.fix && p.fix.cam) ? ` · ${p.ele} m n.p.m.` : ""}</dd>
+    <dt>Tytuł</dt><dd class="empty">${esc(p.t)}</dd>${p.fix ? `<dt>Poprawka</dt><dd>${myFixes[photoId(p)] ? "Twoja" : "z repozytorium"}${p.fix.note ? ": " + esc(p.fix.note) : ""}</dd>` : ""}</dl>`;
+}
+function photoEditor(q) {
+  const p = q.photo, d = q.draft;
+  return `<div class="q">Popraw opis zdjęcia</div>${photoHTML(p, true)}
+    <form id="fixForm" class="fixform">
+      <label for="fxSee">Co widać na zdjęciu <small>(główne obiekty, po przecinku)</small></label>
+      <input id="fxSee" list="placeNames" value="${esc(d.see)}" placeholder="np. Kozi Wierch, Kościelec">
+      <label for="fxFrom">Skąd zostało zrobione <small>(nazwa miejsca)</small></label>
+      <input id="fxFrom" list="placeNames" value="${esc(d.from)}" placeholder="np. szlak na Karb nad Czarnym Stawem Gąsienicowym">
+      <div class="row"><span>Punkt zrobienia zdjęcia: <b class="mono">${d.cam ? d.cam.lat.toFixed(4) + ", " + d.cam.lon.toFixed(4) : "nieustalony"}</b></span>
+        <button type="button" class="btn ghost sm" id="fxPick">${q.pickCam ? "Kliknij na mapie…" : "Wskaż na mapie"}</button>${d.cam ? `<button type="button" class="btn ghost sm" id="fxNoCam">Usuń punkt</button>` : ""}</div>
+      <label for="fxNote">Komentarz</label>
+      <textarea id="fxNote" rows="2" placeholder="Co jest nie tak z opisem?">${esc(d.note)}</textarea>
+      <label class="chk"><input type="checkbox" id="fxEx" ${d.exclude ? "checked" : ""}> Nie nadaje się do gry (nie z Tatr, nieczytelne, zdradza odpowiedź)</label>
+      <div class="row"><button class="btn" type="submit">Zapisz poprawkę</button><button class="btn ghost" type="button" id="fxCancel">Anuluj</button>${myFixes[photoId(p)] ? `<button class="btn ghost" type="button" id="fxDel">Usuń moją poprawkę</button>` : ""}</div>
+      <p class="empty" style="margin:0;font-size:13px">Poprawki działają od razu w tej przeglądarce. Eksport do pliku jest w menu gry.</p>
+    </form>`;
+}
+function ensureNames() {
+  if ($("#placeNames")) return;
+  const dl = document.createElement("datalist"); dl.id = "placeNames";
+  const names = [...new Set(FE.filter(f => f.name && ["peak", "saddle", "valley", "kociol", "zleb", "lake", "hut", "locality", "ridge", "waterfall"].includes(f.k) && (f.prio >= 20 || f.pl)).map(f => f.name))].sort((a, b) => a.localeCompare(b, "pl"));
+  dl.innerHTML = names.map(n => `<option value="${esc(n)}">`).join("");
+  document.body.appendChild(dl);
+}
+function exportFixes() {
+  const all = { ...myFixes };
+  const blob = new Blob([JSON.stringify(all, null, 1)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "photo_fixes.json"; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
 function photoHTML(p, reveal) {
   return `<figure class="gphoto"><img src="${esc(p.u)}" alt="Zdjęcie do rozpoznania" data-zoom><figcaption>Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">źródło</a>` : ""} · kliknij, żeby powiększyć</figcaption></figure>`;
 }
 function qAnswerName(q) {
-  if (q.type === "photoWhere") return photoLabelOK(q.photo) ? q.photo.label : q.photo.t;
+  if (q.type === "photoWhere") return q.photo[q.ask] || q.photo.t;
   if (q.type === "photoWhat") return q.answer;
   if (q.type === "order") return q.items.map(o => o.name).join(" → ");
   if (q.type === "dir") return `${q.b.name} ${DIRPL[q.answer]} od: ${q.a.name}`;
@@ -871,19 +949,19 @@ function gamePanel() {
       <ol class="recap">${g.qs.map((x, i) => `<li><button data-r="${i}"><span class="${x.pts >= 55 ? "okc" : "badc"} mono">${x.pts ?? 0}</span><span><small>${TYPELABEL[x.type]}</small>${esc(qAnswerName(x))}</span></button></li>`).join("")}</ol></div>`;
   }
   const head = `<div class="ghead"><span class="kicker">${esc(M.name)}</span><span class="score">${g.i + 1} / ${g.qs.length} · ${g.pts} pkt</span><button class="btn ghost sm" id="gQuit">Zakończ</button></div><div class="progress"><i style="width:${g.i / g.qs.length * 100}%"></i></div>`;
-  const after = q.answered ? `<div class="row"><button class="btn" id="gNext">${g.i + 1 < g.qs.length ? "Dalej" : "Wynik"}</button>${q.target || (q.photo && q.photo.label && findByName(q.photo.label)) ? `<button class="btn ghost" id="gInfo">Opis miejsca</button>` : ""}</div>` : "";
+  const after = q.answered ? `<div class="row"><button class="btn" id="gNext">${g.i + 1 < g.qs.length ? "Dalej" : "Wynik"}</button>${q.target || (q.photo && placeOf(q.photo)) ? `<button class="btn ghost" id="gInfo">Opis miejsca</button>` : ""}${q.photo ? `<button class="btn ghost" id="gFix">Popraw opis zdjęcia</button>` : ""}</div>` : "";
   const distLine = () => { const [t, c] = verdictFor(q.pts); return `<div class="verdict ${c}">${t}: ${fmtKm(q.dist)} od celu · +${q.pts} pkt</div>`; };
   let body = "";
+  if (q.editing) return `<div class="qpanel">${head}${photoEditor(q)}</div>`;
   if (q.type === "photoWhere") {
-    const p = q.photo;
-    const sub = isSubject(p);
-    body = `<div class="q">${sub ? "Gdzie jest to miejsce?" : "Gdzie zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
-      ${q.answered ? `${distLine()}<p style="margin:0"><b>${esc(photoLabelOK(p) ? p.label : "Miejsce zdjęcia")}</b><br><span class="empty">${esc(p.t)}${p.ele ? " · aparat na " + p.ele + " m n.p.m." : ""}</span></p>` : `<p class="empty" style="margin:0">${sub ? "Kliknij na mapie miejsce widoczne na zdjęciu." : "Kliknij na mapie punkt, z którego zrobiono zdjęcie."} Przybliżaj i przesuwaj mapę, ile chcesz.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
+    const p = q.photo, sub = q.ask === "see";
+    body = `<div class="q">${sub ? "Gdzie jest miejsce widoczne na zdjęciu?" : "Skąd zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
+      ${q.answered ? `${distLine()}${photoFacts(p)}` : `<p class="empty" style="margin:0">${sub ? "Kliknij na mapie miejsce widoczne na zdjęciu." : "Kliknij na mapie punkt, z którego zrobiono zdjęcie."} Przybliżaj i przesuwaj mapę, ile chcesz.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
   } else if (q.type === "photoWhat") {
     const p = q.photo;
-    body = `<div class="q">${isSubject(p) ? "Co widać na zdjęciu?" : "Gdzie zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
+    body = `<div class="q">${q.ask === "see" ? "Co widać na zdjęciu?" : "Skąd zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
       <div class="opts">${q.opts.map((o, i) => `<button data-o="${i}" class="${q.answered ? (o === q.answer ? "ok" : (i === q.choice ? "bad" : "")) : ""}">${esc(o)}</button>`).join("")}</div>
-      ${q.answered ? `<p class="empty" style="margin:0">${esc(p.t)}</p>` : ""}`;
+      ${q.answered ? photoFacts(p) : ""}`;
   } else if (q.type === "mapWhere") {
     const t = q.target;
     body = `<div class="kicker">Wskaż na mapie</div><div class="q">${esc(t.name)}</div><div class="score">${esc(kindLabel(t))}${t.pl ? "" : " · Słowacja"}</div>
@@ -918,11 +996,32 @@ function bindGame(P) {
   on("#gQuit", () => quitGame()); on("#gHub", () => quitGame()); on("#gAgain", () => startGame(g.mode));
   on("#gNext", nextQuestion);
   P.querySelectorAll("[data-zoom]").forEach(img => img.onclick = () => openPhoto(q.photo, q.answered));
-  if (g.done) { P.querySelectorAll("[data-r]").forEach(b => b.onclick = () => { const x = g.qs[+b.dataset.r]; const f = x.target || (x.photo && x.photo.label && findByName(x.photo.label)) || x.a; if (f) { state.quiz = { panel: gamePanel, bind: bindGame, show: f, reveal: new Set([f]), hideHot: true }; focus(f, 13); redraw(); } else if (x.photo) openPhoto(x.photo, true); }); return; }
-  on("#gInfo", () => { const f = q.target || findByName(q.photo.label); const keep = state.game; state.sel = f; state.quiz = null; renderPanel(); state.quiz = q; const P2 = $("#panel"); const back = document.createElement("button"); back.className = "btn"; back.textContent = "Wróć do gry"; back.onclick = () => { state.sel = null; renderPanel(); redraw(); }; P2.prepend(back); redraw(); });
+  if (g.done) { P.querySelectorAll("[data-r]").forEach(b => b.onclick = () => { const x = g.qs[+b.dataset.r]; const f = x.target || (x.photo && placeOf(x.photo)) || x.a; if (f) { state.quiz = { panel: gamePanel, bind: bindGame, show: f, reveal: new Set([f]), hideHot: true }; focus(f, 13); redraw(); } else if (x.photo) openPhoto(x.photo, true); }); return; }
+  on("#gFix", () => {
+    const p = q.photo, f = myFixes[photoId(p)] || {};
+    q.editing = true; q.pickCam = false; q.prevShow = q.show;
+    q.draft = { see: f.see ?? p.see ?? "", from: f.from ?? p.from ?? "", cam: f.cam || (p.cam ? { ...p.cam } : null), note: f.note || "", exclude: !!f.exclude };
+    ensureNames(); renderPanel();
+  });
+  const form = P.querySelector("#fixForm");
+  if (form) {
+    const p = q.photo, sync = () => { q.draft.see = $("#fxSee").value.trim(); q.draft.from = $("#fxFrom").value.trim(); q.draft.note = $("#fxNote").value.trim(); q.draft.exclude = $("#fxEx").checked; };
+    on("#fxPick", () => { sync(); q.pickCam = true; renderPanel(); });
+    on("#fxNoCam", () => { sync(); q.draft.cam = null; renderPanel(); });
+    on("#fxCancel", () => { q.editing = false; q.pickCam = false; q.show = q.prevShow; redraw(); renderPanel(); });
+    on("#fxDel", () => { delete myFixes[photoId(p)]; store.set("photoFixes", myFixes); normPhoto(p); q.editing = false; q.show = q.prevShow; redraw(); renderPanel(); });
+    form.onsubmit = e => {
+      e.preventDefault(); sync();
+      const d = q.draft;
+      myFixes[photoId(p)] = { see: d.see || null, from: d.from || null, cam: d.cam, note: d.note || null, exclude: d.exclude, t: p.t, src: p.src || p.u, at: new Date().toISOString().slice(0, 10) };
+      store.set("photoFixes", myFixes); normPhoto(p);
+      q.editing = false; q.pickCam = false; redraw(); renderPanel();
+    };
+  }
+  on("#gInfo", () => { const f = q.target || placeOf(q.photo); const keep = state.game; state.sel = f; state.quiz = null; renderPanel(); state.quiz = q; const P2 = $("#panel"); const back = document.createElement("button"); back.className = "btn"; back.textContent = "Wróć do gry"; back.onclick = () => { state.sel = null; renderPanel(); redraw(); }; P2.prepend(back); redraw(); });
   on("#gSkip", () => {
     q.click = null; q.dist = NaN;
-    if (q.photo) { q.show = { w: merc(q.photo.lat, q.photo.lon), lat: q.photo.lat, lon: q.photo.lon }; map.flyTo([q.photo.lat, q.photo.lon], 13); }
+    if (q.photo) { const at = q.at || q.photo.cam || q.photo.seeAt || q.photo.o; q.show = { w: merc(at.lat, at.lon), lat: at.lat, lon: at.lon }; map.flyTo([at.lat, at.lon], 13); }
     else { q.show = q.target; q.reveal = new Set([q.target]); focus(q.target, 13); }
     finishQuestion(0, false);
     const v = $("#panel").querySelector(".verdict"); if (v) v.textContent = "Pominięte · tu jest cel";
@@ -930,7 +1029,11 @@ function bindGame(P) {
   P.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
     if (q.answered) return; q.choice = +b.dataset.o;
     const ok = q.type === "photoWhat" ? q.opts[q.choice] === q.answer : q.opts[q.choice] === q.target;
-    if (q.type === "photoWhat") { const f = findByName(q.answer); q.show = { w: merc(q.photo.lat, q.photo.lon), lat: q.photo.lat, lon: q.photo.lon }; if (f) { q.reveal = new Set([f]); map.flyToBounds(L.latLngBounds([[q.photo.lat, q.photo.lon], [f.lat, f.lon]]).pad(.5), { maxZoom: 14 }); } else map.flyTo([q.photo.lat, q.photo.lon], 13); }
+    if (q.type === "photoWhat") {
+      const p = q.photo, at = p.cam || p.seeAt || p.o, f = placeOf(p);
+      q.show = { w: merc(at.lat, at.lon), lat: at.lat, lon: at.lon };
+      if (f) { q.reveal = new Set([f]); map.flyToBounds(L.latLngBounds([[at.lat, at.lon], [f.lat, f.lon]]).pad(.5), { maxZoom: 14 }); } else map.flyTo([at.lat, at.lon], 13);
+    }
     else q.reveal = new Set([q.target]);
     finishQuestion(ok ? 100 : 0, ok);
   });

@@ -48,6 +48,7 @@ def main():
             "extra": load(DATA / "kb" / "extra.json", {}),
         },
         "gamePhotos": game_photos(DATA / "photos_game.json", DATA / "photos_cat.json"),
+        "photoFixes": load(DATA / "photo_fixes.json", {}),
         "photos": [p for p in load(DATA / "photos.json", [])
                    if (ROOT / "photos" / p["file"]).exists() and not ANNOTATED.search(p["title_pl"])],
         "topr": {

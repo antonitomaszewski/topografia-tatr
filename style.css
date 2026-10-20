@@ -227,3 +227,15 @@ table.vt button{all:unset;cursor:pointer;color:var(--spruce);text-decoration:und
   #v-mapa.game #mapwrap{min-height:58vh}
   .gphoto img{max-height:38vh}
 }
+
+/* photo facts + correction form */
+.pfacts{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 12px;margin:0;font-size:14px}
+.pfacts dt{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+.pfacts dd{margin:0}
+.fixform{display:grid;gap:8px}
+.fixform label{font-weight:600;font-size:14px}
+.fixform label small{font-weight:400;color:var(--muted)}
+.fixform input:not([type=checkbox]),.fixform textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+.fixform .chk{display:flex;gap:8px;align-items:center;font-weight:400}
+.fixlist{margin:0;padding-left:1.1em;display:grid;gap:3px;font-size:14px}
+code{font-family:var(--f-mono);font-size:.9em;background:var(--soft);padding:1px 4px;border-radius:3px}

@@ -18,6 +18,13 @@ Błędne odpowiedzi wracają częściej. Postępy i najlepsze wyniki zapisują s
 - **z geotagiem** (`data/photos_game.json`): odpowiedzią jest miejsce, z którego zrobiono zdjęcie;
 - **z kategorii miejsca na Commons** (`data/photos_cat.json`): odpowiedzią jest miejsce widoczne na zdjęciu.
 
+**Poprawianie opisów zdjęć.** Każde zdjęcie ma dwie informacje: *co widać* i *skąd zostało zrobione*. Po odpowiedzi kliknij „Popraw opis zdjęcia”. Możesz wpisać, co widać i skąd zrobiono zdjęcie, wskazać na mapie punkt zrobienia, dodać komentarz albo wyłączyć zdjęcie z gry. Poprawki działają od razu w przeglądarce.
+
+Żeby trafiły do repozytorium:
+1. W menu gry kliknij „Pobierz photo_fixes.json”.
+2. Zapisz plik jako `data/photo_fixes.json`.
+3. Uruchom `make data` i zrób commit.
+
 ## Uruchomienie lokalnie
 
 Strona jest statyczna, nie wymaga budowania ani instalowania zależności.
