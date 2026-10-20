@@ -364,7 +364,7 @@ function draw(cv, ctx) {
         }
       }
     }
-    if (pointish && (placed || z >= 13 || blind)) symbols.push([f, x, y, symR]);
+    if (pointish && (placed || z >= 13 || (blind && z >= 12.5))) symbols.push([f, x, y, symR]);
     else if (pointish && !placed && f === sel) symbols.push([f, x, y, symR]);
   }
   // symbols on top
@@ -557,145 +557,68 @@ function renderPanel() {
   $("#pClose").onclick = () => select(null);
 }
 
-/* ---------- Photos lightbox ---------- */
-function openPhoto(p, opts = {}) {
+/* ---------- Photos ---------- */
+// curated photos (local files, subject named in title_pl) + Commons photos (camera location)
+const GP = (D.gamePhotos || []).filter(p => p.u);
+const CUR = PH.map(p => ({ u: "photos/" + p.file, label: p.title_pl, t: p.caption_pl || p.title_pl, a: p.author, l: p.license, src: p.source_url, lat: +p.lat, lon: +p.lon, pl: isPL(+p.lat, +p.lon), curated: true }));
+const photoKey = p => "foto:" + (p.src || p.u);
+// what the answer means: "sub" = the place shown (category/curated photos), otherwise where the camera stood
+const isSubject = p => p.sub || p.curated;
+const photoLabelOK = p => p.label && (isSubject(p) || (p.ld != null && p.ld <= 1.5));
+function openPhoto(p, reveal = true) {
   if (!p) return;
+  if (p.file) p = CUR.find(c => c.u === "photos/" + p.file) || p;
   const lb = $("#lightbox");
-  lb.innerHTML = `<img src="photos/${esc(p.file)}" alt="${esc(p.title_pl)}">
-    <div class="cap"><b style="font:600 24px var(--f-sign)">${esc(p.title_pl)}</b><span>${esc(p.caption_pl || "")}</span>
-    <small>Fot. ${esc(p.author || "nieznany")}, ${esc(p.license || "")} · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a></small>
-    <div class="row" style="justify-content:center">${p.lat ? `<button class="btn" id="lbMap">Pokaż na mapie</button>` : ""}<button class="btn ghost" id="lbClose" style="color:#fff;border-color:#556">Zamknij</button></div></div>`;
+  lb.innerHTML = `<img src="${esc(p.u)}" alt="${reveal ? esc(p.label || p.t) : "Zdjęcie do rozpoznania"}">
+    <div class="cap">${reveal ? `<b style="font:600 24px var(--f-sign)">${esc(p.label || p.t)}</b>${p.label && p.t !== p.label ? `<span>${esc(p.t)}</span>` : ""}` : ""}
+    <small>Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ""}</small>
+    <div class="row" style="justify-content:center"><button class="btn ghost" id="lbClose" style="color:#fff;border-color:#556">Zamknij</button></div></div>`;
   lb.hidden = false;
   $("#lbClose").onclick = () => lb.hidden = true;
-  const m = $("#lbMap"); if (m) m.onclick = () => { lb.hidden = true; go("mapa"); const f = findByName(p.title_pl); if (f && dist(f.lat, f.lon, +p.lat, +p.lon) < 4000) select(f); else map.flyTo([+p.lat, +p.lon], 14); };
 }
 document.addEventListener("keydown", e => { if (e.key === "Escape") $("#lightbox").hidden = true; });
-$("#lightbox").addEventListener("click", e => { if (e.target.id === "lightbox") $("#lightbox").hidden = true; });
+$("#lightbox").addEventListener("click", e => { if (e.target.id === "lightbox" || e.target.tagName === "IMG") $("#lightbox").hidden = true; });
 
 /* ---------- Routing ---------- */
-const VIEWS = ["mapa", "uklad", "atlas", "akcje", "zdjecia", "quiz"];
+const VIEWS = ["gra", "akcje", "mapa"];
 const built = {};
 function go(v) {
-  if (!VIEWS.includes(v)) v = "mapa";
+  if (!VIEWS.includes(v)) v = "gra";
   document.querySelectorAll("section.view").forEach(s => s.classList.toggle("on", s.id === "v-" + v));
-  document.querySelectorAll("nav.tabs a").forEach(a => { if (a.dataset.v === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-  if (v === "mapa") { map.invalidateSize(); if (!mapInit) { mapInit = true; if (DBGV) map.setView([+DBGV[1], +DBGV[2]], +DBGV[3], { animate: false }); else map.fitBounds([[49.17, 19.80], [49.29, 20.14]]); } redraw(); }
-  if (!built[v]) { built[v] = true; ({ uklad: buildUklad, atlas: buildAtlas, akcje: buildAkcje, zdjecia: buildZdjecia, quiz: buildQuiz }[v] || (() => { }))(); }
+  document.querySelectorAll("nav.tabs a").forEach(a => { if (a.dataset.v === v || (v === "mapa" && state.game && a.dataset.v === "gra")) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+  if (v === "mapa") { map.invalidateSize(); if (!mapInit) { mapInit = true; if (DBGV) map.setView([+DBGV[1], +DBGV[2]], +DBGV[3], { animate: false }); else overview("all"); } redraw(); }
+  if (v === "gra") buildHub();
+  if (v === "akcje" && !built.akcje) { built.akcje = true; buildAkcje(); }
   if (location.hash !== "#" + v) history.replaceState(null, "", "#" + v);
   if (v !== "mapa") window.scrollTo(0, 0);
 }
-document.querySelectorAll("nav.tabs a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); go(a.dataset.v); }));
+document.querySelectorAll("nav.tabs a").forEach(a => a.addEventListener("click", e => {
+  e.preventDefault();
+  if (a.dataset.v === "gra" && state.game && !state.game.done) { go("mapa"); return; }
+  go(a.dataset.v);
+}));
 window.addEventListener("hashchange", () => go(location.hash.slice(1)));
-function showOnMap(f) { if (!f) return; go("mapa"); setTimeout(() => select(f), 30); }
-
-/* ---------- Układ Tatr ---------- */
-function profileSVG(all) {
-  const S = D.border || []; if (!PROF.length) return "";
-  const k0 = 12.6, k1 = 57.6, sx = all ? 120 : 62, top = all ? 210 : 175, h = 240, e0 = 900, e1 = 2560;
-  const W = Math.round((k1 - k0) * sx) + 40, H = top + h + 40;
-  const X = k => 20 + (k - k0) * sx, Y = e => top + h - (e - e0) / (e1 - e0) * h;
-  const pts = PROF.filter(p => p[0] >= k0 && p[0] <= k1 && p[1]);
-  const area = `M${X(pts[0][0])},${top + h} ` + pts.map(p => `L${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ") + ` L${X(pts[pts.length - 1][0])},${top + h} Z`;
-  const minor = /wrótk|szczerb|przełączk|turniczk|ząb|ławk|przechód|igła|baszt|czuba|kapucyn|mnich|słup|zwornik|štrbin|veža|vežič/i;
-  const items = S.filter(o => o.km >= k0 && o.km <= k1).map(o => ({ ...o, ele: o.ele || (PROF.find(p => p[0] >= o.km) || [0, 0])[1], major: o.kind === "peak" ? !minor.test(o.name) || o.ele >= 2300 : /przełęcz|liliowe|zawracie|karb|sedlo/i.test(o.name) && !/przełączk/i.test(o.name) }));
-  const cand = items.filter(o => all || o.major).sort((a, b) => (b.kind === "peak") - (a.kind === "peak") || (b.ele || 0) - (a.ele || 0));
-  const kept = [];
-  for (const o of cand) { const x = X(o.km); if (kept.every(k => Math.abs(X(k.km) - x) >= 13)) kept.push(o); }
-  kept.sort((a, b) => a.km - b.km);
-  let g = "";
-  for (let e = 1000; e <= 2500; e += 250) g += `<line class="pgrid" x1="20" x2="${W - 20}" y1="${Y(e)}" y2="${Y(e)}"/><text class="paxis" x="24" y="${Y(e) - 4}">${e}</text>`;
-  const lil = items.find(o => o.name === "Liliowe");
-  if (lil) g += `<line x1="${X(lil.km)}" x2="${X(lil.km)}" y1="${top - 10}" y2="${top + h}" stroke="var(--red)" stroke-dasharray="4 4"/><text class="pzone" x="${X(lil.km) - 10}" y="${top + h + 26}" text-anchor="end">← Tatry Zachodnie</text><text class="pzone" x="${X(lil.km) + 10}" y="${top + h + 26}">Tatry Wysokie →</text>`;
-  const labels = kept.map(o => {
-    const x = X(o.km), y = Y(o.ele || 1500), f = findByName(o.name);
-    const id = f ? f.id : "";
-    return `<g data-id="${id}"><line x1="${x}" x2="${x}" y1="${y - 3}" y2="${y - 12}" stroke="var(--muted)"/>` +
-      (o.kind === "peak" ? `<path d="M${x - 4},${y + 1} L${x},${y - 6} L${x + 4},${y + 1} Z" fill="var(--ink)"/>` : `<circle cx="${x}" cy="${y - 1}" r="2.5" fill="var(--muted)"/>`) +
-      `<text class="ptext ${o.kind === "saddle" ? "pass" : ""}" transform="translate(${x + 4},${y - 15}) rotate(-90)">${esc(o.name)}${o.ele ? " " + o.ele : ""}</text></g>`;
-  }).join("");
-  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Profil grzbietu granicznego">${g}<path class="parea" d="${area}"/>${labels}
-    <text class="paxis" x="${X(k0)}" y="${top + h + 14}">zach.</text><text class="paxis" x="${X(k1) - 30}" y="${top + h + 14}">wsch.</text></svg>`;
-}
-function buildUklad() {
-  const st = [...(KB.structure || []), ...((KB.extra || {}).sections || [])];
-  const vals = (KB.valleys || []).filter(v => v.country !== "SK" && !v.parent && v.kind === "dolina" && v.lon).sort((a, b) => a.lon - b.lon);
-  const kids = id => (KB.valleys || []).filter(v => v.parent === id);
-  $("#ukladPage").innerHTML = `
-    <header><h2>Układ Tatr</h2><p>Jak zbudowane jest pasmo: podział, grań graniczna, doliny po polskiej stronie z zachodu na wschód. Najpierw zrozum szkielet, potem dokładaj szczegóły na mapie.</p></header>
-    <div class="cols">
-      <div class="essay">
-        ${st.map(s => `<section id="st-${esc(s.id)}"><h3>${esc(s.title)}</h3><div class="prose">${s.html}</div></section>`).join("") || `<p class="empty">Opis układu jeszcze się wczytuje.</p>`}
-      </div>
-      <nav class="toc" aria-label="Spis treści">${st.map(s => `<a href="#uklad" data-to="st-${esc(s.id)}">${esc(s.title)}</a>`).join("")}<a href="#uklad" data-to="grzbiet">Profil grani granicznej</a><a href="#uklad" data-to="doliny">Doliny polskie W→E</a></nav>
-    </div>
-    <section id="grzbiet" style="display:grid;gap:12px">
-      <h3 style="font-size:30px">Grań graniczna od zachodu na wschód</h3>
-      <p style="max-width:70ch;margin:0;color:var(--muted)">Wszystkie nazwane szczyty i przełęcze leżące na granicy PL/SK, w kolejności, z wysokościami. Profil liczony z modelu terenu wzdłuż granicy. Kliknij nazwę, żeby zobaczyć ją na mapie.</p>
-      <div class="row"><div class="seg" role="group" aria-label="Gęstość"><button aria-pressed="true" data-all="0">Najważniejsze</button><button aria-pressed="false" data-all="1">Wszystkie obiekty</button></div></div>
-      <div class="scrollx" id="profile">${profileSVG(false)}</div>
-      <details class="card"><summary style="cursor:pointer;font-weight:600">Lista tekstowa (do nauki na pamięć)</summary>
-        <ol style="columns:3 220px;font-size:14px;margin-top:10px">${(D.border || []).filter(o => o.km > 12.5 && o.km < 57.6).map(o => `<li>${o.kind === "saddle" ? "<i>" : "<b>"}${esc(o.name)}${o.kind === "saddle" ? "</i>" : "</b>"} <span class="mono" style="color:var(--muted)">${o.ele || ""}</span></li>`).join("")}</ol></details>
-    </section>
-    <section id="doliny" style="display:grid;gap:12px">
-      <h3 style="font-size:30px">Polskie doliny z zachodu na wschód</h3>
-      ${vals.length ? `<div class="scrollx"><table class="vt"><thead><tr><th>Dolina</th><th>Region</th><th>Odnogi</th><th>W skrócie</th></tr></thead><tbody>${vals.map(v => `<tr><td><button data-kb="${esc(v.id)}">${esc(v.name)}</button></td><td>${esc(v.region || "")}</td><td>${kids(v.id).map(k => `<button data-kb="${esc(k.id)}">${esc(k.name)}</button>`).join(", ")}</td><td>${esc(v.summary || "")}</td></tr>`).join("")}</tbody></table></div>` : `<p class="empty">Tabela dolin pojawi się po wczytaniu opisów.</p>`}
-    </section>`;
-  const P = $("#ukladPage");
-  P.querySelectorAll("[data-to]").forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById(a.dataset.to).scrollIntoView({ behavior: "smooth" }); });
-  P.querySelectorAll("[data-kb]").forEach(b => b.onclick = () => { const it = KBALL.find(i => i.id === b.dataset.kb); it && it.f && showOnMap(it.f); });
-  const bindProf = () => $("#profile").querySelectorAll("g[data-id]").forEach(gg => gg.onclick = () => gg.dataset.id && showOnMap(FE[+gg.dataset.id]));
-  bindProf();
-  P.querySelectorAll(".seg button").forEach(b => b.onclick = () => { P.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); $("#profile").innerHTML = profileSVG(b.dataset.all === "1"); bindProf(); });
-}
-
-/* ---------- Atlas ---------- */
-function buildAtlas() {
-  const groups = [["all", "Wszystko"], ["valleys", "Doliny i polany"], ["peaks", "Szczyty i przełęcze"], ["trails", "Szlaki"], ["huts", "Schroniska i ratownictwo"]];
-  const st = { g: "all", q: "", side: "all" };
-  $("#atlasPage").innerHTML = `<header><h2>Atlas</h2><p>Opisy dolin, szczytów, przełęczy, szlaków i schronisk. Każdy wpis ma pytania kontrolne i link do mapy.</p></header>
-    <div class="filters"><input type="search" id="aq" placeholder="Filtruj po nazwie lub treści" aria-label="Filtruj atlas">
-    <div class="seg" id="ag">${groups.map(([k, l]) => `<button data-g="${k}" aria-pressed="${k === "all"}">${l}</button>`).join("")}</div>
-    <div class="seg" id="as"><button data-s="all" aria-pressed="true">PL + SK</button><button data-s="PL" aria-pressed="false">Tylko PL</button></div></div>
-    <div class="grid" id="alist"></div>`;
-  const render = () => {
-    const n = norm(st.q);
-    const list = KBALL.filter(i => (st.g === "all" || i.group === st.g) && (st.side === "all" || (i.country || "PL").includes("PL")) && (!n || norm(i.name + " " + (i.name_sk || "") + " " + (i.summary || "") + " " + (i.html || "")).includes(n)));
-    $("#alist").innerHTML = list.length ? list.map(i => `<article class="entry" data-id="${esc(i.id)}">
-      <h3>${i.colors ? i.colors.map(c => `<span class="blaze ${({ red: "r", blue: "b", green: "g", yellow: "y", black: "k", czerwony: "r", niebieski: "b", zielony: "g", żółty: "y", czarny: "k" })[c] || "r"}"></span>`).join("") : ""}${esc(i.name)}${i.ele ? `<span class="mono">${i.ele} m</span>` : ""}</h3>
-      <div class="meta">${esc([i.kind || ({ trails: "szlak", huts: "schronisko" })[i.group], i.region, i.country].filter(Boolean).join(" · "))}${i.name_sk ? ` · <i>${esc(i.name_sk)}</i>` : ""}</div>
-      <p class="sum">${esc(i.summary || (i.from ? i.from + " → " + i.to : ""))}</p>
-      <div class="more" hidden></div>
-      <div class="acts"><button class="btn ghost" data-more>Czytaj</button>${i.f ? `<button class="btn ghost" data-map>Na mapie</button>` : ""}</div></article>`).join("") : `<p class="empty">Brak wpisów dla tego filtra.</p>`;
-    $("#alist").querySelectorAll(".entry").forEach(el => {
-      const it = KBALL.find(i => i.id === el.dataset.id);
-      el.querySelector("[data-more]").onclick = e => {
-        const m = el.querySelector(".more"); m.hidden = !m.hidden; e.target.textContent = m.hidden ? "Czytaj" : "Zwiń";
-        if (!m.dataset.f) { m.dataset.f = 1; m.innerHTML = `<div class="prose">${it.html || ""}</div>${factsHTML(it)}${it.f ? thumbsHTML(photosNear(it.f, 1800).slice(0, 6)) : ""}`; m.querySelectorAll("[data-ph]").forEach(img => img.onclick = () => openPhoto(PH.find(p => (p.id || p.file) === img.dataset.ph))); }
-        el.style.gridColumn = m.hidden ? "" : "1 / -1";
-      };
-      const mb = el.querySelector("[data-map]"); if (mb) mb.onclick = () => showOnMap(it.f);
-    });
-  };
-  $("#aq").oninput = e => { st.q = e.target.value; render(); };
-  $("#ag").onclick = e => { const b = e.target.closest("button"); if (!b) return; st.g = b.dataset.g; $("#ag").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); render(); };
-  $("#as").onclick = e => { const b = e.target.closest("button"); if (!b) return; st.side = b.dataset.s; $("#as").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); render(); };
-  render();
+function showOnMap(f) { if (!f) return; if (state.game) quitGame(false); go("mapa"); setTimeout(() => select(f), 30); }
+function overview(scope) {
+  const b = scope === "pl" ? [[49.20, 19.78], [49.29, 20.11]] : scope === "border" ? [[49.16, 19.76], [49.30, 20.20]] : [[49.13, 19.68], [49.30, 20.28]];
+  map.stop(); map.invalidateSize(); map.fitBounds(b, { animate: false });
 }
 
 /* ---------- Akcje TOPR ---------- */
 function buildAkcje() {
   const P = $("#akcjePage");
-  if (!INC.length) { P.innerHTML = `<header><h2>Akcje TOPR</h2><p>Dane z raportów tygodniowych jeszcze nie zostały dołączone.</p></header>`; return; }
+  if (!INC.length) { P.innerHTML = `<header><h2>Akcje TOPR</h2><p>Brak danych z raportów.</p></header>`; return; }
   const weeks = [...new Set(INC.map(i => i.week))].filter(Boolean).sort();
   const dates = INC.map(i => i.date).filter(Boolean).sort();
   const types = {}; INC.forEach(i => types[i.type] = (types[i.type] || 0) + 1);
   const max = RANK.length ? RANK[0].count : 1;
   P.innerHTML = `<header><h2>Akcje TOPR</h2><p>Gdzie ratownicy interweniują najczęściej, według tygodniowych podsumowań działań ratowniczych publikowanych przez TOPR. Te miejsca trzeba znać najlepiej: dojście, sąsiednie doliny, szlaki zejściowe.</p></header>
     <div class="statrow"><div class="stat"><b class="mono">${INC.length}</b><span>opisanych zdarzeń</span></div><div class="stat"><b class="mono">${weeks.length}</b><span>raportów tygodniowych</span></div><div class="stat"><b class="mono">${RANK.length}</b><span>różnych miejsc</span></div><div class="stat"><b class="mono" style="font-size:22px">${esc((dates[0] || weeks[0] || "").slice(0, 10))} – ${esc((dates[dates.length - 1] || weeks[weeks.length - 1] || "").slice(-10))}</b><span>zakres dat</span></div></div>
+    <div class="row"><button class="btn" id="akGame">Zagraj: gdzie była akcja?</button></div>
     <div class="facts">${Object.entries(types).sort((a, b) => b[1] - a[1]).map(([t, n]) => `<span class="tag">${esc(t)} <b class="mono">${n}</b></span>`).join("")}</div>
     <div class="cols" style="grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)">
-      <div class="card"><div class="rank" id="rk">${RANK.slice(0, 60).map((r, i) => `<button data-i="${i}"><span class="n">${i + 1}</span><span><span style="font-weight:600">${esc(r.place)}</span><span class="bar" style="width:${Math.max(4, r.count / max * 100)}%"></span><span class="types">${Object.entries(r.types || {}).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t, n]) => esc(t) + " " + n).join(" · ")}</span></span><span class="cnt">${r.count}</span></button>`).join("")}</div></div>
-      <div id="rkd" class="card" style="position:sticky;top:calc(var(--hdr) + 12px);display:grid;gap:10px;max-height:calc(100vh - var(--hdr) - 40px);overflow:auto"><p class="empty" style="margin:0">Wybierz miejsce z rankingu, żeby zobaczyć opisy akcji.</p></div>
+      <div class="card"><div class="rank" id="rk">${RANK.slice(0, 80).map((r, i) => `<button data-i="${i}"><span class="n">${i + 1}</span><span><span style="font-weight:600">${esc(r.place)}</span><span class="bar" style="width:${Math.max(4, r.count / max * 100)}%"></span><span class="types">${Object.entries(r.types || {}).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t, n]) => esc(t) + " " + n).join(" · ")}</span></span><span class="cnt">${r.count}</span></button>`).join("")}</div></div>
+      <div id="rkd" class="card" style="position:sticky;top:calc(var(--hdr) + 12px);display:grid;gap:10px;max-height:calc(100vh - var(--hdr) - 40px);overflow:auto"></div>
     </div>`;
   const show = i => {
     const r = RANK[i]; P.querySelectorAll("#rk button").forEach(b => b.classList.toggle("sel", +b.dataset.i === i));
@@ -707,43 +630,40 @@ function buildAkcje() {
     const m = $("#rkMap"); if (m) m.onclick = () => showOnMap(r.f);
   };
   P.querySelectorAll("#rk button").forEach(b => b.onclick = () => show(+b.dataset.i));
+  $("#akGame").onclick = () => startGame("topr");
   show(0);
 }
 
-/* ---------- Zdjęcia ---------- */
-function buildZdjecia() {
-  const P = $("#zdjeciaPage");
-  const regions = ["Tatry Zachodnie", "Tatry Wysokie", "Tatry Bielskie", "Podtatrze"];
-  P.innerHTML = `<header><h2>Zdjęcia</h2><p>Ucz się rozpoznawać miejsca z widoku. Kliknij zdjęcie, żeby je powiększyć i zobaczyć na mapie, skąd jest.</p></header>` +
-    (PH.length ? regions.map(r => { const l = PH.filter(p => (p.region || "Tatry Wysokie") === r); return l.length ? `<section style="display:grid;gap:12px"><h3 style="font-size:28px">${r}</h3><div class="gallery">${l.map(p => `<figure class="ph" style="margin:0"><img src="photos/${esc(p.file)}" alt="${esc(p.title_pl)}" loading="lazy" data-ph="${esc(p.id || p.file)}"><div><b>${esc(p.title_pl)}</b><span>${esc(p.caption_pl || "")}</span></div></figure>`).join("")}</div></section>` : ""; }).join("") : `<p class="empty">Zdjęcia jeszcze nie zostały dołączone.</p>`);
-  P.querySelectorAll("[data-ph]").forEach(i => i.onclick = () => openPhoto(PH.find(p => (p.id || p.file) === i.dataset.ph)));
-}
-
-/* ---------- Quiz ---------- */
+/* ---------- Game: settings, stats ---------- */
 const stats = store.get("stats", {});
-const skey = (f) => (f.k || f.group || "") + ":" + (f.name || f.q);
+const best = store.get("best", {});
+const skey = f => (f.k || f.group || "") + ":" + (f.name || f.q);
 function record(key, ok) { const s = stats[key] || { a: 0, c: 0 }; s.a++; if (ok) s.c++; stats[key] = s; store.set("stats", stats); }
-function weightedPick(list, keyf) {
-  const w = list.map(x => { const s = stats[keyf(x)]; return s ? 1 + 3 * (s.a - s.c) / s.a + (s.c >= 3 && s.c === s.a ? -0.7 : 0) : 1.6; });
+function weightedPick(list, keyf, avoid) {
+  const w = list.map(x => { if (avoid && avoid.has(x)) return 0.0001; const s = stats[keyf(x)]; return s ? 1 + 3 * (s.a - s.c) / s.a + (s.c >= 3 && s.c === s.a ? -0.7 : 0) : 1.6; });
   let r = Math.random() * w.reduce((a, b) => a + b, 0);
   for (let i = 0; i < list.length; i++) { r -= w[i]; if (r <= 0) return list[i]; }
   return list[list.length - 1];
 }
-const QCAT = [["core", "Najważniejsze obiekty"], ["peak", "Szczyty"], ["saddle", "Przełęcze"], ["valley", "Doliny"], ["lake", "Stawy"], ["hut", "Schroniska"], ["hot", "Miejsca akcji TOPR"]];
+const QCAT = [["core", "Najważniejsze"], ["peak", "Szczyty"], ["saddle", "Przełęcze"], ["valley", "Doliny"], ["lake", "Stawy"], ["hut", "Schroniska"], ["hot", "Miejsca akcji TOPR"]];
 const QSCOPE = [["pl", "Polska strona"], ["border", "PL + 3 km za granicą"], ["all", "Całe Tatry"]];
 const qcfg = store.get("qcfg", { cat: "core", scope: "border", level: "key" });
+function inScope(o, scope = qcfg.scope) {
+  if (scope === "all" || o.pl) return true;
+  if (scope === "pl") return false;
+  if (o._bd == null) o._bd = borderDist(o.lat, o.lon);
+  return o._bd <= 3000;
+}
 function quizPool(cat = qcfg.cat, scope = qcfg.scope, level = qcfg.level) {
   return FE.filter(f => {
-    if (!f.name || f.k === "stream" || f.k === "cave" || f.k === "town" || f.k === "aerial" || f.k === "topr" && !f.hot) return false;
+    if (!f.name || ["stream", "cave", "town", "aerial"].includes(f.k) || (f.k === "topr" && !f.hot)) return false;
     if (cat === "core") { if (!(f.kb || f.hot || f.prio >= 60)) return false; }
     else if (cat === "hot") { if (!f.hot) return false; }
     else if (cat === "valley") { if (!(f.k === "valley" || (f.kb && f.kb.kind === "dolina"))) return false; }
     else if (f.k !== cat) return false;
     if (level === "key" && cat !== "core" && cat !== "hot" && !(f.kb || f.hot || f.prio >= (cat === "peak" ? 47 : cat === "saddle" ? 40 : cat === "lake" ? 30 : 45))) return false;
-    if (scope === "pl" && !f.pl) return false;
-    if (scope === "border" && !f.pl) { if (f._bd == null) f._bd = borderDist(f.lat, f.lon); if (f._bd > 3000) return false; }
     if (f.kbOnly && f.k === "locality" && !f.kb) return false;
-    return true;
+    return inScope(f, scope);
   });
 }
 function targetDist(f, lat, lon) {
@@ -751,228 +671,287 @@ function targetDist(f, lat, lon) {
   if (f.geom) return distToLine(lat, lon, f.geom);
   return dist(lat, lon, f.lat, f.lon);
 }
-function grade(d, f) {
-  const tol = f.geom ? 1.6 : 1;
-  if (d <= 250 * tol) return ["Dokładnie", 3, "ok"];
-  if (d <= 700 * tol) return ["Blisko", 2, "ok"];
-  if (d <= 1500 * tol) return ["W okolicy", 1, "bad"];
-  return ["Pudło", 0, "bad"];
-}
-function buildQuiz() {
-  const P = $("#quizPage");
-  const allFacts = KBALL.flatMap(i => (i.facts || []).map(x => ({ ...x, item: i })));
-  P.innerHTML = `<header><h2>Quiz</h2><p>Ćwicz tak, jak będzie na egzaminie: wskazywanie na mapie bez nazw, rozpoznawanie miejsc, kolejność obiektów na grani i pytania z opisów. Błędne odpowiedzi wracają częściej.</p></header>
-    <div class="card" style="display:grid;gap:12px">
-      <div class="kicker" style="font:600 12px var(--f-body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)">Zakres pytań na mapie</div>
-      <div class="seg" id="qcat">${QCAT.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.cat === k}">${l}</button>`).join("")}</div>
-      <div class="row"><div class="seg" id="qscope">${QSCOPE.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.scope === k}">${l}</button>`).join("")}</div>
-      <div class="seg" id="qlevel"><button data-k="key" aria-pressed="${qcfg.level === "key"}">Ważniejsze</button><button data-k="all" aria-pressed="${qcfg.level === "all"}">Wszystkie nazwane</button></div>
-      <span class="score" id="qpool"></span></div>
-    </div>
-    <div class="quizgrid">
-      <button class="mode" data-m="where"><b>Wskaż na mapie</b><span>Dostajesz nazwę, klikasz miejsce na mapie bez podpisów. Liczy się odległość.</span></button>
-      <button class="mode" data-m="what"><b>Co to za miejsce?</b><span>Obiekt jest zaznaczony na ślepej mapie. Wybierz nazwę z czterech.</span></button>
-      ${INC.length ? `<button class="mode" data-m="topr"><b>Gdzie była akcja?</b><span>Prawdziwy opis akcji TOPR bez nazwy miejsca. Wskaż je na mapie.</span></button>` : ""}
-      <button class="mode" data-m="order"><b>Kolejność na grani</b><span>Ułóż obiekty grani granicznej od zachodu na wschód.</span></button>
-      <button class="mode" data-m="facts" ${allFacts.length ? "" : "disabled"}><b>Pytania z opisów</b><span>${allFacts.length} pytań o doliny, szlaki, przełęcze i schroniska.</span></button>
-      <button class="mode" data-m="photo" ${PH.length >= 4 ? "" : "disabled"}><b>Rozpoznaj ze zdjęcia</b><span>Zdjęcie i cztery odpowiedzi.</span></button>
-      <button class="mode" data-m="dir"><b>Kierunki i sąsiedzi</b><span>W którą stronę od A leży B? Uczy orientacji w terenie.</span></button>
-    </div>
-    <div id="qarea"></div>
-    <div class="card" id="qstats"></div>`;
-  const updPool = () => { $("#qpool").textContent = quizPool().length + " obiektów w puli"; };
-  const segs = (id, key) => $(id).onclick = e => { const b = e.target.closest("button"); if (!b) return; qcfg[key] = b.dataset.k; store.set("qcfg", qcfg); $(id).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); updPool(); };
-  segs("#qcat", "cat"); segs("#qscope", "scope"); segs("#qlevel", "level"); updPool();
-  P.querySelectorAll(".mode").forEach(b => b.onclick = () => startMode(b.dataset.m, allFacts));
-  renderStats();
-}
-function renderStats() {
-  const el = $("#qstats"); if (!el) return;
-  const e = Object.entries(stats); const a = e.reduce((s, [, v]) => s + v.a, 0), c = e.reduce((s, [, v]) => s + v.c, 0);
-  const weak = e.filter(([, v]) => v.a - v.c > 0).sort((x, y) => (y[1].a - y[1].c) - (x[1].a - x[1].c)).slice(0, 15);
-  el.innerHTML = `<div class="kicker" style="font:600 12px var(--f-body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)">Twoje wyniki (zapisane w tej przeglądarce)</div>
-    <p style="margin:6px 0" class="mono">${a} odpowiedzi · ${a ? Math.round(c / a * 100) : 0}% dobrych · ${e.length} różnych pytań</p>
-    ${weak.length ? `<div>Do powtórki: ${weak.map(([k]) => `<span class="tag">${esc(k.split(":").slice(1).join(":"))}</span>`).join(" ")}</div>` : ""}
-    ${a ? `<button class="btn ghost" id="qreset" style="margin-top:8px">Wyzeruj wyniki</button>` : ""}`;
-  const r = $("#qreset"); if (r) r.onclick = () => { if (r.dataset.c) { Object.keys(stats).forEach(k => delete stats[k]); store.set("stats", stats); renderStats(); } else { r.dataset.c = 1; r.textContent = "Kliknij jeszcze raz, żeby potwierdzić"; } };
-}
-function endQuiz() {
-  state.quiz = null; state.blind = false; $("#btnBlind").setAttribute("aria-pressed", "false"); redraw(); renderPanel(); renderStats();
-}
-function startMode(m, allFacts) {
-  if (m === "where" || m === "what" || m === "topr") return mapQuiz(m);
-  if (m === "facts") return factsQuiz(allFacts);
-  if (m === "photo") return photoQuiz();
-  if (m === "order") return orderQuiz();
-  if (m === "dir") return dirQuiz();
-}
-function mapQuiz(mode) {
-  const ROUND = 10;
-  let pool = mode === "topr" ? INC.filter(i => placeFeature[i.primary_place]) : quizPool();
-  if (pool.length < 4) { $("#qarea").innerHTML = `<p class="empty">Za mało obiektów w tym zakresie. Zmień kategorię albo zakres.</p>`; return; }
-  const q = { n: 0, pts: 0, max: 0, hideHot: true, hidePhotos: true };
-  state.quiz = q; state.sel = null; state.blind = true; $("#btnBlind").setAttribute("aria-pressed", "true");
-  go("mapa");
-  const used = new Set();
-  const next = () => {
-    q.n++; q.click = null; q.show = null; q.answered = false; q.reveal = null; q.markTarget = false; q.opts = null; q.choice = null;
-    if (q.n > ROUND) { q.done = true; q.onMapClick = null; renderPanel(); return; }
-    let t, inc = null;
-    for (let i = 0; i < 30; i++) {
-      if (mode === "topr") { inc = pool[Math.floor(Math.random() * pool.length)]; t = placeFeature[inc.primary_place]; }
-      else t = weightedPick(pool, skey);
-      if (!used.has(t)) break;
-    }
-    used.add(t); q.target = t; q.inc = inc;
-    if (mode === "what") {
-      q.markTarget = true;
-      const same = pool.filter(g => g !== t && (g.k === t.k || (t.k === "valley" && g.k === "valley")) && g.n !== t.n);
-      const near = same.map(g => [dist(t.lat, t.lon, g.lat, g.lon), g]).sort((a, b) => a[0] - b[0]).slice(0, 8).map(x => x[1]);
-      const opts = shuffle(near).slice(0, 3); while (opts.length < 3 && same.length > opts.length) { const g = same[Math.floor(Math.random() * same.length)]; if (!opts.includes(g)) opts.push(g); }
-      q.opts = shuffle([t, ...opts]);
-      const jitter = () => (Math.random() - .5) * 0.02;
-      map.flyTo([t.lat + jitter(), t.lon + jitter() * 1.5], 13, { duration: .6 });
-      q.onMapClick = null;
-    } else {
-      q.onMapClick = ll => {
-        if (q.answered) return;
-        q.click = [ll.lat, ll.lng]; q.answered = true;
-        const d = targetDist(t, ll.lat, ll.lng); const [txt, p, cls] = grade(d, t);
-        q.result = { d, txt, cls }; q.pts += p; q.max += 3; record(skey(t), p >= 2);
-        q.show = t; q.reveal = new Set([t, ...nearby(t, ["peak", "saddle", "hut", "lake", "valley"], 2500, 12).map(x => x[1])]);
-        const b = L.latLngBounds([[ll.lat, ll.lng], [t.lat, t.lon]]); map.flyToBounds(b.pad(.6), { maxZoom: 14, duration: .6 });
-        redraw(); renderPanel();
-      };
-      if (q.n === 1) map.flyTo([49.235, 19.98], 11.25, { duration: .5 });
-    }
-    redraw(); renderPanel();
-  };
-  q.panel = () => {
-    if (q.done) return `<div class="qpanel"><div class="kicker">Koniec rundy</div><div class="q">Wynik: ${q.pts} / ${q.max || ROUND * 3}</div><div class="row"><button class="btn" id="qAgain">Jeszcze raz</button><button class="btn ghost" id="qEnd">Zakończ</button></div></div>`;
-    const t = q.target;
-    const head = `<div class="progress"><i style="width:${(q.n - 1) / ROUND * 100}%"></i></div><div class="score">Pytanie ${q.n} z ${ROUND} · punkty ${q.pts}</div>`;
-    if (mode === "what") {
-      return `<div class="qpanel">${head}<div class="kicker">Co jest zaznaczone na mapie?</div><div class="q">${esc(kindLabel(t))}${t.ele && q.choice ? " · " + t.ele + " m" : ""}</div>
-        <div class="opts">${q.opts.map((o, i) => `<button data-i="${i}" class="${q.choice != null ? (o === t ? "ok" : (i === q.choice ? "bad" : "")) : ""}">${esc(o.name)}</button>`).join("")}</div>
-        ${q.choice != null ? `${t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : ""}<div class="row"><button class="btn" id="qNext">Dalej</button><button class="btn ghost" id="qEnd">Zakończ</button></div>` : `<div class="row"><button class="btn ghost" id="qEnd">Zakończ</button></div>`}</div>`;
-    }
-    const ask = mode === "topr" ? `<div class="kicker">Gdzie była ta akcja?</div><p class="incident" style="font-size:15px">${esc(maskPlaces(q.inc))}</p>` : `<div class="kicker">Wskaż na mapie</div><div class="q">${esc(t.name)}</div><div class="score">${esc(kindLabel(t))}${t.pl ? "" : " · Słowacja"}</div>`;
-    return `<div class="qpanel">${head}${ask}
-      ${q.answered ? `<div class="verdict ${q.result.cls}">${q.result.txt}: ${fmtKm(q.result.d)} od celu</div>${mode === "topr" ? `<div><b>${esc(q.inc.primary_place)}</b></div>` : ""}${t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : ""}<div class="row"><button class="btn" id="qNext">Dalej</button><button class="btn ghost" id="qInfo">Opis miejsca</button><button class="btn ghost" id="qEnd">Zakończ</button></div>` : `<p class="empty" style="margin:0">Kliknij na mapie. Przybliżaj i przesuwaj, ile chcesz.</p><div class="row"><button class="btn ghost" id="qSkip">Nie wiem</button><button class="btn ghost" id="qEnd">Zakończ</button></div>`}</div>`;
-  };
-  q.bind = P => {
-    const on = (id, fn) => { const b = P.querySelector(id); if (b) b.onclick = fn; };
-    on("#qNext", next); on("#qEnd", () => { endQuiz(); go("quiz"); });
-    on("#qAgain", () => mapQuiz(mode));
-    on("#qSkip", () => { q.answered = true; q.click = null; q.result = { d: NaN, txt: "Pominięte", cls: "bad" }; q.max += 3; record(skey(q.target), false); q.show = q.target; q.reveal = new Set([q.target]); focus(q.target, 13); redraw(); renderPanel(); $("#panel").querySelector(".verdict").textContent = "Tu jest: " + q.target.name; });
-    on("#qInfo", () => { const t = q.target; endQuiz(); select(t); });
-    P.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
-      if (q.choice != null) return; q.choice = +b.dataset.i; const ok = q.opts[q.choice] === q.target;
-      q.pts += ok ? 3 : 0; q.max += 3; record(skey(q.target), ok);
-      q.reveal = new Set([q.target]); redraw(); renderPanel();
-    });
-  };
-  next();
-}
+// distance → points (0–100); `free` metres count as a perfect hit
+const distPts = (d, free, scale) => Math.round(100 * Math.exp(-Math.max(0, d - free) / scale));
+const verdictFor = p => p >= 85 ? ["Dokładnie", "ok"] : p >= 55 ? ["Blisko", "ok"] : p >= 20 ? ["W okolicy", "bad"] : ["Pudło", "bad"];
+
+/* ---------- Game: question generators ---------- */
 function maskPlaces(inc) {
   let t = inc.text || "";
   const names = [...(inc.places || []), inc.primary_place].filter(Boolean).sort((a, b) => b.length - a.length);
-  for (const n of names) {
-    const words = n.split(/\s+/).filter(w => w.length > 3);
-    for (const w of words) { const stem = w.slice(0, Math.max(4, w.length - 3)); t = t.replace(new RegExp(stem.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "[\\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ]*", "gi"), "▒▒▒"); }
+  for (const n of names) for (const w of n.split(/\s+/).filter(w => w.length > 3)) {
+    const stem = w.slice(0, Math.max(4, w.length - 3)).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    t = t.replace(new RegExp(stem + "[\\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ]*", "gi"), "▒▒▒");
   }
   return t;
 }
-function factsQuiz(all) {
-  const A = $("#qarea"); let n = 0, ok = 0;
-  const next = () => {
-    const x = weightedPick(all, x => "fakt:" + x.q); n++;
-    A.innerHTML = `<div class="qbox"><div class="score">Pytanie ${n} · wiedziałem ${ok}</div><div class="kicker" style="color:var(--muted);font-size:13px">${esc(x.item.name)}</div><div class="q">${esc(x.q)}</div>
-      <div class="row"><button class="btn" id="fShow">Pokaż odpowiedź</button><button class="btn ghost" id="fEnd">Zakończ</button></div><div id="fAns"></div></div>`;
-    A.scrollIntoView({ behavior: "smooth", block: "start" });
-    $("#fEnd").onclick = () => { A.innerHTML = ""; renderStats(); };
-    $("#fShow").onclick = () => {
-      $("#fShow").remove();
-      $("#fAns").innerHTML = `<p style="font-size:17px">${esc(x.a)}</p><div class="row"><button class="btn" id="fOk">Wiedziałem</button><button class="btn ghost" id="fBad">Nie wiedziałem</button>${x.item.f ? `<button class="btn ghost" id="fMap">Na mapie</button>` : ""}</div>`;
-      $("#fOk").onclick = () => { ok++; record("fakt:" + x.q, true); next(); };
-      $("#fBad").onclick = () => { record("fakt:" + x.q, false); next(); };
-      const m = $("#fMap"); if (m) m.onclick = () => showOnMap(x.item.f);
-    };
-  };
-  next();
+const GEN = {
+  photoWhere(used) {
+    const pool = GP.filter(p => inScope(p));
+    if (pool.length < 5) return null;
+    const p = weightedPick(pool, photoKey, used); used.add(p);
+    return { type: "photoWhere", photo: p, key: photoKey(p), mapClick: true };
+  },
+  photoWhat(used) {
+    const pool = [...CUR, ...GP.filter(photoLabelOK)].filter(p => inScope(p));
+    if (pool.length < 8) return null;
+    const p = weightedPick(pool, photoKey, used); used.add(p);
+    const others = [...new Set(pool.filter(o => o.label !== p.label && (!p.kind || !o.kind || o.kind === p.kind)).map(o => o.label))];
+    const near = others.map(l => { const o = pool.find(x => x.label === l); return [dist(p.lat, p.lon, o.lat, o.lon), l]; }).sort((a, b) => a[0] - b[0]);
+    const opts = shuffle(near.slice(0, 7).map(x => x[1])).slice(0, 3);
+    return { type: "photoWhat", photo: p, key: photoKey(p), opts: shuffle([p.label, ...opts]), answer: p.label };
+  },
+  mapWhere(used) {
+    const pool = quizPool(); if (pool.length < 4) return null;
+    const f = weightedPick(pool, skey, used); used.add(f);
+    return { type: "mapWhere", target: f, key: skey(f), mapClick: true };
+  },
+  mapWhat(used) {
+    const pool = quizPool(); if (pool.length < 4) return null;
+    const f = weightedPick(pool, skey, used); used.add(f);
+    const same = pool.filter(g => g !== f && g.k === f.k && g.n !== f.n);
+    const near = same.map(g => [dist(f.lat, f.lon, g.lat, g.lon), g]).sort((a, b) => a[0] - b[0]).slice(0, 8).map(x => x[1]);
+    const opts = shuffle(near).slice(0, 3).filter((g, i, a) => a.findIndex(z => z.n === g.n) === i);
+    return { type: "mapWhat", target: f, key: skey(f), opts: shuffle([f, ...opts]), markTarget: true };
+  },
+  topr(used) {
+    const pool = INC.filter(i => placeFeature[i.primary_place] && inScope(placeFeature[i.primary_place]));
+    if (pool.length < 4) return null;
+    let inc; for (let k = 0; k < 30; k++) { inc = pool[Math.floor(Math.random() * pool.length)]; if (!used.has(inc)) break; }
+    used.add(inc);
+    const f = placeFeature[inc.primary_place];
+    return { type: "topr", inc, target: f, key: skey(f), mapClick: true };
+  },
+  order() {
+    const minor = /wrótk|szczerb|przełączk|turniczk|ząb|ławk|przechód|igła|baszt|kapucyn|słup|zwornik|štrbin|veža|vežič|sedlo$/i;
+    const S = (D.border || []).filter(o => o.km > 12.5 && o.km < 57.6 && !minor.test(o.name) && (o.ele || 0) > 1300).filter((o, i, a) => a.findIndex(z => z.name === o.name) === i);
+    if (S.length < 8) return null;
+    const start = Math.floor(Math.random() * (S.length - 10)); const items = []; let i = start;
+    while (items.length < 5 && i < S.length) { items.push(S[i]); i += 1 + Math.floor(Math.random() * 2); }
+    return { type: "order", items, shuffled: shuffle([...items]), chosen: [], key: "grań:" + items.map(o => o.name).join("/") };
+  },
+  dir() {
+    const pool = quizPool("core", qcfg.scope, "key").filter(f => !f.geom || f.k === "lake");
+    for (let k = 0; k < 60; k++) {
+      const a = pool[Math.floor(Math.random() * pool.length)];
+      const nb = nearby(a, ["peak", "saddle", "hut", "lake"], 3500, 12).filter(x => x[0] > 500 && (x[1].kb || x[1].prio >= 50 || x[1].hot));
+      if (nb.length) { const [d, b] = nb[Math.floor(Math.random() * nb.length)]; return { type: "dir", a, b, d, answer: bearing(a.lat, a.lon, b.lat, b.lon), key: "kier:" + a.name + ">" + b.name }; }
+    }
+    return null;
+  },
+  fact(used) {
+    const all = KBALL.flatMap(i => (i.facts || []).map(x => ({ ...x, item: i }))).filter(x => !x.item.f || inScope(x.item.f));
+    if (!all.length) return null;
+    const x = weightedPick(all, x => "fakt:" + x.q, used); used.add(x);
+    return { type: "fact", fact: x, key: "fakt:" + x.q };
+  }
+};
+const MODES = {
+  exam: { name: "Egzamin", desc: "20 pytań mieszanych: zdjęcia, mapa, akcje TOPR, grań i kierunki. Wynik na koniec, jak na prawdziwym sprawdzianie.", plan: [["photoWhere", 5], ["photoWhat", 3], ["mapWhere", 4], ["mapWhat", 2], ["topr", 3], ["order", 1], ["dir", 2]], shuffle: true },
+  photoWhere: { name: "Zdjęcie: gdzie to jest?", desc: "Zdjęcie z Tatr. Kliknij na mapie miejsce, z którego zostało zrobione. Punkty za odległość.", plan: [["photoWhere", 10]] },
+  photoWhat: { name: "Zdjęcie: co to za miejsce?", desc: "Rozpoznaj szczyt, dolinę, staw albo przełęcz na zdjęciu. Cztery odpowiedzi.", plan: [["photoWhat", 10]] },
+  mapWhere: { name: "Mapa: wskaż miejsce", desc: "Dostajesz nazwę, klikasz na mapie bez podpisów.", plan: [["mapWhere", 10]] },
+  mapWhat: { name: "Mapa: co to jest?", desc: "Obiekt zaznaczony na ślepej mapie. Wybierz nazwę.", plan: [["mapWhat", 10]] },
+  topr: { name: "Akcje TOPR: gdzie to było?", desc: "Prawdziwy opis akcji z raportu TOPR bez nazwy miejsca. Wskaż je na mapie.", plan: [["topr", 10]] },
+  order: { name: "Grań: kolejność", desc: "Ułóż szczyty i przełęcze grani granicznej od zachodu na wschód.", plan: [["order", 5]] },
+  dir: { name: "Kierunki", desc: "W którą stronę od A leży B? Orientacja w terenie.", plan: [["dir", 10]] },
+  fact: { name: "Pytania z opisów", desc: "Szlaki, przełęcze, doliny, schroniska. Odpowiedz w myślach i oceń się.", plan: [["fact", 10]] }
+};
+
+/* ---------- Game: hub ---------- */
+function buildHub() {
+  const P = $("#graPage");
+  const e = Object.entries(stats), a = e.reduce((s, [, v]) => s + v.a, 0), c = e.reduce((s, [, v]) => s + v.c, 0);
+  const weak = e.filter(([, v]) => v.a - v.c > 0).sort((x, y) => (y[1].a - y[1].c) - (x[1].a - x[1].c)).slice(0, 14);
+  const running = state.game && !state.game.done;
+  P.innerHTML = `<header><h2>Gra</h2><p>Ucz się Tatr jak do egzaminu: rozpoznawaj miejsca ze zdjęć, wskazuj je na ślepej mapie, lokalizuj prawdziwe akcje TOPR. Błędy wracają częściej, aż je opanujesz.</p></header>
+    ${running ? `<div class="card row" style="justify-content:space-between"><span>Trwa gra: <b>${esc(MODES[state.game.mode].name)}</b>, pytanie ${state.game.i + 1} z ${state.game.qs.length}</span><span class="row"><button class="btn" id="hubResume">Wróć do gry</button><button class="btn ghost" id="hubQuit">Przerwij</button></span></div>` : ""}
+    <button class="mode exam" data-m="exam"><b>Egzamin</b><span>${esc(MODES.exam.desc)}</span>${best.exam != null ? `<span class="score">Najlepszy wynik: ${best.exam}%</span>` : ""}</button>
+    <div class="quizgrid">${Object.entries(MODES).filter(([k]) => k !== "exam").map(([k, m]) => `<button class="mode" data-m="${k}" ${(k.startsWith("photo") && !GP.length && !CUR.length) || (k === "topr" && !INC.length) ? "disabled" : ""}><b>${esc(m.name)}</b><span>${esc(m.desc)}</span>${best[k] != null ? `<span class="score">Najlepszy wynik: ${best[k]}%</span>` : ""}</button>`).join("")}</div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="kicker">Ustawienia</div>
+      <div class="row"><span class="lbl">Zakres</span><div class="seg" id="qscope">${QSCOPE.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.scope === k}">${l}</button>`).join("")}</div></div>
+      <div class="row"><span class="lbl">Obiekty na mapie</span><div class="seg" id="qcat">${QCAT.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.cat === k}">${l}</button>`).join("")}</div></div>
+      <div class="row"><span class="lbl">Poziom</span><div class="seg" id="qlevel"><button data-k="key" aria-pressed="${qcfg.level === "key"}">Ważniejsze</button><button data-k="all" aria-pressed="${qcfg.level === "all"}">Wszystkie nazwane</button></div><span class="score" id="qpool"></span></div>
+    </div>
+    <div class="card" style="display:grid;gap:8px">
+      <div class="kicker">Twoje postępy (zapisane w tej przeglądarce)</div>
+      <p style="margin:0" class="mono">${a} odpowiedzi · ${a ? Math.round(c / a * 100) : 0}% dobrych · ${e.length} różnych pytań · ${GP.length + CUR.length} zdjęć w grze</p>
+      ${weak.length ? `<div>Do powtórki: ${weak.map(([k]) => `<span class="tag">${esc(k.split(":").slice(1).join(":").replace(/^https?:\/\/\S+\/File:/, "zdjęcie: ").slice(0, 60))}</span>`).join(" ")}</div>` : ""}
+      <div class="row">${a ? `<button class="btn ghost" id="qreset">Wyzeruj postępy</button>` : ""}<button class="btn ghost" id="openMap">Otwórz mapę z nazwami</button></div>
+    </div>`;
+  const updPool = () => { $("#qpool").textContent = quizPool().length + " obiektów · " + GP.filter(p => inScope(p)).length + " zdjęć w zakresie"; };
+  const segs = (id, key) => $(id).onclick = ev => { const b = ev.target.closest("button"); if (!b) return; qcfg[key] = b.dataset.k; store.set("qcfg", qcfg); $(id).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); updPool(); };
+  segs("#qcat", "cat"); segs("#qscope", "scope"); segs("#qlevel", "level"); updPool();
+  P.querySelectorAll(".mode").forEach(b => b.onclick = () => startGame(b.dataset.m));
+  const r = $("#qreset"); if (r) r.onclick = () => { if (r.dataset.c) { Object.keys(stats).forEach(k => delete stats[k]); Object.keys(best).forEach(k => delete best[k]); store.set("stats", stats); store.set("best", best); buildHub(); } else { r.dataset.c = 1; r.textContent = "Kliknij jeszcze raz, żeby potwierdzić"; } };
+  const hr = $("#hubResume"); if (hr) hr.onclick = () => go("mapa");
+  const hq = $("#hubQuit"); if (hq) hq.onclick = () => { quitGame(false); buildHub(); };
+  $("#openMap").onclick = () => { if (state.game) quitGame(false); go("mapa"); };
 }
-function photoQuiz() {
-  const A = $("#qarea"); let n = 0, ok = 0;
-  const next = () => {
-    const p = weightedPick(PH, p => "foto:" + p.title_pl); n++;
-    const others = shuffle(PH.filter(o => o.title_pl !== p.title_pl && (o.region === p.region || Math.random() < .3))).filter((o, i, a) => a.findIndex(z => z.title_pl === o.title_pl) === i).slice(0, 3);
-    const opts = shuffle([p, ...others]);
-    A.innerHTML = `<div class="qbox"><div class="score">Zdjęcie ${n} · dobrze ${ok}</div><img class="qimg" src="photos/${esc(p.file)}" alt="Zdjęcie do rozpoznania"><div class="q">Co widać na zdjęciu?</div>
-      <div class="opts">${opts.map((o, i) => `<button data-i="${i}">${esc(o.title_pl)}</button>`).join("")}</div><div id="pAfter"></div></div>`;
-    A.scrollIntoView({ behavior: "smooth", block: "start" });
-    A.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
-      if (A.querySelector(".opts .ok")) return;
-      const good = opts[+b.dataset.i] === p; if (good) ok++; record("foto:" + p.title_pl, good);
-      A.querySelectorAll(".opts button").forEach((x, i) => { if (opts[i] === p) x.classList.add("ok"); else if (x === b) x.classList.add("bad"); });
-      $("#pAfter").innerHTML = `<p style="margin:0">${esc(p.caption_pl || "")}</p><div class="row"><button class="btn" id="pNext">Dalej</button><button class="btn ghost" id="pEnd">Zakończ</button></div>`;
-      $("#pNext").onclick = next; $("#pEnd").onclick = () => { A.innerHTML = ""; renderStats(); };
-    });
-  };
-  next();
+
+/* ---------- Game: engine ---------- */
+function startGame(mode) {
+  const M = MODES[mode], used = new Set(), qs = [];
+  for (const [type, n] of M.plan) for (let i = 0; i < n; i++) { const q = GEN[type](used); if (q) qs.push(q); }
+  if (!qs.length) { alertCard("Za mało danych w tym zakresie. Zmień zakres albo kategorię."); return; }
+  if (M.shuffle) shuffle(qs);
+  state.game = { mode, qs, i: 0, pts: 0, started: Date.now() };
+  state.sel = null;
+  $("#v-mapa").classList.add("game");
+  go("mapa");
+  setTimeout(() => { map.invalidateSize(); showQuestion(); }, 30);
 }
-function orderQuiz() {
-  const A = $("#qarea");
-  const minor = /wrótk|szczerb|przełączk|turniczk|ząb|ławk|przechód|igła|baszt|kapucyn|słup|zwornik|štrbin|veža|vežič|sedlo$/i;
-  const S = (D.border || []).filter(o => o.km > 12.5 && o.km < 57.6 && !minor.test(o.name) && (o.ele || 0) > 1300).filter((o, i, a) => a.findIndex(z => z.name === o.name) === i);
-  if (S.length < 8) { A.innerHTML = `<p class="empty">Brak danych o grani.</p>`; return; }
-  let n = 0, ok = 0;
-  const next = () => {
-    n++;
-    const k = 5, start = Math.floor(Math.random() * (S.length - k * 2));
-    const pick = []; let i = start; while (pick.length < k && i < S.length) { pick.push(S[i]); i += 1 + Math.floor(Math.random() * 2); }
-    const sh = shuffle([...pick]); const chosen = [];
-    const render = () => {
-      const done = chosen.length === pick.length;
-      const good = done && chosen.every((c, j) => c === pick[j]);
-      A.innerHTML = `<div class="qbox"><div class="score">Zadanie ${n} · dobrze ${ok}</div><div class="q">Ułóż od zachodu na wschód (wzdłuż granicy)</div>
-        <div class="order">${sh.map((o, j) => { const pos = chosen.indexOf(o); return `<button data-j="${j}" ${pos >= 0 ? "disabled" : ""}><span class="k">${pos >= 0 ? pos + 1 : "·"}</span>${esc(o.name)} <span class="mono" style="color:var(--muted)">${o.kind === "saddle" ? "przeł." : "szczyt"}</span></button>`; }).join("")}</div>
-        ${done ? `<div class="verdict ${good ? "ok" : "bad"}">${good ? "Dobrze!" : "Prawidłowo: " + pick.map(o => esc(o.name)).join(" → ")}</div><div class="row"><button class="btn" id="oNext">Dalej</button><button class="btn ghost" id="oEnd">Zakończ</button></div>` : `<div class="row"><button class="btn ghost" id="oUndo">Cofnij</button></div>`}</div>`;
-      A.querySelectorAll(".order button").forEach(b => b.onclick = () => { chosen.push(sh[+b.dataset.j]); if (chosen.length === pick.length) { const g = chosen.every((c, j) => c === pick[j]); if (g) ok++; record("grań:" + pick.map(o => o.name).join("/"), g); } render(); });
-      const u = $("#oUndo"); if (u) u.onclick = () => { chosen.pop(); render(); };
-      const nx = $("#oNext"); if (nx) nx.onclick = next;
-      const e = $("#oEnd"); if (e) e.onclick = () => { A.innerHTML = ""; renderStats(); };
-    };
-    render(); A.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-  next();
+function alertCard(msg) { const P = $("#graPage"); const d = document.createElement("p"); d.className = "card"; d.textContent = msg; P.prepend(d); }
+function quitGame(toHub = true) {
+  state.game = null; state.quiz = null; state.blind = false; $("#btnBlind").setAttribute("aria-pressed", "false");
+  $("#v-mapa").classList.remove("game"); setTimeout(() => map.invalidateSize(), 30);
+  redraw(); renderPanel();
+  if (toHub) go("gra");
 }
-function dirQuiz() {
-  const A = $("#qarea"); let n = 0, ok = 0;
-  const pool = quizPool("core", qcfg.scope, "key").filter(f => !f.geom || f.k === "lake");
-  if (pool.length < 5) { A.innerHTML = `<p class="empty">Za mało obiektów.</p>`; return; }
-  const next = () => {
-    n++;
-    let a, b, d;
-    for (let i = 0; i < 50; i++) { a = pool[Math.floor(Math.random() * pool.length)]; const nb = nearby(a, ["peak", "saddle", "hut", "lake"], 3500, 12).filter(x => x[0] > 500 && (x[1].kb || x[1].prio >= 50 || x[1].hot)); if (nb.length) { [d, b] = nb[Math.floor(Math.random() * nb.length)]; break; } }
-    if (!b) { A.innerHTML = `<p class="empty">Nie udało się wylosować pary.</p>`; return; }
-    const dir = bearing(a.lat, a.lon, b.lat, b.lon);
-    A.innerHTML = `<div class="qbox"><div class="score">Pytanie ${n} · dobrze ${ok}</div><div class="q">W którą stronę od: ${esc(a.name)} leży ${esc(b.name)}?</div>
-      <div style="display:grid;grid-template-columns:repeat(3,72px);gap:6px;justify-content:start">${["NW", "N", "NE", "W", "", "E", "SW", "S", "SE"].map(x => x ? `<button class="btn ghost" data-d="${x}" style="padding:12px 0">${({ N: "Pn", NE: "Pn-Wsch", E: "Wsch", SE: "Pd-Wsch", S: "Pd", SW: "Pd-Zach", W: "Zach", NW: "Pn-Zach" })[x]}</button>` : `<span></span>`).join("")}</div><div id="dAfter"></div></div>`;
-    A.scrollIntoView({ behavior: "smooth", block: "start" });
-    A.querySelectorAll("[data-d]").forEach(btn => btn.onclick = () => {
-      if ($("#dAfter").innerHTML) return;
-      const g = btn.dataset.d === dir; if (g) ok++; record("kier:" + a.name + ">" + b.name, g);
-      btn.style.borderColor = g ? "var(--ok)" : "var(--bad)";
-      A.querySelector(`[data-d="${dir}"]`).style.background = "color-mix(in srgb,var(--ok) 20%,transparent)";
-      $("#dAfter").innerHTML = `<p class="verdict ${g ? "ok" : "bad"}">${g ? "Dobrze" : "Nie"}: ${esc(b.name)} leży ${DIRPL[dir]} od: ${esc(a.name)}, ${fmtKm(d)}.</p><div class="row"><button class="btn" id="dNext">Dalej</button><button class="btn ghost" id="dMap">Pokaż na mapie</button></div>`;
-      $("#dNext").onclick = next; $("#dMap").onclick = () => { showOnMap(a); };
-    });
-  };
-  next();
+function cur() { const g = state.game; return g && g.qs[g.i]; }
+function showQuestion() {
+  const g = state.game, q = cur();
+  state.quiz = q; state.blind = true; $("#btnBlind").setAttribute("aria-pressed", "true");
+  q.hideHot = true; q.hidePhotos = true; q.panel = gamePanel; q.bind = bindGame;
+  q.onMapClick = q.mapClick ? onGameClick : null;
+  if (q.type === "mapWhat") { const f = q.target, j = () => (Math.random() - .5) * 0.02; map.flyTo([f.lat + j(), f.lon + j() * 1.5], 13, { duration: .5 }); }
+  else if (q.mapClick) overview(qcfg.scope);
+  if (q.photo) { const nx = g.qs[g.i + 1]; if (nx && nx.photo) new Image().src = nx.photo.u; }
+  redraw(); renderPanel();
+}
+function finishQuestion(pts, ok) {
+  const g = state.game, q = cur();
+  q.answered = true; q.pts = pts; g.pts += pts; record(q.key, ok != null ? ok : pts >= 55);
+  redraw(); renderPanel();
+}
+function onGameClick(ll) {
+  const q = cur(); if (!q || q.answered) return;
+  q.click = [ll.lat, ll.lng];
+  let d, pts;
+  if (q.type === "photoWhere") {
+    const p = q.photo; d = dist(ll.lat, ll.lng, p.lat, p.lon); pts = isSubject(p) ? distPts(d, 600, 1500) : distPts(d, 250, 1500);
+    q.show = { w: merc(p.lat, p.lon), lat: p.lat, lon: p.lon };
+    const lf = photoLabelOK(p) ? findByName(p.label) : null;
+    q.reveal = new Set([...(lf ? [lf] : []), ...nearby({ lat: p.lat, lon: p.lon }, ["peak", "saddle", "hut", "lake", "valley"], 2500, 14).map(x => x[1])]);
+  } else {
+    const f = q.target; d = targetDist(f, ll.lat, ll.lng); pts = distPts(d, f.geom ? 300 : 150, f.geom ? 1100 : 800);
+    q.show = f; q.reveal = new Set([f, ...nearby(f, ["peak", "saddle", "hut", "lake", "valley"], 2500, 12).map(x => x[1])]);
+  }
+  q.dist = d;
+  map.flyToBounds(L.latLngBounds([[ll.lat, ll.lng], [q.show.lat, q.show.lon]]).pad(.6), { maxZoom: 14, duration: .5 });
+  finishQuestion(pts);
+}
+function nextQuestion() {
+  const g = state.game; g.i++;
+  if (g.i >= g.qs.length) { g.done = true; state.quiz = { panel: gamePanel, bind: bindGame, hideHot: true }; state.blind = false; const pct = Math.round(g.pts / (g.qs.length * 100) * 100); if (best[g.mode] == null || pct > best[g.mode]) { best[g.mode] = pct; store.set("best", best); } g.pct = pct; overview(qcfg.scope); redraw(); renderPanel(); return; }
+  showQuestion();
+}
+const TYPELABEL = { photoWhere: "Zdjęcie: gdzie?", photoWhat: "Zdjęcie: co to?", mapWhere: "Wskaż na mapie", mapWhat: "Co to jest?", topr: "Akcja TOPR", order: "Kolejność na grani", dir: "Kierunek", fact: "Pytanie" };
+const DIRBTN = { N: "Pn", NE: "Pn-Wsch", E: "Wsch", SE: "Pd-Wsch", S: "Pd", SW: "Pd-Zach", W: "Zach", NW: "Pn-Zach" };
+function photoHTML(p, reveal) {
+  return `<figure class="gphoto"><img src="${esc(p.u)}" alt="Zdjęcie do rozpoznania" data-zoom><figcaption>Fot. ${esc(p.a || "nieznany")}, ${esc(p.l || "")}${reveal && p.src ? ` · <a href="${esc(p.src)}" target="_blank" rel="noopener">źródło</a>` : ""} · kliknij, żeby powiększyć</figcaption></figure>`;
+}
+function qAnswerName(q) {
+  if (q.type === "photoWhere") return photoLabelOK(q.photo) ? q.photo.label : q.photo.t;
+  if (q.type === "photoWhat") return q.answer;
+  if (q.type === "order") return q.items.map(o => o.name).join(" → ");
+  if (q.type === "dir") return `${q.b.name} ${DIRPL[q.answer]} od: ${q.a.name}`;
+  if (q.type === "fact") return q.fact.q;
+  return q.target ? q.target.name : "";
+}
+function gamePanel() {
+  const g = state.game, q = cur(), M = MODES[g.mode];
+  if (g.done) {
+    const grade = g.pct >= 90 ? "Świetnie" : g.pct >= 75 ? "Zdane" : g.pct >= 55 ? "Na granicy" : "Do powtórki";
+    return `<div class="qpanel"><div class="kicker">${esc(M.name)} · koniec</div>
+      <div class="bigscore"><b class="mono">${g.pct}%</b><span>${grade} · ${g.pts} / ${g.qs.length * 100} pkt · ${Math.round((Date.now() - g.started) / 60000)} min</span></div>
+      <div class="row"><button class="btn" id="gAgain">Jeszcze raz</button><button class="btn ghost" id="gHub">Menu gry</button></div>
+      <div class="kicker">Przebieg</div>
+      <ol class="recap">${g.qs.map((x, i) => `<li><button data-r="${i}"><span class="${x.pts >= 55 ? "okc" : "badc"} mono">${x.pts ?? 0}</span><span><small>${TYPELABEL[x.type]}</small>${esc(qAnswerName(x))}</span></button></li>`).join("")}</ol></div>`;
+  }
+  const head = `<div class="ghead"><span class="kicker">${esc(M.name)}</span><span class="score">${g.i + 1} / ${g.qs.length} · ${g.pts} pkt</span><button class="btn ghost sm" id="gQuit">Zakończ</button></div><div class="progress"><i style="width:${g.i / g.qs.length * 100}%"></i></div>`;
+  const after = q.answered ? `<div class="row"><button class="btn" id="gNext">${g.i + 1 < g.qs.length ? "Dalej" : "Wynik"}</button>${q.target || (q.photo && q.photo.label && findByName(q.photo.label)) ? `<button class="btn ghost" id="gInfo">Opis miejsca</button>` : ""}</div>` : "";
+  const distLine = () => { const [t, c] = verdictFor(q.pts); return `<div class="verdict ${c}">${t}: ${fmtKm(q.dist)} od celu · +${q.pts} pkt</div>`; };
+  let body = "";
+  if (q.type === "photoWhere") {
+    const p = q.photo;
+    const sub = isSubject(p);
+    body = `<div class="q">${sub ? "Gdzie jest to miejsce?" : "Gdzie zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
+      ${q.answered ? `${distLine()}<p style="margin:0"><b>${esc(photoLabelOK(p) ? p.label : "Miejsce zdjęcia")}</b><br><span class="empty">${esc(p.t)}${p.ele ? " · aparat na " + p.ele + " m n.p.m." : ""}</span></p>` : `<p class="empty" style="margin:0">${sub ? "Kliknij na mapie miejsce widoczne na zdjęciu." : "Kliknij na mapie punkt, z którego zrobiono zdjęcie."} Przybliżaj i przesuwaj mapę, ile chcesz.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
+  } else if (q.type === "photoWhat") {
+    const p = q.photo;
+    body = `<div class="q">${isSubject(p) ? "Co widać na zdjęciu?" : "Gdzie zrobiono to zdjęcie?"}</div>${photoHTML(p, q.answered)}
+      <div class="opts">${q.opts.map((o, i) => `<button data-o="${i}" class="${q.answered ? (o === q.answer ? "ok" : (i === q.choice ? "bad" : "")) : ""}">${esc(o)}</button>`).join("")}</div>
+      ${q.answered ? `<p class="empty" style="margin:0">${esc(p.t)}</p>` : ""}`;
+  } else if (q.type === "mapWhere") {
+    const t = q.target;
+    body = `<div class="kicker">Wskaż na mapie</div><div class="q">${esc(t.name)}</div><div class="score">${esc(kindLabel(t))}${t.pl ? "" : " · Słowacja"}</div>
+      ${q.answered ? distLine() + (t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : "") : `<p class="empty" style="margin:0">Kliknij na mapie bez podpisów.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
+  } else if (q.type === "mapWhat") {
+    const t = q.target;
+    body = `<div class="kicker">Co jest zaznaczone na mapie?</div><div class="q">${esc(kindLabel(t))}${q.answered && t.ele ? " · " + t.ele + " m" : ""}</div>
+      <div class="opts">${q.opts.map((o, i) => `<button data-o="${i}" class="${q.answered ? (o === t ? "ok" : (i === q.choice ? "bad" : "")) : ""}">${esc(o.name)}</button>`).join("")}</div>
+      ${q.answered && t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : ""}`;
+  } else if (q.type === "topr") {
+    body = `<div class="kicker">Gdzie była ta akcja?</div><p class="incident" style="font-size:15px">${esc(maskPlaces(q.inc))}</p>
+      ${q.answered ? distLine() + `<div><b>${esc(q.inc.primary_place)}</b></div><p class="incident">${esc(q.inc.text)}</p>` : `<p class="empty" style="margin:0">Kliknij na mapie miejsce akcji.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
+  } else if (q.type === "order") {
+    const done = q.chosen.length === q.items.length;
+    body = `<div class="q">Ułóż od zachodu na wschód (wzdłuż granicy)</div>
+      <div class="order">${q.shuffled.map((o, j) => { const pos = q.chosen.indexOf(o); return `<button data-j="${j}" ${pos >= 0 || q.answered ? "disabled" : ""}><span class="k">${pos >= 0 ? pos + 1 : "·"}</span>${esc(o.name)} <span class="mono" style="color:var(--muted)">${o.kind === "saddle" ? "przeł." : "szczyt"}${q.answered && o.ele ? " · " + o.ele : ""}</span></button>`; }).join("")}</div>
+      ${q.answered ? `<div class="verdict ${q.pts === 100 ? "ok" : "bad"}">${q.pts === 100 ? "Dobrze!" : "Prawidłowo: " + q.items.map(o => esc(o.name)).join(" → ")} · +${q.pts} pkt</div>` : done ? "" : `<div class="row"><button class="btn ghost" id="gUndo">Cofnij</button></div>`}`;
+  } else if (q.type === "dir") {
+    body = `<div class="q">W którą stronę od: ${esc(q.a.name)} leży ${esc(q.b.name)}?</div>
+      <div class="compass">${["NW", "N", "NE", "W", "", "E", "SW", "S", "SE"].map(x => x ? `<button class="btn ghost" data-d="${x}" style="${q.answered && x === q.answer ? "background:color-mix(in srgb,var(--ok) 22%,transparent)" : ""}${q.answered && x === q.choice && x !== q.answer ? ";border-color:var(--bad)" : ""}">${DIRBTN[x]}</button>` : `<span></span>`).join("")}</div>
+      ${q.answered ? `<div class="verdict ${q.pts >= 55 ? "ok" : "bad"}">${esc(q.b.name)} leży ${DIRPL[q.answer]} od: ${esc(q.a.name)}, ${fmtKm(q.d)} · +${q.pts} pkt</div>` : ""}`;
+  } else if (q.type === "fact") {
+    const x = q.fact;
+    body = `<div class="kicker">${esc(x.item.name)}</div><div class="q">${esc(x.q)}</div>
+      ${q.revealed ? `<p style="font-size:17px;margin:0">${esc(x.a)}</p>${q.answered ? "" : `<div class="row"><button class="btn" id="gKnew">Wiedziałem</button><button class="btn ghost" id="gDidnt">Nie wiedziałem</button></div>`}` : `<div class="row"><button class="btn" id="gReveal">Pokaż odpowiedź</button></div>`}`;
+  }
+  return `<div class="qpanel">${head}${body}${after}</div>`;
+}
+function bindGame(P) {
+  const g = state.game, q = cur();
+  const on = (id, fn) => { const b = P.querySelector(id); if (b) b.onclick = fn; };
+  on("#gQuit", () => quitGame()); on("#gHub", () => quitGame()); on("#gAgain", () => startGame(g.mode));
+  on("#gNext", nextQuestion);
+  P.querySelectorAll("[data-zoom]").forEach(img => img.onclick = () => openPhoto(q.photo, q.answered));
+  if (g.done) { P.querySelectorAll("[data-r]").forEach(b => b.onclick = () => { const x = g.qs[+b.dataset.r]; const f = x.target || (x.photo && x.photo.label && findByName(x.photo.label)) || x.a; if (f) { state.quiz = { panel: gamePanel, bind: bindGame, show: f, reveal: new Set([f]), hideHot: true }; focus(f, 13); redraw(); } else if (x.photo) openPhoto(x.photo, true); }); return; }
+  on("#gInfo", () => { const f = q.target || findByName(q.photo.label); const keep = state.game; state.sel = f; state.quiz = null; renderPanel(); state.quiz = q; const P2 = $("#panel"); const back = document.createElement("button"); back.className = "btn"; back.textContent = "Wróć do gry"; back.onclick = () => { state.sel = null; renderPanel(); redraw(); }; P2.prepend(back); redraw(); });
+  on("#gSkip", () => {
+    q.click = null; q.dist = NaN;
+    if (q.photo) { q.show = { w: merc(q.photo.lat, q.photo.lon), lat: q.photo.lat, lon: q.photo.lon }; map.flyTo([q.photo.lat, q.photo.lon], 13); }
+    else { q.show = q.target; q.reveal = new Set([q.target]); focus(q.target, 13); }
+    finishQuestion(0, false);
+    const v = $("#panel").querySelector(".verdict"); if (v) v.textContent = "Pominięte · tu jest cel";
+  });
+  P.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
+    if (q.answered) return; q.choice = +b.dataset.o;
+    const ok = q.type === "photoWhat" ? q.opts[q.choice] === q.answer : q.opts[q.choice] === q.target;
+    if (q.type === "photoWhat") { const f = findByName(q.answer); q.show = { w: merc(q.photo.lat, q.photo.lon), lat: q.photo.lat, lon: q.photo.lon }; if (f) { q.reveal = new Set([f]); map.flyToBounds(L.latLngBounds([[q.photo.lat, q.photo.lon], [f.lat, f.lon]]).pad(.5), { maxZoom: 14 }); } else map.flyTo([q.photo.lat, q.photo.lon], 13); }
+    else q.reveal = new Set([q.target]);
+    finishQuestion(ok ? 100 : 0, ok);
+  });
+  P.querySelectorAll(".order button[data-j]").forEach(b => b.onclick = () => {
+    if (q.answered) return; q.chosen.push(q.shuffled[+b.dataset.j]);
+    if (q.chosen.length === q.items.length) { const right = q.chosen.filter((c, j) => c === q.items[j]).length; finishQuestion(right === q.items.length ? 100 : right * 15, right === q.items.length); }
+    else renderPanel();
+  });
+  on("#gUndo", () => { q.chosen.pop(); renderPanel(); });
+  P.querySelectorAll("[data-d]").forEach(b => b.onclick = () => {
+    if (q.answered) return; q.choice = b.dataset.d;
+    const i1 = DIRS.indexOf(q.choice), i2 = DIRS.indexOf(q.answer), diff = Math.min((i1 - i2 + 8) % 8, (i2 - i1 + 8) % 8);
+    q.show = q.b; q.reveal = new Set([q.a, q.b]); map.flyToBounds(L.latLngBounds([[q.a.lat, q.a.lon], [q.b.lat, q.b.lon]]).pad(.8), { maxZoom: 14 });
+    finishQuestion(diff === 0 ? 100 : diff === 1 ? 40 : 0, diff === 0);
+  });
+  on("#gReveal", () => { q.revealed = true; if (q.fact.item.f) { q.show = q.fact.item.f; q.reveal = new Set([q.fact.item.f]); focus(q.fact.item.f, 12.5); } renderPanel(); redraw(); });
+  on("#gKnew", () => finishQuestion(100, true)); on("#gDidnt", () => finishQuestion(0, false));
 }
 
 /* ---------- Boot ---------- */
 renderPanel();
-go(location.hash.slice(1) || "mapa");
+go(location.hash.slice(1) || "gra");
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(redraw);
 })();

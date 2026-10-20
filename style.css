@@ -195,3 +195,35 @@ table.vt button{all:unset;cursor:pointer;color:var(--spruce);text-decoration:und
   .page>header h2{font-size:32px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* GAME SCREEN: map + wide question panel */
+#v-mapa.on.game{grid-template-columns:minmax(0,1fr) minmax(380px,42%)}
+#v-mapa.game .mapbar .search{display:none}
+.kicker{font:600 12px var(--f-body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.ghead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.ghead .kicker{flex:1}
+.btn.sm{padding:5px 10px;font-size:13px}
+.gphoto{margin:0;display:grid;gap:4px}
+.gphoto img{width:100%;max-height:52vh;object-fit:cover;border-radius:6px;cursor:zoom-in;background:var(--soft);aspect-ratio:3/2}
+.gphoto figcaption{font-size:11.5px;color:var(--muted)}
+.bigscore{display:grid;gap:2px}
+.bigscore b{font:600 64px/1 var(--f-sign)}
+.bigscore span{color:var(--muted)}
+.recap{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.recap button{all:unset;cursor:pointer;display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px;align-items:center;padding:6px 8px;border-radius:6px;width:100%;box-sizing:border-box}
+.recap button:hover,.recap button:focus-visible{background:var(--soft)}
+.recap small{display:block;color:var(--muted);font-size:11.5px}
+.okc{color:var(--ok);font-weight:600;text-align:right}
+.badc{color:var(--bad);font-weight:600;text-align:right}
+.compass{display:grid;grid-template-columns:repeat(3,78px);gap:6px}
+.compass .btn{padding:12px 0}
+.mode.exam{border:2px solid var(--ink);background:var(--sheet)}
+.mode.exam b{font-size:30px}
+.mode:disabled{opacity:.45;cursor:default}
+.lbl{font-size:13px;color:var(--muted);min-width:120px}
+@media (max-width:860px){
+  #v-mapa.on.game{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(320px,1fr);height:auto;min-height:calc(100dvh - var(--hdr))}
+  #v-mapa.game #side{order:-1;max-height:none;border-top:0;border-bottom:1px solid var(--line)}
+  #v-mapa.game #mapwrap{min-height:58vh}
+  .gphoto img{max-height:38vh}
+}
