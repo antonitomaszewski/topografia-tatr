@@ -1,0 +1,1194 @@
+{
+"Hala Gąsienicowa": {
+"lat": 49.2435,
+"lon": 20.0065
+},
+"Morskie Oko": {
+"name": "Morskie Oko",
+"lat": 49.19365,
+"lon": 20.06969
+},
+"Dolina Pięciu Stawów Polskich": {
+"name": "Dolina Pięciu Stawów Polskich",
+"lat": 49.2079,
+"lon": 20.03079
+},
+"Kasprowy Wierch": {
+"name": "Kasprowy Wierch",
+"lat": 49.2318,
+"lon": 19.98156
+},
+"Zawrat": {
+"name": "Zawrat",
+"lat": 49.21909,
+"lon": 20.01639
+},
+"Hala Kondratowa": {
+"name": "Hala Kondratowa",
+"lat": 49.24751,
+"lon": 19.95324
+},
+"Dolina Jaworzynka": {
+"name": "Dolina Jaworzynka",
+"lat": 49.26598,
+"lon": 19.98076
+},
+"Dolina Strążyska": {
+"name": "Dolina Strążyska",
+"lat": 49.26832,
+"lon": 19.9318
+},
+"Czarny Staw pod Rysami": {
+"name": "Czarny Staw pod Rysami",
+"lat": 49.18651,
+"lon": 20.07863
+},
+"Kozia Przełęcz": {
+"name": "Kozia Przełęcz",
+"lat": 49.21955,
+"lon": 20.02532
+},
+"Schronisko Murowaniec": {
+"name": "Murowaniec",
+"lat": 49.24341,
+"lon": 20.0072
+},
+"Rysy": {
+"name": "Rysy",
+"lat": 49.17932,
+"lon": 20.08846
+},
+"Dolina Kościeliska": {
+"name": "Dolina Kościeliska",
+"lat": 49.24667,
+"lon": 19.8653
+},
+"Szpiglasowa Przełęcz": {
+"name": "Szpiglasowa Przełęcz",
+"lat": 49.19785,
+"lon": 20.0422
+},
+"Przełęcz pod Kopą Kondracką": {
+"name": "Przełęcz pod Kopą Kondracką",
+"lat": 49.23426,
+"lon": 19.93876
+},
+"Świstówka Roztocka": {
+"name": "Świstówka Roztocka",
+"lat": 49.21364,
+"lon": 20.06136
+},
+"Dolina Chochołowska": {
+"name": "Dolina Chochołowska",
+"lat": 49.2529,
+"lon": 19.81518
+},
+"Nosal": {
+"name": "Nosal",
+"lat": 49.27643,
+"lon": 19.98946
+},
+"Świnicka Przełęcz": {
+"name": "Świnicka Przełęcz",
+"lat": 49.2208,
+"lon": 20.00386
+},
+"Dolina Roztoki": {
+"name": "Dolina Roztoki",
+"lat": 49.22432,
+"lon": 20.07072
+},
+"Droga do Morskiego Oka": {
+"lat": 49.23,
+"lon": 20.088
+},
+"Kalatówki": {
+"lat": 49.2594,
+"lon": 19.9666
+},
+"Krzyżne": {
+"name": "Krzyżne",
+"lat": 49.22865,
+"lon": 20.04728
+},
+"Myślenickie Turnie": {
+"name": "Myślenickie Turnie",
+"lat": 49.25191,
+"lon": 19.97378
+},
+"Rysa": {
+"name": "Rysa",
+"lat": 49.18028,
+"lon": 20.08223
+},
+"Boczań": {
+"name": "Boczań",
+"lat": 49.26461,
+"lon": 19.98714
+},
+"Rusinowa Polana": {
+"lat": 49.2607,
+"lon": 20.09
+},
+"Giewont": {
+"name": "Wielki Giewont",
+"lat": 49.25095,
+"lon": 19.9341
+},
+"Kopa Kondracka": {
+"name": "Kopa Kondracka",
+"lat": 49.23654,
+"lon": 19.93227
+},
+"Przełęcz między Kopami": {
+"name": "Przełęcz między Kopami",
+"lat": 49.25491,
+"lon": 20.00329
+},
+"Świnica": {
+"name": "Świnica",
+"lat": 49.22004,
+"lon": 20.00864
+},
+"Dolina Kondratowa": {
+"name": "Dolina Kondratowa",
+"lat": 49.24628,
+"lon": 19.94735
+},
+"Kościelec": {
+"name": "Kościelec",
+"lat": 49.22518,
+"lon": 20.01458
+},
+"Włosienica": {
+"lat": 49.21379,
+"lon": 20.08053
+},
+"Karb": {
+"name": "Karb",
+"lat": 49.22881,
+"lon": 20.01171
+},
+"Wiktorówki": {
+"name": "Wiktorówki",
+"lat": 49.26525,
+"lon": 20.08665
+},
+"Gęsia Szyja": {
+"name": "Gęsia Szyja",
+"lat": 49.25903,
+"lon": 20.07652
+},
+"Kozi Wierch": {
+"name": "Kozi Wierch",
+"lat": 49.21832,
+"lon": 20.02871
+},
+"Bula pod Rysami": {
+"name": "Bula pod Rysami",
+"lat": 49.18192,
+"lon": 20.08079
+},
+"Skrajny Granat": {
+"name": "Skrajny Granat",
+"lat": 49.22694,
+"lon": 20.03329
+},
+"Gubałówka": {
+"name": "Gubałówka",
+"lat": 49.30779,
+"lon": 19.93593
+},
+"Kondracka Przełęcz": {
+"name": "Kondracka Przełęcz",
+"lat": 49.2462,
+"lon": 19.93233
+},
+"Goryczkowa Czuba": {
+"name": "Goryczkowa Czuba",
+"lat": 49.23227,
+"lon": 19.9576
+},
+"Przysłop Miętusi": {
+"name": "Przysłop Miętusi",
+"lat": 49.26222,
+"lon": 19.89343
+},
+"Dolina Pańszczyca": {
+"lat": 49.24778,
+"lon": 20.03768
+},
+"Schronisko w Dolinie Pięciu Stawów Polskich": {
+"name": "Schronisko PTTK w Dolinie Pięciu Stawów Polskich",
+"lat": 49.21363,
+"lon": 20.04873
+},
+"Czarny Staw Gąsienicowy": {
+"name": "Czarny Staw Gąsienicowy",
+"lat": 49.23291,
+"lon": 20.01813
+},
+"Kobylarzowy Żleb": {
+"name": "Kobylarzowy Żleb",
+"lat": 49.24439,
+"lon": 19.91334
+},
+"Dolina Małej Łąki": {
+"name": "Dolina Małej Łąki",
+"lat": 49.26321,
+"lon": 19.90248
+},
+"Wodogrzmoty Mickiewicza": {
+"lat": 49.2336,
+"lon": 20.087
+},
+"Suche Czuby": {
+"name": "Pośrednia Sucha Czuba Kondracka",
+"lat": 49.23281,
+"lon": 19.95024
+},
+"Żleb Kulczyńskiego": {
+"lat": 49.22108,
+"lon": 20.03173
+},
+"Grzęda Rysów": {
+"lat": 49.18027,
+"lon": 20.0858
+},
+"Schronisko PTTK na Hali Ornak": {
+"name": "Schronisko PTTK na Hali Ornak",
+"lat": 49.22914,
+"lon": 19.85869
+},
+"Liliowe": {
+"name": "Liliowe",
+"lat": 49.22555,
+"lon": 19.99134
+},
+"Grześ": {
+"name": "Grześ",
+"lat": 49.23664,
+"lon": 19.76664
+},
+"Czerwona Przełęcz": {
+"name": "Czerwona Przełęcz",
+"lat": 49.26281,
+"lon": 19.94259
+},
+"Kępa": {
+"name": "Kępa",
+"lat": 49.21461,
+"lon": 20.06965
+},
+"Schronisko nad Morskim Okiem": {
+"name": "Schronisko PTTK Morskie Oko",
+"lat": 49.20146,
+"lon": 20.07128
+},
+"Kozie Czuby": {
+"name": "Kozie Czuby",
+"lat": 49.21868,
+"lon": 20.02765
+},
+"Zawratowy Żleb": {
+"name": "Zawratowy Żleb",
+"lat": 49.22168,
+"lon": 20.018
+},
+"Iwaniacka Przełęcz": {
+"name": "Iwaniacka Przełęcz",
+"lat": 49.23217,
+"lon": 19.8363
+},
+"Ornak": {
+"name": "Ornak",
+"lat": 49.21905,
+"lon": 19.83295
+},
+"Małołączniak": {
+"name": "Małołączniak",
+"lat": 49.23583,
+"lon": 19.91922
+},
+"Wielka Siklawa": {
+"lat": 49.21416,
+"lon": 20.04396
+},
+"Skupniów Upłaz": {
+"name": "Skupniów Upłaz",
+"lat": 49.26157,
+"lon": 19.99384
+},
+"Świstowa Czuba": {
+"name": "Świstowa Czuba",
+"lat": 49.21647,
+"lon": 20.05752
+},
+"Dolina Goryczkowa": {
+"name": "Dolina Goryczkowa",
+"lat": 49.25484,
+"lon": 19.97234
+},
+"Błyszcz": {
+"name": "Błyszcz",
+"lat": 49.19263,
+"lon": 19.841
+},
+"Zielony Staw Gąsienicowy": {
+"name": "Zielony Staw Gąsienicowy",
+"lat": 49.22774,
+"lon": 19.99944
+},
+"Ceprostrada": {
+"lat": 49.1973,
+"lon": 20.0482
+},
+"Sarnia Skała": {
+"name": "Sarnia Skała",
+"lat": 49.2649,
+"lon": 19.941
+},
+"Kozia Dolinka": {
+"name": "Dolinka Kozia",
+"lat": 49.22044,
+"lon": 20.02955
+},
+"Piec": {
+"name": "Piec",
+"lat": 49.24865,
+"lon": 19.88667
+},
+"Zadni Granat": {
+"name": "Zadni Granat",
+"lat": 49.22477,
+"lon": 20.03257
+},
+"Kazalnica Mięguszowiecka": {
+"name": "Kazalnica Mięguszowiecka",
+"lat": 49.1852,
+"lon": 20.06973
+},
+"Dolina za Mnichem": {
+"name": "Dolina za Mnichem",
+"lat": 49.19809,
+"lon": 20.05426
+},
+"Sucha Przełęcz": {
+"name": "Sucha Przełęcz",
+"lat": 49.23099,
+"lon": 19.98304
+},
+"Ciemniak": {
+"name": "Ciemniak",
+"lat": 49.23101,
+"lon": 19.90341
+},
+"Dolina Starorobociańska": {
+"name": "Dolina Starorobociańska",
+"lat": 49.22572,
+"lon": 19.81541
+},
+"Starorobociański Wierch": {
+"name": "Starorobociański Wierch",
+"lat": 49.19937,
+"lon": 19.81994
+},
+"Siwa Przełęcz": {
+"name": "Siwa Przełęcz",
+"lat": 49.20501,
+"lon": 19.83339
+},
+"Niżnie Rysy": {
+"name": "Niżnie Rysy",
+"lat": 49.18339,
+"lon": 20.08801
+},
+"Kocioł Goryczkowy": {
+"name": "Goryczkowy Kocioł",
+"lat": 49.23448,
+"lon": 19.97086
+},
+"Mięguszowiecki Szczyt Wielki": {
+"name": "Mięguszowiecki Szczyt Wielki",
+"lat": 49.18703,
+"lon": 20.0593
+},
+"Schronisko w Dolinie Chochołowskiej": {
+"name": "Schronisko PTTK na Polanie Chochołowskiej",
+"lat": 49.23637,
+"lon": 19.7878
+},
+"Jaskinia Raptawicka": {
+"name": "Jaskinia Raptawicka",
+"lat": 49.23983,
+"lon": 19.86199
+},
+"Smreczyński Staw": {
+"name": "Smreczyński Staw",
+"lat": 49.22183,
+"lon": 19.86355
+},
+"Kozia Przełęcz Wyżnia": {
+"name": "Kozia Przełęcz Wyżnia",
+"lat": 49.21849,
+"lon": 20.02795
+},
+"Kopieniec": {
+"lat": 49.27166,
+"lon": 20.0163
+},
+"Schronisko w Dolinie Roztoki": {
+"name": "Schronisko PTTK w Dolinie Roztoki",
+"lat": 49.23371,
+"lon": 20.09566
+},
+"Łopata": {
+"name": "Łopata",
+"lat": 49.205,
+"lon": 19.77858
+},
+"Nosalowa Przełęcz": {
+"name": "Nosalowa Przełęcz",
+"lat": 49.27294,
+"lon": 19.99145
+},
+"Wołowy Żleb": {
+"name": "Wołowy Żleb",
+"lat": 49.24993,
+"lon": 19.89469
+},
+"Wrota Chałubińskiego": {
+"name": "Wrota Chałubińskiego",
+"lat": 49.19176,
+"lon": 20.04499
+},
+"Mięguszowiecka Przełęcz pod Chłopkiem": {
+"name": "Mięguszowiecka Przełęcz pod Chłopkiem",
+"lat": 49.18371,
+"lon": 20.06513
+},
+"Palenica Białczańska": {
+"name": "Palenica Białczańska",
+"lat": 49.25636,
+"lon": 20.10342
+},
+"Przełęcz Nowickiego": {
+"name": "Przełęcz Nowickiego",
+"lat": 49.22726,
+"lon": 20.03836
+},
+"Chuda Przełączka": {
+"name": "Chuda Przełączka",
+"lat": 49.23803,
+"lon": 19.89561
+},
+"Kończysty Wierch": {
+"name": "Kończysty Wierch",
+"lat": 49.20566,
+"lon": 19.80759
+},
+"Równia Waksmundzka": {
+"lat": 49.25537,
+"lon": 20.0671
+},
+"Hala Ornak": {
+"name": "Schronisko PTTK na Hali Ornak",
+"lat": 49.22914,
+"lon": 19.85869
+},
+"Czubik": {
+"name": "Czubik",
+"lat": 49.2127,
+"lon": 19.80795
+},
+"Rówień Waksmundzka": {
+"lat": 49.25537,
+"lon": 20.0671
+},
+"Grzybowiec": {
+"name": "Grzybowiec",
+"lat": 49.25655,
+"lon": 19.91715
+},
+"Dolina Wyżnia Chochołowska": {
+"name": "Wyżnia Chochołowska Dolina",
+"lat": 49.21689,
+"lon": 19.77598
+},
+"Granacka Przełęcz": {
+"name": "Granacka Przełęcz",
+"lat": 49.22708,
+"lon": 20.03447
+},
+"Schronisko na Hali Kondratowej": {
+"name": "Schronisko PTTK Hala Kondratowa",
+"lat": 49.24988,
+"lon": 19.95169
+},
+"Buczynowa Przełęcz": {
+"name": "Buczynowa Przełęcz",
+"lat": 49.22675,
+"lon": 20.04159
+},
+"Niebieska Turnia": {
+"name": "Niebieska Turnia",
+"lat": 49.21965,
+"lon": 20.01373
+},
+"Mięguszowiecki Szczyt Czarny": {
+"name": "Mięguszowiecki Szczyt Czarny",
+"lat": 49.18282,
+"lon": 20.06747
+},
+"Trzydniowiański Wierch": {
+"name": "Trzydniowiański Wierch",
+"lat": 49.2191,
+"lon": 19.80373
+},
+"Wołowiec": {
+"name": "Wołowiec",
+"lat": 49.20757,
+"lon": 19.76313
+},
+"Dolina Litworowa": {
+"name": "Dolina Litworowa",
+"lat": 49.24022,
+"lon": 19.91085
+},
+"Pośredni Goryczkowy Wierch": {
+"name": "Pośredni Goryczkowy Wierch",
+"lat": 49.23129,
+"lon": 19.96617
+},
+"Litworowy Żleb": {
+"name": "Litworowy Żleb",
+"lat": 49.20756,
+"lon": 20.12535
+},
+"Krzesanica": {
+"name": "Krzesanica",
+"lat": 49.23166,
+"lon": 19.90949
+},
+"Mały Giewont": {
+"name": "Mały Giewont",
+"lat": 49.25114,
+"lon": 19.92772
+},
+"Zabrat": {
+"name": "Zabrat",
+"lat": 49.22116,
+"lon": 19.75007
+},
+"Dolina Białego": {
+"name": "Dolina Białego",
+"lat": 49.27185,
+"lon": 19.95531
+},
+"Wielki Staw Polski": {
+"name": "Wielki Staw Polski",
+"lat": 49.2068,
+"lon": 20.03457
+},
+"Dolina Olczyska": {
+"name": "Dolina Olczyska",
+"lat": 49.27272,
+"lon": 20.00379
+},
+"Stoły": {
+"name": "Stoły",
+"lat": 49.24632,
+"lon": 19.85841
+},
+"Mała Buczynowa Turnia": {
+"name": "Mała Buczynowa Turnia",
+"lat": 49.22743,
+"lon": 20.04309
+},
+"Buczynowa Dolinka": {
+"name": "Buczynowa Dolinka",
+"lat": 49.22152,
+"lon": 20.04093
+},
+"Dziurawa Przełęcz": {
+"name": "Dziurawa Przełęcz",
+"lat": 49.20554,
+"lon": 19.77331
+},
+"Wielka Polana Małołącka": {
+"lat": 49.25756,
+"lon": 19.90827
+},
+"Ścieżka nad Reglami": {
+"lat": 49.2605,
+"lon": 19.922
+},
+"Wysoka": {
+"name": "Wysoka",
+"lat": 49.17317,
+"lon": 20.09351
+},
+"Beskid": {
+"name": "Beskid",
+"lat": 49.22824,
+"lon": 19.98792
+},
+"Wielka Galeria Cubryńska": {
+"lat": 49.18917,
+"lon": 20.05652
+},
+"Jarząbczy Wierch": {
+"name": "Jarząbczy Wierch",
+"lat": 49.19747,
+"lon": 19.7951
+},
+"Gładki Wierch": {
+"name": "Gładki Wierch",
+"lat": 49.20678,
+"lon": 20.01341
+},
+"Dolina Tomanowa": {
+"name": "Dolina Tomanowa",
+"lat": 49.22411,
+"lon": 19.87388
+},
+"Jaskinia Czarna": {
+"name": "Jaskinia Czarna",
+"lat": 49.24452,
+"lon": 19.87191
+},
+"Uhrocie Kasprowe": {
+"name": "Uhrocie Kasprowe",
+"lat": 49.24345,
+"lon": 19.99701
+},
+"Przełęcz pod Rysami": {
+"name": "Przełęcz pod Rysami",
+"lat": 49.18184,
+"lon": 20.08796
+},
+"Żleb Kirkora": {
+"name": "Żleb Kirkora",
+"lat": 49.25228,
+"lon": 19.92915
+},
+"Dolina Pyszna": {
+"name": "Dolina Pyszniańska",
+"lat": 49.21198,
+"lon": 19.85291
+},
+"Wyżnia Kondracka Przełęcz": {
+"name": "Wyżnia Kondracka Przełęcz",
+"lat": 49.24886,
+"lon": 19.93374
+},
+"Pościel Jasińskiego": {
+"lat": 49.2272,
+"lon": 20.03667
+},
+"Żółty Potok": {
+"lat": 49.24422,
+"lon": 20.02334
+},
+"Orla Baszta": {
+"name": "Orla Baszta",
+"lat": 49.22733,
+"lon": 20.03576
+},
+"Goryczkowa Przełęcz Świńska": {
+"name": "Goryczkowa Przełęcz Świńska",
+"lat": 49.23147,
+"lon": 19.96169
+},
+"Droga pod Reglami": {
+"lat": 49.278,
+"lon": 19.92
+},
+"Brzeziny": {
+"lat": 49.2871,
+"lon": 20.03
+},
+"Siklawa": {
+"lat": 49.21416,
+"lon": 20.04396
+},
+"Żleb Żandarmerii": {
+"name": "Żleb Żandarmerii",
+"lat": 49.21295,
+"lon": 20.07001
+},
+"Dolina Rybiego Potoku": {
+"name": "Dolina Rybiego Potoku",
+"lat": 49.21779,
+"lon": 20.08683
+},
+"Suchy Wierch Kondracki": {
+"name": "Suchy Wierch Kondracki",
+"lat": 49.23365,
+"lon": 19.94032
+},
+"Upłaziańska Kopa": {
+"name": "Upłaziańska Kopa",
+"lat": 49.23951,
+"lon": 19.88973
+},
+"Cyrhla": {
+"name": "Cyrhla",
+"lat": 49.29248,
+"lon": 19.90954
+},
+"Zadni Ornak": {
+"name": "Zadni Ornak",
+"lat": 49.21296,
+"lon": 19.83538
+},
+"Kominiarski Wierch": {
+"name": "Kominiarski Wierch",
+"lat": 49.24081,
+"lon": 19.83554
+},
+"Mały Kościelec": {
+"name": "Mały Kościelec",
+"lat": 49.22993,
+"lon": 20.01141
+},
+"Suche Czuby Kondrackie": {
+"name": "Suche Czuby Kondrackie",
+"lat": 49.23245,
+"lon": 19.9494
+},
+"Magura Witowska": {
+"name": "Magura Witowska",
+"lat": 49.29603,
+"lon": 19.79427
+},
+"Jaworzyna": {
+"name": "Jaworzyna",
+"lat": 49.25662,
+"lon": 19.72165
+},
+"Kościelisko": {
+"name": "Kościelisko",
+"lat": 49.29072,
+"lon": 19.88857
+},
+"Przełęcz w Grzybowcu": {
+"name": "Przełęcz w Grzybowcu",
+"lat": 49.2594,
+"lon": 19.91595
+},
+"Zmarzła Przełączka Wyżnia": {
+"name": "Zmarzła Przełączka Wyżnia",
+"lat": 49.21884,
+"lon": 20.02017
+},
+"Cubryna": {
+"name": "Cubryna",
+"lat": 49.1878,
+"lon": 20.05368
+},
+"Rohatka": {
+"name": "Rohatka",
+"lat": 49.17695,
+"lon": 20.14477
+},
+"Smocza Jama": {
+"name": "Smocza Jama",
+"lat": 49.23785,
+"lon": 19.86759
+},
+"Żabia Przełęcz": {
+"name": "Żabia Przełęcz",
+"lat": 49.17891,
+"lon": 20.08058
+},
+"Szary Żleb": {
+"name": "Szary Żleb",
+"lat": 49.25368,
+"lon": 19.927
+},
+"Nadspady": {
+"name": "Nadspady",
+"lat": 49.19569,
+"lon": 20.05961
+},
+"Mnichy Chochołowskie": {
+"name": "Mnichy Chochołowskie",
+"lat": 49.24497,
+"lon": 19.79333
+},
+"Szpiglasowy Wierch": {
+"name": "Szpiglasowy Wierch",
+"lat": 49.19729,
+"lon": 20.04011
+},
+"Siwarowy Żleb": {
+"name": "Siwarowy Żleb",
+"lat": 49.26709,
+"lon": 19.95782
+},
+"Twarda Kopa": {
+"name": "Twarda Kopa",
+"lat": 49.23468,
+"lon": 19.9003
+},
+"Niżnia Kopa": {
+"name": "Niżnia Kopa",
+"lat": 49.21453,
+"lon": 20.05101
+},
+"Dolina Lejowa": {
+"name": "Dolina Lejowa",
+"lat": 49.26784,
+"lon": 19.84259
+},
+"Miedziane": {
+"name": "Miedziane",
+"lat": 49.20102,
+"lon": 20.04737
+},
+"Dolina ku Dziurze": {
+"name": "Dolina ku Dziurze",
+"lat": 49.27454,
+"lon": 19.94113
+},
+"Gerlachowski Kocioł": {
+"name": "Gerlachowski Kocioł",
+"lat": 49.1557,
+"lon": 20.13991
+},
+"Zmarzłe Czuby": {
+"name": "Zmarzłe Czuby",
+"lat": 49.21893,
+"lon": 20.02034
+},
+"Maszynka do Mięsa": {
+"name": "Maszynka do Mięsa",
+"lat": 49.18817,
+"lon": 20.06749
+},
+"Zmarzły Staw Gąsienicowy": {
+"name": "Zmarzły Staw Gąsienicowy",
+"lat": 49.2239,
+"lon": 20.02205
+},
+"Ząb": {
+"name": "Ząb",
+"lat": 49.33612,
+"lon": 19.94819
+},
+"Kościelcowa Przełęcz": {
+"name": "Kościelcowa Przełęcz",
+"lat": 49.22444,
+"lon": 20.01498
+},
+"Rafaczówki": {
+"name": "Rafaczówki",
+"lat": 49.32502,
+"lon": 19.97107
+},
+"Jaskinia Śpiących Rycerzy": {
+"name": "Jaskinia Śpiących Rycerzy",
+"lat": 49.25014,
+"lon": 19.92339
+},
+"Mnichowy Żleb": {
+"name": "Mnichowy Żleb",
+"lat": 49.1921,
+"lon": 20.05639
+},
+"Zmarzły Staw (Gąsienicowy)": {
+"name": "Zmarzły Staw Gąsienicowy",
+"lat": 49.2239,
+"lon": 20.02205
+},
+"Skrajny Żleb": {
+"name": "Skrajny Żleb",
+"lat": 49.22404,
+"lon": 19.9998
+},
+"Gąsienicowa Turnia": {
+"name": "Gąsienicowa Turnia",
+"lat": 49.21931,
+"lon": 20.01201
+},
+"Miedziany Kostur": {
+"name": "Miedziany Kostur",
+"lat": 49.20459,
+"lon": 20.04491
+},
+"Siwiańskie Turnie": {
+"name": "Siwiańskie Turnie",
+"lat": 49.27648,
+"lon": 19.82516
+},
+"Żabi Szczyt Wyżni": {
+"name": "Żabi Szczyt Wyżni",
+"lat": 49.18785,
+"lon": 20.08925
+},
+"Jaskinia pod Wantą": {
+"name": "Jaskinia pod Wantą",
+"lat": 49.2416,
+"lon": 19.9115
+},
+"Mnich": {
+"name": "Mnich",
+"lat": 49.19268,
+"lon": 20.05491
+},
+"Lodowa Przełęcz": {
+"name": "Lodowa Przełęcz",
+"lat": 49.19328,
+"lon": 20.18156
+},
+"Żleb Szczerby": {
+"name": "Żleb Szczerby",
+"lat": 49.25262,
+"lon": 19.93409
+},
+"Dolina Pyszniańska": {
+"name": "Dolina Pyszniańska",
+"lat": 49.21198,
+"lon": 19.85291
+},
+"Kazalnica": {
+"name": "Kazalnica",
+"lat": 49.22959,
+"lon": 19.89321
+},
+"Diabełek": {
+"name": "Diabełek",
+"lat": 49.25673,
+"lon": 20.00325
+},
+"Galicowa Grapa": {
+"name": "Galicowa Grapa",
+"lat": 49.33683,
+"lon": 20.02789
+},
+"Dzianisz": {
+"name": "Dzianisz",
+"lat": 49.3313,
+"lon": 19.86764
+},
+"Kobylarz": {
+"name": "Kobylarz",
+"lat": 49.2462,
+"lon": 19.90313
+},
+"Kogutek": {
+"name": "Kogutek",
+"lat": 49.17346,
+"lon": 20.09016
+},
+"Krywań": {
+"name": "Krywań",
+"lat": 49.16283,
+"lon": 20.00005
+},
+"Zadni Gerlach": {
+"name": "Zadni Gerlach",
+"lat": 49.16623,
+"lon": 20.13148
+},
+"Siwy Wierch": {
+"name": "Siwy Wierch",
+"lat": 49.21113,
+"lon": 19.64215
+},
+"Gerlach": {
+"name": "Gerlach",
+"lat": 49.16403,
+"lon": 20.13406
+},
+"Niżni Kostur": {
+"name": "Niżni Kostur",
+"lat": 49.19996,
+"lon": 20.03226
+},
+"Gładki Przechód": {
+"name": "Gładki Przechód",
+"lat": 49.23325,
+"lon": 19.94645
+},
+"Żółta Przełęcz": {
+"name": "Żółta Przełęcz",
+"lat": 49.2303,
+"lon": 20.03058
+},
+"Rakoń": {
+"name": "Rakoń",
+"lat": 49.21596,
+"lon": 19.75846
+},
+"Spadowiec": {
+"name": "Spadowiec",
+"lat": 49.27654,
+"lon": 19.95137
+},
+"Przełączka nad Dolinką Buczynową": {
+"name": "Przełączka nad Dolinką Buczynową",
+"lat": 49.22061,
+"lon": 20.03396
+},
+"Wielka Turnia": {
+"name": "Wielka Turnia",
+"lat": 49.24453,
+"lon": 19.92024
+},
+"Tarasówka": {
+"name": "Tarasówka",
+"lat": 49.31667,
+"lon": 20.07639
+},
+"Świstowa Kopa": {
+"name": "Świstowa Kopa",
+"lat": 49.21436,
+"lon": 20.05885
+},
+"Zameczki": {
+"name": "Zameczki",
+"lat": 49.25907,
+"lon": 19.95055
+},
+"Orla Perć": {
+"lat": 49.2194,
+"lon": 20.0252
+},
+"Mały Kozi Wierch": {
+"name": "Mały Kozi Wierch",
+"lat": 49.21892,
+"lon": 20.02004
+},
+"Granaty": {
+"name": "Granáty",
+"lat": 49.1959,
+"lon": 20.0049
+},
+"Bobrowiecka Przełęcz": {
+"name": "Bobrowiecka Przełęcz",
+"lat": 49.24215,
+"lon": 19.77622
+},
+"Marchwiczny Żleb": {
+"name": "Marchwiczny Żleb",
+"lat": 49.20237,
+"lon": 20.06536
+},
+"Zadni Kościelec": {
+"name": "Zadni Kościelec",
+"lat": 49.22369,
+"lon": 20.01555
+},
+"Krokiew": {
+"name": "Krokiew",
+"lat": 49.26712,
+"lon": 19.96461
+},
+"Suchy Wierch Ornaczański": {
+"name": "Suchy Wierch Ornaczański",
+"lat": 49.22211,
+"lon": 19.83363
+},
+"Małe Ciche": {
+"name": "Małe Ciche",
+"lat": 49.30315,
+"lon": 20.07286
+},
+"Zadni Mnich": {
+"name": "Zadni Mnich",
+"lat": 49.18952,
+"lon": 20.05036
+},
+"Przełączka pod Rysami": {
+"name": "Przełączka pod Rysami",
+"lat": 49.17988,
+"lon": 20.08816
+},
+"Murzasichle": {
+"name": "Murzasichle",
+"lat": 49.3117,
+"lon": 20.04359
+},
+"Polana Chochołowska": {
+"name": "Schronisko PTTK na Polanie Chochołowskiej",
+"lat": 49.23637,
+"lon": 19.7878
+},
+"Pośredni Granat": {
+"name": "Pośredni Granat",
+"lat": 49.2257,
+"lon": 20.03273
+},
+"Pośrednia Sieczkowa Przełączka": {
+"name": "Pośrednia Sieczkowa Przełączka",
+"lat": 49.22545,
+"lon": 20.03259
+},
+"Filar Staszla": {
+"name": "Filar Staszla",
+"lat": 49.2259,
+"lon": 20.02887
+},
+"Siedem Granatów": {
+"name": "Siedem Granatów",
+"lat": 49.204,
+"lon": 20.08656
+},
+"Mięguszowieckie Szczyty": {
+"name": "Mięguszowieckie Szczyty",
+"lat": 49.18568,
+"lon": 20.06091
+},
+"Mylna Przełęcz": {
+"name": "Mylna Przełęcz",
+"lat": 49.22257,
+"lon": 20.01576
+},
+"Zmarzła Przełęcz": {
+"name": "Zmarzła Przełęcz",
+"lat": 49.21964,
+"lon": 20.02308
+},
+"Głęboki Żleb": {
+"name": "Głęboki Żleb",
+"lat": 49.21078,
+"lon": 20.06997
+},
+"Mułowa Przełęcz": {
+"name": "Mułowa Przełęcz",
+"lat": 49.23096,
+"lon": 19.90577
+},
+"Świnicka Kotlinka": {
+"name": "Świnicka Kotlinka",
+"lat": 49.22308,
+"lon": 20.00514
+},
+"Goryczkowa Przełęcz nad Zakosy": {
+"name": "Nad Zakosy",
+"lat": 49.23037,
+"lon": 19.96924
+},
+"Wielka Buczynowa Turnia": {
+"name": "Wielka Buczynowa Turnia",
+"lat": 49.22718,
+"lon": 20.04026
+},
+"Dolinka ku Dziurze": {
+"name": "Dolina ku Dziurze",
+"lat": 49.27454,
+"lon": 19.94113
+},
+"Zawratowa Turnia": {
+"name": "Zawratowa Turnia",
+"lat": 49.21991,
+"lon": 20.01534
+},
+"Małołącka Przełęcz": {
+"name": "Małołącka Przełęcz",
+"lat": 49.23531,
+"lon": 19.92837
+}
+}

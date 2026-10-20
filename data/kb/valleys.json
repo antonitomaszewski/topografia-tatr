@@ -1,0 +1,2672 @@
+{
+ "structure": [
+  {
+   "id": "liczby",
+   "title": "Tatry w liczbach",
+   "html": "<p>Tatry to najwyższe pasmo Karpat. Leżą w <strong>Centralnych Karpatach Zachodnich</strong>, na granicy Polski i Słowacji. Otaczają je krainy: <strong>Podhale, Orawa, Liptów i Spisz</strong>.</p> <ul> <li><strong>Powierzchnia: ok. 785 km²</strong>, z tego ok. <strong>175 km² (22,3%) w Polsce</strong> i ok. 610 km² (77,7%) na Słowacji.</li> <li><strong>Długość:</strong> 57 km w linii prostej; wzdłuż grani głównej ok. 75–80 km (źródła podają różnie). Szerokość: maks. 18,5 km, przeciętnie 15 km.</li> <li><strong>TPN</strong> (Tatrzański Park Narodowy) – utworzony <strong>1 stycznia 1955</strong>, ok. <strong>21 197 ha</strong>. Obejmuje całe polskie Tatry. Najwyższy punkt: Rysy (2499 m), najniższy: dolina Porońca koło Kośnych Hamrów (ok. 773 m).</li> <li><strong>TANAP</strong> (słowacki park) – utworzony <strong>1 stycznia 1949</strong> (6 lat wcześniej niż TPN), dziś ok. 74 284 ha; siedziba w Tatrzańskiej Łomnicy. Obejmuje też całe Tatry Bielskie.</li> <li>W <strong>1992</strong> r. TPN i TANAP zostały uznane przez UNESCO za transgraniczny <strong>rezerwat biosfery</strong>.</li> <li>Dolina Chochołowska i Lejowa leżą w TPN, ale są własnością <strong>Wspólnoty Leśnej Uprawnionych Ośmiu Wsi</strong> (Witów) – opłaty za wstęp pobiera tam Wspólnota.</li> </ul>"
+  },
+  {
+   "id": "podzial",
+   "title": "Podział Tatr",
+   "html": "<p>Tatry dzielimy na dwie główne części: <strong>Tatry Zachodnie</strong> i <strong>Tatry Wschodnie</strong>. Tatry Wschodnie dzielą się na <strong>Tatry Wysokie</strong> i <strong>Tatry Bielskie</strong>.</p> <ul> <li><strong>Tatry Zachodnie</strong> – ok. 400 km² (prawie połowa Tatr), tylko ok. 25% w Polsce. Grań ok. 42 km. Najwyższy szczyt: <strong>Bystra 2248 m</strong> (Słowacja, poza granią główną). Najwyższy polski: <strong>Starorobociański Wierch 2176 m</strong>. Łagodniejsze, trawiaste grzbiety; dużo wapieni, krasu i jaskiń (np. Jaskinia Wielka Śnieżna).</li> <li><strong>Tatry Wysokie</strong> – ok. 340 km², z czego ok. 260 km² na Słowacji. Grań ok. 26 km. Najwyższy szczyt Tatr i Karpat: <strong>Gerlach 2655 m</strong>. Krajobraz alpejski (granit, turnie, prawie wszystkie stawy).</li> <li><strong>Tatry Bielskie</strong> – ok. 70 km² (ok. 9% Tatr), <strong>w całości na Słowacji</strong>. Ułożone <strong>poprzecznie</strong> do grani głównej. Zbudowane głównie z wapieni i dolomitów. Najwyższy szczyt: <strong>Hawrań 2152 m</strong>. Szlaki są tam w większości zamknięte.</li> </ul> <p>Nowa regionalizacja GDOŚ (2018) dzieli Tatry Polskie na trzy pasma: <strong>Tatry Reglowe</strong> (najwyższy szczyt Kalacka Kopa 1601 m), Tatry Zachodnie i Tatry Wysokie.</p>"
+  },
+  {
+   "id": "granice-czesci",
+   "title": "Granice między częściami Tatr",
+   "html": "<ul> <li><strong>Zachodni kraniec Tatr – Huciańska Przełęcz</strong> (Niżnia Huciańska Przełęcz, 905 m). Oddziela Tatry Zachodnie od <strong>Skoruszyńskich Wierchów</strong>. Prowadzi z liptowskiej wsi Huty do orawskiego Zuberca.</li> <li><strong>Tatry Zachodnie / Tatry Wysokie – przełęcz Liliowe</strong> (1952 m) w grani głównej, między Beskidem (2012 m) a Skrajną Turnią (2097 m). W dół granica biegnie: <ul> <li>po polskiej stronie – dnem <strong>Doliny Gąsienicowej i Doliny Suchej Wody Gąsienicowej</strong> (korytem potoku Sucha Woda),</li> <li>po słowackiej stronie – dnem <strong>Doliny Cichej Liptowskiej</strong> (tak uważają polscy geografowie i Ivan Bohuš). Część słowackich geografów prowadzi granicę <strong>Doliną Koprową</strong> i liczy Liptowskie Kopy do Tatr Zachodnich.</li> </ul></li> <li><strong>Tatry Wysokie / Tatry Bielskie – Przełęcz pod Kopą</strong> (Niżnia Przełęcz pod Kopą, 1753 m, Słowacja). W dół granica biegnie dnem dolin (od NW do SE): <strong>Jaworowej, Zadnich Koperszadów, Przednich Koperszadów i Kieżmarskiej</strong>.</li> <li><strong>Wschodni kraniec Tatr – Zdziarska Przełęcz</strong> (ok. 1081 m wg Polkartu, 1077 m wg Cywińskiego). Oddziela Tatry Bielskie od <strong>Magury Spiskiej</strong>. Biegnie przez nią Droga Wolności (Podspady – Zdziar).</li> </ul>"
+  },
+  {
+   "id": "podtatrze",
+   "title": "Otoczenie Tatr: Rów Podtatrzański i Pogórze",
+   "html": "<p>Idąc od Tatr na północ mamy kolejno: <strong>Tatry → Rów Podtatrzański → Pogórze Spisko-Gubałowskie → Kotlina Orawsko-Nowotarska</strong>.</p> <ul> <li><strong>Rów Podtatrzański</strong> – podłużne obniżenie (750–1000 m) u północnego podnóża Tatr, wycięte we fliszu. Ciągnie się od okolic Dolnego Kubina po Tatrzańską Kotlinę. Odcinki od zachodu: Rów Huciański, Zuberski, Orawicki, <strong>Kościeliski, Zakopiański</strong> (z Kotliną Zakopiańską), <strong>Poroniński</strong>, Podspadzki, Zdziarski. W Polsce ma ok. 20 km i ok. 130 km². Leżą w nim Zakopane, Kościelisko, Małe Ciche, Murzasichle.</li> <li>Granicę Tatr z Rowem Podtatrzańskim w okolicy Zakopanego wyznacza <strong>Droga pod Reglami</strong>. Na krótkim odcinku (po Wawrzeczkową Cyrhlę) granicę tworzy koryto <strong>Suchej Wody</strong>.</li> <li><strong>Pogórze Spisko-Gubałowskie</strong> (w PL ok. 370 km²) dzieli się na: <strong>Pogórze Skoruszyńskie</strong> (między Orawicą a Czarnym Dunajcem; Magura Witowska 1233 m), <strong>Pogórze Gubałowskie</strong> (między Czarnym a Białym Dunajcem; Gubałówka 1126 m, Palenica Kościeliska 1183 m), <strong>Pogórze Bukowińskie</strong> (między Białym Dunajcem a Białką; Cyrhla nad Białką 1158 m) i <strong>Pogórze Spiskie</strong> (na wschód od Białki; słowacka część to Magura Spiska).</li> <li>Wokół całych Tatr: od zachodu i północy <strong>Obniżenie Orawsko-Podhalańskie</strong>, od wschodu i południa <strong>Obniżenie Liptowsko-Spiskie</strong>.</li> </ul>"
+  },
+  {
+   "id": "gran-glowna-granica",
+   "title": "Grań główna a granica państwowa",
+   "html": "<p><strong>Grań główna Tatr</strong> biegnie od <strong>Huciańskiej Przełęczy</strong> do <strong>Zdziarskiej Przełęczy</strong>. Nie pokrywa się z granicą państwa!</p> <ul> <li><strong>Tatry Zachodnie:</strong> od Huciańskiej Przełęczy aż do <strong>Wołowca</strong> grań główna leży w całości na Słowacji (Siwy Wierch, Salatyny, Banówka, Rohacze). Od Wołowca granica biegnie po grani głównej.</li> <li>Na zachodzie granica dochodzi do Wołowca od północy – grzbietem granicznym przez <strong>Grzesia i Rakonia</strong> (z Bobrowca na północ schodzi graniczny grzbiet nad Doliną Długą). Ten grzbiet oddziela polską Dolinę Chochołowską od słowackiej Doliny Zuberskiej (Rohackiej i Łatanej).</li> <li>Od Wołowca do Rysów granica idzie granią: Wołowiec – Jarząbczy Wierch – Kończysty – Starorobociański – Błyszcz – Kamienista – Ciemniak (Czerwone Wierchy) – Kopa Kondracka – Kasprowy – <strong>Liliowe</strong> – Świnica – Gładki Wierch – Szpiglasowy Wierch – Wrota Chałubińskiego – Cubryna – Mięguszowieckie Szczyty – <strong>Rysy</strong>.</li> <li><strong>W Rysach granica skręca na północ</strong> – Żabią Granią (północną granią Rysów) schodzi do <strong>Białki</strong>, dalej biegnie korytem Białki (przez Łysą Polanę), a na końcu – końcowym odcinkiem Jaworowego Potoku.</li> <li><strong>Grań główna Tatr Wysokich biegnie dalej przez Słowację</strong>: Wysoka – Ganek – Zadni Gerlach – Lodowy Szczyt – Jagnięcy Szczyt – Przełęcz pod Kopą, a potem przez Tatry Bielskie (Szalony Wierch, Płaczliwa Skała, Hawrań) do Zdziarskiej Przełęczy.</li> <li>Najwyższe szczyty dwóch części <strong>nie leżą w grani głównej</strong>: Bystra (ok. 600 m na południe od grani) i Gerlach (na południe od Zadniego Gerlacha). Najwyższy szczyt w grani głównej Tatr Wysokich to Lodowy Szczyt.</li> <li>Ważne punkty węzłowe: <strong>Wołowiec</strong> – stykają się dorzecza Orawy, Wagu i Dunajca; <strong>Cubryna</strong> – dorzecza Dunajca, Wagu i Popradu oraz krainy Podhale, Liptów i Spisz. Odcinek grani <strong>Wołowiec – Cubryna</strong> to fragment <strong>Wielkiego Europejskiego Działu Wodnego</strong> (Bałtyk / Morze Czarne).</li> <li>Najniższe przełęcze grani głównej: <strong>Palenica Jałowiecka</strong> (1570 m) i <strong>Tomanowa Przełęcz</strong> (1685 m).</li> </ul>"
+  },
+  {
+   "id": "doliny-pl",
+   "title": "Doliny polskiej strony od zachodu na wschód",
+   "html": "<p>Po polskiej stronie doliny opadają na północ. Kolejność od <strong>zachodu na wschód</strong> i grzbiety, które je dzielą:</p> <ul> <li><strong>Dolina Chochołowska</strong> (największa i najdłuższa w PL) – od zachodu graniczny grzbiet Wołowiec–Rakoń–Grześ–Bobrowiec.</li> <li>| grzbiet Kominiarskiego Wierchu / regle (Kominiarska Przełęcz, Przysłop Kominiarski)</li> <li><strong>Dolina Lejowa</strong> (reglowa) – między Chochołowską a Kościeliską.</li> <li>| Kościeliskie Kopki, Suchy Wierch; wyżej grzbiet <strong>Ornaku</strong> z Iwaniacką Przełęczą (oddziela górne części Chochołowskiej i Kościeliskiej)</li> <li><strong>Dolina Kościeliska</strong> (z Miętusią, Tomanową, Pyszniańską).</li> <li>| północno-zachodnia grań Małołączniaka (Czerwony Grzbiet, Wielka Turnia, Skoruśniak, Hruby Regiel), przełęcz Przysłop Miętusi</li> <li><strong>Dolina Małej Łąki</strong> (najmniejsza dolina walna).</li> <li>| Łysanki, Grzybowiec, Giewont i północna grań Kopy Kondrackiej (Kondracka Przełęcz)</li> <li>Doliny reglowe pod Giewontem: <strong>za Bramką, Strążyska, ku Dziurze, Białego</strong> (nie dochodzą do grani głównej).</li> <li>| Krokiew, Giewont (Kalacka Kopa)</li> <li><strong>Dolina Bystrej</strong> (Kondratowa, Goryczkowa, Kasprowa, Jaworzynka).</li> <li>| północno-wschodnia grań Kasprowego Wierchu (Kopa Magury, Nosal)</li> <li><strong>Dolina Olczyska</strong> (wylot w Jaszczurówce).</li> <li>| Królowy Grzbiet</li> <li><strong>Dolina Suchej Wody Gąsienicowej</strong> → rozwidla się na <strong>Dolinę Gąsienicową</strong> i <strong>Pańszczycę</strong>. Tu biegnie granica Tatr Zachodnich i Wysokich.</li> <li>| Koszysta, Rówień Waksmundzka, Gęsia Szyja</li> <li><strong>Filipka</strong> (z Doliną Złotą) – mała dolina pod Gęsią Szyją, wylot w Zazadniej.</li> <li><strong>Dolina Waksmundzka</strong> – odnoga Doliny Białki.</li> <li>| Wołoszyn</li> <li><strong>Dolina Roztoki</strong> z <strong>Doliną Pięciu Stawów Polskich</strong> – odnoga Doliny Białki.</li> <li>| grań Opalonego Wierchu i Miedzianego (Świstówka Roztocka, Szpiglasowa Przełęcz)</li> <li><strong>Dolina Rybiego Potoku</strong> (Morskie Oko) – odnoga Doliny Białki.</li> <li>| północna grań Rysów (Żabia Grań) – granica państwa</li> <li>Słowacka <strong>Dolina Białej Wody</strong>, która z Doliną Rybiego Potoku tworzy <strong>Dolinę Białki</strong>.</li> </ul> <p>Doliny <strong>walne</strong> to doliny sięgające od podnóża Tatr do grani głównej (np. Chochołowska, Kościeliska, Małej Łąki, Bystrej, Suchej Wody, Białki).</p>"
+  },
+  {
+   "id": "reglowe",
+   "title": "Regle i doliny reglowe",
+   "html": "<p><strong>Regle</strong> to niższe, zalesione wzniesienia na północnym skraju Tatr (np. Hruby Regiel, Łysanki, Sarnia Skała, Krokiew). Zbudowane są ze skał osadowych. Doliny wcięte tylko w regle i nie sięgające grani głównej nazywamy <strong>dolinami reglowymi</strong>.</p> <ul> <li><strong>Dolina Lejowa</strong> – między Chochołowską a Kościeliską; jedna z najrzadziej odwiedzanych.</li> <li><strong>Dolina za Bramką</strong> – między Strążyską a Małą Łąką.</li> <li><strong>Dolina Strążyska</strong> (z Doliną Grzybowiecką) – pod północną ścianą Giewontu.</li> <li><strong>Dolina ku Dziurze</strong> – z jaskinią Dziura.</li> <li><strong>Dolina Białego</strong> – między Sarnią Skałą a Krokwią.</li> <li>Także m.in. Dolina Długa (odnoga Chochołowskiej, zamknięta dla turystów).</li> </ul> <p><strong>Ścieżka nad Reglami</strong> – <strong>czarny szlak</strong>, ok. 17 km, ok. 6 h. Przebieg: Kalatówki – Przełęcz Białego – Czerwona Przełęcz – <strong>Polana Strążyska</strong> – Przełęcz w Grzybowcu – <strong>Wielka Polana Małołącka</strong> – Przysłop Miętusi – Dolina Miętusia – Dolina Kościeliska (Wyżnia Kira Miętusia) – Przysłop Kominiarski – Kominiarska Przełęcz – polana Jamy – <strong>Dolina Chochołowska</strong>. Nosi imię Józefa Oppenheima.</p> <p><strong>Droga pod Reglami</strong> – szlak u podnóża (od 2004 r. znakowany na czarno, wolny od opłat). Łączy wyloty dolin: Białego, ku Dziurze, Strążyskiej, za Bramką, Małej Łąki, Kościeliskiej (Kiry). Jej przedłużeniem jest <strong>zielony szlak</strong> z Kir obok wylotu Doliny Lejowej na <strong>Siwą Polanę</strong>. Dawniej zwana Żelazną Drogą.</p>"
+  },
+  {
+   "id": "wody",
+   "title": "Rzeki i zlewiska",
+   "html": "<p>Przez grań główną (odcinek Wołowiec – Cubryna) biegnie <strong>Wielki Europejski Dział Wodny</strong>. Cała polska strona należy do zlewiska <strong>Bałtyku</strong> (dorzecze Wisły przez Dunajec).</p> <ul> <li><strong>Czarny Dunajec</strong> – źródłowy ciek to <strong>Wyżni Chochołowski Potok</strong> (spod Wołowca). Z Jarząbczym Potokiem tworzy <strong>Chochołowski Potok</strong>, niżej zwany <strong>Siwą Wodą</strong>. W <strong>Roztokach</strong> (Witów) łączy się z <strong>Kirową Wodą</strong> (to dolny bieg <strong>Kościeliskiego Potoku</strong>, który przyjmuje Lejowy Potok).</li> <li><strong>Biały Dunajec</strong> – powstaje w <strong>Poroninie</strong> z połączenia <strong>Zakopianki i Porońca</strong>. Do Zakopianki wpadają m.in. <strong>Bystra</strong> (z Doliny Bystrej) i <strong>Olczyski Potok</strong>. <strong>Sucha Woda</strong> (z Doliny Suchej Wody) łączy się w Małem Cichem z Filipczańskim Potokiem w <strong>Cichą Wodę</strong>, która uchodzi do Porońca.</li> <li>Czarny i Biały Dunajec łączą się w <strong>Nowym Targu</strong> → <strong>Dunajec</strong> → Wisła → Bałtyk.</li> <li><strong>Białka</strong> – powstaje z połączenia <strong>Białej Wody</strong> (z Doliny Białej Wody, SK) i <strong>Rybiego Potoku</strong> (z Morskiego Oka). Przyjmuje m.in. <strong>Roztokę</strong> (z Wielkiego Stawu, przez Siklawę i Wodogrzmoty) i Waksmundzki Potok. Uchodzi do Dunajca w Jeziorze Czorsztyńskim. Słowacy nazywają Białą Wodę i Białkę jednym ciekiem: <em>Biela voda</em>.</li> <li><strong>Strona słowacka:</strong> <ul> <li>do <strong>Popradu</strong> (→ Dunajec → Bałtyk): np. <strong>Biała Woda Kieżmarska</strong>, <strong>Młynica</strong>;</li> <li>do zlewni <strong>Dunajca</strong> należy też <strong>Jaworowy Potok</strong> z Doliny Jaworowej (jego końcowy odcinek to granica PL/SK);</li> <li>do <strong>Wagu</strong> (→ Dunaj → <strong>Morze Czarne</strong>): <strong>Biała Liptowska</strong> (z Cichej Wody i Koprowej Wody), <strong>Biały Wag</strong> (z Doliny Ważeckiej; dopływ Furkotny Potok), Smreczanka (Dolina Żarska);</li> <li>do <strong>Orawy</strong> (→ Wag → Morze Czarne): <strong>Zimna Woda Orawska</strong> z Doliny Zuberskiej.</li> </ul></li> <li><strong>Dolina Furkotna</strong> to najdalej na wschód wysunięta dolina tatrzańska w zlewisku Morza Czarnego.</li> <li>W wapiennych dolinach woda często ginie w <strong>ponorach</strong> i wypływa <strong>wywierzyskami</strong>. Największe w polskich Tatrach: <strong>Wywierzysko Olczyskie</strong> (zasilane m.in. wodami z Pańszczycy).</li> </ul>"
+  },
+  {
+   "id": "wysokosci",
+   "title": "Najważniejsze wysokości",
+   "html": "<ul> <li><strong>Gerlach 2655 m</strong> – najwyższy szczyt Tatr i Karpat (SK, poza granią główną).</li> <li><strong>Łomnica 2634 m</strong>, <strong>Lodowy Szczyt 2627 m</strong> (wg nowszych pomiarów 2628 m; najwyższy w grani głównej Tatr Wysokich).</li> <li><strong>Rysy</strong> – trzy wierzchołki. Najwyższy środkowy (SK) <strong>ok. 2501 m</strong>; wierzchołek graniczny (północno-zachodni) <strong>2499 m</strong> – najwyższy punkt Polski. Często podawane 2503 m pochodzi z dawnych pomiarów austriackich (1896–97) i jest zawyżone.</li> <li><strong>Krywań 2494 m</strong> (SK).</li> <li><strong>Mięguszowiecki Szczyt Wielki 2438 m</strong> – drugi co do wysokości szczyt Polski (graniczny).</li> <li><strong>Cubryńska Strażnica 2332 m</strong> – najwyższy szczyt w całości w Polsce; <strong>Kozi Wierch 2291 m</strong> – najwyższy wybitny szczyt w całości w Polsce.</li> <li><strong>Świnica 2302 m</strong> (dawniej podawano 2301 m) – dwa wierzchołki; zwornik nad Doliną Gąsienicową, Pięciu Stawów i Cichą.</li> <li><strong>Bystra 2248 m</strong> – najwyższy szczyt Tatr Zachodnich (SK). <strong>Banówka 2178 m</strong> – najwyższy punkt grani głównej Tatr Zachodnich.</li> <li><strong>Starorobociański Wierch 2176 m</strong> – najwyższy szczyt polskich Tatr Zachodnich.</li> <li><strong>Hawrań 2152 m</strong> – najwyższy szczyt Tatr Bielskich.</li> <li><strong>Kopa Kondracka 2005 m</strong>, <strong>Kasprowy Wierch 1987 m</strong>, <strong>Giewont 1895 m</strong>, <strong>Kominiarski Wierch 1829 m</strong> (najwybitniejszy szczyt polskich Tatr).</li> <li>Przełęcze: <strong>Zawrat 2159 m</strong>, <strong>Kozia Przełęcz 2126 m</strong>, <strong>Krzyżne 2112 m</strong>, <strong>Szpiglasowa Przełęcz 2110 m</strong>, <strong>Wrota Chałubińskiego 2022 m</strong>, <strong>Liliowe 1952 m</strong>, <strong>Przełęcz pod Kopą 1753 m</strong>, <strong>Kondracka Przełęcz 1725 m</strong>, <strong>Tomanowa Przełęcz 1685 m</strong>, <strong>Iwaniacka Przełęcz 1461 m</strong>.</li> </ul>"
+  },
+  {
+   "id": "schroniska-topr",
+   "title": "Schroniska i punkty TOPR (orientacja)",
+   "html": "<ul> <li><strong>Schroniska PTTK w Tatrach Zachodnich:</strong> na Polanie Chochołowskiej (1146 m), na Hali Ornak (1100 m), na Hali Kondratowej (1333 m, najmniejsze w polskich Tatrach), hotel górski PTTK Kalatówki.</li> <li><strong>Schroniska PTTK w Tatrach Wysokich:</strong> „Murowaniec” (Hala Gąsienicowa), w Dolinie Roztoki (Stara Roztoka), w Dolinie Pięciu Stawów Polskich (1671 m – <strong>najwyżej położone schronisko w Polsce</strong>), nad Morskim Okiem (1410 m).</li> <li><strong>Obiekty TOPR wymienione przy dolinach:</strong> budynek TOPR na Polanie Chochołowskiej, dyżurka TOPR na Hali Kondratowej, punkt TOPR na Polanie Strążyskiej, zimowa stacja TOPR na Kasprowym Wierchu, stacja ratunkowa TOPR w schronisku nad Morskim Okiem.</li> <li><strong>Główne wejścia/parkingi:</strong> Siwa Polana (Chochołowska), Kiry (Kościeliska), Kuźnice (Bystrej, Gąsienicowa), Brzeziny (Sucha Woda), Toporowa Cyrhla, Zazadnia, Wierchporoniec, <strong>Palenica Białczańska</strong> (najczęściej używane wejście do TPN – ok. 31,5% turystów w 2005 r.), Łysa Polana.</li> <li><strong>Magistrala Tatrzańska</strong> – czerwony szlak po południowej (słowackiej) stronie Tatr Wysokich, ok. 72 km z Drogą nad Łąkami – najdłuższy szlak w Tatrach; kończy się nad Wielkim Białym Stawem w Dolinie Kieżmarskiej.</li> </ul>"
+  }
+ ],
+ "items": [
+  {
+   "id": "dolina-chocholowska",
+   "name": "Dolina Chochołowska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2444,
+   "lon": 19.8117,
+   "summary": "Najdłuższa i największa dolina polskich Tatr (ok. 10 km, ponad 35 km²) – dolina walna na zachodnim skraju polskich Tatr Zachodnich.",
+   "html": "<p><strong>Położenie:</strong> zachodni skraj polskich Tatr Zachodnich; orograficznie lewa odnoga doliny Czarnego Dunajca. Administracyjnie wieś Witów. Jest <strong>doliną walną</strong> – sięga grani głównej.</p> <p><strong>Wylot:</strong> w <strong>Roztokach</strong> (osiedle Witowa) przy szosie Zakopane – Chochołów; 1 km dalej <strong>Siwa Polana</strong> (parking, dalej zakaz ruchu aut). Dojazd: kolejka do polany Huciska, rower do leśniczówki, bryczka do Polany Chochołowskiej. Opłaty pobiera Wspólnota Leśna Uprawnionych Ośmiu Wsi.</p> <p><strong>Budowa:</strong> dolna część (ok. 4 km) to wąwóz z dwiema bramami: <strong>Niżnią i Wyżnią Bramą Chochołowską</strong>. Górą dzieli się na trzy ramiona: <strong>Dolina Starorobociańska</strong> (wschód), <strong>Dolina Jarząbcza</strong> (środek), <strong>Dolina Chochołowska Wyżnia</strong> (zachód). Mniejsze odnogi: Wielka i Mała Sucha Dolina, Huciańska, Dudowa, Trzydniowiańska, Długa, Kryta i inne.</p> <p><strong>Potok:</strong> Chochołowski Potok (niżej <strong>Siwa Woda</strong>) – środkowy bieg <strong>Czarnego Dunajca</strong>. Przy Niżniej Bramie – <strong>Wywierzysko Chochołowskie</strong>.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> dnem doliny Siwa Polana – Huciska – schronisko (2:10 h) – dalej Doliną Chochołowską Wyżnią na grzbiet Rakoń–Wołowiec; <strong>czarny</strong> (Ścieżka nad Reglami) od Polany pod Jaworki do Doliny Kościeliskiej; <strong>żółty</strong> przez Iwaniacką Przełęcz na Halę Ornak; <strong>czarny</strong> Doliną Starorobociańską na Siwą Przełęcz; <strong>czerwony</strong> z polany Trzydniówka i ze schroniska na Trzydniowiański Wierch; <strong>żółty</strong> Bobrowieckim Żlebem na Grzesia.</p> <p><strong>Ważne dla ratownika:</strong> <strong>schronisko PTTK na Polanie Chochołowskiej</strong> (1146 m), obok <strong>budynek TOPR</strong>. Liczne jaskinie (największa Szczelina Chochołowska), żadna nie jest udostępniona.</p>",
+   "neighbors": [
+    "Dolina Lejowa",
+    "Dolina Kościeliska",
+    "Dolina Rohacka",
+    "Dolina Łatana",
+    "Dolina Jamnicka",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywają się dwa przewężenia w dolnej części Doliny Chochołowskiej?",
+     "a": "Niżnia i Wyżnia Brama Chochołowska."
+    },
+    {
+     "q": "Na jakie trzy ramiona dzieli się górna część Doliny Chochołowskiej?",
+     "a": "Dolina Starorobociańska, Dolina Jarząbcza i Dolina Chochołowska Wyżnia."
+    },
+    {
+     "q": "Jaki potok płynie Doliną Chochołowską i jaką rzekę tworzy?",
+     "a": "Chochołowski Potok (dolny odcinek: Siwa Woda); w Roztokach łączy się z Kirową Wodą – to Czarny Dunajec."
+    },
+    {
+     "q": "Skąd wychodzi zielony szlak w Dolinie Chochołowskiej i ile trwa dojście do schroniska?",
+     "a": "Z Siwej Polany; ok. 2:10 h do schroniska na Polanie Chochołowskiej."
+    },
+    {
+     "q": "Kto jest właścicielem Doliny Chochołowskiej?",
+     "a": "Wspólnota Leśna Uprawnionych Ośmiu Wsi z Witowa (teren w TPN pod nadzorem parku)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-chocholowska-wyznia",
+   "name": "Dolina Chochołowska Wyżnia",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2183,
+   "lon": 19.7753,
+   "summary": "Zachodnie ramię górnej Doliny Chochołowskiej, zaczyna się tuż powyżej Polany Chochołowskiej i sięga pod Wołowiec.",
+   "html": "<p><strong>Położenie:</strong> zachodnie odgałęzienie górnej części Doliny Chochołowskiej. Zaczyna się nieco powyżej <strong>Polany Chochołowskiej</strong> i biegnie pod grań główną.</p> <p><strong>Budowa:</strong> dolna część porośnięta lasem świerkowym (zarastająca Polana Chochołowska Wyżnia). Górą – kocioł lodowcowy <strong>Dziurawe</strong>, otoczony stromymi zboczami <strong>Wołowca, Łopaty i Czerwonego Wierchu</strong> (300–350 m nad dnem). Od północy kocioł zamyka wzniesienie Kopa (1596 m).</p> <p><strong>Potok:</strong> spod progu wypływają źródła <strong>Wyżniego Chochołowskiego Potoku</strong> – uznawanego za <strong>źródłowy ciek Czarnego Dunajca</strong>.</p> <p><strong>Szlak:</strong> <strong>zielony</strong> (pierwszy szlak w Dolinie Chochołowskiej, 1901 r.) z Polany Chochołowskiej przez dolinę i kamienną kotlinę <strong>Szeroka Ulica</strong> na grzbiet między <strong>Rakoniem a Wołowcem</strong> (przełączka Zawracie), gdzie łączy się ze szlakiem niebieskim. Czas ok. 2:15–2:30 h, w dół 1:45–2 h. Wschodnie zbocza Rakonia nad doliną to <strong>Długi Upłaz</strong>.</p> <p><strong>Sąsiedztwo:</strong> przez Wołowiec i Łopatę – słowacka Dolina Jamnicka; przez grzbiet Rakoń–Wołowiec – Dolina Rohacka; przez grzbiet Czerwonego Wierchu – Dolina Jarząbcza.</p>",
+   "neighbors": [
+    "Dolina Jarząbcza",
+    "Dolina Rohacka",
+    "Dolina Jamnicka"
+   ],
+   "facts": [
+    {
+     "q": "Jaki kocioł lodowcowy tworzy górną część Doliny Chochołowskiej Wyżniej?",
+     "a": "Kocioł Dziurawe pod Wołowcem, Łopatą i Czerwonym Wierchem."
+    },
+    {
+     "q": "Który potok uznaje się za źródłowy ciek Czarnego Dunajca?",
+     "a": "Wyżni Chochołowski Potok, wypływający w Dolinie Chochołowskiej Wyżniej pod Wołowcem."
+    },
+    {
+     "q": "Dokąd prowadzi zielony szlak Doliną Chochołowską Wyżnią?",
+     "a": "Z Polany Chochołowskiej na grzbiet między Rakoniem a Wołowcem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-jarzabcza",
+   "name": "Dolina Jarząbcza",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2164,
+   "lon": 19.7914,
+   "summary": "Środkowa z trzech górnych odnóg Doliny Chochołowskiej, pod Jarząbczym Wierchem.",
+   "html": "<p><strong>Położenie:</strong> jedna z trzech odnóg górnej Doliny Chochołowskiej, wyrzeźbiona przez lodowiec.</p> <p><strong>Ograniczenie:</strong> górą grań główna: <strong>Łopata, Niska Przełęcz, Jarząbczy Wierch, Jarząbcza Przełęcz, Kończysty Wierch</strong>. Od zachodu grzbiet Czerwonego Wierchu (oddziela od Doliny Chochołowskiej Wyżniej), od wschodu północna grań Kończystego Wierchu i grzbiet Trzydniowiańskiego Wierchu (oddzielają od Doliny Starorobociańskiej i Trzydniowiańskiej).</p> <p><strong>Górna część:</strong> <strong>Jarząbcza Rówień</strong> – kocioł polodowcowy porośnięty kosówką.</p> <p><strong>Potok:</strong> <strong>Jarząbczy Potok</strong>; po połączeniu z Wyżnim Chochołowskim Potokiem tworzy <strong>Chochołowski Potok</strong>.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> z Polany Chochołowskiej przez Wyżnią Jarząbczą Polanę i Jarząbcze Szałasiska na <strong>Trzydniowiański Wierch</strong> (2:20–2:25 h, w dół ok. 1:55 h); <strong>Szlak Papieski</strong> (żółto-biały) biegnie razem z czerwonym do Doliny Jarząbczej (ok. 50–55 min) – upamiętnia wycieczkę Jana Pawła II z 23 czerwca 1983 r. (krzyż i tablica przy Jarząbczych Szałasiskach).</p> <p><strong>Historia:</strong> na Polanie Jarząbczej zastrzelono w 1897 r. Jaśka Stękałę, uważanego za ostatniego zbójnika tatrzańskiego.</p>",
+   "neighbors": [
+    "Dolina Chochołowska Wyżnia",
+    "Dolina Starorobociańska",
+    "Dolina Trzydniowiańska",
+    "Dolina Jamnicka"
+   ],
+   "facts": [
+    {
+     "q": "Jakie dwa potoki tworzą Chochołowski Potok?",
+     "a": "Jarząbczy Potok i Wyżni Chochołowski Potok."
+    },
+    {
+     "q": "Jaki szlak prowadzi Doliną Jarząbczą i dokąd?",
+     "a": "Czerwony – z Polany Chochołowskiej na Trzydniowiański Wierch (razem z nim Szlak Papieski do doliny)."
+    },
+    {
+     "q": "Jakie szczyty grani głównej zamykają Dolinę Jarząbczą?",
+     "a": "Łopata, Jarząbczy Wierch i Kończysty Wierch."
+    }
+   ]
+  },
+  {
+   "id": "dolina-starorobocianska",
+   "name": "Dolina Starorobociańska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2208,
+   "lon": 19.8183,
+   "summary": "Największe, orograficznie prawe (wschodnie) odgałęzienie Doliny Chochołowskiej, sięgające pod Kończysty Wierch i Siwy Zwornik.",
+   "html": "<p><strong>Położenie:</strong> największe, orograficznie prawe odgałęzienie Doliny Chochołowskiej (inna nazwa: Dolina Starej Roboty). Zaczyna się ok. 1035 m przy ujściu Starorobociańskiego Potoku do Chochołowskiego.</p> <p><strong>Ograniczenie:</strong> górą grań główna od <strong>Kończystego Wierchu do Siwego Zwornika</strong> (nad nią <strong>Starorobociański Wierch 2176 m</strong>). Od zachodu północna grań Kończystego, od wschodu północna grań Siwego Zwornika (Ornak).</p> <p><strong>Odnogi:</strong> <strong>Dolina Iwaniacka</strong>; dolina zawieszona <strong>Dudowa Kotlina</strong> z Dudowymi Stawkami (wodospad z Dudowych Turni). Kształt U, wały morenowe.</p> <p><strong>Potok:</strong> Starorobociański Potok → Chochołowski Potok.</p> <p><strong>Szlaki:</strong> <strong>czarny</strong> od leśniczówki w Dolinie Chochołowskiej przez Starorobociańską Polanę i Starorobociańską Rówień na <strong>Siwą Przełęcz</strong> (2:30 h, w dół 2 h); <strong>żółty</strong> – początkowo razem z czarnym, na Iwanówce odbija przez <strong>Iwaniacką Przełęcz</strong> do schroniska na <strong>Hali Ornak</strong> (2:20 h).</p> <p><strong>Zagrożenia:</strong> ze stromych, trawiastych zboczy Starorobociańskiego Wierchu schodzą zimą potężne lawiny.</p> <p><strong>Historia:</strong> nazwa od „starej roboty” – sztolni kopalni (już 1520 r.) w Banistym Żlebie na Ornaku.</p>",
+   "neighbors": [
+    "Dolina Jarząbcza",
+    "Dolina Kościeliska",
+    "Dolina Pyszniańska",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Który szlak prowadzi Doliną Starorobociańską na Siwą Przełęcz?",
+     "a": "Czarny, od leśniczówki w Dolinie Chochołowskiej."
+    },
+    {
+     "q": "Jak przejść z Doliny Chochołowskiej na Halę Ornak?",
+     "a": "Żółtym szlakiem przez Iwanówkę i Iwaniacką Przełęcz (ok. 2:20 h)."
+    },
+    {
+     "q": "Jaki szczyt góruje nad Doliną Starorobociańską?",
+     "a": "Starorobociański Wierch (2176 m) – najwyższy szczyt polskich Tatr Zachodnich."
+    },
+    {
+     "q": "Skąd pochodzi nazwa Doliny Starorobociańskiej?",
+     "a": "Od „starej roboty” – nieczynnych sztolni dawnej kopalni na zboczach Ornaku."
+    }
+   ]
+  },
+  {
+   "id": "dolina-trzydniowianska",
+   "name": "Dolina Trzydniowiańska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2294,
+   "lon": 19.7989,
+   "summary": "Boczna, niezlodowacona dolina Doliny Chochołowskiej między dwoma grzbietami Trzydniowiańskiego Wierchu; bez szlaku.",
+   "html": "<p><strong>Położenie:</strong> głęboko wcięta boczna odnoga Doliny Chochołowskiej między dwoma grzbietami <strong>Trzydniowiańskiego Wierchu (1758 m)</strong>: północnym (Kulawiec, Mały i Wielki Kopieniec) i północno-zachodnim (zakończonym wzniesieniem Ropa). Wysokość ok. 1100–1500 m.</p> <p><strong>Budowa:</strong> nie była zlodowacona. Dołem las, górą trawy zarastające kosodrzewiną (dawna Hala Trzydniówka).</p> <p><strong>Potok:</strong> <strong>Ptasiniec</strong> z jednym wodospadem; uchodzi do Chochołowskiego Potoku w rejonie Polany Chochołowskiej.</p> <p><strong>Szlaki:</strong> doliną <strong>nie prowadzi żaden szlak</strong>. W pobliżu, z polany <strong>Trzydniówka</strong> u jej wylotu, wychodzi <strong>czerwony szlak</strong> przez Krowiniec i Kulawiec na Trzydniowiański Wierch (ok. 2 h), dalej Doliną Jarząbczą na Polanę Chochołowską.</p> <p><strong>Nazwa:</strong> od polany Trzydniówka przy ujściu doliny.</p>",
+   "neighbors": [
+    "Dolina Jarząbcza",
+    "Dolina Starorobociańska"
+   ],
+   "facts": [
+    {
+     "q": "Jaki potok płynie Doliną Trzydniowiańską?",
+     "a": "Ptasiniec – uchodzi do Chochołowskiego Potoku."
+    },
+    {
+     "q": "Czy przez Dolinę Trzydniowiańską prowadzi szlak?",
+     "a": "Nie; czerwony szlak na Trzydniowiański Wierch biegnie grzbietem Kulawca z polany Trzydniówka."
+    }
+   ]
+  },
+  {
+   "id": "dolina-dudowa",
+   "name": "Dolina Dudowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2497,
+   "lon": 19.8242,
+   "summary": "Prawe odgałęzienie Doliny Chochołowskiej pod Kominiarskim Wierchem, z wąwozem Między Ściany i licznymi jaskiniami.",
+   "html": "<p><strong>Położenie:</strong> orograficznie prawe odgałęzienie Doliny Chochołowskiej. Wylot na wysokości 995 m przy <strong>Polanie pod Jaworki</strong>. Biegnie na SE pod Przełączkę pod Kufą (1476 m).</p> <p><strong>Ograniczenie:</strong> od południa masyw <strong>Kominiarskiego Wierchu (1829 m)</strong> z wapiennymi urwiskami Dudowych Spadów; od północy lesisty grzbiet z Wielkim i Małym Opalonym Wierchem.</p> <p><strong>Budowa:</strong> dolna część to wąwóz <strong>Między Ściany</strong> z progami do 4,5 m (okresowe wodospady); wyżej Wyżnia Dudowa Rówień. Nie była zlodowacona. Okresowy <strong>Międzyścienny Potok</strong> miejscami ginie pod ziemią.</p> <p><strong>Jaskinie:</strong> kilkanaście, m.in. Dudowa Studnia, Jaskinia Lodowa nad Kufą, Schroniska w Międzyścianach.</p> <p><strong>Szlaki:</strong> <strong>czarna Ścieżka nad Reglami</strong> przecina dno doliny blisko wylotu i przez <strong>Jamskie Siodło</strong> prowadzi do Doliny Huciańskiej, dalej do Lejowej i Kościeliskiej. Wąwóz Między Ściany i górna część doliny są <strong>zamknięte</strong> dla turystów.</p>",
+   "neighbors": [
+    "Dolina Lejowa",
+    "Dolina Starorobociańska"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywa się wąwóz w dolnej części Doliny Dudowej?",
+     "a": "Między Ściany."
+    },
+    {
+     "q": "Jaki szlak przecina Dolinę Dudową?",
+     "a": "Czarny – Ścieżka nad Reglami (przez Jamskie Siodło)."
+    },
+    {
+     "q": "Jaki masyw zamyka Dolinę Dudową od południa?",
+     "a": "Kominiarski Wierch (Dudowe Spady)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-dluga",
+   "name": "Dolina Długa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2592,
+   "lon": 19.8008,
+   "summary": "Zalesione, zachodnie odgałęzienie Doliny Chochołowskiej w paśmie reglowym, naprzeciw polany Huciska; zamknięte dla turystów.",
+   "html": "<p><strong>Położenie:</strong> boczne, zachodnie odgałęzienie Doliny Chochołowskiej w paśmie reglowym. Wylot naprzeciw polany <strong>Huciska</strong>, po drugiej stronie Chochołowskiego Potoku.</p> <p><strong>Przebieg:</strong> kręta dolina sięga pod Furkaskę (1491 m), Przełęcz pod Furkaską i Parzątczak (1486 m) w <strong>granicznym polsko-słowackim grzbiecie</strong> schodzącym od Bobrowca na północ. Od sąsiedniej Doliny Krytej oddziela ją grzbiet Pośrednie.</p> <p><strong>Woda:</strong> dnem spływa okresowy potok.</p> <p><strong>Polany:</strong> Długa Polana u wylotu (niewidoczna z drogi), wyżej Przysłop pod Furkaską i Jaworzyna pod Furkaską (dawna Hala Jaworzyna).</p> <p><strong>Dostępność:</strong> własność Wspólnoty Leśnej Uprawnionych Ośmiu Wsi, <strong>wyłączona z ruchu turystycznego</strong> – brak szlaków.</p>",
+   "neighbors": [
+    "Dolina Kryta",
+    "Dolina Chochołowska"
+   ],
+   "facts": [
+    {
+     "q": "Z którego miejsca w Dolinie Chochołowskiej widać wylot Doliny Długiej?",
+     "a": "Naprzeciw polany Huciska."
+    },
+    {
+     "q": "Pod jaki grzbiet podchodzi Dolina Długa?",
+     "a": "Pod graniczny grzbiet schodzący od Bobrowca na północ (Furkaska, Parzątczak)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-lejowa",
+   "name": "Dolina Lejowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2611,
+   "lon": 19.8483,
+   "summary": "Kręta dolina reglowa (ok. 4,5 km) między Doliną Chochołowską a Kościeliską, opadająca spod Kominiarskiego Wierchu.",
+   "html": "<p><strong>Położenie:</strong> dolina reglowa między Doliną Kościeliską a Chochołowską; środkowa odnoga doliny Czarnego Dunajca. Długość ok. 4,5 km.</p> <p><strong>Wylot:</strong> na północ, do polany <strong>Biały Potok</strong> (ok. 930 m), przy zielonym szlaku Kiry – Siwa Polana. Dolinę otwiera wapienna skała <strong>Między Ściany</strong>.</p> <p><strong>Ograniczenie:</strong> od wschodu Kościeliskie Kopki i Suchy Wierch (1428 m); od zachodu Cisowa Turnia, Rosochy, Wierch Kuca, Spalenisko, Mały i Wielki Opalony Wierch, Kufa. Górą – <strong>Kominiarski Wierch (1829 m)</strong>. Brak bocznych dolin, tylko żleby Zabijak i Tylkowy Żleb.</p> <p><strong>Potok:</strong> <strong>Lejowy Potok</strong> → Kirowa Woda.</p> <p><strong>Polany:</strong> Lejówki, Jaworzyna Lejowa, Polana Kuca, Huty Lejowe, <strong>Niżnia Polana Kominiarska</strong>, Przysłop Kominiarski (wypas kulturowy).</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> dnem doliny z polany Biały Potok na Niżnią Polanę Kominiarską (1:10 h); <strong>czarna Ścieżka nad Reglami</strong> z Cudakowej Polany (Dol. Kościeliska) przez Przysłop Kominiarski, Niżnią Kominiarską Polanę i Kominiarską Przełęcz do Doliny Chochołowskiej.</p> <p><strong>Uwagi:</strong> własność Wspólnoty Ośmiu Wsi; kilkanaście jaskiń. Szlaki były zamknięte po orkanie „Ksawery” (2013–2016).</p>",
+   "neighbors": [
+    "Dolina Kościeliska",
+    "Dolina Chochołowska",
+    "Dolina Dudowa"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie znajduje się wylot Doliny Lejowej?",
+     "a": "Na polanie Biały Potok, przy szlaku z Kir na Siwą Polanę."
+    },
+    {
+     "q": "Do jakiego cieku uchodzi Lejowy Potok?",
+     "a": "Do Kirowej Wody (dolnego biegu Kościeliskiego Potoku)."
+    },
+    {
+     "q": "Jaki szlak prowadzi dnem Doliny Lejowej?",
+     "a": "Żółty – z polany Biały Potok na Niżnią Polanę Kominiarską."
+    },
+    {
+     "q": "Pod jaki szczyt podchodzi Dolina Lejowa?",
+     "a": "Pod Kominiarski Wierch (1829 m)."
+    }
+   ]
+  },
+  {
+   "id": "polana-chocholowska",
+   "name": "Polana Chochołowska",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2372,
+   "lon": 19.7936,
+   "summary": "Największa polana polskich Tatr (1090–1150 m) w Dolinie Chochołowskiej – ze schroniskiem PTTK i budynkiem TOPR.",
+   "html": "<p><strong>Położenie:</strong> górna część Doliny Chochołowskiej, 1090–1150 m. <strong>Największa polana w polskich Tatrach.</strong> Własność Wspólnoty Leśnej Uprawnionych Ośmiu Wsi.</p> <p><strong>Obiekty:</strong> w górnej (zachodniej) części <strong>schronisko PTTK na Polanie Chochołowskiej</strong> (1146 m) – główna baza w Tatry Zachodnie. Obok <strong>stacja meteorologiczna i budynek TOPR</strong>. Kaplica św. Jana Chrzciciela, bufet, szałasy, wypas kulturowy, zimą wyciąg. Wiosną słynie z krokusów.</p> <p><strong>Dojście:</strong> <strong>zielony</strong> z Siwej Polany przez Huciska (2:10 h, w dół 1:45 h).</p> <p><strong>Szlaki z polany:</strong> <strong>zielony</strong> Doliną Chochołowską Wyżnią na grzbiet Rakoń–Wołowiec (2:15 h); <strong>żółty</strong> Bobrowieckim Żlebem na <strong>Grzesia</strong> (1:30 h); <strong>czerwony</strong> przez Wyżnią Jarząbczą Polanę na Trzydniowiański Wierch (2:20 h); żółto-biały <strong>Szlak Papieski</strong> do Doliny Jarząbczej.</p> <p><strong>Widoki:</strong> Grześ, Wołowiec, Jarząbczy Wierch, Bobrowiec, Kominiarski Wierch, Chochołowskie Mnichy.</p>",
+   "neighbors": [
+    "Dolina Chochołowska Wyżnia",
+    "Dolina Jarząbcza"
+   ],
+   "facts": [
+    {
+     "q": "Jaka jest największa polana w polskich Tatrach?",
+     "a": "Polana Chochołowska."
+    },
+    {
+     "q": "Jakim szlakiem dojść z Polany Chochołowskiej na Grzesia?",
+     "a": "Żółtym, Bobrowieckim Żlebem (ok. 1:30 h)."
+    },
+    {
+     "q": "Jakie obiekty ratownicze są przy schronisku na Polanie Chochołowskiej?",
+     "a": "Budynek TOPR (obok też stacja meteorologiczna)."
+    }
+   ]
+  },
+  {
+   "id": "siwa-polana",
+   "name": "Siwa Polana",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": "dolina-chocholowska",
+   "lat": 49.2792,
+   "lon": 19.8383,
+   "summary": "Polana u wylotu Doliny Chochołowskiej (910–935 m) – parking i punkt startowy do Chochołowskiej.",
+   "html": "<p><strong>Położenie:</strong> śródleśna polana u wylotu <strong>Doliny Chochołowskiej</strong>, 910–935 m, w Rowie Kościeliskim. Ok. 1 km od skrzyżowania w <strong>Roztokach</strong> na drodze Zakopane – Witów – Czarny Dunajec.</p> <p><strong>Funkcja:</strong> płatny parking; dalej Dolina Chochołowska jest zamknięta dla aut. Stąd kolejka turystyczna do polany Huciska.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> z <strong>Kir</strong> (obok wylotu Doliny Lejowej) na Siwą Polanę – 50 min (przedłużenie Drogi pod Reglami); dalej <strong>zielony</strong> dnem Doliny Chochołowskiej do schroniska (ok. 1:55–2:10 h, w dół 1:30–1:45 h).</p>",
+   "neighbors": [
+    "Dolina Chochołowska",
+    "Dolina Lejowa"
+   ],
+   "facts": [
+    {
+     "q": "Skąd startuje się do Doliny Chochołowskiej samochodem?",
+     "a": "Z Siwej Polany (parking), ok. 1 km od Roztok."
+    },
+    {
+     "q": "Ile trwa przejście zielonym szlakiem z Kir na Siwą Polanę?",
+     "a": "Ok. 50 min."
+    }
+   ]
+  },
+  {
+   "id": "dolina-koscieliska",
+   "name": "Dolina Kościeliska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2539,
+   "lon": 19.8669,
+   "summary": "Druga co do wielkości dolina polskich Tatr (ok. 9 km, ok. 35 km²) – dolina walna z wąwozem, bramami i jaskiniami; wylot w Kirach.",
+   "html": "<p><strong>Położenie:</strong> dolina walna Tatr Zachodnich, orograficznie prawa odnoga doliny Czarnego Dunajca. Długość ok. 9 km, ok. 35 km².</p> <p><strong>Wylot:</strong> w <strong>Kirach</strong> (Kościelisko), ok. 927 m – parkingi, busy z Zakopanego. Zakaz wjazdu aut i rowerów; dorożki (lato) i sanie (zima).</p> <p><strong>Ograniczenie:</strong> od zachodu północna grań Siwego Zwornika (Ornak), od południa grań główna od Siwego Zwornika po Małołączniak, od wschodu północno-zachodnia grań Małołączniaka. Najwyższy punkt otoczenia: <strong>Błyszcz (2159 m)</strong>.</p> <p><strong>Odnogi:</strong> <strong>Dolina Miętusia</strong> (największa), <strong>Dolina Tomanowa</strong>, <strong>Dolina Pyszniańska</strong> (górna część), oraz m.in. Wąwóz Kraków, Dolina Smytnia, Dolinka Iwanowska.</p> <p><strong>Bramy:</strong> Niżnia (<strong>Brama Kantaka</strong>), Pośrednia (<strong>Brama Kraszewskiego</strong>), Wyżnia (<strong>Brama Raptawicka</strong>).</p> <p><strong>Potok:</strong> <strong>Kościeliski Potok</strong> (źródłowy: Pyszniański), od ujścia Miętusiego – <strong>Kirowa Woda</strong> → Czarny Dunajec.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> dnem doliny Kiry – schronisko na Hali Ornak (5,5 km, ok. 1:35 h). Od niego: przy wylocie Miętusiej <strong>czerwony</strong> na Ciemniak (przez Upłaz, Chudą Przełączkę) i <strong>czarny</strong> (Ścieżka nad Reglami) do Doliny Małej Łąki; dalej <strong>czarny</strong> przez Przysłop Kominiarski do Chochołowskiej; <strong>niebieski</strong> spod Bramy Kraszewskiego na Halę Stoły; <strong>czarny</strong> jednokierunkowy do <strong>Jaskini Mroźnej</strong>; <strong>żółty</strong> do Wąwozu Kraków (Smocza Jama); <strong>czarny</strong> do Jaskini Raptawickiej; <strong>czerwony</strong> do Obłazkowej i <strong>Jaskini Mylnej</strong>; <strong>czarny</strong> do Smreczyńskiego Stawu; <strong>zielony</strong> Doliną Tomanową na Ciemniak; ze schroniska <strong>żółty</strong> przez Iwaniacką Przełęcz do Chochołowskiej.</p> <p><strong>Dla ratownika:</strong> jedno z najbardziej zatłoczonych miejsc w Tatrach; liczne jaskinie z jednokierunkowymi trasami.</p>",
+   "neighbors": [
+    "Dolina Chochołowska",
+    "Dolina Lejowa",
+    "Dolina Małej Łąki",
+    "Dolina Kamienista",
+    "Dolina Cicha Liptowska",
+    "Dolina Tomanowa Liptowska",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywają się trzy bramy Doliny Kościeliskiej?",
+     "a": "Brama Kantaka (Niżnia), Brama Kraszewskiego (Pośrednia), Brama Raptawicka (Wyżnia)."
+    },
+    {
+     "q": "Gdzie jest wylot Doliny Kościeliskiej?",
+     "a": "W Kirach (Kościelisko), ok. 927 m."
+    },
+    {
+     "q": "Jak zmienia nazwę Kościeliski Potok?",
+     "a": "Poniżej ujścia Miętusiego Potoku nazywa się Kirową Wodą; w Roztokach z Siwą Wodą tworzy Czarny Dunajec."
+    },
+    {
+     "q": "Jakie są trzy największe odnogi Doliny Kościeliskiej?",
+     "a": "Dolina Miętusia, Dolina Tomanowa i Dolina Pyszniańska."
+    },
+    {
+     "q": "Jak dojść do Jaskini Mroźnej?",
+     "a": "Czarnym, jednokierunkowym szlakiem z końca polany Stare Kościeliska; wyjście schodzi w okolicę Sowy."
+    }
+   ]
+  },
+  {
+   "id": "dolina-mietusia",
+   "name": "Dolina Miętusia",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-koscieliska",
+   "lat": 49.2558,
+   "lon": 19.8939,
+   "summary": "Największa boczna odnoga Doliny Kościeliskiej (ok. 6 km², 4,5 km) pod Czerwonymi Wierchami, z trzema piętrami lodowcowymi.",
+   "html": "<p><strong>Położenie:</strong> największa boczna odnoga Doliny Kościeliskiej. Łączy się z nią na 947 m, powyżej <strong>Wyżniej Kiry Miętusiej</strong>.</p> <p><strong>Ograniczenie:</strong> NW grań <strong>Ciemniaka</strong>, grań główna od <strong>Ciemniaka do Małołączniaka</strong> (Czerwone Wierchy) i NW grań Małołączniaka (Czerwony Gronik, Kończysta Turnia).</p> <p><strong>Piętra:</strong> 1) Niżnia i Wyżnia Miętusia Rówień; 2) kocioł <strong>Wielka Świstówka</strong>; 3) dwie wiszące dolinki <strong>Litworowa i Mułowa</strong>. Żleby m.in. Kobylarzowy Żleb, Wodniściak, Mała Świstówka, Krowi Żleb.</p> <p><strong>Potok:</strong> <strong>Miętusi Potok</strong> z Miętusiego Wywierzyska (ok. 1145 m) → Kościeliski Potok. Górne piętra prawie bezwodne.</p> <p><strong>Szlaki:</strong> <strong>czarny</strong> (Ścieżka nad Reglami) dolną częścią – z Przysłopu Miętusiego do Doliny Kościeliskiej (40 min); <strong>niebieski</strong> („hawiarska droga”) z Gronika przez Przysłop Miętusi i Czerwony Grzbiet na <strong>Małołączniak</strong> (z przełęczy 3 h).</p>",
+   "neighbors": [
+    "Dolina Kościeliska",
+    "Dolina Małej Łąki",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Jakie dwie dolinki tworzą najwyższe piętro Doliny Miętusiej?",
+     "a": "Dolina Litworowa i Dolina Mułowa."
+    },
+    {
+     "q": "Jak nazywa się kocioł lodowcowy w środkowym piętrze Doliny Miętusiej?",
+     "a": "Wielka Świstówka."
+    },
+    {
+     "q": "Jakim szlakiem wejść z Gronika na Małołączniak?",
+     "a": "Niebieskim przez Przysłop Miętusi i Czerwony Grzbiet."
+    }
+   ]
+  },
+  {
+   "id": "dolina-litworowa-tz",
+   "name": "Dolina Litworowa (Tatry Zachodnie)",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-mietusia",
+   "lat": 49.24,
+   "lon": 19.9111,
+   "summary": "Wisząca dolinka – górne piętro Doliny Miętusiej pod Małołączniakiem i Krzesanicą; bez szlaków.",
+   "html": "<p><strong>Położenie:</strong> jedna z dwóch „siostrzanych” wiszących dolinek tworzących górne piętro <strong>Doliny Miętusiej</strong> (druga to Mułowa).</p> <p><strong>Ograniczenie:</strong> od wschodu <strong>Czerwony Grzbiet Małołączniaka</strong>, od zachodu Kozi Grzbiet, Machajówka i Mułowy Grzbiet, od południa grań główna między Małołączniakiem a Krzesanicą.</p> <p><strong>Budowa:</strong> Litworowy Kocioł (pod granią, za moreną), Litworowa Rówień, <strong>Litworowy Próg</strong> (~150 m) opadający do Wielkiej Świstówki. Powstała przez tektonikę i lodowiec, wymodelowana przez kras.</p> <p><strong>Szlaki:</strong> brak znakowanych szlaków.</p> <p><strong>Uwaga:</strong> nie mylić z <strong>Doliną Litworową w Tatrach Wysokich</strong> (Słowacja, system Doliny Białej Wody).</p>",
+   "neighbors": [
+    "Dolina Mułowa",
+    "Dolina Małej Łąki",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Do jakiego kotła opada Litworowy Próg?",
+     "a": "Do Wielkiej Świstówki w Dolinie Miętusiej."
+    },
+    {
+     "q": "Ile jest Dolin Litworowych w Tatrach?",
+     "a": "Dwie: w polskich Tatrach Zachodnich (Dolina Miętusia) i w słowackich Tatrach Wysokich (Dolina Białej Wody)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-mulowa",
+   "name": "Dolina Mułowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-mietusia",
+   "lat": 49.2375,
+   "lon": 19.9047,
+   "summary": "Wisząca dolinka (ok. 600 × 300 m) – górne piętro Doliny Miętusiej pod Ciemniakiem i Krzesanicą.",
+   "html": "<p><strong>Położenie:</strong> druga z „siostrzanych” dolinek górnego piętra <strong>Doliny Miętusiej</strong>; ok. 1720–1900 m.</p> <p><strong>Ograniczenie:</strong> od wschodu Kozi Grzbiet, Machajówka, Ratusz Mułowy; od południa ściany <strong>Krzesanicy i Ciemniaka</strong>; od zachodu Twardy Grzbiet po Twardą Kopę.</p> <p><strong>Budowa:</strong> Mułowy Kocioł za moreną, Płaśń pod Moreną i <strong>Mułowy Próg</strong> – pionowe ściany ok. 250 m nad Wielką Świstówką. Dno suche, pokryte głazami i mułem (stąd nazwa).</p> <p><strong>Szlaki:</strong> brak; odwiedzana bardzo rzadko. Kruche wapienie i dolomity.</p>",
+   "neighbors": [
+    "Dolina Litworowa (Tatry Zachodnie)",
+    "Dolina Tomanowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaki próg oddziela Dolinę Mułową od Wielkiej Świstówki?",
+     "a": "Mułowy Próg – ściany ok. 250 m."
+    },
+    {
+     "q": "Pod jakimi szczytami leży Dolina Mułowa?",
+     "a": "Pod Krzesanicą i Ciemniakiem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-tomanowa",
+   "name": "Dolina Tomanowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-koscieliska",
+   "lat": 49.2247,
+   "lon": 19.8747,
+   "summary": "Górne, wschodnie odgałęzienie Doliny Kościeliskiej pod Tomanową Przełęczą i Ciemniakiem.",
+   "html": "<p><strong>Położenie:</strong> górne, wschodnie odgałęzienie <strong>Doliny Kościeliskiej</strong>. Uchodzi do niej przy <strong>Polanie Smytniej</strong>.</p> <p><strong>Ograniczenie:</strong> grań główna od <strong>Ciemniaka</strong> przez Tomanowe Stoły, <strong>Tomanową Przełęcz</strong> i Tomanowy Wierch Polski po Smreczyński Wierch; od północy Tomanowy Grzbiet; od zachodu Skrajny Smreczyński Grzbiet (oddziela od Doliny Pyszniańskiej).</p> <p><strong>Odnogi:</strong> od południa Dolina Sucha Tomanowa, Zadnia i Skrajna Sucha Dolina Smreczyńska; od północy żleby, największy <strong>Czerwony Żleb</strong>. Dolina opada spod przełęczy <strong>Kamienistym Żlebem</strong>.</p> <p><strong>Potok:</strong> Tomanowy Potok → Kościeliski Potok.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> ze schroniska na Hali Ornak, skręca na Rozdrożu w Tomanowej i przez Czerwony Żleb, Tomanowy i Wysoki Grzbiet wiedzie na <strong>Chudą Przełączkę i Ciemniak</strong> (ok. 1:30 + 1:30 h).</p> <p><strong>Zamknięte:</strong> <strong>czerwony</strong> szlak Kamienistym Żlebem na Tomanową Przełęcz zamknięto <strong>22 maja 2009</strong>; słowacki czerwony z przełęczy do Doliny Cichej – w czerwcu 2008.</p> <p><strong>Przełęcz:</strong> Tomanowa Przełęcz (1685 m) – druga najniższa w grani głównej; dawny szlak handlowy i kurierski; po drugiej stronie <strong>Dolina Tomanowa Liptowska</strong>.</p>",
+   "neighbors": [
+    "Dolina Pyszniańska",
+    "Dolina Miętusia",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Który szlak prowadzi przez Dolinę Tomanową?",
+     "a": "Zielony – z Hali Ornak przez Czerwony Żleb na Chudą Przełączkę i Ciemniak."
+    },
+    {
+     "q": "Kiedy zamknięto szlak na Tomanową Przełęcz?",
+     "a": "22 maja 2009 r. (czerwony szlak Kamienistym Żlebem)."
+    },
+    {
+     "q": "Jaka dolina leży po słowackiej stronie Tomanowej Przełęczy?",
+     "a": "Dolina Tomanowa Liptowska (odgałęzienie Doliny Cichej)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-pysznianska",
+   "name": "Dolina Pyszniańska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-koscieliska",
+   "lat": 49.2114,
+   "lon": 19.8547,
+   "summary": "Górna część Doliny Kościeliskiej (Pyszna Dolina) pod Błyszczem i Kamienistą, ze Smreczyńskim Stawem i Halą Ornak.",
+   "html": "<p><strong>Położenie:</strong> <strong>górna część</strong> walnej Doliny Kościeliskiej (zwana też Pyszną Doliną). Schronisko na Hali Ornak leży już formalnie na jej obszarze.</p> <p><strong>Ograniczenie:</strong> od południa grań główna: Smreczyński Wierch, <strong>Kamienista, Błyszcz</strong>, Liliowe Turnie, <strong>Siwy Zwornik</strong>; od zachodu <strong>Ornak</strong> (zbocza 500–700 m); od wschodu Skrajny Smreczyński Grzbiet (Dolina Tomanowa).</p> <p><strong>Odnogi i formy:</strong> Jaferowy Żleb, Babie Nogi, Ornaczański Żleb; pod Siwą Przełęczą kocioł <strong>Siwa Kotlinka</strong> z Siwymi Stawkami.</p> <p><strong>Stawy:</strong> <strong>Smreczyński Staw</strong> (1226 m, ok. 0,75 ha, do 5,3 m) – <strong>największy staw polskich Tatr Zachodnich</strong>; dojście czarnym szlakiem spod schroniska (ok. 30 min), przez rezerwat ścisły.</p> <p><strong>Potok:</strong> <strong>Pyszniański Potok</strong> (spod Kamienistej) + Tomanowy Potok = Kościeliski Potok.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> z Iwaniackiej Przełęczy przez Ornak i Siwą Przełęcz na <strong>Liliowy Karb</strong> (widok na dawną Halę Pyszną). Hala Pyszna to obszar ochrony ścisłej, niedostępny.</p> <p><strong>Sąsiedztwo przez grań:</strong> Dolina Kamienista (SK) – przez Pyszniańską Przełęcz; Dolina Raczkowa (Gaborowa) – przez Liliowy Karb.</p>",
+   "neighbors": [
+    "Dolina Tomanowa",
+    "Dolina Starorobociańska",
+    "Dolina Kamienista",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaki jest największy staw polskich Tatr Zachodnich?",
+     "a": "Smreczyński Staw (1226 m) u wylotu Doliny Pyszniańskiej."
+    },
+    {
+     "q": "Jakie dwa potoki tworzą Kościeliski Potok?",
+     "a": "Pyszniański Potok i Tomanowy Potok."
+    },
+    {
+     "q": "Dokąd prowadzi zielony szlak przez Ornak?",
+     "a": "Z Iwaniackiej Przełęczy przez Ornak i Siwą Przełęcz na Liliowy Karb."
+    },
+    {
+     "q": "Czy Dolina Pyszniańska to boczna odnoga?",
+     "a": "Nie – to górna część Doliny Kościeliskiej (Pyszna Dolina)."
+    }
+   ]
+  },
+  {
+   "id": "hala-ornak",
+   "name": "Hala Ornak",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-pysznianska",
+   "lat": 49.2241,
+   "lon": 19.8563,
+   "summary": "Dawna hala w dolnej części Doliny Pyszniańskiej; na Małej Polance Ornaczańskiej stoi schronisko PTTK (1100 m).",
+   "html": "<p><strong>Położenie:</strong> dawna hala pasterska w dolnej części Doliny Pyszniańskiej i na wschodnich zboczach <strong>Ornaku</strong>.</p> <p><strong>Schronisko:</strong> <strong>schronisko PTTK na Hali Ornak</strong>, 1100 m, na Małej Polance Ornaczańskiej – 5,5 km od Kir, ok. 1:35 h <strong>zielonym</strong> szlakiem.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> – od schroniska Dolinką Iwanowską na <strong>Iwaniacką Przełęcz</strong> (1:15 h), w dół Doliną Iwaniacką do Doliny Chochołowskiej; <strong>zielony</strong> z Iwaniackiej Przełęczy przez grzbiet Ornaku i Siwą Przełęcz na Liliowy Karb (2:20 h); <strong>zielony</strong> Doliną Tomanową na Ciemniak; <strong>czarny</strong> do Smreczyńskiego Stawu.</p>",
+   "neighbors": [
+    "Dolina Kościeliska",
+    "Dolina Pyszniańska",
+    "Dolina Chochołowska"
+   ],
+   "facts": [
+    {
+     "q": "Na jakiej wysokości jest schronisko na Hali Ornak?",
+     "a": "1100 m n.p.m."
+    },
+    {
+     "q": "Jak przejść z Hali Ornak do Doliny Chochołowskiej?",
+     "a": "Żółtym szlakiem przez Iwaniacką Przełęcz (1461 m)."
+    }
+   ]
+  },
+  {
+   "id": "hala-stoly",
+   "name": "Hala Stoły",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-koscieliska",
+   "lat": 49.245,
+   "lon": 19.862,
+   "summary": "Wysokogórska hala na wapiennym masywie Stołów nad Doliną Kościeliską (ok. 1340 m), z zabytkowymi szałasami.",
+   "html": "<p><strong>Położenie:</strong> hala na niewielkim wapiennym masywie <strong>Stołów</strong> nad Doliną Kościeliską, średnio ok. 1340 m. Składała się z Niżniej i Wyżniej Polany na Stołach. Bez wody.</p> <p><strong>Obiekty:</strong> na Wyżniej Polanie trzy zabytkowe szałasy z „wiaternicami” na dachach.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> z Doliny Kościeliskiej – wejście przy <strong>Bramie Kraszewskiego</strong>, naprzeciw Lodowego Źródła; 2 km, +460 m, 1:10 h (w dół 55 min). To <strong>pierwszy znakowany szlak w Tatrach Zachodnich</strong> (1892, Mieczysław Karłowicz). Ścieżka na Suchy Wierch jest zamknięta.</p> <p><strong>Widoki:</strong> Hruby Regiel, Czerwone Wierchy, Giewont.</p>",
+   "neighbors": [
+    "Dolina Kościeliska",
+    "Dolina Lejowa"
+   ],
+   "facts": [
+    {
+     "q": "Skąd zaczyna się niebieski szlak na Halę Stoły?",
+     "a": "Z Doliny Kościeliskiej przy Bramie Kraszewskiego, naprzeciw Lodowego Źródła."
+    },
+    {
+     "q": "Kto wyznakował szlak na Halę Stoły?",
+     "a": "Mieczysław Karłowicz w 1892 r. – pierwszy znakowany szlak w Tatrach Zachodnich."
+    }
+   ]
+  },
+  {
+   "id": "dolina-malej-laki",
+   "name": "Dolina Małej Łąki",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2589,
+   "lon": 19.905,
+   "summary": "Najmniejsza z dolin walnych Tatr (5,4 km, ok. 5,7 km²) między Doliną Kościeliską a Bystrej, z Wielką Polaną.",
+   "html": "<p><strong>Położenie:</strong> dolina walna Tatr Zachodnich między Doliną Kościeliską a Doliną Bystrej. Długość 5,4 km, ok. 5,7 km² – <strong>najmniejsza dolina walna</strong>.</p> <p><strong>Wylot:</strong> ok. 930 m, po wschodniej stronie <strong>Gronika</strong> (przy Drodze pod Reglami).</p> <p><strong>Ograniczenie:</strong> górą grań Czerwonych Wierchów od <strong>Kopy Kondrackiej do Małołączniaka</strong>. Prawe (wschodnie) – północna grań Kopy Kondrackiej po <strong>Giewont</strong>, Mały Giewont, Grzybowiec, Łysanki. Lewe – Czerwony Grzbiet Małołączniaka, <strong>Wielka Turnia</strong>, Skoruśniak, Hruby Regiel.</p> <p><strong>Piętra:</strong> dolna część, <strong>Wielka Polana (Małołącka)</strong>, Wyżnie, Niżnia i Wyżnia Świstówka. Brak bocznych dolin – tylko żleby (m.in. <strong>Głazisty Żleb</strong>, Dolinka pod Grzybowiec).</p> <p><strong>Szlaki:</strong> <strong>czarny</strong> (Ścieżka nad Reglami): Polana Strążyska – Przełęcz w Grzybowcu – Wielka Polana – Przysłop Miętusi – Dolina Kościeliska; <strong>żółty</strong>: Gronik – Wielka Polana – Głazisty Żleb – <strong>Kondracka Przełęcz</strong> – Kopa Kondracka (z polany 2:35 h); <strong>żółty, potem niebieski</strong>: Gronik – Wielka Polana – Przysłop Miętusi – Małołączniak.</p> <p><strong>Ochrona:</strong> obszar ochrony ścisłej „Wantule, Wyżnie, Mała Łąka” – od 1982 r. zakaz wspinaczki (Wielka Turnia).</p>",
+   "neighbors": [
+    "Dolina Kościeliska",
+    "Dolina Miętusia",
+    "Dolina Bystrej",
+    "Dolina Kondratowa",
+    "Dolina za Bramką",
+    "Dolina Strążyska",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Która dolina walna Tatr jest najmniejsza?",
+     "a": "Dolina Małej Łąki (ok. 5,7 km²)."
+    },
+    {
+     "q": "Jak nazywa się polana w Dolinie Małej Łąki, przez którą biegnie Ścieżka nad Reglami?",
+     "a": "Wielka Polana (Małołącka)."
+    },
+    {
+     "q": "Którędy żółty szlak z Gronika prowadzi na Kopę Kondracką?",
+     "a": "Przez Wielką Polanę, Głazisty Żleb i Kondracką Przełęcz."
+    },
+    {
+     "q": "Gdzie jest wylot Doliny Małej Łąki?",
+     "a": "Na Groniku, ok. 930 m, przy Drodze pod Reglami."
+    }
+   ]
+  },
+  {
+   "id": "dolina-za-bramka",
+   "name": "Dolina za Bramką",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2714,
+   "lon": 19.9169,
+   "summary": "Mała dolina reglowa (ok. 100 ha, <2 km) w północnych stokach Łysanek, między Doliną Strążyską a Doliną Małej Łąki.",
+   "html": "<p><strong>Położenie:</strong> dolina reglowa między <strong>Doliną Strążyską a Doliną Małej Łąki</strong>; środkowa i największa z trzech dolin w północnych stokach <strong>Łysanek</strong> (obok Suchego Żlebu i Małego Żlebka).</p> <p><strong>Wylot:</strong> ok. 920 m, do Rowu Zakopiańskiego, nad osiedlem Stare Krzeptówki, przy Drodze pod Reglami. Naprzeciw wylotu – <strong>Chałupa Sabały</strong>.</p> <p><strong>Budowa:</strong> ok. 100 ha, niecałe 2 km; wapienie i dolomity. Górą rozwidla się na Dolinkę spod Jatek i Dolinkę spod Łysanek. Skałki Jasiowe Turnie. „Bramkę” (skalne zwężenie) zburzono w 1875 r. przy poszerzaniu drogi.</p> <p><strong>Potok:</strong> Potok zza Bramki (małe kaskady). Trzy jaskinie.</p> <p><strong>Szlak:</strong> <strong>zielony</strong> od Drogi pod Reglami, kończy się ślepo w miejscu rozwidlenia doliny (25 min, w dół 20 min). Reszta doliny – obszar ochrony ścisłej „Regle Zakopiańskie”.</p>",
+   "neighbors": [
+    "Dolina Strążyska",
+    "Dolina Małej Łąki"
+   ],
+   "facts": [
+    {
+     "q": "Jaki szlak prowadzi Doliną za Bramką?",
+     "a": "Zielony, krótki, ślepo zakończony w miejscu rozwidlenia doliny."
+    },
+    {
+     "q": "Co znajduje się naprzeciwko wylotu Doliny za Bramką?",
+     "a": "Zabytkowa Chałupa Sabały."
+    }
+   ]
+  },
+  {
+   "id": "dolina-strazyska",
+   "name": "Dolina Strążyska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2703,
+   "lon": 19.9325,
+   "summary": "Popularna dolina reglowa (ok. 3 km, ok. 4 km²) prowadząca pod północną ścianę Giewontu; wylot przy ul. Strążyskiej w Zakopanem.",
+   "html": "<p><strong>Położenie:</strong> dolina reglowa między <strong>Doliną ku Dziurze a Doliną za Bramką</strong>; poprawna nazwa: Dolina Strążysk.</p> <p><strong>Wylot:</strong> ok. 900 m przy Drodze pod Reglami, na przedłużeniu <strong>ul. Strążyskiej</strong> (parking, busy). 0,5 km dalej polana Młyniska z leśniczówką TPN.</p> <p><strong>Ograniczenie:</strong> od południa ściany <strong>Giewontu</strong>; od zachodu Grzybowiec i Łysanki; od wschodu filar od Długiego Giewontu, Suchy Wierch, <strong>Sarnia Skała</strong>, Grześkówki. Górą grzbiet Styrżnika dzieli ją na Dolinę Wielkiej Równi i Małą Dolinkę.</p> <p><strong>Odnogi:</strong> <strong>Dolina Grzybowiecka</strong>, Samkowy, Koński i Sarni Żleb.</p> <p><strong>Potok:</strong> Strążyski Potok (wodospad <strong>Siklawica</strong>, 23 m) → potok Młyniska.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> Zakopane – <strong>Polana Strążyska</strong> (40 min) – Przełęcz w Grzybowcu – Grzybowiec – Wyżnia Kondracka Przełęcz pod <strong>Giewontem</strong> (z polany 2:35 h); <strong>żółty</strong> do Siklawicy (15 min); <strong>czarny</strong> (Ścieżka nad Reglami) z Kuźnic przez Czerwoną Przełęcz na Polanę Strążyską i dalej do Doliny Małej Łąki.</p> <p><strong>Dla ratownika:</strong> ok. 6–9% ruchu w TPN; na Polanie Strążyskiej <strong>punkt TOPR</strong>.</p>",
+   "neighbors": [
+    "Dolina za Bramką",
+    "Dolina ku Dziurze",
+    "Dolina Białego",
+    "Dolina Małej Łąki",
+    "Dolina Kondratowa"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywa się wodospad w Dolinie Strążyskiej?",
+     "a": "Siklawica (ok. 23 m); dojście żółtym szlakiem z Polany Strążyskiej."
+    },
+    {
+     "q": "Którym szlakiem z Doliny Strążyskiej wejść na Giewont?",
+     "a": "Czerwonym przez Przełęcz w Grzybowcu i Grzybowiec na Wyżnią Kondracką Przełęcz."
+    },
+    {
+     "q": "Jakie jest odgałęzienie Doliny Strążyskiej, którym biegnie czerwony szlak?",
+     "a": "Dolina Grzybowiecka."
+    },
+    {
+     "q": "Jaki szczyt zamyka Dolinę Strążyską od południa?",
+     "a": "Giewont (północna ściana)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-grzybowiecka",
+   "name": "Dolina Grzybowiecka",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": "dolina-strazyska",
+   "lat": 49.2606,
+   "lon": 19.9231,
+   "summary": "Zalesiona górna odnoga Doliny Strążyskiej, opadająca spod Przełęczy w Grzybowcu.",
+   "html": "<p><strong>Położenie:</strong> górna odnoga <strong>Doliny Strążyskiej</strong>, opada spod <strong>Przełęczy w Grzybowcu</strong>. Zbocza: NE grzbiet Łysanek i północne stoki Grzybowca z Wielkim Bacugiem.</p> <p><strong>Potok:</strong> Grzybowiecki Potok → Strążyski Potok (największy jego dopływ).</p> <p><strong>Skały:</strong> Czarna Turnia, Kapelusze, Jatki.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> z Polany Strążyskiej przez dolinę, Przełęcz w Grzybowcu i Grzybowiec na Wyżnią Kondracką Przełęcz pod Giewontem (2:20 h); <strong>czarny</strong> (Ścieżka nad Reglami) – do Przełęczy w Grzybowcu razem z czerwonym, dalej do Doliny Małej Łąki.</p>",
+   "neighbors": [
+    "Dolina Strążyska",
+    "Dolina Małej Łąki"
+   ],
+   "facts": [
+    {
+     "q": "Czego odnogą jest Dolina Grzybowiecka?",
+     "a": "Doliny Strążyskiej (górna odnoga)."
+    },
+    {
+     "q": "Jakie dwa szlaki biegną razem do Przełęczy w Grzybowcu?",
+     "a": "Czerwony (na Giewont) i czarny (Ścieżka nad Reglami)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-ku-dziurze",
+   "name": "Dolina ku Dziurze",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2747,
+   "lon": 19.9403,
+   "summary": "Mała dolinka reglowa (1,6 km, 85 ha) w stokach Sarniej Skały z jaskinią Dziura – najłatwiej dostępną jaskinią z Zakopanego.",
+   "html": "<p><strong>Położenie:</strong> dolinka reglowa w północnych zboczach <strong>Sarniej Skały</strong>, między grzbietami Spaleńca (wschód) i Grześkówek (zachód).</p> <p><strong>Wylot:</strong> 897 m przy Drodze pod Reglami.</p> <p><strong>Budowa:</strong> dł. 1,6 km, 85 ha; skały osadowe. Na ok. 930 m rozwidla się na dwa żleby. Ściana nad Dziurą (do 52 m).</p> <p><strong>Potok:</strong> Potok ku Dziurze (źródła ok. 1140 m).</p> <p><strong>Jaskinie:</strong> <strong>Dziura</strong> (180 m długości, 43 m deniwelacji; góralska nazwa Zbójecka Jama), Dziura Wyżnia – Lisia Jama i inne (razem 4).</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> dolną częścią doliny do jaskini Dziura (25 min, w dół 20 min).</p>",
+   "neighbors": [
+    "Dolina Strążyska",
+    "Dolina Białego"
+   ],
+   "facts": [
+    {
+     "q": "Od czego pochodzi nazwa Doliny ku Dziurze?",
+     "a": "Od jaskini Dziura w środkowej części doliny."
+    },
+    {
+     "q": "Jakim szlakiem dojść do jaskini Dziura?",
+     "a": "Niebieskim od Drogi pod Reglami (ok. 25 min)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-bialego",
+   "name": "Dolina Białego",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Reglowe",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2703,
+   "lon": 19.9556,
+   "summary": "Dolina reglowa (2,5 km, 300 ha) między Krokwią a Sarnią Skałą, z wąwozem przy wylocie; ok. 5% ruchu w TPN.",
+   "html": "<p><strong>Położenie:</strong> dolina reglowa między grzbietami <strong>Krokwi i Sarniej Skały</strong>.</p> <p><strong>Wylot:</strong> ok. 910 m przy Drodze pod Reglami, ok. 0,5 km na zachód od Wielkiej Krokwi. Wylot ma postać wąwozu (skały Koryciska i Kazalnica).</p> <p><strong>Ograniczenie:</strong> od zachodu grzbiet spod Długiego Giewontu (Wyżnia i Niżnia Sucha Przełęcz, Suchy Wierch, <strong>Czerwona Przełęcz</strong>, Sarnia Skała); od południa grań Długiego Giewontu i Kalacka Kopa, Przełęcz Białego; od wschodu Mała Krokiew, Siwarowe Siodło, Krokiew.</p> <p><strong>Odnogi:</strong> górą Dolina Sucha i bezimienna dolinka (Żleb pod Wrótka), rozdzielone grańką z Zameczkami i Igłą.</p> <p><strong>Potok:</strong> Biały Potok.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> od wylotu wzdłuż Białego Potoku do Ścieżki nad Reglami (1:10 h); <strong>czarny</strong> (Ścieżka nad Reglami) z Kuźnic/Kalatówek przez Przełęcz Białego i dalej przez Czerwoną Przełęcz na Polanę Strążyską.</p>",
+   "neighbors": [
+    "Dolina ku Dziurze",
+    "Dolina Strążyska",
+    "Dolina Bystrej"
+   ],
+   "facts": [
+    {
+     "q": "Między jakimi wzniesieniami leży Dolina Białego?",
+     "a": "Między Krokwią a Sarnią Skałą."
+    },
+    {
+     "q": "Dokąd prowadzi żółty szlak Doliną Białego?",
+     "a": "Od wylotu wzdłuż Białego Potoku do Ścieżki nad Reglami (czarnej)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-bystrej",
+   "name": "Dolina Bystrej",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2664,
+   "lon": 19.9789,
+   "summary": "Walna dolina (ok. 6 km, 17 km²) od Kuźnic pod grań Kopa Kondracka – Kasprowy Wierch; z odnogami Kondratową, Goryczkową, Kasprową i Jaworzynką.",
+   "html": "<p><strong>Położenie:</strong> dolina walna polskich Tatr Zachodnich. Wylot w Kotlinie Zakopiańskiej między <strong>Nosalem a Krokwią</strong>; wąski wylot w <strong>Kuźnicach</strong> (930 m). Długość ok. 6 km, ok. 17 km².</p> <p><strong>Ograniczenie:</strong> górą grań główna od <strong>Kopy Kondrackiej (2005 m) do Kasprowego Wierchu (1987 m)</strong>; lewe (zachód) – północna grań Kopy Kondrackiej, Giewont, Krokiew; prawe (wschód) – NE grań Kasprowego.</p> <p><strong>Odnogi:</strong> <strong>Jaworzynka</strong> (od Kuźnic na SE), <strong>Dolina Kasprowa</strong> (Sucha Kasprowa, Stare Szałasiska), <strong>Dolina Goryczkowa</strong> (pod Zakosy, Świńska), <strong>Dolina Kondratowa</strong> (z Doliną Suchą Kondracką, Małym Szerokim, Długim Żlebem).</p> <p><strong>Woda:</strong> potok <strong>Bystra</strong> (z Goryczkowego i Kasprowego) → Zakopianka. Dużo wody płynie pod ziemią; wywierzyska: Bystrej, Goryczkowe, Kasprowe. Jaskinie: Magurska, Bystrej, Kasprowa Niżnia.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> Kuźnice – Kalatówki – Hala Kondratowa (1:20 h) – Kondracka Przełęcz – Giewont; <strong>czarny</strong> (Ścieżka nad Reglami) od Kalatówek do Doliny Białego; <strong>zielony</strong> Kuźnice – Myślenickie Turnie – <strong>Kasprowy Wierch</strong> (2:30 h); <strong>żółty</strong> Kuźnice – Jaworzynka – <strong>Przełęcz między Kopami</strong> (1:30 h); <strong>zielony</strong> od schroniska na Przełęcz pod Kopą Kondracką (1:20 h); <strong>żółty</strong> z Kalatówek do klasztoru Albertynów. Kolej linowa na Kasprowy.</p> <p><strong>Zagrożenia:</strong> silne wiatry (dysza Dolina Cicha – Dolina Bystrej, wiatrołomy); po dawnym wypasie i wyrębie – <strong>dość spore lawiny w wielu miejscach</strong> doliny. Zimowa stacja TOPR na Kasprowym Wierchu.</p>",
+   "neighbors": [
+    "Dolina Małej Łąki",
+    "Dolina Białego",
+    "Dolina Olczyska",
+    "Dolina Gąsienicowa",
+    "Dolina Cicha Liptowska",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Jakie są cztery odnogi Doliny Bystrej?",
+     "a": "Jaworzynka, Dolina Kasprowa, Dolina Goryczkowa i Dolina Kondratowa."
+    },
+    {
+     "q": "Między jakimi szczytami Dolina Bystrej podchodzi pod grań główną?",
+     "a": "Między Kopą Kondracką a Kasprowym Wierchem."
+    },
+    {
+     "q": "Jaki szlak prowadzi z Kuźnic na Kasprowy Wierch?",
+     "a": "Zielony przez Myślenickie Turnie (ok. 2:30 h)."
+    },
+    {
+     "q": "Do jakiej rzeki wpada potok Bystra?",
+     "a": "Do Zakopianki (a ta z Porońcem tworzy Biały Dunajec)."
+    },
+    {
+     "q": "Jakie zagrożenie zimowe opisuje się dla Doliny Bystrej?",
+     "a": "Lawiny w wielu miejscach (skutek dawnego wyrębu i wypasu) oraz silne wiatry."
+    }
+   ]
+  },
+  {
+   "id": "dolina-kondratowa",
+   "name": "Dolina Kondratowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-bystrej",
+   "lat": 49.2492,
+   "lon": 19.955,
+   "summary": "Zachodnia odnoga Doliny Bystrej pod Giewontem i Kopą Kondracką, z Halą Kondratową i schroniskiem PTTK (1333 m).",
+   "html": "<p><strong>Położenie:</strong> zachodnie odgałęzienie <strong>Doliny Bystrej</strong>; oddziela się od Doliny Goryczkowej ok. 200 m na północ od Kondrackich Rówienek.</p> <p><strong>Ograniczenie:</strong> od SW stoki Kalackiej Kopy i <strong>Giewontu</strong>; od zachodu północna grań Kopy Kondrackiej; od południa grań główna od <strong>Kopy Kondrackiej</strong> przez Suchy Wierch Kondracki i Suche Czuby po <strong>Goryczkową Czubę</strong>; od wschodu Kondratowy Wierch.</p> <p><strong>Odnogi:</strong> <strong>Dolina Sucha Kondracka</strong>; górą <strong>Dolina Małego Szerokiego</strong> (z kotlinką <strong>Piekło</strong>, pod Kondracką Przełęcz) i <strong>Długi Żleb</strong> (pod Przełęcz pod Kopą Kondracką).</p> <p><strong>Woda:</strong> dolina sucha (wapienie); krótki Kondratowy Potok tylko po opadach; wody wypływają w <strong>Wywierzysku Bystrej</strong>.</p> <p><strong>Obiekty:</strong> <strong>Polana Kondratowa</strong> – <strong>schronisko PTTK na Hali Kondratowej (1333 m)</strong> i <strong>dyżurka TOPR</strong>. Ogromne głazy z Giewontu – w 1953 r. 30-tonowy głaz uderzył w ścianę schroniska.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> z Kuźnic do schroniska (1:20 h), dalej na <strong>Kondracką Przełęcz</strong> (1725 m) i Giewont (ze schroniska 1:30–1:45 h); <strong>zielony</strong> ze schroniska na <strong>Przełęcz pod Kopą Kondracką</strong> (1:20 h). Nartostrady z Kasprowego.</p>",
+   "neighbors": [
+    "Dolina Goryczkowa",
+    "Dolina Małej Łąki",
+    "Dolina Strążyska",
+    "Dolina Cicha Liptowska",
+    "Dolina Tomanowa Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Na jakiej wysokości stoi schronisko na Hali Kondratowej?",
+     "a": "1333 m – na Polanie Kondratowej; obok dyżurka TOPR."
+    },
+    {
+     "q": "Jaka kotlinka leży pod Kondracką Przełęczą w Dolinie Kondratowej?",
+     "a": "Piekło (w Dolinie Małego Szerokiego)."
+    },
+    {
+     "q": "Którym szlakiem z Hali Kondratowej na Przełęcz pod Kopą Kondracką?",
+     "a": "Zielonym (ok. 1:20 h)."
+    },
+    {
+     "q": "Gdzie wypływają wody z suchej Doliny Kondratowej?",
+     "a": "W Wywierzysku Bystrej."
+    }
+   ]
+  },
+  {
+   "id": "dolina-goryczkowa",
+   "name": "Dolina Goryczkowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-bystrej",
+   "lat": 49.2469,
+   "lon": 19.9703,
+   "summary": "Odgałęzienie Doliny Bystrej o przebiegu S–N pod Kasprowym Wierchem i Goryczkową Czubą; teren narciarski (Wyciąg Goryczkowy).",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie <strong>Doliny Bystrej</strong> poniżej Wywierzyska Bystrej, ok. 1150–1700 m; przebieg prawie dokładnie południe–północ.</p> <p><strong>Ograniczenie:</strong> od wschodu NW grzbiet Kasprowego po <strong>Myślenickie Turnie</strong>; od zachodu grzbiet Kondratowego Wierchu; od południa grań główna od <strong>Kasprowego Wierchu do Goryczkowej Czuby</strong>.</p> <p><strong>Budowa:</strong> grzbiet Pośredniego Goryczkowego Wierchu dzieli górę na <strong>Dolinę pod Zakosy</strong> i <strong>Dolinę Świńską</strong>; kotły: Goryczkowy i Świński.</p> <p><strong>Potok:</strong> Goryczkowy Potok → Bystra.</p> <p><strong>Szlaki:</strong> <strong>brak szlaków pieszych</strong>. Zimą ośrodek narciarski: <strong>Wyciąg Goryczkowy</strong> (z Wyżniej Goryczkowej Równi pod szczyt Kasprowego) i nartostrady do Kuźnic i na Halę Kondratową.</p> <p><strong>Dla ratownika:</strong> zimą duży ruch narciarzy.</p>",
+   "neighbors": [
+    "Dolina Kondratowa",
+    "Dolina Kasprowa",
+    "Dolina Cicha Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Czy przez Dolinę Goryczkową prowadzi szlak pieszy?",
+     "a": "Nie – tylko nartostrady; działa tu Wyciąg Goryczkowy."
+    },
+    {
+     "q": "Na jakie dwie dolinki dzieli się górna Dolina Goryczkowa?",
+     "a": "Dolinę pod Zakosy i Dolinę Świńską."
+    }
+   ]
+  },
+  {
+   "id": "dolina-kasprowa",
+   "name": "Dolina Kasprowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-bystrej",
+   "lat": 49.2506,
+   "lon": 19.9808,
+   "summary": "Prawe odgałęzienie Doliny Bystrej (3 km, 3 km²) pod Kasprowym Wierchem; wylot na Bystrej Polance.",
+   "html": "<p><strong>Położenie:</strong> duże prawostronne odgałęzienie <strong>Doliny Bystrej</strong>, ok. 3 km, 3 km². Wylot ok. 1120 m na <strong>Bystrej Polance</strong>.</p> <p><strong>Odnogi:</strong> <strong>Stare Szałasiska</strong> (ku przełęczy Mechy, pod Zawratem Kasprowym; z odgałęzieniem Zielone Korycisko) i <strong>Dolina Sucha Kasprowa</strong> (pod urwiska Kasprowego). Dzieli je grzęda <strong>Bałda</strong> od Uhrocia Kasprowego.</p> <p><strong>Sąsiedzi:</strong> zachód – Dolina Goryczkowa (ramię z Suchą Czubą i Myślenickimi Turniami); SE – Dolina Gąsienicowa (ramię z Uhrociem Kasprowym); NE – Jaworzynka (Jaworzyńska Czuba, Zawrat Kasprowy).</p> <p><strong>Szlak:</strong> <strong>zielony</strong> dolną częścią: Kuźnice – Myślenickie Turnie – Kasprowy Wierch (2:30 h, w dół 2 h). Nad doliną przebiega <strong>kolej linowa</strong> na Kasprowy (stacja pośrednia na Myślenickich Turniach).</p>",
+   "neighbors": [
+    "Dolina Goryczkowa",
+    "Dolina Gąsienicowa",
+    "Jaworzynka"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywają się dwie odnogi Doliny Kasprowej?",
+     "a": "Stare Szałasiska i Dolina Sucha Kasprowa."
+    },
+    {
+     "q": "Gdzie jest stacja pośrednia kolejki na Kasprowy?",
+     "a": "Na Myślenickich Turniach."
+    }
+   ]
+  },
+  {
+   "id": "dolina-sucha-kasprowa",
+   "name": "Dolina Sucha Kasprowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-kasprowa",
+   "lat": 49.24,
+   "lon": 19.9839,
+   "summary": "Górna, zachodnia odnoga Doliny Kasprowej pod urwiskami Kasprowego Wierchu; bez potoku, niedostępna.",
+   "html": "<p><strong>Położenie:</strong> górna, zachodnia odnoga <strong>Doliny Kasprowej</strong>, pod urwiskami <strong>Kasprowego Wierchu</strong>.</p> <p><strong>Ograniczenie:</strong> północna grań Kasprowego po Myślenickie Turnie; NE grań Kasprowego po Uhrocie Kasprowe; grzęda Bałda.</p> <p><strong>Budowa:</strong> granit; górą kocioł zawalony piargami, bardzo strome stoki z żlebami (<strong>Żleb pod Palcem, Ściekowiec</strong>). Dolina <strong>sucha</strong> – brak potoku, tylko okresowy Kasprowy Stawek.</p> <p><strong>Dostępność:</strong> <strong>niedostępna turystycznie</strong>; szlak (<strong>zielony</strong> Kuźnice – Myślenickie Turnie – Kasprowy) prowadzi tylko jej najniższą częścią. Nad doliną biegnie kolej linowa.</p>",
+   "neighbors": [
+    "Dolina Goryczkowa",
+    "Dolina Gąsienicowa"
+   ],
+   "facts": [
+    {
+     "q": "Dlaczego Dolina Sucha Kasprowa ma taką nazwę?",
+     "a": "Nie płynie przez nią żaden potok (jest tylko okresowy Kasprowy Stawek)."
+    },
+    {
+     "q": "Jakie żleby opadają z Kasprowego do Doliny Suchej Kasprowej?",
+     "a": "Np. Żleb pod Palcem i Ściekowiec."
+    }
+   ]
+  },
+  {
+   "id": "jaworzynka",
+   "name": "Jaworzynka",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-bystrej",
+   "lat": 49.2597,
+   "lon": 19.9883,
+   "summary": "Wschodnie, wapienne odgałęzienie Doliny Bystrej od Kuźnic; żółty szlak na Przełęcz między Kopami (do Hali Gąsienicowej).",
+   "html": "<p><strong>Położenie:</strong> wschodnie odgałęzienie <strong>Doliny Bystrej</strong>, odchodzi w <strong>Kuźnicach</strong> (1014 m).</p> <p><strong>Ograniczenie:</strong> od wschodu Boczań i Skupniów Upłaz; od południa Wielka i Mała Kopa Królowa, Kopa Magury; od zachodu Jaworzyńska Czuba, Zawrat Kasprowy, Jaworzyńskie Czoła.</p> <p><strong>Budowa:</strong> wąska, wapienna, jak wąwóz. Górą: Długi Żleb (pod <strong>Przełęcz między Kopami</strong>) i Żleb pod Czerwienicą. Na dnie polana Jaworzynka z szałasami. Jaskinia Magurska (niedostępna).</p> <p><strong>Woda:</strong> potok Jaworzynka płynie tylko po dużych opadach – podziemne odwodnienie.</p> <p><strong>Szlak:</strong> <strong>żółty</strong> dnem doliny z Kuźnic na <strong>Przełęcz między Kopami</strong> (1499 m; ok. 1:30 h), gdzie łączy się z <strong>niebieskim</strong> (przez Boczań) i dalej prowadzi do <strong>Murowańca</strong> – oba warianty do Hali Gąsienicowej trwają ok. 2 h.</p> <p><strong>Przyroda:</strong> dużo jeleni i kozic; zagląda niedźwiedź.</p>",
+   "neighbors": [
+    "Dolina Kasprowa",
+    "Dolina Olczyska",
+    "Dolina Gąsienicowa"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie łączą się szlaki żółty (Jaworzynka) i niebieski (Boczań) z Kuźnic?",
+     "a": "Na Przełęczy między Kopami (1499 m)."
+    },
+    {
+     "q": "Skąd odchodzi Jaworzynka od Doliny Bystrej?",
+     "a": "W Kuźnicach, na wysokości ok. 1014 m."
+    }
+   ]
+  },
+  {
+   "id": "dolina-olczyska",
+   "name": "Dolina Olczyska",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2697,
+   "lon": 20.0042,
+   "summary": "Wapienna dolina (ok. 4,5 km²) z wylotem w Jaszczurówce, pod Kopą Magury; z największym wywierzyskiem polskich Tatr.",
+   "html": "<p><strong>Położenie:</strong> dolina między Doliną Bystrej a Doliną Suchej Wody. Wylot – wąski, zalesiony, ok. 900 m przy <strong>Jaszczurówce</strong>; górą pod <strong>Kopę Magury (1704 m)</strong>.</p> <p><strong>Ograniczenie:</strong> od zachodu NE grań Kasprowego (od <strong>Nosala</strong> po Kopę Magury); od południa <strong>Królowy Grzbiet</strong> (od Doliny Suchej Wody); od wschodu Przysłop Olczyski, Wielki i Mały Kopieniec. Grzbiet Suchego Wierchu dzieli górę na dwie odnogi (pod Wielką Kopę Królową i przez Królową Rówień pod Kopę Magury).</p> <p><strong>Woda:</strong> większość doliny sucha; wody wypływają w <strong>Wywierzysku Olczyskim</strong> – <strong>największym w polskich Tatrach</strong> (także wody z Pańszczycy). Olczyski Potok → Zakopianka; awaryjne ujęcie wody dla Zakopanego.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> z Jaszczurówki dnem doliny na Olczyską Polanę (40 min), dalej na <strong>Wielki Kopieniec</strong> i do Toporowej Cyrhli; <strong>żółty</strong> z Olczyskiej Polany na <strong>Nosalową Przełęcz</strong> (30 min).</p>",
+   "neighbors": [
+    "Dolina Bystrej",
+    "Jaworzynka",
+    "Dolina Suchej Wody Gąsienicowej"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie jest wylot Doliny Olczyskiej?",
+     "a": "W Jaszczurówce (ok. 900 m)."
+    },
+    {
+     "q": "Jakie jest największe wywierzysko w polskich Tatrach?",
+     "a": "Wywierzysko Olczyskie (zasilane m.in. wodą z Pańszczycy)."
+    },
+    {
+     "q": "Jaki grzbiet oddziela Dolinę Olczyską od Doliny Suchej Wody?",
+     "a": "Królowy Grzbiet."
+    }
+   ]
+  },
+  {
+   "id": "kalatowki",
+   "name": "Kalatówki",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-bystrej",
+   "lat": 49.2593,
+   "lon": 19.9677,
+   "summary": "Polana reglowa w Dolinie Bystrej nad Kuźnicami (1160–1250 m), z hotelem górskim PTTK i klasztorem Albertynek.",
+   "html": "<p><strong>Położenie:</strong> polana reglowa w <strong>Dolinie Bystrej</strong>, 1160–1250 m. Część osiedla Kuźnice; z Kuźnic prowadzi brukowana droga Brata Alberta.</p> <p><strong>Obiekty:</strong> <strong>hotel górski PTTK Kalatówki</strong> (na wale morenowym), klasztor Albertynek (1898) z pustelnią Brata Alberta, wyciągi narciarskie. Pierwszy ośrodek narciarski polskich Tatr – zawody w 1910 r.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> Kuźnice – Kalatówki (35 min) – Hala Kondratowa (z hotelu 50 min) – Giewont; szlak rozdwaja się przy klasztorze; <strong>czarny</strong> (Ścieżka nad Reglami) odłącza się tu w kierunku Doliny Białego i Czerwonej Przełęczy (1:25 h); <strong>żółty</strong> do klasztoru Albertynów na Śpiącej Górze. Dolną częścią biegnie nartostrada z Doliny Goryczkowej do Kuźnic.</p>",
+   "neighbors": [
+    "Dolina Białego",
+    "Dolina Kondratowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaki obiekt noclegowy jest na Kalatówkach?",
+     "a": "Hotel górski PTTK Kalatówki."
+    },
+    {
+     "q": "Gdzie zaczyna się Ścieżka nad Reglami?",
+     "a": "Na Kalatówkach (odłącza się od niebieskiego szlaku)."
+    }
+   ]
+  },
+  {
+   "id": "hala-kondratowa",
+   "name": "Hala Kondratowa",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Zachodnie",
+   "country": "PL",
+   "parent": "dolina-kondratowa",
+   "lat": 49.2492,
+   "lon": 19.955,
+   "summary": "Dawna hala w Dolinie Kondratowej; na Polanie Kondratowej (1300–1370 m) stoi najmniejsze schronisko polskich Tatr.",
+   "html": "<p><strong>Położenie:</strong> dawna hala pasterska w <strong>Dolinie Kondratowej</strong>; jej centrum to <strong>Polana Kondratowa</strong> (ok. 1300–1370 m) na dnie dawnego stawu morenowego.</p> <p><strong>Obiekty:</strong> <strong>schronisko PTTK na Hali Kondratowej im. Władysława Krygowskiego</strong> (1333 m) – <strong>najmniejsze w polskich Tatrach</strong> (24 miejsca); <strong>dyżurka TOPR</strong>; zabytkowa bacówka.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> z Kuźnic przez Kalatówki (1:20 h), dalej na Kondracką Przełęcz i Giewont; <strong>zielony</strong> na Przełęcz pod Kopą Kondracką. Popularny punkt wyjścia na Giewont i Czerwone Wierchy.</p> <p><strong>Zagrożenie:</strong> spadające głazy ze ścian Giewontu (1953 r. głaz uderzył w schronisko).</p>",
+   "neighbors": [
+    "Dolina Goryczkowa",
+    "Dolina Małej Łąki"
+   ],
+   "facts": [
+    {
+     "q": "Które schronisko jest najmniejsze w polskich Tatrach?",
+     "a": "Schronisko PTTK na Hali Kondratowej (1333 m)."
+    },
+    {
+     "q": "Czyim imieniem nazwano schronisko na Hali Kondratowej?",
+     "a": "Władysława Krygowskiego."
+    }
+   ]
+  },
+  {
+   "id": "dolina-suchej-wody-gasienicowej",
+   "name": "Dolina Suchej Wody Gąsienicowej",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.265,
+   "lon": 20.0314,
+   "summary": "Dolina walna (ok. 21 km², ok. 8 km), którą biegnie granica Tatr Zachodnich i Wysokich; rozwidla się na Dolinę Gąsienicową i Pańszczycę.",
+   "html": "<p><strong>Położenie:</strong> dolina walna po północnej stronie grani głównej. <strong>Biegnie przez nią granica Tatr Zachodnich i Wysokich</strong> – od Liliowego korytem potoku Sucha Woda. Dawniej Dolina Porońca.</p> <p><strong>Ograniczenie:</strong> od NW – NE grań Kasprowego i <strong>Królowy Grzbiet</strong>; od południa grań główna od Kasprowego po <strong>Świnicę</strong> i wschodnia grań Świnicy po <strong>Krzyżne</strong>; od wschodu grań Koszystej i Ostry Wierch Waksmundzki.</p> <p><strong>Rozwidlenie:</strong> na ok. 1157 m (ujście Pańszczyckiego Potoku) dzieli się na <strong>Dolinę Gąsienicową</strong> i <strong>Pańszczycę</strong>. Nazwę „Dolina Suchej Wody” stosuje się zwykle do dolnej części.</p> <p><strong>Woda:</strong> potok <strong>Sucha Woda</strong> – na długich odcinkach suchy (kras, ponory). W Małem Cichem z Filipczańskim Potokiem tworzy Cichą Wodę → Poroniec → Biały Dunajec. Na dole Toporowe Stawy Wyżni i Niżni.</p> <p><strong>Droga:</strong> utwardzona droga <strong>Brzeziny – Murowaniec</strong> (1921–23), zamknięta dla aut (poza służbami).</p> <p><strong>Szlaki:</strong> <strong>czarny</strong> Brzeziny – Psia Trawka – Murowaniec (2:15 h; także dla rowerów); <strong>czerwony</strong> Toporowa Cyrhla – Psia Trawka – Rówień Waksmundzka – Wodogrzmoty – Morskie Oko – Rysy (z Toporowej Cyrhli na Psią Trawkę 1:10 h).</p>",
+   "neighbors": [
+    "Dolina Olczyska",
+    "Dolina Bystrej",
+    "Dolina Waksmundzka",
+    "Filipka",
+    "Dolina Cicha Liptowska",
+    "Dolina Pięciu Stawów Polskich"
+   ],
+   "facts": [
+    {
+     "q": "Którą doliną po polskiej stronie biegnie granica Tatr Zachodnich i Wysokich?",
+     "a": "Doliną Suchej Wody Gąsienicowej (i Doliną Gąsienicową) – od przełęczy Liliowe."
+    },
+    {
+     "q": "Na jakie doliny rozwidla się Dolina Suchej Wody?",
+     "a": "Na Dolinę Gąsienicową i Pańszczycę."
+    },
+    {
+     "q": "Jaki szlak prowadzi z Brzezin do Murowańca?",
+     "a": "Czarny przez Psią Trawkę (ok. 2:15 h)."
+    },
+    {
+     "q": "Dlaczego potok nazywa się Sucha Woda?",
+     "a": "Bo jego koryto jest często suche – woda płynie podziemnie (kras)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-gasienicowa",
+   "name": "Dolina Gąsienicowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-suchej-wody-gasienicowej",
+   "lat": 49.2419,
+   "lon": 20.0039,
+   "summary": "Górne piętro Doliny Suchej Wody (od 1425 m) pod Świnicą i Kasprowym; z Murowańcem – największy węzeł szlaków polskich Tatr Wysokich.",
+   "html": "<p><strong>Położenie:</strong> górne piętro Doliny Suchej Wody Gąsienicowej, od 1425 m (ujście Czarnego Potoku do Suchej Wody).</p> <p><strong>Ograniczenie:</strong> od wschodu północna grań Skrajnego Granatu; od południa wschodnia grań Świnicy (Skrajny Granat – Świnica) i grań główna Świnica – <strong>Kasprowy Wierch</strong>; od zachodu NE grań Kasprowego po Kopę Magury.</p> <p><strong>Odnogi:</strong> rozdzielone <strong>Granią Kościelców</strong>: <strong>Dolina Czarna Gąsienicowa</strong> (wschód; Czarny i Zmarzły Staw, Dolinka Kozia) i <strong>Dolina Zielona Gąsienicowa</strong> (zachód; większość stawów, Dolina Sucha Stawiańska).</p> <p><strong>Woda:</strong> Czarny Potok i Sucha Woda; duża część wód płynie pod ziemią do Doliny Goryczkowej i Kasprowej.</p> <p><strong>Obiekty:</strong> <strong>schronisko PTTK „Murowaniec”</strong> (1921–25), „Betlejemka” (baza szkoleniowa taterników), leśniczówka „Księżówka”, stacja PAN, strażnica TPN „Gawra”. Wg Cywińskiego – najintensywniej zagospodarowana dolina Tatr.</p> <p><strong>Szlaki z Murowańca:</strong> <strong>niebieski</strong> z Kuźnic przez Boczań i Przełęcz między Kopami (2 h), dalej nad Czarny Staw i na <strong>Zawrat</strong> (2:20 h); <strong>żółty</strong> Jaworzynką do Przełęczy między Kopami; <strong>czarny</strong> do Brzezin; <strong>zielony</strong> przez Rówień Waksmundzką, Gęsią Szyję, Rusinową Polanę do Wierchporońca (3:50 h); <strong>żółty</strong> z Kasprowego (1:05 h) i dalej Pańszczycą na <strong>Krzyżne</strong> (2:45 h).</p> <p><strong>Dla ratownika:</strong> baza wyjść na Orlą Perć, Kościelec, Świnicę, Granaty, Kozi Wierch. W okolicy ostrzeżenia przed niedźwiedziami.</p>",
+   "neighbors": [
+    "Dolina Kasprowa",
+    "Jaworzynka",
+    "Dolina Cicha Liptowska",
+    "Dolina Pięciu Stawów Polskich",
+    "Pańszczyca"
+   ],
+   "facts": [
+    {
+     "q": "Co rozdziela Dolinę Czarną i Zieloną Gąsienicową?",
+     "a": "Grań Kościelców (Kościelec i Mały Kościelec)."
+    },
+    {
+     "q": "Jakie schronisko stoi w Dolinie Gąsienicowej?",
+     "a": "Schronisko PTTK „Murowaniec” (zbudowane 1921–1925)."
+    },
+    {
+     "q": "Jakim szlakiem z Murowańca na Zawrat?",
+     "a": "Niebieskim, przez Czarny Staw Gąsienicowy (ok. 2:20 h)."
+    },
+    {
+     "q": "Którędy z Murowańca na Krzyżne?",
+     "a": "Żółtym szlakiem przez Pańszczycę (ok. 2:45 h)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-czarna-gasienicowa",
+   "name": "Dolina Czarna Gąsienicowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-gasienicowa",
+   "lat": 49.2331,
+   "lon": 20.0206,
+   "summary": "Południowo-wschodnia część Doliny Gąsienicowej (ok. 2,5 km) z Czarnym i Zmarzłym Stawem – wejścia na Orlą Perć.",
+   "html": "<p><strong>Położenie:</strong> SE część Doliny Gąsienicowej; od ujścia Czarnego Potoku (1425 m) po wschodnią grań Świnicy od <strong>Zawratowej Turni po Skrajny Granat</strong>. Od wschodu Wierch pod Fajki i Żółta Turnia; od zachodu Grań Kościelców.</p> <p><strong>Piętra:</strong> Las Gąsienicowy; kocioł <strong>Czarnego Stawu Gąsienicowego</strong> (17,94 ha – największy w dolinie); kocioł <strong>Zmarzłego Stawu</strong> z <strong>Dolinką Kozią</strong>; Kościelcowy Kocioł.</p> <p><strong>Potok:</strong> Czarny Potok – wypływa z Czarnego Stawu (1620 m), dopływ Suchej Wody.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> z Murowańca nad Czarny Staw i na <strong>Zawrat</strong>; <strong>czarny</strong> od Czarnego Stawu na Mały Kościelec, przełęcz <strong>Karb</strong> i Kościelec; <strong>żółty</strong> od Czarnego Stawu na <strong>Skrajny Granat</strong> (1:45 h); <strong>żółty</strong> znad Zmarzłego Stawu na <strong>Kozią Przełęcz</strong> (1 h); <strong>zielony</strong> na <strong>Zadni Granat</strong>; <strong>czarny</strong> Żlebem Kulczyńskiego na Przełączkę nad Dolinką Buczynową.</p> <p><strong>Zagrożenia:</strong> łączniki do Orlej Perci. Na <strong>Koziej Przełęczy</strong> (2126 m; drabina, łańcuchy, w żlebie często śnieg nawet latem) do 2012 r. doszło do <strong>13 wypadków śmiertelnych</strong>.</p>",
+   "neighbors": [
+    "Dolina Zielona Gąsienicowa",
+    "Pańszczyca",
+    "Dolina Pięciu Stawów Polskich",
+    "Dolinka Buczynowa"
+   ],
+   "facts": [
+    {
+     "q": "Z którego stawu wypływa Czarny Potok?",
+     "a": "Z Czarnego Stawu Gąsienicowego (1620 m)."
+    },
+    {
+     "q": "Jakim szlakiem z Doliny Gąsienicowej na Kozią Przełęcz?",
+     "a": "Żółtym znad Zmarzłego Stawu, przez Dolinkę Kozią."
+    },
+    {
+     "q": "Jak wejść na Kościelec?",
+     "a": "Czarnym szlakiem znad Czarnego Stawu przez Mały Kościelec i przełęcz Karb."
+    },
+    {
+     "q": "Ile wypadków śmiertelnych było na Koziej Przełęczy do 2012 r.?",
+     "a": "13."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zielona-gasienicowa",
+   "name": "Dolina Zielona Gąsienicowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-gasienicowa",
+   "lat": 49.2294,
+   "lon": 20.0008,
+   "summary": "Południowo-zachodnia część Doliny Gąsienicowej z Roztoką Stawiańską i 19 z ok. 21 Gąsienicowych Stawów; szlaki na Kasprowy, Liliowe, Świnicę.",
+   "html": "<p><strong>Położenie:</strong> SW część Doliny Gąsienicowej, od <strong>Kasprowego Wierchu po Zawratową Turnię</strong>. Dołem duży płaski teren – <strong>Roztoka Stawiańska</strong>. Od wschodu Mały Kościelec i Kościelec, od NW stoki Uhrocia Kasprowego.</p> <p><strong>Górne piętra:</strong> <strong>Świnicka Kotlinka</strong>, <strong>Mylna Kotlinka</strong>, Zadnie Koło; pod Kasprowym – <strong>Dolina Sucha Stawiańska</strong> (Kocioł Kasprowy / Gąsienicowy).</p> <p><strong>Stawy:</strong> większość Gąsienicowych Stawów (19–22, część okresowa): <strong>Zielony Staw Gąsienicowy</strong> (3,76 ha), Długi, Kurtkowiec, Dwoisty, Zadni, Litworowy, Czerwone Stawki. Z Zielonego Stawu wypływa <strong>Sucha Woda</strong>.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> Murowaniec – Roztoka Stawiańska – Gienkowe Mury – <strong>Kasprowy Wierch</strong> (1:25 h); <strong>czarny</strong> z Roztoki Stawiańskiej na <strong>Świnicką Przełęcz</strong> (z Murowańca 1:55 h); <strong>zielony</strong> od Gienkowych Murów na przełęcz <strong>Liliowe</strong> (z Murowańca 1:30 h); <strong>niebieski</strong> łącznik szlaku czarnego z przełęczą Karb.</p>",
+   "neighbors": [
+    "Dolina Czarna Gąsienicowa",
+    "Dolina Kasprowa",
+    "Dolina Sucha Kasprowa",
+    "Dolina Cicha Liptowska"
+   ],
+   "facts": [
+    {
+     "q": "Jaki staw jest źródłem Suchej Wody?",
+     "a": "Zielony Staw Gąsienicowy."
+    },
+    {
+     "q": "Jakim szlakiem z Doliny Gąsienicowej na Liliowe?",
+     "a": "Zielonym od Gienkowych Murów (z Murowańca ok. 1:30 h)."
+    },
+    {
+     "q": "Jak nazywa się płaski teren w dolnej części Doliny Zielonej Gąsienicowej?",
+     "a": "Roztoka Stawiańska."
+    }
+   ]
+  },
+  {
+   "id": "hala-gasienicowa",
+   "name": "Hala Gąsienicowa",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-gasienicowa",
+   "lat": 49.2442,
+   "lon": 20.0072,
+   "summary": "Potoczna nazwa północnej części Doliny Gąsienicowej z Rówienkami i schroniskiem „Murowaniec” – główny węzeł szlaków.",
+   "html": "<p><strong>Położenie:</strong> potocznie – północna część <strong>Doliny Gąsienicowej</strong> z Rówienkami i otoczeniem schroniska <strong>„Murowaniec”</strong>. Dawniej wielka hala pasterska (797 ha) obejmująca Dolinę Czarną i Zieloną Gąsienicową.</p> <p><strong>Obiekty:</strong> Murowaniec, szałasy, leśniczówka, strażniczówka TPN „Gawra”, stacja PAN (pomiary od 1913 r. – pierwsza górska stacja meteo na ziemiach polskich), „Betlejemka”.</p> <p><strong>Dojście z Kuźnic:</strong> <strong>niebieski</strong> przez Boczań i Skupniów Upłaz lub <strong>żółty</strong> przez Jaworzynkę – łączą się na <strong>Przełęczy między Kopami</strong>; dalej przez Królową Rówień, razem nieco ponad 2 h. Także <strong>czarny</strong> z Brzezin i <strong>zielony</strong> z Wierchporońca.</p> <p><strong>Wyjścia:</strong> Kościelec, Zawrat, Granaty, Świnica, Kozi Wierch, Kasprowy; najłatwiejszy cel – Czarny Staw Gąsienicowy. Żółty na Krzyżne jest łatwy, z jednym trudnym miejscem pod samą przełęczą.</p> <p><strong>Uwaga:</strong> znaki ostrzegawcze przed <strong>niedźwiedziami</strong>.</p>",
+   "neighbors": [
+    "Dolina Kasprowa",
+    "Jaworzynka",
+    "Pańszczyca"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie łączą się szlaki niebieski i żółty z Kuźnic na Halę Gąsienicową?",
+     "a": "Na Przełęczy między Kopami."
+    },
+    {
+     "q": "Od kiedy działa stacja meteorologiczna na Hali Gąsienicowej?",
+     "a": "Od 1 grudnia 1913 r."
+    }
+   ]
+  },
+  {
+   "id": "panszczyca",
+   "name": "Pańszczyca",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-suchej-wody-gasienicowej",
+   "lat": 49.2397,
+   "lon": 20.0389,
+   "summary": "Boczna odnoga Doliny Suchej Wody (ok. 5,8 km², 6,5 km) pod Orlą Percią (Granaty – Krzyżne); żółty szlak na Krzyżne.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie <strong>Doliny Suchej Wody Gąsienicowej</strong> (poniżej Psiej Trawki), Tatry Wysokie. Ok. 5,8 km², 6,5 km.</p> <p><strong>Ograniczenie:</strong> od południa boczna grań z <strong>Orlą Percią</strong> od <strong>Skrajnego Granatu</strong> przez Buczynowe Turnie po <strong>Krzyżne</strong>; od wschodu Koszysta, Rówień Waksmundzka, Suchy Wierch Waksmundzki; od zachodu grań od Skrajnego Granatu przez Żółtą Turnię.</p> <p><strong>Budowa:</strong> dołem las z młakami, wyżej kosówka, górą kotły: <strong>Czerwony Kocioł</strong> z Czerwonym Stawem Pańszczyckim i suchy Żółty Kocioł; najwyżej piarżysko Zadnie Usypy.</p> <p><strong>Woda:</strong> <strong>Pańszczycki Potok</strong>, częściowo podziemny – zasila <strong>Wywierzysko Olczyskie</strong> (niezgodnie z działem wód).</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> (Toporowa Cyrhla – Rówień Waksmundzka – Morskie Oko) przecina dolinę najniżej; <strong>zielony</strong> (Wierchporoniec – Murowaniec) przecina środek; <strong>żółty</strong> z Doliny Gąsienicowej na <strong>Krzyżne</strong> (2:45 h); <strong>czarny</strong> łącznik wzdłuż potoku między zielonym a żółtym (30 min). Najniższa część – zamknięta.</p> <p><strong>Zima:</strong> wejście na Krzyżne możliwe z Pańszczycy; przy złym śniegu lub zagrożeniu lawinowym lepsza droga przez Przełączkę pod Ptakiem.</p>",
+   "neighbors": [
+    "Dolina Gąsienicowa",
+    "Dolina Waksmundzka",
+    "Dolina Roztoki",
+    "Dolinka Buczynowa"
+   ],
+   "facts": [
+    {
+     "q": "Dokąd prowadzi żółty szlak przez Pańszczycę?",
+     "a": "Z Hali Gąsienicowej na przełęcz Krzyżne."
+    },
+    {
+     "q": "Gdzie wypływają wody Pańszczyckiego Potoku płynące pod ziemią?",
+     "a": "W Wywierzysku Olczyskim."
+    },
+    {
+     "q": "Jaki staw leży w Czerwonym Kotle?",
+     "a": "Czerwony Staw Pańszczycki."
+    }
+   ]
+  },
+  {
+   "id": "dolina-waksmundzka",
+   "name": "Dolina Waksmundzka",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-bialki",
+   "lat": 49.2442,
+   "lon": 20.0658,
+   "summary": "Odgałęzienie Doliny Białki (ok. 6 km²) między Wołoszynem a Koszystą, pod Krzyżnem; ścisły rezerwat, bez szlaku w głębi.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie <strong>Doliny Białki</strong>; wcina się między <strong>Wołoszyn i Koszystą</strong>, sięga pod <strong>Krzyżne</strong>. Ok. 6 km².</p> <p><strong>Sąsiedzi:</strong> przez Wołoszyn – Dolina Roztoki; przez Koszystą – Pańszczyca.</p> <p><strong>Budowa:</strong> lodowcowa, z progami; wisząca dolinka <strong>Świstówka Waksmundzka</strong>; piętra: Waksmundzka Równica, Pośrednia i Zadnia Równica (Waksmundzkie Stawki).</p> <p><strong>Potok:</strong> <strong>Waksmundzki Potok</strong> (wodospad Młyn, 15 m) → <strong>Białka</strong> koło Palenicy Białczańskiej.</p> <p><strong>Dostępność:</strong> <strong>ścisły rezerwat</strong>, niedostępna. Dawny szlak na Krzyżne nie istnieje. Ostoja niedźwiedzi.</p> <p><strong>Szlaki w dolnej części:</strong> <strong>czerwony</strong> Toporowa Cyrhla – Rówień Waksmundzka – Polana pod Wołoszynem – Wodogrzmoty (z Równi 1:25 h); <strong>czarny</strong> Rusinowa Polana – Polana pod Wołoszynem (25 min); <strong>niebieski</strong> Zazadnia – Rusinowa Polana – Palenica Białczańska. Wylot przecina droga Oswalda Balzera.</p>",
+   "neighbors": [
+    "Pańszczyca",
+    "Dolina Roztoki",
+    "Filipka",
+    "Dolina Białki"
+   ],
+   "facts": [
+    {
+     "q": "Między jakimi masywami leży Dolina Waksmundzka?",
+     "a": "Między Wołoszynem a Koszystą."
+    },
+    {
+     "q": "Do jakiej rzeki uchodzi Waksmundzki Potok?",
+     "a": "Do Białki, w pobliżu Palenicy Białczańskiej."
+    },
+    {
+     "q": "Czy Dolina Waksmundzka jest dostępna dla turystów?",
+     "a": "Nie – ścisły rezerwat; szlaki przecinają tylko jej dolną część."
+    }
+   ]
+  },
+  {
+   "id": "filipka",
+   "name": "Filipka",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2706,
+   "lon": 20.0758,
+   "summary": "Mało znana dolina w zboczach Gęsiej Szyi z wylotem w Zazadniej; jej odnogą jest Dolina Złota z Wiktorówkami.",
+   "html": "<p><strong>Położenie:</strong> dolina wcinająca się w zbocza <strong>Gęsiej Szyi</strong>, opada na północ do <strong>Zazadniej</strong> (907 m, przy drodze Oswalda Balzera).</p> <p><strong>Odgałęzienia:</strong> Żleb za Skałką (pod Niżnią Filipczańską Przełęcz) i <strong>Dolina Złota</strong> (na południe; oddziela ją ramię Gęsiej Szyi z <strong>Wiktorówkami</strong>).</p> <p><strong>Otoczenie:</strong> Gęsia Szyja, Suchy Wierch Waksmundzki, Ostry Wierch, Zadnia Kopa Sołtysia, Filipczański Wierch.</p> <p><strong>Potok:</strong> Filipczański Potok (z Złotym Potokiem); poza Tatrami z Suchą Wodą tworzy Cichą Wodę.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> z Zazadniej obok <strong>Sanktuarium na Wiktorówkach</strong> i Doliną Złotą na <strong>Rusinową Polanę</strong> (1:15 h), dalej do Palenicy Białczańskiej.</p>",
+   "neighbors": [
+    "Dolina Suchej Wody Gąsienicowej",
+    "Dolina Waksmundzka"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie jest wylot doliny Filipki?",
+     "a": "W Zazadniej, przy drodze Oswalda Balzera."
+    },
+    {
+     "q": "Którędy prowadzi niebieski szlak z Zazadniej na Rusinową Polanę?",
+     "a": "Obok Sanktuarium na Wiktorówkach, Doliną Złotą."
+    }
+   ]
+  },
+  {
+   "id": "rowien-waksmundzka",
+   "name": "Rówień Waksmundzka",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2553,
+   "lon": 20.0664,
+   "summary": "Trawiasta rówień (1400–1440 m) na Waksmundzkiej Przełęczy – skrzyżowanie szlaku czerwonego i zielonego; dział wód Białki i Białego Dunajca.",
+   "html": "<p><strong>Położenie:</strong> szeroka rówień na Waksmundzkiej Przełęczy między Małą Koszystą a <strong>Gęsią Szyją</strong>, 1400–1440 m. Zarasta lasem.</p> <p><strong>Doliny:</strong> na wschód – Dolina Waksmundzka, na zachód – Pańszczyca. Przebiega tu <strong>dział wodny Białki i Białego Dunajca</strong>.</p> <p><strong>Szlaki (skrzyżowanie):</strong> <strong>czerwony</strong> Toporowa Cyrhla – Psia Trawka – Rówień (2:10 h) – Polana pod Wołoszynem – Wodogrzmoty (1:25 h) – Morskie Oko; <strong>zielony</strong> Wierchporoniec – Rusinowa Polana – Gęsia Szyja – Rówień (2 h) – Murowaniec (2:15 h).</p>",
+   "neighbors": [
+    "Dolina Waksmundzka",
+    "Pańszczyca"
+   ],
+   "facts": [
+    {
+     "q": "Jakie szlaki krzyżują się na Równi Waksmundzkiej?",
+     "a": "Czerwony (Toporowa Cyrhla – Morskie Oko) i zielony (Wierchporoniec – Murowaniec)."
+    },
+    {
+     "q": "Jaki dział wodny przebiega przez Rówień Waksmundzką?",
+     "a": "Między dorzeczami Białki i Białego Dunajca."
+    }
+   ]
+  },
+  {
+   "id": "rusinowa-polana",
+   "name": "Rusinowa Polana",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": null,
+   "lat": 49.2604,
+   "lon": 20.09,
+   "summary": "Polana reglowa (1180–1300 m, ok. 20 ha) między Gęsią Szyją a Gołym Wierchem – słynny punkt widokowy; obok Wiktorówki.",
+   "html": "<p><strong>Położenie:</strong> między <strong>Gęsią Szyją (1489 m)</strong> a Gołym Wierchem, na grzbiecie łączącym Tatry z Pogórzem Bukowińskim; 1180–1300 m, ok. 20 ha. Od NW Dolina Złota, od południa Dolina Waksmundzka.</p> <p><strong>Obok:</strong> <strong>Sanktuarium Matki Boskiej na Wiktorówkach</strong>.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> Zazadnia – Rusinowa Polana (1:15 h) – <strong>Palenica Białczańska</strong> (40 min); <strong>zielony</strong> Wierchporoniec – Rusinowa (1 h) – Gęsia Szyja – Rówień Waksmundzka – Murowaniec; <strong>czarny</strong> z dolnego skraju polany na Polanę pod Wołoszynem (25 min).</p> <p><strong>Przyroda:</strong> bywają niedźwiedzie. Wspaniały widok na Tatry Bielskie i Wysokie.</p>",
+   "neighbors": [
+    "Dolina Waksmundzka",
+    "Filipka"
+   ],
+   "facts": [
+    {
+     "q": "Jak dojść na Rusinową Polanę z Palenicy Białczańskiej?",
+     "a": "Niebieskim szlakiem (ok. 40–50 min)."
+    },
+    {
+     "q": "Jakie sanktuarium leży obok Rusinowej Polany?",
+     "a": "Sanktuarium Maryjne na Wiktorówkach."
+    }
+   ]
+  },
+  {
+   "id": "dolina-roztoki",
+   "name": "Dolina Roztoki",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-bialki",
+   "lat": 49.2253,
+   "lon": 20.0725,
+   "summary": "Wąska odnoga Doliny Białki (4,4 km) prowadząca od Wodogrzmotów Mickiewicza do Doliny Pięciu Stawów Polskich; zimą groźne lawiny.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie <strong>Doliny Białki</strong>, naprzeciw Polany Białej Wody. Ok. 4,4 km, 7 km²; z Doliną Pięciu Stawów (górne piętro) 7,5 km, 13,5 km².</p> <p><strong>Ograniczenie:</strong> lewe zbocza – wschodnia grań Świnicy od Koziego Wierchu po grań <strong>Wołoszyna</strong>; prawe – grań <strong>Opalonego Wierchu</strong>. Od Doliny Pięciu Stawów oddziela ją próg <strong>ściany stawiarskiej</strong> (ok. 1550–1570 m).</p> <p><strong>Odnogi (wiszące):</strong> <strong>Dolinka Buczynowa</strong> i <strong>Świstówka Roztocka</strong>.</p> <p><strong>Potok:</strong> <strong>Roztoka</strong> – wypływa z Wielkiego Stawu, tworzy <strong>Siklawę</strong>, a ok. 1 km przed ujściem do Białki – <strong>Wodogrzmoty Mickiewicza</strong>.</p> <p><strong>Schronisko:</strong> <strong>PTTK w Dolinie Roztoki</strong> (im. Wincentego Pola) na polanie <strong>Stara Roztoka</strong>.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> – szeroką drogą od Wodogrzmotów (ze schroniska 15 min) w górę doliny (1:25 h do rozwidlenia), potem obok Siklawy do Doliny Pięciu Stawów (45 min); <strong>czarny</strong> od rozwidlenia zakosami wprost do schroniska w Pięciu Stawach (40 min).</p> <p><strong>Zagrożenia:</strong> z żlebów <strong>schodzą lawiny aż do dna doliny</strong>; zimą odcinek zielonego obok Siklawy jest <strong>zamykany z powodu lawin</strong>. W marcu 1976 r. dwóch turystów zmarło z wyczerpania, podchodząc doliną w zawiei. Ostoja niedźwiedzi.</p>",
+   "neighbors": [
+    "Dolina Waksmundzka",
+    "Dolina Rybiego Potoku",
+    "Dolina Pięciu Stawów Polskich",
+    "Pańszczyca"
+   ],
+   "facts": [
+    {
+     "q": "Jaki potok płynie Doliną Roztoki?",
+     "a": "Roztoka – wypływa z Wielkiego Stawu i uchodzi do Białki poniżej Wodogrzmotów Mickiewicza."
+    },
+    {
+     "q": "Jakie dwie wiszące dolinki są odnogami Doliny Roztoki?",
+     "a": "Dolinka Buczynowa i Świstówka Roztocka."
+    },
+    {
+     "q": "Który odcinek szlaku w Dolinie Roztoki jest zimą zamykany i dlaczego?",
+     "a": "Zielony obok Siklawy do Doliny Pięciu Stawów – z powodu lawin."
+    },
+    {
+     "q": "Gdzie stoi schronisko w Dolinie Roztoki?",
+     "a": "Na polanie Stara Roztoka (schronisko im. Wincentego Pola)."
+    }
+   ]
+  },
+  {
+   "id": "dolinka-buczynowa",
+   "name": "Dolinka Buczynowa",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-roztoki",
+   "lat": 49.2239,
+   "lon": 20.0381,
+   "summary": "Wisząca dolinka – boczna odnoga Doliny Roztoki pod Granatami i Kozim Wierchem; nad nią Orla Perć.",
+   "html": "<p><strong>Położenie:</strong> niewielka <strong>dolina wisząca</strong>, odnoga <strong>Doliny Roztoki</strong>; jedna z najbardziej typowych w polskich Tatrach.</p> <p><strong>Ograniczenie:</strong> wschodnia grzęda <strong>Koziego Wierchu</strong>, grań od Koziego Wierchu po <strong>Skrajny Granat</strong>, grań od Skrajnego Granatu po Małą Buczynową Turnię. Grań nad dolinką – odcinek <strong>Orlej Perci</strong>.</p> <p><strong>Woda:</strong> brak potoku; okresowy Buczynowy Stawek; woda wypływa w progu (~250 m) tworząc <strong>Buczynową Siklawę</strong>.</p> <p><strong>Szlak:</strong> <strong>żółty</strong> (Dolina Pięciu Stawów – Niżnie Rzędy Buczynowe – Żleb pod Krzyżnem – <strong>Krzyżne</strong>) przecina dolną część (do dolinki ok. 45 min). W głąb brak szlaków – tylko taternicy (Komin Pokutników).</p> <p><strong>Dla ratownika:</strong> do Dolinki Buczynowej opadają ściany Granatów; czarny szlak Żlebem Kulczyńskiego (z Doliny Gąsienicowej) prowadzi na Przełączkę nad Dolinką Buczynową. Droga z Pięciu Stawów na Krzyżne zimą narażona na lawiny.</p>",
+   "neighbors": [
+    "Dolina Czarna Gąsienicowa",
+    "Pańszczyca",
+    "Dolina Pięciu Stawów Polskich"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywa się wodospad w progu Dolinki Buczynowej?",
+     "a": "Buczynowa Siklawa."
+    },
+    {
+     "q": "Jaki szlak przecina dolną część Dolinki Buczynowej?",
+     "a": "Żółty z Doliny Pięciu Stawów Polskich na Krzyżne."
+    }
+   ]
+  },
+  {
+   "id": "dolina-pieciu-stawow-polskich",
+   "name": "Dolina Pięciu Stawów Polskich",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-roztoki",
+   "lat": 49.2097,
+   "lon": 20.0369,
+   "summary": "Wysokogórska, polodowcowa dolina (ok. 5,5 km², 1625–1900 m) – górne piętro Doliny Roztoki; Wielki Staw i najwyżej położone schronisko w Polsce.",
+   "html": "<p><strong>Położenie:</strong> górne piętro <strong>Doliny Roztoki</strong> (system Białki), oddzielone ścianą stawiarską. 4 km × 2 km, ok. 5,5 km², 1625–1900 m.</p> <p><strong>Otoczenie:</strong> grań główna <strong>Świnica – Walentkowa Grań – Gładki Wierch</strong> (za nią Dolina Cicha); Liptowskie Mury do <strong>Szpiglasowego Wierchu</strong> (Dolina Koprowa); grań Szpiglasowy – Miedziane – <strong>Opalony Wierch</strong> (Dolina Rybiego Potoku); Świstowa Czuba (Dolina Roztoki); wschodnia grań Świnicy po <strong>Kozi Wierch</strong> (Dolina Gąsienicowa). Górne dolinki: <strong>Dolinka Pusta</strong>, <strong>Dolinka pod Kołem</strong>.</p> <p><strong>Stawy:</strong> <strong>Wielki Staw Polski</strong> (1665 m, głęb. 79–80 m; wg współczesnych pomiarów największe jezioro Tatr), Zadni, Czarny, Mały, Przedni Staw Polski i okresowe Wole Oko. Z Wielkiego Stawu – potok Roztoka i <strong>Siklawa</strong>.</p> <p><strong>Schronisko:</strong> <strong>PTTK w Dolinie Pięciu Stawów Polskich</strong> nad Przednim Stawem, <strong>1671 m – najwyżej położone schronisko w Polsce</strong> (im. Leopolda Świerza). Zaopatrzenie linową kolejką z Doliny Roztoki.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> Doliną Roztoki (od Wodogrzmotów 2:05 h); <strong>czarny</strong> – alternatywne dojście do schroniska; <strong>niebieski</strong> z Morskiego Oka przez Świstówkę Roztocką (2 h), dalej na <strong>Zawrat</strong> (1:40 h); <strong>żółty</strong> z Morskiego Oka przez <strong>Szpiglasową Przełęcz</strong>, dalej na <strong>Kozią Przełęcz</strong>; <strong>czarny</strong> na Kozi Wierch (1:30 h); <strong>żółty</strong> na <strong>Krzyżne</strong> (1:50 h).</p> <p><strong>Zagrożenia:</strong> zimowe wyjścia bywają tragiczne (1976); Szpiglasowa Przełęcz zimą – duże zagrożenie lawinowe.</p>",
+   "neighbors": [
+    "Dolina Roztoki",
+    "Dolina Rybiego Potoku",
+    "Dolina Gąsienicowa",
+    "Dolina Cicha Liptowska",
+    "Dolina Wierchcicha",
+    "Dolina Koprowa"
+   ],
+   "facts": [
+    {
+     "q": "Jakie jest najwyżej położone schronisko w Polsce?",
+     "a": "Schronisko PTTK w Dolinie Pięciu Stawów Polskich (1671 m) nad Przednim Stawem."
+    },
+    {
+     "q": "Wymień stawy Doliny Pięciu Stawów Polskich.",
+     "a": "Wielki, Zadni, Czarny, Mały, Przedni Staw Polski oraz okresowe Wole Oko."
+    },
+    {
+     "q": "Którędy prowadzi niebieski szlak z Morskiego Oka do Pięciu Stawów?",
+     "a": "Przez Świstówkę Roztocką (ok. 2 h)."
+    },
+    {
+     "q": "Jakie przejścia łączą Pięć Stawów z kotliną Morskiego Oka?",
+     "a": "Szpiglasowa Przełęcz (żółty) i Świstówka Roztocka (niebieski)."
+    },
+    {
+     "q": "Jaka dolina leży za grzbietem Świnica – Gładki Wierch?",
+     "a": "Słowacka Dolina Cicha (Wierchcicha) – przejście przez Gładką Przełęcz."
+    }
+   ]
+  },
+  {
+   "id": "dolina-bialki",
+   "name": "Dolina Białki",
+   "name_sk": "Bielovodská dolina (z Doliną Białej Wody)",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL/SK",
+   "parent": null,
+   "lat": 49.2558,
+   "lon": 20.1067,
+   "summary": "Jedna z największych dolin walnych Tatr (w Tatrach ok. 63,5 km², z czego ok. 38 km² w PL); dnem Białki biegnie granica państwa.",
+   "html": "<p><strong>Położenie:</strong> dolina rzeki <strong>Białki</strong>, w Polsce i na Słowacji; ok. 63,5 km² w Tatrach (PL 38,2 km², SK 25,3 km²). Główna oś (N–S) ma ok. 12 km od Łysej Polany pod Zadni Gerlach.</p> <p><strong>Nazewnictwo:</strong> Polacy Doliną Białki nazywają zwykle dolną część – od połączenia <strong>Białej Wody i Rybiego Potoku</strong> (ok. 1075 m). Wyżej – <strong>Dolina Białej Wody</strong> (SK). Słowacy cały system nazywają <em>Bielovodská dolina</em>.</p> <p><strong>Odnogi:</strong> po polskiej (zachodniej) stronie: <strong>Dolina Rybiego Potoku</strong>, <strong>Dolina Roztoki</strong> (z Pięcioma Stawami), <strong>Dolina Waksmundzka</strong>; po słowackiej: małe Dolina Czerwona i Rozpadlina.</p> <p><strong>Ograniczenie całego systemu:</strong> grań główna od <strong>Świnicy po Mały Jaworowy Szczyt</strong>; lewe – wschodnia grań Świnicy; prawe – Jaworowa Grań, Szeroka Jaworzyńska, Horwacki Wierch.</p> <p><strong>Lodowiec:</strong> największy lodowiec Tatr (13,4 km, ponad 400 m grubości).</p> <p><strong>Granica:</strong> <strong>środkiem Białki</strong>, dalej granią Żabiego i północną granią Rysów do Rysów.</p> <p><strong>Drogi:</strong> po polskiej stronie asfaltowa <strong>Droga Oswalda Balzera</strong> do Morskiego Oka (ruch ok. 100× większy), po słowackiej – droga szutrowa Doliną Białej Wody.</p> <p><strong>Polany:</strong> <strong>Łysa Polana</strong>, <strong>Palenica Białczańska</strong>, Polana Biała Woda, Koniarka, Trybskie Polany.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> Toporowa Cyrhla – Rówień Waksmundzka – Wodogrzmoty – Morskie Oko; <strong>czerwony</strong> szosą z Palenicy do Wodogrzmotów (50 min); <strong>zielony</strong> ze schroniska Roztoka przez Wodogrzmoty do Pięciu Stawów; <strong>niebieski</strong> z Palenicy na Rusinową Polanę; słowacki <strong>niebieski</strong> z Łysej Polany Doliną Białej Wody na <strong>Rohatkę</strong>.</p>",
+   "neighbors": [
+    "Dolina Rybiego Potoku",
+    "Dolina Roztoki",
+    "Dolina Waksmundzka",
+    "Dolina Białej Wody",
+    "Dolina Jaworowa"
+   ],
+   "facts": [
+    {
+     "q": "Z połączenia jakich potoków powstaje Białka?",
+     "a": "Białej Wody (z Doliny Białej Wody) i Rybiego Potoku (z Morskiego Oka)."
+    },
+    {
+     "q": "Którędy biegnie granica państwa w Dolinie Białki?",
+     "a": "Środkiem Białki, potem granią Żabiego i północną granią Rysów na Rysy."
+    },
+    {
+     "q": "Jakie są polskie odnogi Doliny Białki?",
+     "a": "Dolina Rybiego Potoku, Dolina Roztoki (z Doliną Pięciu Stawów Polskich) i Dolina Waksmundzka."
+    },
+    {
+     "q": "Gdzie Białka uchodzi do Dunajca?",
+     "a": "W Jeziorze Czorsztyńskim, między Dębnem a Frydmanem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-rybiego-potoku",
+   "name": "Dolina Rybiego Potoku",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-bialki",
+   "lat": 49.2117,
+   "lon": 20.0794,
+   "summary": "Największa polska odnoga Doliny Białki (ok. 11,5 km², 5,5 km) z Morskim Okiem i Czarnym Stawem pod Rysami.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie <strong>Doliny Białki</strong>, odchodzi na ok. 1150 m, ok. 4,5 km na południe od Łysej Polany. Dawniej Dolina Morskiego Oka.</p> <p><strong>Ograniczenie:</strong> NE grań <strong>Szpiglasowego Wierchu</strong>; grań główna <strong>Szpiglasowy Wierch – Rysy</strong> (Cubryna, Mięguszowieckie Szczyty); północna grań Rysów (Żabia Grań) po Siedem Granatów.</p> <p><strong>Piętra:</strong> kocioł <strong>Morskiego Oka</strong> (1395 m, 34,93 ha, głęb. 50,8–51,8 m), wyżej <strong>Czarnostawiański Kocioł</strong>, Bańdzioch, Kocioł Kazalnicy i <strong>Dolina za Mnichem</strong> (jedyne odgałęzienie).</p> <p><strong>Potok:</strong> <strong>Rybi Potok</strong> z Morskiego Oka (Rybie Stawki); przy gajówce pod Wantą łączy się z Białą Wodą w <strong>Białkę</strong>.</p> <p><strong>Polany:</strong> Włosienica, Szałasiska (obozowisko taterników), Stadliska.</p> <p><strong>Schronisko:</strong> <strong>PTTK nad Morskim Okiem</strong> (1410 m, na wale moreny), mieści <strong>stację ratunkową TOPR</strong>.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> od Wodogrzmotów szosą do schroniska (1:30 h), dalej nad Czarny Staw (50 min) i na <strong>Rysy</strong> (ze schroniska 3:50 h); <strong>czerwony</strong> wokół Morskiego Oka (50 min); <strong>niebieski</strong> przez Świstówkę Roztocką do Pięciu Stawów (2 h); <strong>żółty</strong> („Ceprostrada”) na <strong>Szpiglasową Przełęcz</strong>; <strong>czerwony</strong> od żółtego na <strong>Wrota Chałubińskiego</strong>; <strong>zielony</strong> znad Czarnego Stawu przez Kazalnicę na <strong>Mięguszowiecką Przełęcz pod Chłopkiem</strong> (2:30 h). Z Palenicy szosą ok. 2:20 h.</p>",
+   "neighbors": [
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Roztoki",
+    "Dolina Białej Wody",
+    "Dolina Mięguszowiecka",
+    "Dolina Koprowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaki potok wypływa z Morskiego Oka?",
+     "a": "Rybi Potok – z Białą Wodą tworzy Białkę."
+    },
+    {
+     "q": "Na jakiej wysokości leży Morskie Oko?",
+     "a": "1395 m n.p.m.; schronisko stoi na 1410 m na wale morenowym."
+    },
+    {
+     "q": "Jakim szlakiem z Czarnego Stawu na Mięguszowiecką Przełęcz pod Chłopkiem?",
+     "a": "Zielonym przez Kazalnicę Mięguszowiecką."
+    },
+    {
+     "q": "Ile trwa wejście na Rysy ze schroniska nad Morskim Okiem?",
+     "a": "Ok. 3:50 h czerwonym szlakiem."
+    },
+    {
+     "q": "Gdzie jest stacja ratunkowa TOPR w rejonie Morskiego Oka?",
+     "a": "W schronisku PTTK nad Morskim Okiem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-za-mnichem",
+   "name": "Dolina za Mnichem",
+   "name_sk": null,
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-rybiego-potoku",
+   "lat": 49.1958,
+   "lon": 20.0514,
+   "summary": "Zachodnia odnoga Doliny Rybiego Potoku pod Cubryną, Mnichem i Szpiglasowym Wierchem – rozwidlenie szlaków na Wrota Chałubińskiego i Szpiglasową Przełęcz.",
+   "html": "<p><strong>Położenie:</strong> zachodnie odgałęzienie <strong>Doliny Rybiego Potoku</strong>, otwarte na kotlinę Morskiego Oka. Górą sięga grani głównej od <strong>Cubryny po Szpiglasowy Wierch</strong>. Lewe stoki – Szpiglasowy Wierch i <strong>Miedziane</strong>, prawe – północna grań Cubryny.</p> <p><strong>Piętra:</strong> ok. 1780 m – okresowy <strong>Staw Staszica</strong>; Mnichowy Taras (Wyżnie Mnichowe Stawki) pod ścianą <strong>Mnicha</strong>; Mnichowe Plecy; Zadnia Galeria Cubryńska z <strong>Zadnim Mnichowym Stawkiem</strong> (ok. 2072 m – najwyżej położony naturalny zbiornik wody po polskiej stronie).</p> <p><strong>Szlaki:</strong> na progu doliny rozdziela się szlak: <strong>czerwony</strong> na <strong>Wrota Chałubińskiego</strong> (1 h) i <strong>żółty</strong> przez zbocza Miedzianego na <strong>Szpiglasową Przełęcz</strong> (z Morskiego Oka 2:30 h). Ścieżki taterników pod Mnicha, Hińczową Przełęcz i Cubrynę.</p> <p><strong>Zagrożenia:</strong> <strong>24 lutego 2013</strong> lawina ze zboczy Miedzianego zasypała 5 osób – 1 zginęła, 1 ciężko ranna (akcja TOPR, śmigłowiec). Wrota Chałubińskiego – luźne kamienie, ryzyko spadających głazów.</p>",
+   "neighbors": [
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Koprowa",
+    "Dolina Mięguszowiecka"
+   ],
+   "facts": [
+    {
+     "q": "Jakie szlaki rozdzielają się na progu Doliny za Mnichem?",
+     "a": "Czerwony na Wrota Chałubińskiego i żółty na Szpiglasową Przełęcz."
+    },
+    {
+     "q": "Jaki jest najwyżej położony naturalny zbiornik wody po polskiej stronie Tatr?",
+     "a": "Zadni Mnichowy Stawek (ok. 2072 m) w Dolinie za Mnichem."
+    },
+    {
+     "q": "Jaki wypadek lawinowy wydarzył się w Dolinie za Mnichem w 2013 r.?",
+     "a": "24 lutego 2013 lawina z Miedzianego – 1 osoba zginęła, 1 ciężko ranna."
+    }
+   ]
+  },
+  {
+   "id": "kociol-czarnego-stawu-pod-rysami",
+   "name": "Kocioł Czarnego Stawu pod Rysami",
+   "name_sk": null,
+   "kind": "kocioł",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-rybiego-potoku",
+   "lat": 49.1889,
+   "lon": 20.0769,
+   "summary": "Kocioł polodowcowy nad Morskim Okiem z Czarnym Stawem pod Rysami (1583 m, 76,4 m głębokości) – na trasie na Rysy.",
+   "html": "<p><strong>Położenie:</strong> kocioł polodowcowy (Czarnostawiański Kocioł) w <strong>Dolinie Rybiego Potoku</strong>, 188 m nad Morskim Okiem.</p> <p><strong>Staw:</strong> <strong>Czarny Staw pod Rysami</strong> – 1583 m, ok. 20,64 ha, głęb. 76,4 m (2. w Tatrach, 4. w Polsce). Najdalej na południe wysunięte jezioro Polski. Odpływ przez próg (mutony) – <strong>Czarnostawiańska Siklawa</strong>.</p> <p><strong>Otoczenie:</strong> ściany <strong>Kazalnicy</strong> (576 m), grań od Mięguszowieckiego Szczytu Czarnego przez Wołowy Grzbiet, <strong>Rysy</strong>, Niżnie Rysy, Żabią Grań (Żabi Szczyt Wyżni, Żabi Mnich).</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> ze schroniska wschodnim brzegiem Morskiego Oka na próg Czarnego Stawu (50 min) i dalej na <strong>Rysy</strong> (3 h, w dół 2:30 h); <strong>zielony</strong> na Kazalnicę i Mięguszowiecką Przełęcz pod Chłopkiem (2:30 h).</p>",
+   "neighbors": [
+    "Dolina Białej Wody",
+    "Dolina Mięguszowiecka"
+   ],
+   "facts": [
+    {
+     "q": "Na jakiej wysokości leży Czarny Staw pod Rysami?",
+     "a": "1583 m – 188 m wyżej niż Morskie Oko."
+    },
+    {
+     "q": "Jaka ściana wznosi się nad Czarnym Stawem pod Rysami?",
+     "a": "Kazalnica Mięguszowiecka (ok. 576 m)."
+    }
+   ]
+  },
+  {
+   "id": "lysa-polana",
+   "name": "Łysa Polana",
+   "name_sk": "Lysá Poľana",
+   "kind": "polana",
+   "region": "Tatry Wysokie",
+   "country": "PL/SK",
+   "parent": "dolina-bialki",
+   "lat": 49.2681,
+   "lon": 20.1192,
+   "summary": "Polana i osada w Dolinie Białki przedzielona granicą (środkiem Białki); dawne przejście graniczne, start słowackiego szlaku Doliną Białej Wody.",
+   "html": "<p><strong>Położenie:</strong> duża polana i osada w <strong>Dolinie Białki</strong>, w TPN i TANAP. Granica biegnie <strong>środkiem Białki</strong>. Walery Eljasz nazwał ją „Bramą Tatr”.</p> <p><strong>Komunikacja:</strong> przebiega tu <strong>Droga Oswalda Balzera</strong> (Zakopane – Morskie Oko), dochodzi słowacka <strong>Droga Wolności</strong>. Przejście graniczne zlikwidowano 21 grudnia 2007 (Schengen). Zakaz wjazdu pojazdów powyżej 7,5 t. Parking rezerwowy dla Palenicy Białczańskiej (ok. 1,5 km).</p> <p><strong>Szlak:</strong> słowacki <strong>niebieski</strong> z Łysej Polany Doliną Białej Wody i Doliną Litworową na <strong>Rohatkę</strong> (5:40 h), dalej do <strong>Schroniska Zbójnickiego</strong> (55 min).</p>",
+   "neighbors": [
+    "Dolina Białki",
+    "Dolina Białej Wody"
+   ],
+   "facts": [
+    {
+     "q": "Którędy biegnie granica na Łysej Polanie?",
+     "a": "Środkiem Białki."
+    },
+    {
+     "q": "Jaki szlak zaczyna się na Łysej Polanie po stronie słowackiej?",
+     "a": "Niebieski Doliną Białej Wody na Rohatkę i do Schroniska Zbójnickiego."
+    }
+   ]
+  },
+  {
+   "id": "palenica-bialczanska",
+   "name": "Palenica Białczańska",
+   "name_sk": null,
+   "kind": "polana",
+   "region": "Tatry Wysokie",
+   "country": "PL",
+   "parent": "dolina-bialki",
+   "lat": 49.2558,
+   "lon": 20.1031,
+   "summary": "Polana i parking (ok. 990 m) w Dolinie Białki – koniec ruchu samochodowego na Drodze Oswalda Balzera do Morskiego Oka; najczęstsze wejście do TPN.",
+   "html": "<p><strong>Położenie:</strong> polana w <strong>Dolinie Białki</strong>, ok. 990 m.</p> <p><strong>Funkcja:</strong> koniec ruchu zmotoryzowanego na <strong>Drodze Oswalda Balzera</strong>; parking do 850 aut (rezerwacja elektroniczna TPN), busy, fasiągi. Kasy biletowe – najliczniej używane wejście do TPN (2005: 31,5% turystów). Dalej szosą jeżdżą tylko służby; od 1998 r. zakaz rowerów.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> na Rusinową Polanę (40 min) i do Zazadniej; szosą (<strong>czerwony</strong>) do <strong>Wodogrzmotów Mickiewicza</strong> (50 min), skąd <strong>zielony</strong> do Doliny Roztoki i Pięciu Stawów, a <strong>czerwony</strong> dalej nad Morskie Oko (1:30 h).</p>",
+   "neighbors": [
+    "Dolina Białki",
+    "Dolina Waksmundzka"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie kończy się ruch samochodowy na drodze do Morskiego Oka?",
+     "a": "Na Palenicy Białczańskiej."
+    },
+    {
+     "q": "Ile trwa przejście z Palenicy do Wodogrzmotów Mickiewicza?",
+     "a": "Ok. 50 min szosą."
+    }
+   ]
+  },
+  {
+   "id": "dolina-bialej-wody",
+   "name": "Dolina Białej Wody",
+   "name_sk": "Bielovodská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-bialki",
+   "lat": 49.2017,
+   "lon": 20.1108,
+   "summary": "Główny ciąg Doliny Białki na Słowacji (ponad 10 km) pod Rysami, Wysoką i Gerlachem; niebieski szlak z Łysej Polany na Rohatkę.",
+   "html": "<p><strong>Położenie:</strong> główny (górny) ciąg Doliny Białki, w <strong>Słowacji</strong>, po północnej stronie Tatr Wysokich; ponad 10 km.</p> <p><strong>Ograniczenie:</strong> grań główna od <strong>Rysów po Mały Jaworowy Szczyt</strong> (Wysoka, Ganek, Zadni Gerlach, Świstowy Szczyt); lewe – północna grań Rysów (granica z PL); prawe – Jaworowa Grań, <strong>Szeroka Jaworzyńska</strong>.</p> <p><strong>Odgałęzienia:</strong> Dolina Żabich Stawów Białczańskich (rezerwat), <strong>Dolina Ciężka</strong>, <strong>Dolina Kacza</strong>, <strong>Dolina Litworowa</strong>, Dolina Świstowa, Dolina Rówienki.</p> <p><strong>Woda:</strong> <strong>Biała Woda</strong> (z Rybim Potokiem tworzy Białkę). 16 stawów. Wodospady: <strong>Ciężka Siklawa (~100 m – najwyższa w Tatrach)</strong>, Kacza Siklawa (widoczna ze szlaku).</p> <p><strong>Lodowiec:</strong> najdłuższy w Tatrach (ok. 14 km).</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> z Łysej Polany do rozdroża pod Polskim Grzebieniem (4:55 h) i na <strong>Rohatkę</strong> (45 min), stąd do Doliny Staroleśnej; <strong>zielony</strong> w Dolinie Świstowej na <strong>Polski Grzebień</strong> (2200 m) i do Doliny Wielickiej.</p> <p><strong>Dla ratownika:</strong> boczne dolinki zamknięte – jedne z największych mateczników niedźwiedzi. Długie, odludne podejście.</p>",
+   "neighbors": [
+    "Dolina Rybiego Potoku",
+    "Dolina Jaworowa",
+    "Dolina Mięguszowiecka",
+    "Dolina Batyżowiecka",
+    "Dolina Wielicka",
+    "Dolina Staroleśna"
+   ],
+   "facts": [
+    {
+     "q": "Jaki jest najwyższy wodospad w Tatrach?",
+     "a": "Ciężka Siklawa (ok. 100 m) w Dolinie Ciężkiej, odnodze Doliny Białej Wody."
+    },
+    {
+     "q": "Dokąd prowadzi niebieski szlak z Łysej Polany?",
+     "a": "Doliną Białej Wody i Doliną Litworową na Rohatkę, dalej do Schroniska Zbójnickiego."
+    },
+    {
+     "q": "Jak przejść z Doliny Białej Wody do Doliny Wielickiej?",
+     "a": "Zielonym szlakiem przez Polski Grzebień (2200 m)."
+    },
+    {
+     "q": "Jak Słowacy nazywają Dolinę Białki z Doliną Białej Wody?",
+     "a": "Bielovodská dolina (potok: Biela voda)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-ciezka",
+   "name": "Dolina Ciężka",
+   "name_sk": "Ťažká dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-bialej-wody",
+   "lat": 49.1825,
+   "lon": 20.1019,
+   "summary": "Wisząca dolinka systemu Doliny Białej Wody pod Rysami i Wysoką, z Ciężkim Stawem i najwyższym wodospadem Tatr; bez szlaku.",
+   "html": "<p><strong>Położenie:</strong> dolina zawieszona – górne piętro <strong>Doliny Białej Wody</strong>; odchodzi przy Polanie pod Wysoką, za progiem ~300 m. Z Dolinką Spadową ok. 2 km.</p> <p><strong>Ograniczenie:</strong> NW – od Żabiego Szczytu Wyżniego po Młynarza; zachód i południe – północna grań <strong>Rysów</strong> i grań główna od Rysów po Mały Ganek (Ciężki Szczyt, <strong>Waga</strong>, <strong>Wysoka</strong>); wschód – grań Małego Ganku.</p> <p><strong>Stawy:</strong> <strong>Ciężki Staw</strong> (1612 m) i Zmarzły Staw pod Wysoką (ok. 1760 m).</p> <p><strong>Wodospad:</strong> <strong>Ciężka Siklawa (~100 m) – najwyższy wodospad w Tatrach</strong>.</p> <p><strong>Dostępność:</strong> TANAP, <strong>brak znakowanego szlaku</strong>; przejście na przełęcz Waga tylko z przewodnikiem. Dawniej główna droga Polaków na Rysy (przez Wagę). Koleby, ściana Galerii Gankowej (300 m).</p>",
+   "neighbors": [
+    "Dolina Kacza",
+    "Dolina Mięguszowiecka",
+    "Dolina Rybiego Potoku"
+   ],
+   "facts": [
+    {
+     "q": "Jaki staw leży w dolnym piętrze Doliny Ciężkiej?",
+     "a": "Ciężki Staw (1612 m)."
+    },
+    {
+     "q": "Którędy dawniej Polacy wchodzili na Rysy?",
+     "a": "Przez Dolinę Ciężką i przełęcz Wagę."
+    }
+   ]
+  },
+  {
+   "id": "dolina-kacza",
+   "name": "Dolina Kacza",
+   "name_sk": "Kačacia dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-bialej-wody",
+   "lat": 49.1747,
+   "lon": 20.12,
+   "summary": "Najbardziej na południe wysunięta odnoga Doliny Białej Wody (ok. 1,7 km) pod Gankiem i Zadnim Gerlachem; niedostępna.",
+   "html": "<p><strong>Położenie:</strong> najbardziej na południe wysunięte odgałęzienie <strong>Doliny Białej Wody</strong>; odchodzi wraz z Doliną Litworową za wspólnym progiem (~150 m). Ok. 1,7 km, 2,3 km².</p> <p><strong>Piętra:</strong> dolne – <strong>Zielony Staw Kaczy</strong> (1576 m), z którego Kaczy Potok tworzy <strong>Kaczą Siklawę</strong> (65 m); górne – cyrk <strong>Kaczy Bańdzioch</strong> pod Zadnim Gerlachem.</p> <p><strong>Sąsiedzi:</strong> zachód – Dolina Ciężka (Pusta Grań); SW i S – <strong>Dolina Złomisk</strong> (przez Żelazne Wrota, Żłobisty, Rumanowy, Ganek) i <strong>Dolina Batyżowiecka</strong> (Kaczy, Batyżowiecki Szczyt, Zadni Gerlach); wschód – <strong>Dolina Wielicka</strong>.</p> <p><strong>Dostępność:</strong> TANAP, <strong>niedostępna</strong>. Skrajem doliny biegnie <strong>niebieski</strong> szlak, który na progu skręca do Doliny Litworowej i na Rohatkę.</p>",
+   "neighbors": [
+    "Dolina Ciężka",
+    "Dolina Litworowa (Tatry Wysokie)",
+    "Dolina Złomisk",
+    "Dolina Batyżowiecka",
+    "Dolina Wielicka"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywa się wodospad z Zielonego Stawu Kaczego?",
+     "a": "Kacza Siklawa (ok. 65 m) – widoczna ze szlaku niebieskiego."
+    },
+    {
+     "q": "Jaki cyrk tworzy górne piętro Doliny Kaczej?",
+     "a": "Kaczy Bańdzioch pod Zadnim Gerlachem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-litworowa-tw",
+   "name": "Dolina Litworowa (Tatry Wysokie)",
+   "name_sk": "Litvorová dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-bialej-wody",
+   "lat": 49.1778,
+   "lon": 20.1278,
+   "summary": "Mała dolinka (ok. 1 km, 1600–2100 m) – górne piętro Doliny Białej Wody z Litworowym Stawem; niebieski szlak na Rohatkę.",
+   "html": "<p><strong>Położenie:</strong> jedno z górnych pięter <strong>Doliny Białej Wody</strong> (SK), ok. 1600–2100 m.</p> <p><strong>Sąsiedzi:</strong> zachód – Dolina Kacza (Gerlachowskie Spady); południe – <strong>Dolina Wielicka</strong> (grań Litworowy Szczyt – Wielicki Szczyt); wschód – Dolina Świstowa.</p> <p><strong>Staw:</strong> <strong>Litworowy Staw</strong> (ok. 1860 m, 1,7 ha, 18 m); Litworowy Potok łączy się z Kaczym poniżej Kaczej Siklawy.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> z Łysej Polany przez Dolinę Białej Wody i Litworową do <strong>Kotła pod Polskim Grzebieniem</strong> i na <strong>Rohatkę</strong> (z Łysej Polany 5:40 h), dalej do Schroniska Zbójnickiego (55 min); odgałęzienie na <strong>Polski Grzebień</strong>.</p> <p><strong>Uwaga:</strong> nie mylić z Doliną Litworową w polskich Tatrach Zachodnich (Dolina Miętusia).</p>",
+   "neighbors": [
+    "Dolina Kacza",
+    "Dolina Wielicka",
+    "Dolina Staroleśna"
+   ],
+   "facts": [
+    {
+     "q": "Jaki staw leży w Dolinie Litworowej (Tatry Wysokie)?",
+     "a": "Litworowy Staw (ok. 1860 m)."
+    },
+    {
+     "q": "Na jaką przełęcz prowadzi niebieski szlak przez Dolinę Litworową?",
+     "a": "Na Rohatkę (2293 m), dalej do Doliny Staroleśnej."
+    }
+   ]
+  },
+  {
+   "id": "dolina-jaworowa",
+   "name": "Dolina Jaworowa",
+   "name_sk": "Javorová dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.2194,
+   "lon": 20.1611,
+   "summary": "Duża dolina walna (ok. 10 km, 40 km²) na Słowacji z wylotem przy Jaworzynie Tatrzańskiej; dnem jej dolnej części biegnie granica Tatr Wysokich i Bielskich.",
+   "html": "<p><strong>Położenie:</strong> silnie rozgałęziona dolina walna po północnej stronie Tatr Wysokich (SK). Wylot ok. 1000 m przy <strong>Jaworzynie Tatrzańskiej</strong>. Górą – <strong>Dolina Zadnia Jaworowa</strong> pod <strong>Lodową Przełęcz</strong> (2372 m). Najwyższy punkt otoczenia: <strong>Lodowy Szczyt</strong>.</p> <p><strong>Sąsiedzi:</strong> zachód – Dolina Białej Wody (ramię Szerokiej Jaworzyńskiej, Jaworowa Grań); południe – <strong>Dolina Staroleśna</strong> (Jaworowy, Ostry Szczyt); SE – <strong>Dolina Małej Zimnej Wody</strong> (Lodowy Szczyt); wschód – <strong>Dolina Kieżmarska</strong> (Czarny, Kołowy, Jagnięcy Szczyt, <strong>Przełęcz pod Kopą</strong>); północ – doliny Tatr Bielskich (grań Płaczliwa Skała – Hawrań – Murań).</p> <p><strong>Odgałęzienia:</strong> zachodnie (rezerwat) – m.in. Dolina Szeroka, Zielona Jaworowa, Żabia Jaworowa; wschodnie – <strong>Dolina Zadnich Koperszadów</strong> (z Doliną Kołową), Dolina Czarna Jaworowa i inne.</p> <p><strong>Potok:</strong> <strong>Jaworowy Potok</strong> (z Żabiego Stawu Jaworowego) – przez Jaworzynę i Podspady, końcowy odcinek tworzy granicę PL/SK; zlewnia Dunajca (Bałtyk).</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> z Jaworzyny Tatrzańskiej dnem doliny i Doliną Zadnią Jaworową na <strong>Lodową Przełęcz</strong> (od rozstaju 4:30 h), dalej do Doliny Pięciu Stawów Spiskich; <strong>niebieski</strong> od zielonego przez Zadnie Koperszady na <strong>Przełęcz pod Kopą</strong> (2:30 h).</p>",
+   "neighbors": [
+    "Dolina Białej Wody",
+    "Dolina Staroleśna",
+    "Dolina Małej Zimnej Wody",
+    "Dolina Kieżmarska",
+    "Dolina Zielona Kieżmarska"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie jest wylot Doliny Jaworowej?",
+     "a": "Przy Jaworzynie Tatrzańskiej (ok. 1000 m)."
+    },
+    {
+     "q": "Na jaką przełęcz prowadzi zielony szlak Doliną Jaworową?",
+     "a": "Na Lodową Przełęcz (2372 m), dalej do Doliny Pięciu Stawów Spiskich."
+    },
+    {
+     "q": "Jaki potok płynie Doliną Jaworową i gdzie stanowi granicę?",
+     "a": "Jaworowy Potok; jego końcowy odcinek tworzy granicę polsko-słowacką."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zadnich-koperszadow",
+   "name": "Dolina Zadnich Koperszadów",
+   "name_sk": "Zadné Meďodoly",
+   "kind": "dolina",
+   "region": "Tatry Bielskie",
+   "country": "SK",
+   "parent": "dolina-jaworowa",
+   "lat": 49.2336,
+   "lon": 20.1961,
+   "summary": "Największe wschodnie odgałęzienie Doliny Jaworowej (ok. 4 km, 6 km²) pod Przełęcz pod Kopą, między Tatrami Wysokimi a Bielskimi.",
+   "html": "<p><strong>Położenie:</strong> największe wschodnie odgałęzienie <strong>Doliny Jaworowej</strong>, na pograniczu <strong>Tatr Wysokich i Bielskich</strong>. Wznosi się pod <strong>Przełęcz pod Kopą</strong>. Ok. 4 km, 6 km².</p> <p><strong>Ograniczenie:</strong> północ – grań Tatr Bielskich (Szalony Wierch, <strong>Płaczliwa Skała, Hawrań</strong>); SE – grań główna Szalony Wierch – Przełęcz pod Kopą – Koperszadzka Grań – <strong>Jagnięcy Szczyt</strong>; SW – Jagnięca Grań (od Doliny Kołowej).</p> <p><strong>Odgałęzienia:</strong> lewe – <strong>Dolina Kołowa</strong> (Kołowy Staw) i Dolina Skoruszowa z Jagnięcym Kotłem; prawe – trawiaste żleby (Janowy, Szeroki, Płaczliwe, Głupi).</p> <p><strong>Potok:</strong> Koperszadzki Potok (z Kołowym Potokiem). U ujścia wapienny wąwóz – Koperszadzka Bramka. Żyzne dawne hale Białej Spiskiej.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> od Rozdroża pod Muraniem przez Polanę pod Muraniem (Gałajdówkę) i Zadnią Koperszadzką Pastwę na Przełęcz pod Kopą (2:30 h, w dół 2 h). Poza szlakiem – ochrona ścisła.</p>",
+   "neighbors": [
+    "Dolina Przednich Koperszadów",
+    "Dolina Kieżmarska",
+    "Dolina Jaworowa"
+   ],
+   "facts": [
+    {
+     "q": "Czego odgałęzieniem jest Dolina Zadnich Koperszadów?",
+     "a": "Doliny Jaworowej (największe wschodnie)."
+    },
+    {
+     "q": "Jaki szlak prowadzi przez Zadnie Koperszady?",
+     "a": "Niebieski od Rozdroża pod Muraniem na Przełęcz pod Kopą."
+    }
+   ]
+  },
+  {
+   "id": "dolina-przednich-koperszadow",
+   "name": "Dolina Przednich Koperszadów",
+   "name_sk": "Predné Meďodoly",
+   "kind": "dolina",
+   "region": "Tatry Bielskie",
+   "country": "SK",
+   "parent": "dolina-kiezmarska",
+   "lat": 49.2278,
+   "lon": 20.2383,
+   "summary": "Północne odgałęzienie Doliny Kieżmarskiej – jej dnem biegnie granica Tatr Wysokich i Bielskich; krajobrazowo należy do Tatr Bielskich.",
+   "html": "<p><strong>Położenie:</strong> północne odgałęzienie <strong>Doliny Kieżmarskiej</strong>. <strong>Dnem doliny biegnie granica Tatr Wysokich i Bielskich</strong>; zaliczana do systemu Tatr Wysokich, ale krajobrazowo i geologicznie – Tatry Bielskie (białe wapienne turnie).</p> <p><strong>Ograniczenie:</strong> północ – Tatry Bielskie od Szalonego Wierchu przez Bielskie Jatki po Bujaczy Wierch; południe – stoki <strong>Bielskiej Kopy</strong> (oddziela od Doliny Białych Stawów). Płaskie dno w górze – Bielska Rówień.</p> <p><strong>Potok:</strong> Potok spod Kopy (spod Przełęczy pod Kopą) → Zielony Potok Kieżmarski → Biała Woda Kieżmarska.</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> z Tatrzańskiej Kotliny nad Wielki Biały Staw (cały 3:10 h) – dolnym skrajem; <strong>niebieski</strong> znad Wielkiego Białego Stawu przez Wyżnią Przełęcz pod Kopą na <strong>Przełęcz pod Kopą</strong> (45 min) i dalej Zadnimi Koperszadami do Doliny Jaworowej. Reszta – rezerwat TANAP.</p>",
+   "neighbors": [
+    "Dolina Zadnich Koperszadów",
+    "Dolina Kieżmarska"
+   ],
+   "facts": [
+    {
+     "q": "Jaka granica biegnie dnem Doliny Przednich Koperszadów?",
+     "a": "Granica Tatr Wysokich i Tatr Bielskich."
+    },
+    {
+     "q": "Ile trwa przejście znad Wielkiego Białego Stawu na Przełęcz pod Kopą?",
+     "a": "Ok. 45 min niebieskim szlakiem."
+    }
+   ]
+  },
+  {
+   "id": "dolina-kiezmarska",
+   "name": "Dolina Kieżmarska",
+   "name_sk": "Dolina Kežmarskej Bielej vody",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.2125,
+   "lon": 20.2561,
+   "summary": "Dolina walna (8 km, 14,5 km²) w słowackich Tatrach Wysokich na granicy z Bielskimi – z Zielonym Stawem Kieżmarskim i końcem Magistrali.",
+   "html": "<p><strong>Położenie:</strong> dolina walna w słowackich Tatrach Wysokich, na granicy z Tatrami Bielskimi. Opada na wschód; wylot między Kieżmarskimi Żłobami a Matlarami. 8 km, 14,5 km².</p> <p><strong>Ograniczenie:</strong> grań główna od <strong>Przełęczy pod Kopą</strong> do Wyżniego Baraniego Zwornika; SE grań Wyżniego Baraniego Zwornika; grań Tatr Bielskich (Steżki – Szalony Wierch). Szczyty: Jagnięcy, Kołowy, Czarny, Baranie Rogi, Durny, <strong>Łomnica</strong>, Kieżmarski.</p> <p><strong>Odnogi:</strong> <strong>Dolina Przednich Koperszadów</strong>, <strong>Dolina Białych Stawów</strong>, <strong>Dolina Zielona Kieżmarska</strong> (z Doliną Jagnięcą, Jastrzębią, Dziką, Miedzianą Kotliną).</p> <p><strong>Woda:</strong> <strong>Biała Woda Kieżmarska</strong> (z Zielonego Potoku Kieżmarskiego i Potoku spod Kopy) – zlewnia <strong>Popradu</strong>. Stawy: Zielony, Czarny, Czerwony Staw Kieżmarski, <strong>Wielki Biały Staw</strong> i inne. Płat wiecznego śniegu pod Łomnicą.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> Biała Woda (parking) – schronisko nad Zielonym Stawem (3:15 h) – <strong>Jagnięcy Szczyt</strong> (2:15 h); <strong>niebieski</strong> Matlary – Wielki Biały Staw – Przełęcz pod Kopą; <strong>zielony</strong> Tatrzańska Kotlina – Schronisko pod Szarotką – Wielki Biały Staw; <strong>czerwona Magistrala</strong> znad Łomnickiego Stawu przez schronisko do <strong>Wielkiego Białego Stawu</strong> (koniec Magistrali).</p>",
+   "neighbors": [
+    "Dolina Jaworowa",
+    "Dolina Zadnich Koperszadów",
+    "Dolina Małej Zimnej Wody"
+   ],
+   "facts": [
+    {
+     "q": "Gdzie kończy się Magistrala Tatrzańska?",
+     "a": "Nad Wielkim Białym Stawem w Dolinie Kieżmarskiej."
+    },
+    {
+     "q": "Do jakiej rzeki odprowadza wody Biała Woda Kieżmarska?",
+     "a": "Do Popradu (zlewisko Bałtyku)."
+    },
+    {
+     "q": "Na jaki szczyt prowadzi żółty szlak przez Dolinę Kieżmarską?",
+     "a": "Na Jagnięcy Szczyt (przez schronisko nad Zielonym Stawem)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zielona-kiezmarska",
+   "name": "Dolina Zielona Kieżmarska",
+   "name_sk": "dolina Zeleného plesa",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-kiezmarska",
+   "lat": 49.2089,
+   "lon": 20.2183,
+   "summary": "Górna część głównej gałęzi Doliny Kieżmarskiej z Zielonym Stawem Kieżmarskim pod 900-metrową ścianą Małego Kieżmarskiego Szczytu.",
+   "html": "<p><strong>Położenie:</strong> górna część głównej gałęzi <strong>Doliny Kieżmarskiej</strong>; w połowie skręca o 75°. Rozpiętość pionowa 1700 m.</p> <p><strong>Sąsiedzi:</strong> północ – Dolina Białych Stawów (Rzeżuchowe Turnie); zachód – Dolina Kołowa i Czarna Jaworowa (grań Jagnięcy – Wyżni Barani Zwornik); SW – <strong>Dolina Małej Zimnej Wody</strong> (Baranie Rogi, Durny, Łomnica); SE – Dolina Łomnicka (grań Wideł).</p> <p><strong>Górne piętra:</strong> Dolina Jagnięca, Jastrzębia, Dzika, Miedziana Kotlina (szczątkowy lodowiec pod Łomnicą).</p> <p><strong>Staw:</strong> <strong>Zielony Staw Kieżmarski</strong> – 1545 m, 1,77 ha, pod <strong>najwyższą w Tatrach ścianą (ok. 900 m)</strong> Małego Kieżmarskiego Szczytu. Schronisko nad Zielonym Stawem.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> z Białej Wody do schroniska i na Jagnięcy Szczyt; <strong>czerwona Magistrala</strong> przez Rakuski Przechód.</p>",
+   "neighbors": [
+    "Dolina Małej Zimnej Wody",
+    "Dolina Jaworowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaka jest najwyższa ściana w Tatrach?",
+     "a": "Ściana Małego Kieżmarskiego Szczytu nad Zielonym Stawem Kieżmarskim (ok. 900 m)."
+    },
+    {
+     "q": "Na jakiej wysokości leży Zielony Staw Kieżmarski?",
+     "a": "Ok. 1545 m."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zimnej-wody",
+   "name": "Dolina Zimnej Wody",
+   "name_sk": "Studená dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1611,
+   "lon": 20.2303,
+   "summary": "Dolina walna po południowej stronie Tatr Wysokich, z dwiema gałęziami: Staroleśną i Małej Zimnej Wody; najlepiej zagospodarowana na Słowacji.",
+   "html": "<p><strong>Położenie:</strong> dolina walna po południowej stronie Tatr Wysokich (SK). Wąski wylot przy <strong>Tatrzańskiej Leśnej</strong>.</p> <p><strong>Gałęzie:</strong> rozdzielają się przy <strong>Wodospadach Zimnej Wody</strong>: <strong>Dolina Staroleśna</strong> (pod grań od Małej Wysokiej do Małego Lodowego Szczytu) i <strong>Dolina Małej Zimnej Wody</strong> (od Małego Lodowego Szczytu do Wyżniego Baraniego Zwornika). Najwyższy punkt otoczenia – <strong>Łomnica</strong>.</p> <p><strong>Obiekty:</strong> <strong>Rainerowa Chatka</strong> (najstarsze schronisko w Tatrach, dziś bufet i muzeum), schronisko Bilíka koło Smokowieckiego Siodełka (<strong>Hrebienok</strong> – kolejka ze Starego Smokowca), Zbójnickie, Zamkovského, Téryego.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> Tatrzańska Łomnica – Rainerowa Chatka – Dolina Staroleśna – Schronisko Zbójnickie – Rohatka; <strong>zielony</strong> Stary Smokowiec – Siodełko – Rainerowa Chatka; <strong>żółty</strong> z Tatrzańskiej Leśnej do wodospadów; <strong>czerwona Magistrala</strong> znad Wielickiego Stawu przez Siodełko i Schronisko Zamkovskiego do Doliny Łomnickiej; <strong>zielony</strong> do Schroniska Téryego i na Lodową Przełęcz; <strong>żółty</strong> jednokierunkowy przez Czerwoną Ławkę.</p>",
+   "neighbors": [
+    "Dolina Wielicka",
+    "Dolina Kieżmarska",
+    "Dolina Jaworowa",
+    "Dolina Białej Wody"
+   ],
+   "facts": [
+    {
+     "q": "Jakie jest najstarsze schronisko w Tatrach?",
+     "a": "Rainerowa Chatka przy Wodospadach Zimnej Wody."
+    },
+    {
+     "q": "Na jakie gałęzie dzieli się Dolina Zimnej Wody?",
+     "a": "Dolinę Staroleśną i Dolinę Małej Zimnej Wody."
+    }
+   ]
+  },
+  {
+   "id": "dolina-staroleska",
+   "name": "Dolina Staroleśna",
+   "name_sk": "Veľká Studená dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-zimnej-wody",
+   "lat": 49.1747,
+   "lon": 20.1956,
+   "summary": "Duża, tarasowa gałąź Doliny Zimnej Wody pod Rohatką i Jaworowym Szczytem, ze Schroniskiem Zbójnickim.",
+   "html": "<p><strong>Położenie:</strong> jedna z największych słowackich dolin; z Doliną Małej Zimnej Wody tworzy Dolinę Zimnej Wody.</p> <p><strong>Odgałęzienia:</strong> Strzelecka, Siwa, Pusta i Graniasta, Dzika, Warzęchowa, Nowoleśna Kotlina, Zbójnickie Korycisko, Jamina.</p> <p><strong>Sąsiedzi:</strong> NE – Dolina Małej Zimnej Wody (Pośrednia Grań, Zimnowodzka Grań); północ – Dolina Zadnia Jaworowa (grań główna Mały Lodowy – Ostry – Jaworowy Szczyt); N i W – Dolina Świstowa i Rówienki (system Białej Wody; grań od Małego Jaworowego po <strong>Małą Wysoką</strong>); SW – Dolina Wielicka.</p> <p><strong>Schronisko:</strong> <strong>Schronisko Zbójnickie</strong>.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> od Rainerowej Chatki wzdłuż Staroleśnego Potoku do Schroniska Zbójnickiego (2:15 h) i na <strong>Rohatkę</strong> (1:15 h) – przejście do Doliny Białej Wody; <strong>żółty</strong> ze Schroniska Téryego przez <strong>Czerwoną Ławkę</strong> do Zbójnickiego (szlak jednokierunkowy).</p>",
+   "neighbors": [
+    "Dolina Małej Zimnej Wody",
+    "Dolina Jaworowa",
+    "Dolina Białej Wody",
+    "Dolina Wielicka"
+   ],
+   "facts": [
+    {
+     "q": "Jakie schronisko stoi w Dolinie Staroleśnej?",
+     "a": "Schronisko Zbójnickie."
+    },
+    {
+     "q": "Jaka przełęcz łączy Dolinę Staroleśną z Doliną Białej Wody?",
+     "a": "Rohatka (2293 m)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-malej-zimnej-wody",
+   "name": "Dolina Małej Zimnej Wody",
+   "name_sk": "Malá Studená dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-zimnej-wody",
+   "lat": 49.1811,
+   "lon": 20.2106,
+   "summary": "Tarasowa dolina (ok. 4 km) pod Łomnicą i Lodowym Szczytem, z Doliną Pięciu Stawów Spiskich i schroniskami Zamkovskiego i Téryego.",
+   "html": "<p><strong>Położenie:</strong> gałąź <strong>Doliny Zimnej Wody</strong>, ok. 4 km, otwiera się na E i SE.</p> <p><strong>Piętra:</strong> dół zalesiony; górą, za ścianą <strong>Złote Spady</strong> (wodospad Złota Siklawa) – <strong>Dolina Pięciu Stawów Spiskich</strong> (stawy Zadni, Wielki, Pośredni, Niżni, Mały Staw Spiski; okresowy Barani Stawek 2207 m – najwyżej położony staw Tatr) oraz <strong>Dolinka Lodowa</strong> pod Lodową Przełęcz.</p> <p><strong>Sąsiedzi:</strong> wschód – Dolina Łomnicka (od Łomnicy); NE – Dolina Zielona Kieżmarska (Baranie Rogi, Durny Szczyt); N i W – Dolina Jaworowa (Śnieżny, <strong>Lodowy Szczyt</strong>, Lodowa Kopa, Mały Lodowy); SW – Dolina Staroleśna.</p> <p><strong>Schroniska:</strong> <strong>Zamkovského</strong> (1475 m) i <strong>Téryego</strong> (2015 m).</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> od Schroniska Zamkovskiego do Schroniska Téryego (1:45 h) i na <strong>Lodową Przełęcz</strong> (1:30 h) → Dolina Jaworowa; <strong>żółty</strong> jednokierunkowy ze Schroniska Téryego na <strong>Czerwoną Ławkę</strong> (1:30 h) i do Schroniska Zbójnickiego (1:45 h).</p>",
+   "neighbors": [
+    "Dolina Staroleśna",
+    "Dolina Jaworowa",
+    "Dolina Zielona Kieżmarska"
+   ],
+   "facts": [
+    {
+     "q": "Jak nazywa się górne piętro Doliny Małej Zimnej Wody ze stawami?",
+     "a": "Dolina Pięciu Stawów Spiskich."
+    },
+    {
+     "q": "Jakie schronisko stoi w Dolinie Pięciu Stawów Spiskich?",
+     "a": "Schronisko Téryego (2015 m)."
+    },
+    {
+     "q": "Jaki szlak przez Czerwoną Ławkę jest jednokierunkowy?",
+     "a": "Żółty – od Schroniska Téryego do Schroniska Zbójnickiego."
+    }
+   ]
+  },
+  {
+   "id": "dolina-wielicka",
+   "name": "Dolina Wielicka",
+   "name_sk": "Velická dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.16,
+   "lon": 20.155,
+   "summary": "Jedna z najmniejszych dolin walnych (ok. 6 km, 5,7 km²) pod Gerlachem i Polskim Grzebieniem, z Wielickim Stawem i Śląskim Domem.",
+   "html": "<p><strong>Położenie:</strong> dolina walna po południowej stronie Tatr Wysokich (SK), otwarta na SE; ok. 6 km, 5,7 km².</p> <p><strong>Sąsiedzi:</strong> wschód – Dolina Sławkowska; NE – Dolina Staroleśna (grań Mała Wysoka – Staroleśny Szczyt); N i NW – system Białej Wody: Dolina Świstowa, Litworowa, Kacza (grań główna Mała Wysoka – Wielicki – Litworowy – Zadni Gerlach); zachód – <strong>Dolina Batyżowiecka</strong> (masyw <strong>Gerlacha</strong>).</p> <p><strong>Budowa:</strong> tarasy: Mokra Wanta z <strong>Wielicką Siklawą</strong>, Wielicki Ogród, Wyżni Wielicki Ogród, Wielicki Kocioł. Żleby w masywie Gerlacha.</p> <p><strong>Obiekty:</strong> <strong>Wielicki Staw</strong>, hotel górski <strong>„Śląski Dom”</strong> (dojazd rowerem asfaltem z Tatrzańskiej Polanki).</p> <p><strong>Szlaki:</strong> <strong>zielony</strong> Tatrzańska Polanka – Wielicki Staw (1:45 h) – <strong>Polski Grzebień</strong> (2 h) → Dolina Białej Wody; <strong>czerwona Magistrala</strong> Batyżowiecki Staw – Wielicki Staw (1 h) – Smokowieckie Siodełko; <strong>żółty</strong> ze Starego Smokowca.</p>",
+   "neighbors": [
+    "Dolina Batyżowiecka",
+    "Dolina Staroleśna",
+    "Dolina Białej Wody",
+    "Dolina Kacza",
+    "Dolina Litworowa (Tatry Wysokie)"
+   ],
+   "facts": [
+    {
+     "q": "Jaki hotel górski stoi nad Wielickim Stawem?",
+     "a": "Śląski Dom."
+    },
+    {
+     "q": "Na jaką przełęcz prowadzi zielony szlak z Doliny Wielickiej?",
+     "a": "Na Polski Grzebień (2200 m), skąd schodzi się do Doliny Białej Wody."
+    }
+   ]
+  },
+  {
+   "id": "dolina-batyzowiecka",
+   "name": "Dolina Batyżowiecka",
+   "name_sk": "Batizovská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1519,
+   "lon": 20.1269,
+   "summary": "Mała, stroma dolina walna (ok. 5,5 km, 5,7 km²) pod Gerlachem; w głąb bez szlaków – tylko z przewodnikiem.",
+   "html": "<p><strong>Położenie:</strong> dolina walna w słowackich Tatrach Wysokich; ok. 5,5 km, 5,7 km² – jedna z trzech najmniejszych walnych. Średni spadek ponad 8°.</p> <p><strong>Sąsiedzi:</strong> wschód – dolina Stos, Gerlachowski Kocioł, <strong>Dolina Wielicka</strong> (masyw <strong>Gerlacha</strong>); północ – <strong>Dolina Kacza</strong> (grań główna Zadni Gerlach – Batyżowiecki – Kaczy – Zmarzły Szczyt); zachód – <strong>Dolina Złomisk</strong> (Grań Kończystej) i Dolina Stwolska.</p> <p><strong>Budowa:</strong> próg Batyżowieckie Spady; samotna turnia Kościołek; <strong>Batyżowiecki Staw</strong>.</p> <p><strong>Szlaki:</strong> <strong>czerwona Magistrala</strong> znad Popradzkiego Stawu przez <strong>Przełęcz pod Osterwą</strong> do Batyżowieckiego Stawu (1:40 h) i dalej do Śląskiego Domu (1 h); <strong>żółty</strong> z Wyżnich Hagów Doliną Stwolską nad staw (2:25 h). W głąb doliny i na <strong>Gerlach</strong> – <strong>tylko z przewodnikiem</strong>.</p>",
+   "neighbors": [
+    "Dolina Wielicka",
+    "Dolina Kacza",
+    "Dolina Złomisk",
+    "Dolina Mięguszowiecka"
+   ],
+   "facts": [
+    {
+     "q": "Czy na Gerlach z Doliny Batyżowieckiej prowadzi znakowany szlak?",
+     "a": "Nie – tylko z przewodnikiem tatrzańskim."
+    },
+    {
+     "q": "Jaka przełęcz łączy Popradzki Staw z Doliną Batyżowiecką?",
+     "a": "Przełęcz pod Osterwą (Magistrala Tatrzańska)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-mieguszowiecka",
+   "name": "Dolina Mięguszowiecka",
+   "name_sk": "Mengusovská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1483,
+   "lon": 20.0742,
+   "summary": "Duża dolina walna (ok. 7,5 km, 16 km²) po południowej stronie Tatr Wysokich, z Popradzkim Stawem i szlakiem przez Wagę na Rysy.",
+   "html": "<p><strong>Położenie:</strong> dolina walna po południowej stronie Tatr Wysokich (SK); ok. 7,5 km, 16 km². W środku wachlarzowato się rozgałęzia.</p> <p><strong>Odgałęzienia:</strong> <strong>Dolina Złomisk</strong> (największe, na SE), Kotlinka pod Wagą, <strong>Dolina Żabia Mięguszowiecka</strong> (Żabie Stawy), <strong>Dolina Hińczowa</strong>, Dolinka Szatania; żleby w Grani Baszt.</p> <p><strong>Sąsiedzi:</strong> wschód – Dolina Batyżowiecka (Grań Kończystej); północ – Dolina Kacza i Ciężka (grań Zmarzły – Ganek – Wysoka – Waga – <strong>Rysy</strong>) oraz polska <strong>Dolina Rybiego Potoku</strong> (grań Rysy – Żabi Koń – Mięguszowieckie Szczyty – <strong>Cubryna</strong>); NW – Ciemnosmreczyńska i Hlińska (system Koprowej); zachód – Dolina Młynicka (Grań Baszt).</p> <p><strong>Stawy:</strong> <strong>Popradzki Staw</strong> (1494 m, 6,9 ha; formalnie w dolnej części Doliny Złomisk), <strong>Wielki Hińczowy Staw</strong> (najgłębszy w słowackich Tatrach).</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> od stacji kolejki Popradské pleso do Popradzkiego Stawu (1 h), nad Wielki Hińczowy Staw i na <strong>Wyżnią Koprową Przełęcz</strong> (→ Dolina Koprowa); <strong>czerwony</strong> od rozdroża nad Żabim Potokiem Doliną Żabią przez <strong>Wagę na Rysy</strong> (2:45 h); <strong>czerwona Magistrala</strong> ze Szczyrbskiego Jeziora przez Popradzki Staw na Przełęcz pod Osterwą; <strong>żółty</strong> do <strong>Symbolicznego Cmentarza</strong>. Schronisko nad Popradzkim Stawem.</p>",
+   "neighbors": [
+    "Dolina Rybiego Potoku",
+    "Dolina Młynicka",
+    "Dolina Koprowa",
+    "Dolina Batyżowiecka",
+    "Dolina Ciężka",
+    "Dolina Kacza"
+   ],
+   "facts": [
+    {
+     "q": "Jakim szlakiem wchodzi się na Rysy od strony słowackiej?",
+     "a": "Czerwonym z Doliny Mięguszowieckiej przez Dolinę Żabią i przełęcz Wagę."
+    },
+    {
+     "q": "Jaki jest najgłębszy staw słowackich Tatr?",
+     "a": "Wielki Hińczowy Staw w Dolinie Mięguszowieckiej."
+    },
+    {
+     "q": "W której dolinie leży Popradzki Staw?",
+     "a": "W dolnej części Doliny Złomisk – odnogi Doliny Mięguszowieckiej."
+    },
+    {
+     "q": "Jak przejść z Doliny Mięguszowieckiej do Koprowej?",
+     "a": "Niebieskim szlakiem przez Wyżnią Koprową Przełęcz (2148 m)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zlomisk",
+   "name": "Dolina Złomisk",
+   "name_sk": "Zlomisková dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-mieguszowiecka",
+   "lat": 49.1578,
+   "lon": 20.0936,
+   "summary": "Największe, NE odgałęzienie Doliny Mięguszowieckiej (ok. 2,5 km, 4,5 km²) zawalone złomami skalnymi; rezerwat.",
+   "html": "<p><strong>Położenie:</strong> największe odgałęzienie <strong>Doliny Mięguszowieckiej</strong>, zwykle liczone od <strong>Popradzkiego Stawu</strong> (hydrologicznie 2 km niżej). Ok. 2,5 km, 4,5 km².</p> <p><strong>Granice:</strong> zachód – grań od Ciężkiego Szczytu (Popradzka i Smocza Grań); NW i NE – grań główna od Ciężkiego Szczytu przez Ganek po <strong>Zmarzły Szczyt</strong>; wschód – grań Kończystej przez Tępą po Osterwę.</p> <p><strong>Odgałęzienia:</strong> Dolinka Smocza, Zmarzła Kotlina, Żelazna Kotlina, Dolinka Rumanowa.</p> <p><strong>Woda:</strong> Zmarzły Staw Mięguszowiecki, Rumanowe i Smocze Stawy; Zmarzły Potok → Popradzki Staw.</p> <p><strong>Szlaki:</strong> dolną część przecina <strong>czerwona Magistrala</strong> (Popradzki Staw – Przełęcz pod Osterwą 1:30 h – Batyżowiecki Staw). W głąb – <strong>rezerwat</strong>, ścieżka (dawniej znakowana) na Wschodnie Żelazne Wrota.</p>",
+   "neighbors": [
+    "Dolina Batyżowiecka",
+    "Dolina Kacza",
+    "Dolina Mięguszowiecka"
+   ],
+   "facts": [
+    {
+     "q": "Skąd pochodzi nazwa Doliny Złomisk?",
+     "a": "Od dużej ilości skalnych złomów zawalających dolinę."
+    },
+    {
+     "q": "Jaki szlak przecina dolną część Doliny Złomisk?",
+     "a": "Czerwona Magistrala Tatrzańska (na Przełęcz pod Osterwą)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-mlynicka",
+   "name": "Dolina Młynicka",
+   "name_sk": "Mlynická dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1519,
+   "lon": 20.0464,
+   "summary": "Dolina (ok. 6 km) nad Szczyrbskim Jeziorem z wodospadem Skok; żółty szlak przez Bystrą Ławkę do Doliny Furkotnej.",
+   "html": "<p><strong>Położenie:</strong> słowackie Tatry Wysokie, nad <strong>Szczyrbskim Jeziorem</strong>; ok. 6 km, 5,8 km². Dawniej Dolina Szczyrbska.</p> <p><strong>Sąsiedzi:</strong> wschód – Dolina Mięguszowiecka (Grań Baszt, Satan); północ – Dolina Hlińska (Hlińska Turnia – Szczyrbski Szczyt – Hruby Wierch); zachód – Niewcyrka i <strong>Dolina Furkotna</strong> (Grań Soliska).</p> <p><strong>Woda:</strong> potok <strong>Młynica</strong> → <strong>Poprad</strong>. Stawy: pod Skokiem i nad Skokiem, Wołowe, Kozie, <strong>Capi Staw</strong>, Kolisty.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> ze Szczyrbskiego Jeziora obok wodospadu <strong>Skok</strong> (1:30 h) na <strong>Bystrą Ławkę</strong> (2 h) i do Doliny Furkotnej – zalecany kierunek Młynicka → Furkotna (łańcuchy); <strong>czerwona Magistrala</strong> dolną częścią do Popradzkiego Stawu.</p> <p><strong>Wypadek:</strong> <strong>25 czerwca 1979</strong> pod Capim Stawem rozbił się śmigłowiec <strong>Mi-8</strong> lecący do rannej turystki – zginęło 7 z 9 osób.</p>",
+   "neighbors": [
+    "Dolina Furkotna",
+    "Dolina Mięguszowiecka",
+    "Dolina Hlińska"
+   ],
+   "facts": [
+    {
+     "q": "Jaki wodospad jest w Dolinie Młynickiej?",
+     "a": "Skok."
+    },
+    {
+     "q": "W jakim kierunku zaleca się przejście przez Bystrą Ławkę?",
+     "a": "Z Doliny Młynickiej do Furkotnej (żółty szlak, łańcuchy)."
+    },
+    {
+     "q": "Jaka katastrofa wydarzyła się w Dolinie Młynickiej w 1979 r.?",
+     "a": "Rozbił się śmigłowiec ratowniczy Mi-8 – zginęło 7 z 9 osób."
+    }
+   ]
+  },
+  {
+   "id": "dolina-furkotna",
+   "name": "Dolina Furkotna",
+   "name_sk": "Furkotská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1489,
+   "lon": 20.0303,
+   "summary": "Dolina (ok. 5,5 km) koło Szczyrbskiego Jeziora – najbardziej wysunięta na wschód dolina Tatr w zlewisku Morza Czarnego.",
+   "html": "<p><strong>Położenie:</strong> słowackie Tatry Wysokie koło Szczyrbskiego Jeziora; otwarta na południe, ok. 5,5 km.</p> <p><strong>Sąsiedzi:</strong> wschód – Dolina Młynicka (Grań Soliska); NW – Niewcyrka (grań Furkot – Ostra); zachód – Dolina Sucha Ważecka (Dolina Ważecka).</p> <p><strong>Stawy:</strong> Niżni Wielki Furkotny Staw (ok. 2053 m), <strong>Wyżni Wielki Furkotny Staw</strong> (ok. 2167 m, 5,2 ha), Mały Furkotny, Soliskowy Stawek.</p> <p><strong>Woda:</strong> <strong>Furkotny Potok</strong> → <strong>Biały Wag</strong> → Wag. <strong>Najdalej na wschód wysunięta dolina tatrzańska w zlewisku Morza Czarnego.</strong></p> <p><strong>Szlaki:</strong> <strong>żółty</strong> z Bystrej Ławki obok Furkotnych Stawów do Magistrali; <strong>czerwona Magistrala</strong> (Dolina Ważecka – Furkotna – Szczyrbskie Jezioro); <strong>niebieski</strong> z Rozdroża pod Soliskiem do <strong>Schroniska na Solisku</strong>. W dolinie brak noclegów.</p>",
+   "neighbors": [
+    "Dolina Młynicka",
+    "Dolina Ważecka"
+   ],
+   "facts": [
+    {
+     "q": "Która dolina Tatr jest najdalej na wschód w zlewisku Morza Czarnego?",
+     "a": "Dolina Furkotna (Furkotny Potok → Biały Wag → Wag)."
+    },
+    {
+     "q": "Jaka przełęcz łączy Dolinę Furkotną z Młynicką?",
+     "a": "Bystra Ławka (żółty szlak)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-koprowa",
+   "name": "Dolina Koprowa",
+   "name_sk": "Kôprová dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1856,
+   "lon": 19.9883,
+   "summary": "Duża dolina (ok. 11 km, 31 km²) na Słowacji między Liptowskimi Kopami a Krywaniem; część Słowaków prowadzi nią granicę Tatr Wysokich i Zachodnich.",
+   "html": "<p><strong>Położenie:</strong> słowacka dolina walna, ok. 11 km, 31,3 km². Polscy geografowie liczą ją (z Liptowskimi Kopami) do Tatr Wysokich; część słowackich – dnem doliny prowadzi granicę Wysokie/Zachodnie. Łączy się z Doliną Cichą już poza górami.</p> <p><strong>Ograniczenie:</strong> północ – grań główna od <strong>Gładkiego Wierchu do Cubryny</strong> (za nią Pięć Stawów Polskich i Morskie Oko); wschód – grań Cubryny z Koprowym Wierchem, Hrubym Wierchem, <strong>Krywaniem</strong>; zachód – Zawory i Liptowskie Kopy.</p> <p><strong>Odgałęzienia:</strong> górne przedłużenie – <strong>Dolina Ciemnosmreczyńska</strong> (Niżni i Wyżni Ciemnosmreczyński Staw) i Dolina Piarżysta; <strong>Dolina Hlińska</strong>, Niewcyrka, Dolinka Kobyla i inne.</p> <p><strong>Woda:</strong> Koprowa Woda + Cicha Woda → <strong>Biała Liptowska</strong> → Wag.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> Trzy Źródła – Dolina Koprowa – Rozdroże w Hlińskiej (3:15 h) – Dolina Hlińska – <strong>Wyżnia Koprowa Przełęcz</strong>; <strong>zielony</strong> z Podbańskiej; <strong>zielony</strong> z Rozdroża w Hlińskiej na <strong>Zawory</strong>; <strong>czerwony</strong> nad Niżni Ciemnosmreczyński Staw.</p> <p><strong>Zagrożenie:</strong> zimą duże zagrożenie lawinowe na drodze w dolinie.</p>",
+   "neighbors": [
+    "Dolina Cicha Liptowska",
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Rybiego Potoku",
+    "Dolina Mięguszowiecka",
+    "Dolina Ważecka"
+   ],
+   "facts": [
+    {
+     "q": "Między jakimi szczytami Dolina Koprowa sięga grani głównej?",
+     "a": "Od Gładkiego Wierchu do Cubryny."
+    },
+    {
+     "q": "Jakie potoki tworzą Białą Liptowską?",
+     "a": "Koprowa Woda i Cicha Woda (nieco powyżej Podbańskiej)."
+    },
+    {
+     "q": "Jakim szlakiem przejść z Doliny Koprowej do Doliny Cichej?",
+     "a": "Zielonym przez Zawory (dalej czerwony Doliną Wierchcichą)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-hlinska",
+   "name": "Dolina Hlińska",
+   "name_sk": "Hlinská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-koprowa",
+   "lat": 49.18,
+   "lon": 20.0253,
+   "summary": "Boczna odnoga Doliny Koprowej (ok. 3 km) pod 600-metrowymi ścianami Grani Hrubego; niebieski szlak na Wyżnią Koprową Przełęcz.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie górnej <strong>Doliny Koprowej</strong> (odchodzi w Ciemnych Smreczynach) na SE; ok. 3 km.</p> <p><strong>Granice:</strong> północ – Pośredni Wierszyk i Koprowy Wierch; wschód – grań od Koprowego Wierchu przez <strong>Wyżnią Koprową Przełęcz</strong> po Hlińską Turnię; południe – od Hlińskiej Turni po Garajową Strażnicę.</p> <p><strong>Budowa:</strong> bez progów i jezior; ściany <strong>Grani Hrubego</strong> do 600 m; kotły Wielki i Mały Ogród. Potok Hliński.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> Rozdroże w Hlińskiej – Dolina Hlińska – Wyżnia Koprowa Przełęcz (2:15 h) → Dolina Mięguszowiecka; z przełęczy wejście na Koprowy Wierch.</p>",
+   "neighbors": [
+    "Dolina Młynicka",
+    "Dolina Mięguszowiecka",
+    "Dolina Koprowa"
+   ],
+   "facts": [
+    {
+     "q": "Dokąd prowadzi szlak przez Dolinę Hlińską?",
+     "a": "Niebieski na Wyżnią Koprową Przełęcz, dalej do Doliny Mięguszowieckiej."
+    }
+   ]
+  },
+  {
+   "id": "dolina-ciemnosmreczynska",
+   "name": "Dolina Ciemnosmreczyńska",
+   "name_sk": "Temnosmrečinská dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-koprowa",
+   "lat": 49.1961,
+   "lon": 20.025,
+   "summary": "Górne, wschodnie przedłużenie Doliny Koprowej pod Cubryną i Wrotami Chałubińskiego, z Ciemnosmreczyńskimi Stawami.",
+   "html": "<p><strong>Położenie:</strong> orograficznie prawe odgałęzienie (górne przedłużenie) <strong>Doliny Koprowej</strong>; najwyższe piętra – Dolina Piarżysta.</p> <p><strong>Piętra:</strong> las Ciemne Smreczyny; próg z <strong>Ciemnosmreczyńską Siklawą</strong>; <strong>Niżni Ciemnosmreczyński Staw</strong> (ok. 1674 m – 3. co do wielkości staw słowackich Tatr); <strong>Wyżni Ciemnosmreczyński Staw</strong> (1716 m); suchy kocioł.</p> <p><strong>Kontekst:</strong> od północy grań główna z <strong>Wrotami Chałubińskiego</strong> i Szpiglasowym Wierchem – po drugiej stronie Dolina za Mnichem / Morskie Oko.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> od Rozdroża w Ciemnych Smreczynach nad Niżni Ciemnosmreczyński Staw (1 h); <strong>zielony</strong> od Rozdroża w Hlińskiej przez Ciemne Smreczyny na Zawory.</p>",
+   "neighbors": [
+    "Dolina za Mnichem",
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Mięguszowiecka"
+   ],
+   "facts": [
+    {
+     "q": "Jaki staw jest celem czerwonego szlaku w Dolinie Ciemnosmreczyńskiej?",
+     "a": "Niżni Ciemnosmreczyński Staw."
+    }
+   ]
+  },
+  {
+   "id": "dolina-cicha-liptowska",
+   "name": "Dolina Cicha Liptowska",
+   "name_sk": "Tichá dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.2164,
+   "lon": 19.9389,
+   "summary": "Jedna z największych dolin Tatr (ok. 16 km, 52 km²); wg polskich geografów jej dnem biegnie granica Tatr Zachodnich i Wysokich.",
+   "html": "<p><strong>Położenie:</strong> dolina walna w słowackich Tatrach; wejście koło <strong>Podbańskiej</strong>. Ok. 16 km, 52,3 km². Wg polskich geografów <strong>stanowi granicę Tatr Zachodnich i Wysokich</strong>. Z Koprową tworzy największy system dolin walnych Tatr (ponad 83,5 km²). „Liptowska” – dla odróżnienia od Doliny Cichej Orawskiej.</p> <p><strong>Przebieg:</strong> na N, potem NE, w 2/3 długości ostro na wschód pod <strong>Gładką Przełęcz</strong>.</p> <p><strong>Sąsiedzi:</strong> SE – Dolina Koprowa (Liptowskie Kopy); wschód – <strong>Dolina Pięciu Stawów Polskich</strong> (Gładki Wierch – Świnica); północ – polskie <strong>Gąsienicowa, Bystrej, Małej Łąki, Kościeliska</strong> (grań Świnica – Liliowe – Kasprowy – Kopa Kondracka – Czerwone Wierchy – Kamienista); zachód – Dolina Kamienista.</p> <p><strong>Odgałęzienia:</strong> Krzyżna, Koprowica, Szpania, <strong>Dolina Wierchcicha</strong> (z Walentkową), <strong>Dolina Tomanowa Liptowska</strong> i inne.</p> <p><strong>Woda:</strong> <strong>Cicha Woda</strong> (ok. 14 km) + Koprowa Woda → Biała Liptowska → Wag (Morze Czarne).</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> z Podbańskiej całą doliną do Rozdroża pod Kasprowym (3:40 h) i na <strong>Kasprowy Wierch</strong> (2:20 h); <strong>czerwony</strong> od rozdroża na <strong>Zawory</strong> (2:20 h) i Gładki Wierch.</p> <p><strong>Zagrożenia:</strong> z Liliowego do doliny opada żleb (z Żlebem Zaremby) – zimą <strong>duże lawiny</strong>. Oś Dolina Cicha – Dolina Bystrej to dysza wiatrowa.</p>",
+   "neighbors": [
+    "Dolina Koprowa",
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Gąsienicowa",
+    "Dolina Bystrej",
+    "Dolina Małej Łąki",
+    "Dolina Kościeliska",
+    "Dolina Kamienista"
+   ],
+   "facts": [
+    {
+     "q": "Którędy (wg polskich geografów) po stronie słowackiej biegnie granica Tatr Zachodnich i Wysokich?",
+     "a": "Dnem Doliny Cichej Liptowskiej."
+    },
+    {
+     "q": "Którędy prowadzi żółty szlak z Podbańskiej na Kasprowy Wierch?",
+     "a": "Całą Doliną Cichą przez Rozdroże pod Kasprowym."
+    },
+    {
+     "q": "Do jakiego morza płyną wody z Doliny Cichej?",
+     "a": "Do Morza Czarnego (Cicha Woda → Biała → Wag → Dunaj)."
+    },
+    {
+     "q": "Jakie zagrożenie dotyczy żlebów spod Liliowego do Doliny Cichej?",
+     "a": "Zimą schodzą nimi duże lawiny."
+    }
+   ]
+  },
+  {
+   "id": "dolina-wierchcicha",
+   "name": "Dolina Wierchcicha",
+   "name_sk": "Zadná Tichá dolina",
+   "kind": "dolina",
+   "region": "Tatry Wysokie",
+   "country": "SK",
+   "parent": "dolina-cicha-liptowska",
+   "lat": 49.2136,
+   "lon": 19.9867,
+   "summary": "Górna część Doliny Cichej pod Gładką Przełęczą; czerwony szlak na Zawory, graniczy z Doliną Pięciu Stawów Polskich.",
+   "html": "<p><strong>Położenie:</strong> <strong>górna część Doliny Cichej</strong>, pod grań główną. Odgałęzienie – <strong>Dolina Walentkowa</strong>; dolinki boczne Wielkie i Zadnie Rycerowe.</p> <p><strong>Sąsiedzi:</strong> S i SE – Dolina Koprowa (Liptowskie Kopy: Wielka Kopa Koprowa, Cichy Wierch); wschód – <strong>Dolina Pięciu Stawów Polskich</strong> (grań główna Gładki Wierch – Walentkowy Wierch).</p> <p><strong>Potok:</strong> górny bieg <strong>Cichej Wody</strong> (Wierchcichy Potok), spod Gładkiej Przełęczy.</p> <p><strong>Szlak:</strong> <strong>czerwony</strong> z Liptowskiego Koszaru (rozdroża) na przełęcz <strong>Zawory</strong> (2:20 h) i <strong>Gładką Przełęcz</strong> (15 min); z Zaworów <strong>zielony</strong> do Dolinki Kobylej (Dolina Koprowa).</p> <p><strong>Przełęcz:</strong> <strong>Gładka Przełęcz</strong> (1993 m) – łagodne, trawiaste połączenie z Doliną Pięciu Stawów Polskich.</p>",
+   "neighbors": [
+    "Dolina Pięciu Stawów Polskich",
+    "Dolina Koprowa"
+   ],
+   "facts": [
+    {
+     "q": "Co oznacza nazwa Wierchcicha?",
+     "a": "Górną część Doliny Cichej."
+    },
+    {
+     "q": "Jaka przełęcz łączy Dolinę Wierchcichą z Doliną Pięciu Stawów Polskich?",
+     "a": "Gładka Przełęcz (1993 m)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-tomanowa-liptowska",
+   "name": "Dolina Tomanowa Liptowska",
+   "name_sk": "Tomanovská dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": "dolina-cicha-liptowska",
+   "lat": 49.2211,
+   "lon": 19.9236,
+   "summary": "Zachodnie odgałęzienie Doliny Cichej (2,5 km) pod Czerwonymi Wierchami i Tomanową Przełęczą; niedostępna, szlak zamknięty od 2008.",
+   "html": "<p><strong>Położenie:</strong> odgałęzienie górnej <strong>Doliny Cichej</strong> na zachód (dawniej Dolina Węgierska). 2,5 km, 3,25 km².</p> <p><strong>Sąsiedzi:</strong> północ – polskie <strong>Kondratowa, Małej Łąki, Miętusia</strong> (Czerwone Wierchy); zachód – polska <strong>Dolina Tomanowa</strong> (Ciemniak – <strong>Tomanowa Przełęcz</strong> – Tomanowy Wierch Polski); południe – Dolina Jaworowa Liptowska.</p> <p><strong>Odgałęzienia:</strong> kotły Świstówka Liptowska i Dolinka Rozpadła.</p> <p><strong>Woda:</strong> Tomanowe Stawki (jedyne stałe stawki w Dolinie Cichej); Tomanowy Potok Liptowski z Tomanową Siklawą → Cicha Woda.</p> <p><strong>Dostępność:</strong> <strong>niedostępna</strong>; ok. 40 jaskiń. Czerwony szlak z Doliny Cichej na Tomanową Przełęcz <strong>zamknięto w czerwcu 2008</strong>.</p>",
+   "neighbors": [
+    "Dolina Tomanowa",
+    "Dolina Miętusia",
+    "Dolina Małej Łąki",
+    "Dolina Kondratowa"
+   ],
+   "facts": [
+    {
+     "q": "Jaka przełęcz łączy Dolinę Tomanową z Doliną Tomanową Liptowską?",
+     "a": "Tomanowa Przełęcz (1685 m) – szlaki zamknięte (SK 2008, PL 2009)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-kamienista",
+   "name": "Dolina Kamienista",
+   "name_sk": "Kamenistá dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1775,
+   "lon": 19.8703,
+   "summary": "Dolina walna (ok. 7 km) w słowackich Tatrach Zachodnich pod Kamienistą i Błyszczem; niebieski szlak na Pyszniańską Przełęcz.",
+   "html": "<p><strong>Położenie:</strong> dolina walna w słowackich Tatrach Zachodnich (bywa uznawana za odgałęzienie Doliny Cichej). Ok. 7 km, 9 km².</p> <p><strong>Sąsiedzi:</strong> NE/E – dolina Hlina i Dolina Cicha (grań Hlina); <strong>północ – polska Dolina Pyszniańska</strong> (grań główna Kamienista – Błyszcz); zachód – Dolina Raczkowa (Gaborowa; grań Błyszcz – Bystra) i <strong>Dolina Bystra</strong>.</p> <p><strong>Potok:</strong> Kamienisty Potok → Cicha Woda.</p> <p><strong>Szlak:</strong> <strong>niebieski</strong> z Podbańskiej (droga 537) przez dolinę na <strong>Pyszniańską Przełęcz</strong> (1788 m): 4:15 h, +1300 m, 9,5 km. <strong>Zamknięty od 1 listopada do 31 maja.</strong></p>",
+   "neighbors": [
+    "Dolina Pyszniańska",
+    "Dolina Cicha Liptowska",
+    "Dolina Bystra",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Na jaką przełęcz prowadzi szlak Doliną Kamienistą?",
+     "a": "Niebieski na Pyszniańską Przełęcz (1788 m) – nad polską Doliną Pyszniańską."
+    },
+    {
+     "q": "Kiedy szlak w Dolinie Kamienistej jest zamknięty?",
+     "a": "Od 1 listopada do 31 maja."
+    }
+   ]
+  },
+  {
+   "id": "dolina-bystra-sk",
+   "name": "Dolina Bystra",
+   "name_sk": "Bystrá dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1692,
+   "lon": 19.8478,
+   "summary": "Słowacka dolina (ok. 5,75 km) między graniami Bystrej z wylotem w Przybylinie; żółty szlak na Bystrą – najwyższy szczyt Tatr Zachodnich.",
+   "html": "<p><strong>Położenie:</strong> słowacka dolina między dwiema graniami <strong>Bystrej (2248 m)</strong>. Wylot w <strong>Przybylinie</strong>. Nie jest walna – od grani głównej oddziela ją grzbiet Bystrej z Błyszczem. 5,75 km.</p> <p><strong>Sąsiedzi:</strong> SE grań Bystrej – Dolina Kamienista; SW grań – Dolina Raczkowa.</p> <p><strong>Stawy:</strong> Bystre Stawy (Wielki, Długi, Mały), Anusine Oczko w Suchym Zadku.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> z Przybyliny przez dolinę i wschodnią grań na <strong>Bystrą</strong> (4 h, +1400 m) – <strong>zamknięty 1 XI – 30 VI</strong>; <strong>czerwona Magistrala</strong> przecina dolną część.</p> <p><strong>Zagrożenia:</strong> z trawiastych zboczy Bystrej zsuwają się ogromne lawiny, jedne z największych w Tatrach.</p> <p><strong>Uwaga:</strong> nie mylić z polską <strong>Doliną Bystrej</strong> (Kuźnice).</p>",
+   "neighbors": [
+    "Dolina Kamienista",
+    "Dolina Raczkowa"
+   ],
+   "facts": [
+    {
+     "q": "Czym różni się Dolina Bystra od Doliny Bystrej?",
+     "a": "Dolina Bystra – Słowacja, pod szczytem Bystra (Przybylina); Dolina Bystrej – Polska, od Kuźnic pod Kasprowy."
+    },
+    {
+     "q": "Jakim szlakiem wejść na Bystrą od południa?",
+     "a": "Żółtym z Przybyliny przez Dolinę Bystrą (zamknięty 1 XI – 30 VI)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-raczkowa",
+   "name": "Dolina Raczkowa",
+   "name_sk": "Račkova dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1742,
+   "lon": 19.8097,
+   "summary": "Lewe odgałęzienie Doliny Wąskiej pod Starorobociańskim Wierchem i Bystrą; szlaki na Starorobociańską Przełęcz, Liliowy Karb i Bystrą.",
+   "html": "<p><strong>Położenie:</strong> orograficznie lewe odgałęzienie <strong>Doliny Wąskiej</strong> (wspólny dolny odcinek z Jamnicką; wylot przy autokempingu Raczkowa). W Niżniej Łące łączy się z Doliną Jamnicką.</p> <p><strong>Ograniczenie:</strong> wschód – grań Bystrej; zachód – Otargańce; północ – grań główna. <strong>Starorobociański Wierch</strong> dzieli górę na <strong>Dolinę Gaborową</strong> i <strong>Dolinę Zadnią Raczkową</strong>.</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> z Niżniej Łąki do Rozdroża pod Klinem (2:30 h) i Doliną Zadnią Raczkową na graniczną <strong>Starorobociańską Przełęcz</strong> (2 h) i Kończysty Wierch; <strong>zielony</strong> Doliną Gaborową na <strong>Liliowy Karb</strong>; <strong>niebieski</strong> z Doliny Gaborowej na Banistą Przełęcz i Bystrą.</p> <p><strong>Zagrożenia:</strong> lawiny w Dolinie Raczkowej i Jamnickiej należą do największych w Karpatach.</p>",
+   "neighbors": [
+    "Dolina Jamnicka",
+    "Dolina Bystra",
+    "Dolina Kamienista",
+    "Dolina Starorobociańska",
+    "Dolina Pyszniańska"
+   ],
+   "facts": [
+    {
+     "q": "Na jakie dwie gałęzie dzieli się górna Dolina Raczkowa?",
+     "a": "Dolinę Gaborową i Dolinę Zadnią Raczkową."
+    },
+    {
+     "q": "Jaka graniczna przełęcz łączy Dolinę Raczkową z polską stroną?",
+     "a": "Starorobociańska Przełęcz (żółty szlak)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-jamnicka",
+   "name": "Dolina Jamnicka",
+   "name_sk": "Jamnícka dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1747,
+   "lon": 19.775,
+   "summary": "Prawe odgałęzienie Doliny Wąskiej (9 km, 35 km²) pod Wołowcem i Rohaczami; największe lawiny w Karpatach.",
+   "html": "<p><strong>Położenie:</strong> orograficznie prawe odgałęzienie <strong>Doliny Wąskiej</strong>; górą pod <strong>Rohacze, Wołowiec, Łopatę i Jarząbczy Wierch</strong>. Bliźniacza z Raczkową (łączą się w Niżniej Łące). 9 km, 35 km².</p> <p><strong>Ograniczenie:</strong> zachód – Barańce (Baraniec 2185 m); wschód – Otargańce (Raczkowa Czuba 2194 m). Stoki trawiaste, 600–1000 m nad dnem.</p> <p><strong>Woda:</strong> Jamnickie Stawy, Płaczliwy Stawek; Jamnicki Potok → Raczkowy Potok.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> od autokempingu Raczkowa przez Niżnią Łąkę, Zahradki i Kocioł Jamnickich Stawów na <strong>Jamnicką Przełęcz i Wołowiec</strong>; <strong>zielony</strong> z Jarząbczego Wierchu i Otargańców przez Zahradki na <strong>Żarską Przełęcz</strong>.</p> <p><strong>Zagrożenia:</strong> <strong>lawiny w Dolinie Jamnickiej i Raczkowej – jedne z największych w łuku Karpat</strong>; tereny lawinowe ok. 530 ha.</p>",
+   "neighbors": [
+    "Dolina Raczkowa",
+    "Dolina Żarska",
+    "Dolina Rohacka",
+    "Dolina Chochołowska Wyżnia",
+    "Dolina Jarząbcza"
+   ],
+   "facts": [
+    {
+     "q": "Pod jakie szczyty podchodzi Dolina Jamnicka?",
+     "a": "Rohacze, Wołowiec, Łopatę i Jarząbczy Wierch."
+    },
+    {
+     "q": "Z czego słynie Dolina Jamnicka (zagrożenie)?",
+     "a": "Z ogromnych lawin – jednych z największych w Karpatach (ok. 530 ha terenów lawinowych)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zarska",
+   "name": "Dolina Żarska",
+   "name_sk": "Žiarska dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1686,
+   "lon": 19.7133,
+   "summary": "Dolina walna (7 km, 17,5 km²) pod Banówką i Rohaczem Płaczliwym, ze Schroniskiem Żarskim – centrum skialpinizmu.",
+   "html": "<p><strong>Położenie:</strong> dolina walna słowackich Tatr Zachodnich; 7 km, 17,5 km². Wylot w miejscowościach <strong>Żar</strong> i Smreczany (dojazd z Liptowskiego Mikułasza).</p> <p><strong>Ograniczenie:</strong> grań główna od <strong>Banówki</strong> przez Hrubą Kopę, Trzy Kopy po <strong>Rohacz Płaczliwy</strong>; grań Rosochy; grań Barańców.</p> <p><strong>Woda:</strong> potok <strong>Smreczanka</strong> → Wag. Kotły Wielkie i Małe Zawraty.</p> <p><strong>Schronisko:</strong> <strong>Schronisko Żarskie</strong>.</p> <p><strong>Szlaki:</strong> <strong>niebieski</strong> od wylotu do schroniska (1:30 h), przez Rozdroże pod Bulą na <strong>Smutną Przełęcz</strong> (2 h) → Dolina Rohacka; <strong>zielony</strong> z Banówki przez Jałowiecką Przełęcz do schroniska, dalej na <strong>Żarską Przełęcz</strong> → Dolina Jamnicka.</p> <p><strong>Uwaga:</strong> centrum skialpinizmu i narciarstwa pozatrasowego.</p>",
+   "neighbors": [
+    "Dolina Jamnicka",
+    "Dolina Jałowiecka",
+    "Dolina Rohacka"
+   ],
+   "facts": [
+    {
+     "q": "Jaka przełęcz łączy Dolinę Żarską z Doliną Rohacką?",
+     "a": "Smutna Przełęcz (niebieski szlak)."
+    },
+    {
+     "q": "Jak nazywa się potok Doliny Żarskiej?",
+     "a": "Smreczanka (dopływ Wagu)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-jalowiecka",
+   "name": "Dolina Jałowiecka",
+   "name_sk": "Jalovecká dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.1778,
+   "lon": 19.6575,
+   "summary": "Dolina walna (8,5 km) w zachodniej części słowackich Tatr Zachodnich, pod Banówką i Siwym Wierchem; wylot w Jałowcu.",
+   "html": "<p><strong>Położenie:</strong> dolina walna zachodniej części słowackich Tatr Zachodnich; wylot ok. 800 m w <strong>Jałowcu</strong> (Liptów). 8,5 km; dolna część – jar ok. 3 km.</p> <p><strong>Ograniczenie:</strong> grań główna od <strong>Banówki po Siwy Wierch</strong>; wschód – Grań Rosochy; zachód – grań Siwy Wierch – Ostra – Babki – Sokół.</p> <p><strong>Odgałęzienia:</strong> <strong>Dolina Bobrowiecka Liptowska</strong> (pod Brestową; Bobrowieckie Stawki) i <strong>Parzychwost</strong> (pod Banówkę i Pachoła) z Doliną Głęboką (Głęboki Worek).</p> <p><strong>Szlaki:</strong> <strong>żółty</strong> Jałowiec – Przesieka – <strong>Palenica Jałowiecka</strong>; <strong>czerwona Magistrala</strong> do Doliny Żarskiej; <strong>zielony</strong> Doliną Głęboką na Pośrednią Salatyńską Przełęcz; <strong>niebieski</strong> Parzychwostem na <strong>Banikowską Przełęcz</strong>.</p> <p><strong>Ciekawostka:</strong> Palenica Jałowiecka (1570 m) – najniższa przełęcz grani głównej Tatr.</p>",
+   "neighbors": [
+    "Dolina Żarska",
+    "Dolina Rohacka",
+    "Dolina Zuberska"
+   ],
+   "facts": [
+    {
+     "q": "Jaka jest najniższa przełęcz grani głównej Tatr i do której doliny z niej się schodzi na południe?",
+     "a": "Palenica Jałowiecka (1570 m) – żółty szlak do Doliny Jałowieckiej."
+    }
+   ]
+  },
+  {
+   "id": "dolina-zuberska",
+   "name": "Dolina Zuberska",
+   "name_sk": "Studená dolina (Orava)",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": null,
+   "lat": 49.2586,
+   "lon": 19.6714,
+   "summary": "Jedna z trzech największych dolin Tatr, jedyna walna w dorzeczu Orawy; dzieli się w Zwierówce na Dolinę Rohacką i Łataną.",
+   "html": "<p><strong>Położenie:</strong> dolina walna na Orawie – górna część Doliny Zimnej Wody Orawskiej; wylot w Kotlinie Zuberskiej w <strong>Zuberzcu</strong>. Jedna z trzech największych dolin Tatr; <strong>jedyna walna w dorzeczu Orawy</strong>.</p> <p><strong>Ograniczenie:</strong> południe – 15 km grani głównej od <strong>Wołowca przez Rohacze</strong> po Białą Skałę; wschód – północna grań Wołowca po <strong>Grzesia</strong> (granica z PL, Dolina Chochołowska); NE – grań Grześ – Osobita.</p> <p><strong>Odgałęzienia:</strong> <strong>Dolina Rohacka</strong> i <strong>Dolina Łatana</strong> (łączą się w <strong>Zwierówce</strong>), oraz Siwa, Przybyska, Wolarska i inne.</p> <p><strong>Woda:</strong> <strong>Zimna Woda Orawska</strong> (z Rohackiego i Łatanego Potoku) → Orawa → Wag → Morze Czarne. Stawek pod Zwierówką – najniżej położone jezioro Tatr.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> z Zuberca obok skansenu przez Zwierówkę do bufetu Rohackiego; <strong>zielony</strong> ze Zwierówki przez Przełęcz pod Osobitą na Grzesia; <strong>żółty</strong> Doliną Łataną na Zabratową Przełęcz i Rakoń; <strong>żółty</strong> z Zuberca na Palenicę Jałowiecką; <strong>niebieski</strong> ze Zwierówki na Brestową.</p>",
+   "neighbors": [
+    "Dolina Chochołowska",
+    "Dolina Jamnicka",
+    "Dolina Żarska",
+    "Dolina Jałowiecka"
+   ],
+   "facts": [
+    {
+     "q": "W jakiej osadzie łączą się Dolina Rohacka i Łatana?",
+     "a": "W Zwierówce."
+    },
+    {
+     "q": "Do jakiej rzeki płyną wody z Doliny Zuberskiej?",
+     "a": "Zimna Woda Orawska → Orawa → Wag (Morze Czarne)."
+    }
+   ]
+  },
+  {
+   "id": "dolina-rohacka",
+   "name": "Dolina Rohacka",
+   "name_sk": "Roháčska dolina",
+   "kind": "dolina",
+   "region": "Tatry Zachodnie",
+   "country": "SK",
+   "parent": "dolina-zuberska",
+   "lat": 49.2203,
+   "lon": 19.73,
+   "summary": "Główne odgałęzienie Doliny Zuberskiej pod Rohaczami i Banówką, z Rohackimi Stawami; od Rakonia do Wołowca sąsiaduje z Doliną Chochołowską.",
+   "html": "<p><strong>Położenie:</strong> jedno z dwóch głównych odgałęzień górnej <strong>Doliny Zuberskiej</strong>; od <strong>Zwierówki</strong> pod grań główną. <strong>Na odcinku Rakoń – Wołowiec sąsiaduje z polską Doliną Chochołowską.</strong> Najczęściej odwiedzana dolina słowackich Tatr Zachodnich.</p> <p><strong>Ograniczenie:</strong> południe – Rohacz Ostry, Rohacz Płaczliwy, Trzy Kopy, Hruba Kopa, Banówka, Pachoł, Salatyny, Brestowa; od Doliny Łatanej – NW grań Rakonia.</p> <p><strong>Odgałęzienia:</strong> Dolina Salatyńska, Spalona, <strong>Smutna</strong>.</p> <p><strong>Woda:</strong> Rohacki Potok; <strong>Rohackie Stawy</strong>, Rohackie Wodospady.</p> <p><strong>Szlaki:</strong> <strong>czerwony</strong> z Zuberca przez Zwierówkę do bufetu Rohackiego (Ťatliakova chata); <strong>niebieski</strong> z Adamculi nad Wyżni Rohacki Staw; <strong>zielony</strong> z Zabratowej Przełęczy obok Rohackich Stawów na Banikowską Przełęcz i Banówkę; <strong>niebieski</strong> od bufetu na <strong>Smutną Przełęcz</strong>; <strong>żółty</strong> Doliną Spaloną na Banikowską Przełęcz. Grań Jamnicka – Banikowska Przełęcz to eksponowana „słowacka Orla Perć”.</p>",
+   "neighbors": [
+    "Dolina Chochołowska",
+    "Dolina Chochołowska Wyżnia",
+    "Dolina Jamnicka",
+    "Dolina Żarska",
+    "Dolina Łatana"
+   ],
+   "facts": [
+    {
+     "q": "Z którą polską doliną sąsiaduje Dolina Rohacka?",
+     "a": "Z Doliną Chochołowską (grań Rakoń – Wołowiec)."
+    },
+    {
+     "q": "Jak nazywają się stawy w Dolinie Rohackiej?",
+     "a": "Rohackie Stawy (np. Wyżni Rohacki Staw)."
+    }
+   ]
+  }
+ ]
+}

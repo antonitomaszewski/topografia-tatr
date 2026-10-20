@@ -1,0 +1,4460 @@
+[
+ {
+  "place": "Hala Gąsienicowa",
+  "count": 84,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 53,
+   "zasłabnięcie/choroba": 14,
+   "inne": 13,
+   "narciarstwo/skitury": 3,
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Przed godz. 13. 40 powiadomiono TOPR, że podczas zjazdu szlakiem narciarskim z Hali Gąsienicowej do Kuźnic 11-letnia dziewczynka upadla i doznała urazów klatki piersiowej, urazu( stłuczenia kręgosłupa?) i złamani ręki. Z…",
+   "Po godz. 20-tej z Hali Gąsienicowej przetransportowano do szpitala turystkę z bolesnym urazem śródstopia, uniemożliwiającym samodzielne poruszanie się.",
+   "Piątek 28.05. Po godz. 14-tej z Hali Gąsienicowej do szpitala przetransportowano turystkę, która doznała urazu stawu skokowego."
+  ]
+ },
+ {
+  "place": "Morskie Oko",
+  "count": 63,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 28,
+   "inne": 22,
+   "zasłabnięcie/choroba": 11,
+   "zabłądzenie/poszukiwania": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Środa 7.04. Przed godz. 15.20 do TOPR dotarła informacja, że na szlaku pomiędzy M. Okiem a Czarnym Stawem upadł turysta i doznał bolesnego urazu barku. O zdarzeniu powiadomiono załogę śmigłowca, która przygotowywała się …",
+   "Po godz. 13-tej powiadomiono Centralę TOPR, że na szlaku z M. Oka nad Czarny Staw turystka doznała bolesnego urazu stawu skokowego. Została ona śmigłowcem przetransportowana do szpitala.",
+   "W czasie tych działań ratownik pełniący dyżur w M. Oku udzielił pomocy kontuzjowanemu turyście i następnie zwiózł go na parking na Palenicy."
+  ]
+ },
+ {
+  "place": "Dolina Pięciu Stawów Polskich",
+  "count": 44,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 23,
+   "zasłabnięcie/choroba": 13,
+   "inne": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "narciarstwo/skitury": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Poniedziałek 5.04. Przed godz. 9-tą z 5-ciu Stawów przetransportowano śmigłowcem do szpitala narciarkę skitourową, która doznała urazu nogi.",
+   "W jego pobliżu desantował się ratownik a śmigłowiec poleciał do 5-ciu Stawów, skąd na pokład zabrał turystkę, która upadając złamała rękę. I przetransportował ją do szpitala.",
+   "11.15 Transport śmigłowcem odwodnionej 17-letniej turystki z 5-ciu Stawów do szpitala."
+  ]
+ },
+ {
+  "place": "Kasprowy Wierch",
+  "count": 38,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 15,
+   "zasłabnięcie/choroba": 15,
+   "inne": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "zabłądzenie/poszukiwania": 2
+  },
+  "examples": [
+   "Środa 31.03. Przed godz. 19-tą do TOPR dotarła informacja, że na Kasprowym W. znajduje się turystka, która doznała urazu kolana. Ponieważ o tej porze nie kursowała już kolejka, poproszono dyżurujących pracowników PKL by …",
+   "Wtorek 11.05. Przed godz. 9.30 powiadomiono Centralę TOPR, że na szczycie Kasprowego znajduje się 65-letnia turystka, która doznała urazu kolana. Nie zejdzie o własnych siłach, potrzebuje pomocy. Z Centrali na Kasprowy w…",
+   "Przed godz. 20-tą do TOPR zadzwonili turyści schodzący z Kasprowego w kierunku Myślenickich Turni informując, ze są około 20 min poniżej Kasprowego. Są zmęczeni, proszą o pomoc w zejściu. Z Centrali na Myślenickie Turnie…"
+  ]
+ },
+ {
+  "place": "Zawrat",
+  "count": 33,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 17,
+   "uraz/wypadek": 9,
+   "zasłabnięcie/choroba": 5,
+   "inne": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Wtorek 30.03. Przed godz. 9-tą do Centrali TOPR zadzwonił turysta informując, że od wczoraj jest na Zawracie, przemoczony, zmarznięty, bez sił by samodzielnie schodzić. Prosi o pomoc. Z Hali Gąsienicowej na Zawrat wyrusz…",
+   "Chwilę później informacja od turysty znajdującym się na Zawracie z informacją, że dostał skurczu mięśni i nie jest w stanie dalej się poruszać. Wystartował śmigłowiec, który najpierw poleciał na Zawrat. Tam desantowała s…",
+   "O godz. 13.45 do Centrali TOPR dotarła informacja, że że szlaku pomiędzy Zawratem a Świnicą spadł na stronę 5-ciu Stawów jakiś turysta. Rusza się, ale nie odpowiada na wołania. Wystartował śmigłowiec. Z jego pokładu w po…"
+  ]
+ },
+ {
+  "place": "Hala Kondratowa",
+  "count": 28,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 13,
+   "uraz/wypadek": 9,
+   "inne": 6
+  },
+  "examples": [
+   "Po godz. 19-tej ze szlaku z Kondratowej na Kalatówki przetransportowano do szpitala turystkę, która doznała urazu nogi.",
+   "Po godz. 15.30 z Hali Kondratowej do szpitala przewieziono turystkę, która tak osłabła, że nie była w stanie kontynuować zejścia do Kuźnic.",
+   "5. 16.19. Hala Kondratowa. Transport do Zakopanego 70-letniej turystki, która opadła z sił ( odwodnienie?), tak, że nie była w stanie kontynuować zejścia."
+  ]
+ },
+ {
+  "place": "Dolina Jaworzynka",
+  "count": 25,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 16,
+   "zasłabnięcie/choroba": 8,
+   "inne": 1
+  },
+  "examples": [
+   "W tym czasie zgłoszenie o kontuzji nogi na szlaku pomiędzy Dol. Jaworzynki a Przeł. między Kopami. Kolejny lot. Ratownicy desantują się przy kontuzjowanej turystce a śmigłowiec leci pod Zamarłą T. skąd na pokład zabiera …",
+   "Po godz. 18.30 z Dol. Jaworzynki przewieziono do Zakopanego starszą turystkę, która osłabła i nie była w stanie samodzielnie dojść do Kuźnic.",
+   "20.41 Z Dol. Jaworzynki do szpitala przewieziono turystkę, która doznała urazu stawu skokowego."
+  ]
+ },
+ {
+  "place": "Dolina Strążyska",
+  "count": 24,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 15,
+   "zasłabnięcie/choroba": 7,
+   "zabłądzenie/poszukiwania": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Czwartek 29.04. Po godz. 14-tej z Dol. Strążyskiej do szpitala przewieziono turystkę, która upadając doznała urazu ręki.",
+   "W czasie tych działań informacja o kolejnym wypadku tym razem na szlaku pomiędzy Dol. Strążyską a Czerwoną Przeł. Tam turysta upadając doznał urazu ręki. Z Centrali w tamten rejon wyjechało 4 ratowników. Po dotarciu na m…",
+   "W czasie tych działań powiadomiono Centralę TOPR, że przy szałasie w Dol. Strążyskiej znajduje się turystka z urazem ręki. Ratownicy, którzy dotarli rannym do szałasu udzielili i pomocy kontuzjowanej turystce i oboje pos…"
+  ]
+ },
+ {
+  "place": "Czarny Staw pod Rysami",
+  "count": 20,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 10,
+   "zasłabnięcie/choroba": 4,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "śmiertelny": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Tuż po 8-mej rano powiadomiono Centralę TOPR, że nad Czarnym Stawem pod Rysami 52 letni turysta dostał ataku epilepsji. Wystartował śmigłowiec. Z jego pokładu w pobliżu mężczyzny desantowali się ratownicy. Po udzieleniu …",
+   "Sobota 15.05. O godz. 13.15 do TOPR zadzwonił turysta informując, że wraz z dziewczyną rozpoczęli zejście z Czarnego Stawu nad M. Oko. Dziewczyna doznała blokady psychomotorycznej, nie jest w stanie dalej schodzić. Ponie…",
+   "14.38 informacja od wolontariusza TPN, że w rejonie Czarnego Stawu pod Rysami turystka wpadła do wody doznając urazu głowy, stłuczenia pleców? Ma problemy z oddychaniem. Turystkę śmigłowcem przetransportowano do szpitala…"
+  ]
+ },
+ {
+  "place": "Kozia Przełęcz",
+  "count": 20,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 12,
+   "uraz/wypadek": 8
+  },
+  "examples": [
+   "Po godz. 12.20 do TOPR dotarła informacja, że na żółtym szlaku z Dol. Koziej w kierunku Koziej Przeł. zsunęła się kilka- kilkanaście? m po stromych śniegach turystka, która po zatrzymaniu boi się ruszyć, by dalej się nie…",
+   "15.49 do Centrali zadzwonił turysta informując, że są na żółtym szlaku z Koziej Dol. na Kozią Przeł. w miejscu skąd nie mogą się ruszyć. Dzięki aplikacji „Ratunek: pozyskano ich pozycję GPS. Okazało się, że są w połowie …",
+   "11.57 Informacja od turysty schodzącego z Koziej Przeł. do Koziej Dolinki, że upadł , mocno się potłukł, ma krwiak na czole. Wystartował śmigłowiec. Z jego pokładu w pobliżu turysty desantowali się ratownicy. Po zaopatrz…"
+  ]
+ },
+ {
+  "place": "Schronisko Murowaniec",
+  "count": 20,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 9,
+   "zasłabnięcie/choroba": 6,
+   "inne": 4,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Sobota 12.06. Po godz. 9-tej z Murowańca przetransportowano na Brzeziny i dalej do szpitala uczestnika Biegu Marduły, który doznał bolesnego urazu stawu skokowego.",
+   "Po godz. 11-tej z Murowańca na Brzeziny i dalej karetką pogotowia przewieziono do szpitala turystę, który doznał ataku kolki nerkowej.",
+   "Po godz. 12-tej z Murowańca do szpitala przewieziono turystę z urazem stawu skokowego."
+  ]
+ },
+ {
+  "place": "Rysy",
+  "count": 20,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 10,
+   "zasłabnięcie/choroba": 5,
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "śmiertelny": 2,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "4. 12.01. Około 15 min od szczytu Rysów blokada psychomotoryczna, atak paniki u turystki. Transport śmigłowcem do szpitala.",
+   "21.05 Ratownik dyżurujący w M. Oku zwiózł na Palenicę turystę, który schodząc z Rysów doznał urazu nogi.",
+   "Po godz. 12-tej przetransportowano śmigłowcem do szpitala młodego turystę, który schodząc z Rysów doznał bolesnego urazu stawu skokowego i ze Świstówki Roztockiej turystkę, która również doznała urazu stawu skokowego."
+  ]
+ },
+ {
+  "place": "Dolina Kościeliska",
+  "count": 19,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 13,
+   "inne": 4,
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "Po godz.10.30 z Dol. Kościeliskiej przetransportowano śmigłowcem do szpital mężczyznę, który doznał bolesnego urazu barku.",
+   "Po godz. 18-tej z Dol. Kościeliskiej przetransportowano do szpitala turystę, który upadając złamał rękę.",
+   "Po godz. 13-tej z Dol. Kościeliskiej do szpitala przewieziono turystkę, która doznała urazu nogi."
+  ]
+ },
+ {
+  "place": "Szpiglasowa Przełęcz",
+  "count": 19,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 8,
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 3
+  },
+  "examples": [
+   "Środa 05.05. Po godz. 15-tej do TOPR zadzwonił turysta podchodzący z M. Oka na Szpiglasową Przeł. informując, że będąc pod przełęczą zjechał po stromych śniegach około 10 m, zatrzymał się, ale jest dalej w stromym tereni…",
+   "15.49 Informacja o turyście podchodzącym z 5-ciu Stawów na Szpiglasową Przeł. Dostał on zaburzenia błędnika, silnych zawrotów głowy, wymiotuje. Został on śmigłowcem przetransportowana do szpitala.",
+   "15.51 Informacja o 18-letnim turyście, który podchodząc z 5-ciu Stawów na Szpiglasową Przeł. źle się poczuł, wymiotuje, opadł z sił. Turystę śmigłowcem przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Przełęcz pod Kopą Kondracką",
+  "count": 18,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 7,
+   "zasłabnięcie/choroba": 4,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "narciarstwo/skitury": 3,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz. 16.40 ze schroniska na Kondratowej dotarła wiadomość, że dzwonili do nich turyści (2 osoby), którzy mają problemy z zejście z Kopy Kondrackiej. Podali jeszcze, że mają już wyładowaną baterie w telefonie i kontak…",
+   "Piątek 30.04. Po godz. 19.20 do TOPR zadzwonił narciarz skitourowy informując, że podczas zjazdu z Przeł. pod Kopą Kondracką jego znajoma będąca powyżej „Kamienia” upadając doznała urazu nogi. Z Centrali w tamten rejon p…",
+   "Po godz. 19-tej ze szlaku z Przełęczy po Kopą Kondracką na Kondratową, z okolic „Kamienia przetransportowano śmigłowcem do szpitala turystę, który doznał urazu kolana uniemożliwiającego mu dalsze schodzenie."
+  ]
+ },
+ {
+  "place": "Świstówka Roztocka",
+  "count": 17,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 7,
+   "zasłabnięcie/choroba": 5,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "zabłądzenie/poszukiwania": 2
+  },
+  "examples": [
+   "Niedziela 16.05. O godz. 9.30 do TOPR zadzwonił turysta informując, że idąc z M. Oka przez Świstówkę do 5-ciu Stawów zgubił szlak. Próby telefonicznego naprowadzenia go na szlak nie powiodły się. Wobec tego ze schroniska…",
+   "Po godz. 21.30 do TOPR zadzwoniła turystka informując, że wraz z 5-cioma koleżankami schodziły z 5-ciu Stawów przez Świstówkę do Morskiego Oka. Ze względu na zalegający śnieg nie wiedzą czy są na szlaku. Dzięki aplikacji…",
+   "Po godz. 17-tej śmigłowiec poleciał w rejon Świstówki Roztockiej bo tam na pomoc oczekiwał 51-letni turysta, który źle się poczuł. W jego pobliżu desantował się ratownik a śmigłowiec poleciał do 5-ciu Stawów, skąd na pok…"
+  ]
+ },
+ {
+  "place": "Dolina Chochołowska",
+  "count": 16,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 11,
+   "inne": 4,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Niedziela 25.04. Po godz. 15-tej z Dol. Chochołowskiej przetransportowano do szpitala turystę, który wędrując w tamtym rejonie doznał urazu stawu skokowego.",
+   "Piątek 07.05. Po godz. 14-tej z Dol. Chochołowskiej do szpitala przetransportowano rowerzystę, który upadając doznał urazu kolana.",
+   "Czwartek 3.06. Po godz. 13-tej z Dol. Chochołowskiej do szpitala przewieziono turystę skarżącego się na silny ból w okolicach nerek."
+  ]
+ },
+ {
+  "place": "Nosal",
+  "count": 16,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 11,
+   "zabłądzenie/poszukiwania": 2,
+   "śmiertelny": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Piątek 14.05. Tuż przed 11-tą do TOPR zadzwoniła turystka informując, że podczas zejścia z Nosala nad Tamę doznała mocno krwawiącej rany ciętej podudzia. Potrzebuje pomocy. Z Centrali na miejsce zdarzenia wyruszyło 6-ciu…",
+   "Poniedziałek 24. 05. O godz. 20.50 do TOPR zadzwoniła turystka- siostra poszkodowanego informując, że w okolicach wierzchołka Nosala jej brat doznał urazu stawu skokowego. Nie zejdzie o własnych siłach, potrzebna pomoc. …",
+   "Po godz. 15.30 ratownicy zostali wezwani do wypadku do jakiego doszło podczas zejścia szlakiem z Nosala nad Tamę. Z Centrali wyjechało 5-ciu ratowników, którzy przed 16-tą dotarli do turystki, która w wyniku poślizgnięci…"
+  ]
+ },
+ {
+  "place": "Świnicka Przełęcz",
+  "count": 16,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 12,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zasłabnięcie/choroba": 1,
+   "lawina": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 16-tej powiadomiono Centralę TOPR, że w rejonie Świńskiej przeł. znajduje się turystka, która doznała urazu nogi. Z pomocą pospieszył ratownik pełniący dyżur na Kasprowym, który po 40 minutach dotarł do turystki…",
+   "Po godz. 11.43 do TOPR zadzwonił turysta informując, że podczas zejścia ze Świnickiej Przeł. do Świnickiej Kotlinki poślizgnął się na stromych śniegach i skręcił nogę. Ma ze sobą dwójkę dzieci 7 i 10 latka. Wystartował ś…",
+   "Śmigłowcem do szpitala przetransportowano: Po godz. 14-tej z rejonu Świnickiej Przeł. turystę z urazem nogi"
+  ]
+ },
+ {
+  "place": "Dolina Roztoki",
+  "count": 16,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 4,
+   "inne": 4
+  },
+  "examples": [
+   "5. 19.03. Wodogrzmoty. 45-letnia turystka schodząc Dol. Roztoki doznała urazu nogi. Doszła do drogi z M. Oka i stamtąd samochodem przewieziono ją na Palenicę.",
+   "18.11 Informacja o urazie nogi turystki w Dol. Roztoki. Z pomocą z Centrali wyjechało 2 ratowników, którzy przetransportowali turystkę do szpitala.",
+   "Pomiędzy godz. 20- 23-cią : 1. Z Dol. Roztoki na Wodogrzmoty i dalej na Palenicę zwieziono turystkę z urazem nogi."
+  ]
+ },
+ {
+  "place": "Droga do Morskiego Oka",
+  "count": 15,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 6,
+   "inne": 1
+  },
+  "examples": [
+   "Sobota. 10.04. Po godz. 8-mej z drogi do M. Oka do szpitala przetransportowano mężczyznę, który doznał urazu stawu skokowego.",
+   "Po godz. 14-tej ze „skrótów” drogi do M. Oka przewieziono na Palenicę 10-cio latka, który upadając doznał rany podudzia.",
+   "12. 19.20. Droga do Morskiego Oka, poniżej Wodogrzmotów. Uraz stawu skokowego u 16-letniej turystki. Transport samochodem na Palenicę."
+  ]
+ },
+ {
+  "place": "Kalatówki",
+  "count": 15,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 6,
+   "uraz/wypadek": 5,
+   "zabłądzenie/poszukiwania": 2,
+   "inne": 2
+  },
+  "examples": [
+   "Przed godz. 20-tą na Centralę TOPR zadzwonił turysta informując, że wraz ze znajomą schodzą z Giewontu na Kondratową. Znajomą boli noga, spróbują powoli schodzić, gdyby potrzebowali pomocy zadzwonią ponownie. Po godz.21.…",
+   "Po godz. 14-tej z Kalatówek do szpitala przewieziono turystę z urazem kolana",
+   "Sobota 5.06. Po godz. 12-tej recepcjonistka ze schroniska na Kalatówkach powiadomiła Centralę TOPR, że do schroniska nie powróciła turystka, która 3.06 wyszła na wycieczkę? pozostawiając większość swoich rzeczy w pokoju.…"
+  ]
+ },
+ {
+  "place": "Krzyżne",
+  "count": 15,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 10,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "zasłabnięcie/choroba": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Tuż przed 15-tą do TOPR zadzwonił turysta informując, że wraz ze znajomym są około 50-100 poniżej Krzyżnego. Kolega doznał urazu kolana, nie zejdzie o własnych siłach. Z chwilą poprawy pogody w tamten rejon wystartował ś…",
+   "22.35 Ratownik pełniący dyżur w 5-ciu Stawów sprowadził ze szlaku z Krzyżnego turystkę, która doznała urazu stawu skokowego.",
+   "Po godz.13-tej spod Krzyżnego od strony Dol. 5-ciu Stawów przetransportowano śmigłowcem na Gronik i dalej samochodem do szpitala turystę, który doznał bolesnego urazu stawu skokowego."
+  ]
+ },
+ {
+  "place": "Myślenickie Turnie",
+  "count": 15,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 8,
+   "uraz/wypadek": 4,
+   "inne": 2,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po godz. 18.30 z rejonu Myślenickich Turni przetransportowano do szpitala turystę skarżącego się na silne bóle brzucha, uniemożliwiające dalsze samodzielne zejście do Kuźnic.",
+   "12.34 Uraz nogi 15-letniego turysty powyżej Myślenickich Turni. Transport do Kuźnic. Tam karetka zabiera do szpitala obu poszkodowanych.",
+   "14.50 Informacja o 39-letnim turyście, który dostał ataku epilepsji na szlaku pomiędzy Myślenickimi Turniami a Kasprowym W. Został on śmigłowcem przetransportowany do szpitala."
+  ]
+ },
+ {
+  "place": "Rysa",
+  "count": 14,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6,
+   "narciarstwo/skitury": 3,
+   "śmiertelny": 3,
+   "lawina": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Wtorek 27.04. O godz. 14.40 powiadomiono Centralę TOPR, że z Rysy w Rysach zsunął się po śniegach całą Rysą i zatrzymał u jej wylotu turysta. Jest przytomny, ale poobijany i wychłodzony. Wystartował śmigłowiec. Z jego po…",
+   "O godz. 14.30 powiadomiono Centralę TOPR, że podczas zjazdu Rysą z Rysów 39-tetnia narciarka skitourowa doznała urazu nogi. Wystartował śmigłowiec. Z jego pokładu w pobliżu narciarki desantowali się ratownicy. Po zaopatr…",
+   "Po 14.30 do Centrali TOPR zadzwonił turysta znajdujący się na szlaku na Rysy informując, że z rejonu Rysów spadła dwójka ludzi i zatrzymała się w okolicach Buli. Po chwili do TOPR zadzwonił jak się okazało uczestnik zdar…"
+  ]
+ },
+ {
+  "place": "Boczań",
+  "count": 14,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6,
+   "inne": 5,
+   "zasłabnięcie/choroba": 3
+  },
+  "examples": [
+   "Przed 17.30 do TOPR dotarła informacja, że na szlaku z Hali Gąsienicowej do Kuźnic w rejonie Boczania znajduje się nietrzeźwy turysta. O sprawie powiadomiono Straż Parku. Tuż przed 18-przybyli na miejsce Strażnicy powiad…",
+   "11.55 Uraz nogi na Bocznaniu. Transport poszkodowanej do Kuźnic",
+   "15.47 Turystka z uszkodzoną nogą na Boczaniu. Turystkę przetransportowano do Kuźnic."
+  ]
+ },
+ {
+  "place": "Rusinowa Polana",
+  "count": 14,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6,
+   "inne": 5,
+   "zasłabnięcie/choroba": 3
+  },
+  "examples": [
+   "8. 14.05. Rusinowa Polana. uraz nogi 17-letniej turystki. Transport samochodem do szpitala",
+   "3. 15.22. Rusinowa Polana. Uraz nogi u 44-letniej turystki. Transport samochodem do szpitala.",
+   "12.53. Z Rusinowej Polany przewieziono do szpitala turystę, który doznał urazu kolana."
+  ]
+ },
+ {
+  "place": "Giewont",
+  "count": 14,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 2,
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "śmiertelny": 1,
+   "inne": 1
+  },
+  "examples": [
+   "19.41 Na Centralę zadzwonił ojciec schodzący Czerwonym szlakiem z synem z Giewontu. Syn doznał urazu nogi nie może iść. Zapad zmrok oni nie mają światła proszą o pomoc. Z Centrali do Małej Łąki wyruszyli dwaj ratownicy, …",
+   "Przed godz. 17-tą z Hali Kondratowej do szpitala przewieziono turystkę, która podczas zejścia z Giewontu upadła i złamała rękę. O własnych siłach dotarła do schroniska na Kondratowej.",
+   "Po 16-tej powiadomiono Centralę TOPR, że w kopule szczytowej Giewontu dziecko zostało uderzone w głowę spadającym kamieniem. Nie straciło przytomności ale mocno krwawi. 12-letniego chłopca śmigłowcem przetransportowano d…"
+  ]
+ },
+ {
+  "place": "Kopa Kondracka",
+  "count": 13,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zasłabnięcie/choroba": 3,
+   "zabłądzenie/poszukiwania": 2,
+   "lawina": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "narciarstwo/skitury": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Niedziela 04.04. Po godz. 13.30 do TOPR zadzwonił narciarz skitourowy, który zjeżdżając we mgle z Kopy Kondrackiej pomylił kierunki i zaczął zjeżdżać w kierunku Dol. Cichej. Zorientował się, że chyba pomylił kierunki, za…",
+   "Piątek 9.04. Po godz. 10.50 do TOPR zadzwonił turysta, świadek zdarzenia informując, że przed chwilą wsch. zboczami Kopy Kondrackiej zeszła lawina, którą podciął pod granią narciarz skitourowy, który na szczęście nie zos…",
+   "Po godz. 20.30 do TOPR zadzwonili turyści schodzący z Kopy Kondrackiej do Małej łąki, że jedna z osób- turystka doznała bolesnego urazu kolana. Nie jest w stanie dalej się poruszać, potrzebna pomoc. Z Centrali w rejon wy…"
+  ]
+ },
+ {
+  "place": "Przełęcz między Kopami",
+  "count": 13,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 4,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Chwilę po tym informacja o kolejnym wypadku tym razem na szlaku pomiędzy Dol. Jaworzynki a Przeł. między Kopami. Wystartował śmigłowiec. Z jego pokładu poniżej Przeł. desantowali się dwaj ratownicy. Po wysadzeniu turysty…",
+   "Pomiędzy godz. 15-17 śmigłowcem przetransportowano do szpitala: 1. Ze szlaku pomiędzy Przeł. między Kopami a Jaworzynką turystkę z uszkodzonym stawem skokowym,",
+   "Po godz. 11.20 z rejonu Przeł. między Kopami przetransportowano śmigłowcem do szpitala turystkę, która doznała utraty przytomności."
+  ]
+ },
+ {
+  "place": "Świnica",
+  "count": 13,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 9,
+   "uraz/wypadek": 4
+  },
+  "examples": [
+   "Poniedziałek 10.05. O godz. 17.40 za pośrednictwem HZS do TOPR dotarła informacja, że pomiędzy Świnicą a Zawratem w eksponowanym i zaśnieżonym terenie utknął turysta. Podał on swoje koordynaty GPS. Wystartował śmigłowiec…",
+   "19.56 Wiadomość o dwóch osobach znajdujących się na Świnicy. Są zmarznięci, osłabieni, nie wiedzą jak zejść , proszą o pomoc. Start śmigłowca. Ratownicy desantują się z jego pokładu, i po 20.20 docierają do oczekujących …",
+   "Przed godz. 2-gą w nocy do Centrali TOPR zadzwonił turysta informując, że jest „ w górach, w miejscu, z którego nie może się ruszyć. W górach jest pierwszy raz, nie potrafi określić miejsca, w którym się znajduje”. Dzięk…"
+  ]
+ },
+ {
+  "place": "Dolina Kondratowa",
+  "count": 12,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6,
+   "zasłabnięcie/choroba": 5,
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Po godz. 15-tej z Dol. Kondratowej zwieziono pojazdem terenowym Traxter do Zakopanego na parking narciarkę skitourowy, która upadając doznała urazu kolana. Do szpitala miała się udać własnym transportem.",
+   "Środa 12.05. Po godz. 12-tej Strażnik TPN powiadomił ratowników, że w Dol. Kondratowej osa ugryzła turystę, który doznał silnych objawów alergicznych. Potrzebuje pomocy. Ze względu na stan turysty, został on śmigłowcem p…",
+   "Po godz.. 19-30 z Dol. Kondratowej przewieziono do szpitala kolejną mocno osłabioną turystkę."
+  ]
+ },
+ {
+  "place": "Kościelec",
+  "count": 12,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 9,
+   "śmiertelny": 2,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Przed godz. 15.45 do TOPR zadzwonił turysta znajdujący się na wierzchołku Kościelca informując, ze przed chwilą z Kościelca na wsch. stronę spadł jakiś turysta. Wystartował śmigłowiec. Z jego pokładu zlokalizowano ciało …",
+   "10.29 Kontuzja nogi u turystki schodzącej z Kościelca. W pobliżu turystki desantowali się ratownicy. Tam desantował się jeden z ratowników i poinformował ,że w żlebie znajdują się zwłoki mężczyzny, który najprawdopodobni…",
+   "O godz. 7.35 do TOPR zadzwoniła turystka idąca na Kościelec informując, że przed chwilą upadła uderzyła głową o skały i doznała urazu łuku brwiowego. Nie utraciła przytomności i zatamowała krwawienie. Niestety łuk brwiow…"
+  ]
+ },
+ {
+  "place": "Włosienica",
+  "count": 12,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 7,
+   "uraz/wypadek": 2,
+   "inne": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "11. 18.12. Droga do M. Oka, powyżej Włosienicy. Turysta leżący na drodze, bardzo silne skurcze nóg, nie może schodzić. Transport samochodem na Palenicę.",
+   "12.20 Transport z Włosienicy na Palenicę 2 turystek. Jedną z silnym bólem brzucha, drugą głowy.",
+   "13.20 Transport z Włosienicy na Palenicę 14-letniego turysty, który doznał urazu nogi."
+  ]
+ },
+ {
+  "place": "Karb",
+  "count": 12,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 7,
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "zasłabnięcie/choroba": 1,
+   "narciarstwo/skitury": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "14.45 Z Karbu do szpitala przetransportowano 70-cio letniego włoskiego turystę, który tak osłabł, że nie był w stanie kontynuować zejścia.",
+   "Po godz. 15-tej ze szlaku od Czarnego Stawu na Karb przetransportowano śmigłowcem do szpitala turystkę, która upadając doznała urazu głowy.",
+   "Przed godz. 15.30 powiadomiono Centralę TOPR, że w rejonie Karbu turysta został ugodzony w klatkę piersiową spadającym kamieniem. Ma problemy z oddychaniem i silny ból. Turystę śmigłowcem przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Wiktorówki",
+  "count": 11,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6,
+   "zasłabnięcie/choroba": 4,
+   "inne": 1
+  },
+  "examples": [
+   "Wtorek 6.04. O godz. 11.30 powiadomiono ratowników, że podczas zejścia z Wiktorówek na Zazadnią turysta doznał urazu stawu kolanowego. Nie zejdzie o własnych siłach , potrzebna pomoc. Ponieważ w tamtym rejonie akurat prz…",
+   "Sobota 1.05. Tuż po 14-tej powiadomiono Centralę TOPR, że poniżej Wiktorówek turysta poślizgnął się na zalodzonym odcinku drogi i upadając złamał rękę. Z Centrali na miejsce zdarzenia wyjechało dwóch ratowników. Po udzie…",
+   "W tym czasie z Wiktorówek do szpitala przetransportowano 83-letnią kobietę skarżącą się na silne dolegliwości sercowe."
+  ]
+ },
+ {
+  "place": "Gęsia Szyja",
+  "count": 11,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 7,
+   "zasłabnięcie/choroba": 4
+  },
+  "examples": [
+   "Poniedziałek 04.05. Przed godz. 15.30 powiadomiono Centralę TOPR, że podczas wspinaczki na szczytowe skałki Gęsiej Szyi wspinający się 26 letni turysta spadł około 2 m doznając stłuczenia pleców i urazu stawu skokowego. …",
+   "Tuż po 13-tej powiadomiono ratowników, że podczas zejścia z Gęsiej Szyi na Rusinową Polanę turystka doznała urazu nogi. Wystartował śmigłowiec, który najpierw poleciał na Zawrat. Po desancie śmigłowiec poleciał na szlak …",
+   "2. 13.14. Szlak z Gęsiej Szyi na Rusinową Polanę. Uraz nogi u 44-letniej turystki. Transport samochodem do szpitala."
+  ]
+ },
+ {
+  "place": "Kozi Wierch",
+  "count": 11,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 9,
+   "lawina": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Środa 2.06. Tuż przed 13-tą przewodnik znajdujący się na płd. stronie Koziego W. przekazał do Centrali TOPR, że przed chwilą żlebem zeszła lawina, która porwała dwóch znajdujących się tam turystów. Widzi tylko jednego. P…",
+   "O godz. 10.01 w czasie działań w Pańszczycy powiadomiono Centralę TOPR, że na Kozim W. znajduje się turysta, który upadając doznał rany głowy. Znajdujący się tam turyści sprowadzają poszkodowanego do 5-ciu Stawów. Naprze…",
+   "Po godz. 16-tej z 5-ciu Stawów przetransportowano śmigłowcem do szpitala turystę, który schodząc z Koziego W. upadł i doznał urazu barku."
+  ]
+ },
+ {
+  "place": "Kocioł Gąsienicowy",
+  "count": 11,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zasłabnięcie/choroba": 3,
+   "narciarstwo/skitury": 2,
+   "zabłądzenie/poszukiwania": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Czwartek 24.02. O godz. 11-tej w Kotle Gąsienicowym doszło do poważnego w skutkach zderzenia, w którym narciarka doznała urazu głowy i chwilowej utraty przytomności. Została ona śmigłowcem przetransportowana do szpitala.",
+   "Przed godz. 19-tą z Kotla Gąsienicowego przetransportowano śmigłowcem do szpitala mocno odwodnionego i splątanego 22-letniego turystę.",
+   "Po godz. 17-tej z Kotła Gąsienicowego przetransportowano śmigłowcem 28-letnią turystkę, której stan wymagał pilnego dostarczenia na SOR."
+  ]
+ },
+ {
+  "place": "Bula pod Rysami",
+  "count": 10,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "zasłabnięcie/choroba": 2,
+   "narciarstwo/skitury": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Poniedziałek 7.06. Po godz. 14.40 do TOPR zadzwonił jakiś turysta znajdujący się w rejonie Buli pod Rysami informując, że około 100 m powyżej Buli znajduje się turysta, który nie jest w stanie dalej samodzielnie schodzić…",
+   "Przed 15.30 powiadomiono TOPR, że w okolicach Buli pod Rysami doszło do wypadku. W wyniku poślizgnięcia na śniegach i upadku, turysta doznał urazu ( stłuczenia?) kręgosłupa, ręki, nogi. Wystartował śmigłowiec. Z jego pok…",
+   "19.35 informacja o osłabionej turystce w rejonie Buli pod Rysami. Z Morskiego Oka na Bulę pod Rysami wyrusza pełniący tam dyżur ratownik a z Centrali wyjeżdża 7-mio osobowa grupa wsparcia. O godz. 21.20 ratownik dociera …"
+  ]
+ },
+ {
+  "place": "Skrajny Granat",
+  "count": 9,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 4,
+   "śmiertelny": 2,
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "W czasie tych działań do TOPR zadzwonił turysta informując, że podchodził szlakiem znad Czarnego Stawu na Skrajny Granat. Zgubił szlak. Wszedł w eksponowany teren, z którego boi się ruszyć. Wystartował śmigłowiec. Z jego…",
+   "13.05 Informacja o uderzeniu spadającym kamieniem turysty podczas zejścia ze Skrajnego Granatu. Turysta doznał urazu głowy. Został on śmigłowcem przetransportowany do szpitala.",
+   "Po godz. 13-tej do Centrali TOPR zadzwonił turysta informując, że utknął w stromym, zaśnieżonym terenie w rejonie Skrajnego Granata. Wystartował śmigłowiec. Z jego pokładu dostrzeżono turystę na grani prowadzącej od Skra…"
+  ]
+ },
+ {
+  "place": "Gubałówka",
+  "count": 9,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 9
+  },
+  "examples": [
+   "18.26 uraz nogi u 10-letniego dziewczynki podczas zejścia z Gubałówki. Turystka samochodem przewieziona do szpitala.",
+   "Przed godz. 14-tą do Centrali zadzwoniła turystka informując, że wraz z mężem schodzili z Gubałówki. W okolicy „Mostka” mąż się przewrócił i złamał nogę. Z Centrali w tamten rejon wyjechało 9-ciu ratowników, którzy przed…",
+   "W czasie tych działań do TOPR zadzwonił turysta informując, że wraz z córką schodzili z Gubałówki. Koło mostka 10-cio letnia córka upadła i skręciła kostkę. Z pomocą pospieszył na skuterze ratownik pełniący dyżur na Kasp…"
+  ]
+ },
+ {
+  "place": "Kondracka Przełęcz",
+  "count": 9,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 7,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "15.35 Z Kondrackiej Przeł. przetransportowano śmigłowcem do szpitala turystę z urazem stawu skokowego.",
+   "15.34 Ze szlaku pomiędzy Przeł. Kondracką a Dol. Małej Łąki przetransportowano śmigłowcem do szpitala turystę, który doznał urazu nogi uniemożliwiającego dalszą samodzielną wędrówkę.",
+   "W czasie tych działań o północy do Centrali TOPR zadzwonili turyści schodzący z Kondrackiej Przeł. informując, że skończyło im się światło, mają problemy z bezpiecznym zejściem, proszą o pomoc. Z Centrali na Kondratową z…"
+  ]
+ },
+ {
+  "place": "Głazisty Żleb",
+  "count": 9,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 8,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Pomiędzy godz. 16-18-tą śmigłowcem przetransportowano do szpitala: 1. Z Głazistego Żlebu turystkę, która upadając doznała stłuczenia klatki piersiowej i kręgosłupa.",
+   "Po godz.18 –tej z Głazistego Żlebu przetransportowano do wylotu Małej Łąki turystkę , która doznała urazu ręki. Stamtąd do szpitala przewiozła ją karetka pogotowia.",
+   "Po 16.30 powiadomiono Centralę TOPR, że w Dol. Małej Łąki poniżej wylotu Głazistego Żlebu turystka doznała urazu stawu skokowego. Z Centrali pojazdem terenowym Traxter wyjechał 1 ratownik, który po 17.20 dotarł do turyst…"
+  ]
+ },
+ {
+  "place": "Goryczkowa Czuba",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 5,
+   "zasłabnięcie/choroba": 2,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz.11.30 do TOPR dotarła informacja, że w masywie Czuby Goryczkowej utknęło, dwoje turystów. Potrzebna pomoc. W tamten rejon wyruszyło 2 ratowników, którzy przed 13-tą dotarli do turystów. Po ogrzaniu, asekurując do…",
+   "O godz. 13.20 do TOPR zadzwoniła turystka informując, że będąc w rejonie Czuby Goryczkowej poślizgnęła się na stromych śniegach, zjechała około 100m i na szczęście zatrzymała się. Jest przestraszona , boi się dalej porus…",
+   "Przed godz. 13-tą do TOPR zadzwonił turysta informując, że w rejonie Czuby Goryczkowej napotkał turystkę i jej męża, którzy bez raków i czekanów utknęli w eksponowanym terenie, z którego boją się ruszyć. Wystartował śmig…"
+  ]
+ },
+ {
+  "place": "Przysłop Miętusi",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zasłabnięcie/choroba": 3,
+   "inne": 2
+  },
+  "examples": [
+   "Wtorek 25.05. Po godz. 12-tej z Przysłopu Miętusiego do szpitala przetransportowano turystkę , która w wyniku poślizgnięcia i upadku doznała urazu stawu skokowego.",
+   "Po godz. 12-tej za pośrednictwem CPR powiadomiono Centralę TOPR, że na Przysłopie Miętusim 67-letni turysta dostał ataku padaczki. Został on śmigłowcem przetransportowany do szpitala.",
+   "Po godz. 12.40 powiadomiono Centralę TOPR, że w rejonie Przysłopu Miętusiego turysta doznał urazu stawu skokowego. Nie zejdzie o własnych siłach, potrzebna pomoc. Z Centrali pojazdem terenowym Traxter w tamten rejon wyje…"
+  ]
+ },
+ {
+  "place": "Dolina Pańszczyca",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zabłądzenie/poszukiwania": 2,
+   "narciarstwo/skitury": 2,
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "Piątek 18.06. Po godz. 14.30 z Dol. Pańszczycy przetransportowano śmigłowcem do szpitala turystkę, która doznała kontuzji kolana.",
+   "Po 17-tej tel od turystki, która schodzą z Krzyżnego zgubiła szlak w Pańszczycy. Z Murowańca w jej kierunku wyruszyło 3 ratowników, którzy przed 19.30 dotarli do turystki a o 21-szej doprowadzili ją do Murowańca.",
+   "Przed 17-tą do TOPR poprzez CPR zadzwonił mężczyzna informując, że jest w Tatrach ale nie wie gdzie. Dzięki aplikacji „Ratunek” uzyskano jego namiary GPS. Okazało się, że znajduje się on na zielonym szlaku z Waksmundzkie…"
+  ]
+ },
+ {
+  "place": "Schronisko w Dolinie Pięciu Stawów Polskich",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zasłabnięcie/choroba": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "13.02 Turysta znajdujący się w pobliżu schroniska w 5-ciu Stawach zgłosił bolesny uraz kolana. Został on śmigłowcem przetransportowany do szpitala.",
+   "W chwili gdy załoga śmigłowca przygotowywała się do lotu , ratownik pełniący dyżur w 5-ciu Stawach powiadomił Centralę, że w schronisku znajduje się osłabiona, mająca problemy z poruszaniem się turystka. Tam po desancie …",
+   "3 kwietnia, korzystając z poprawy pogody, ze schroniska w Dolinie Pięciu Stawów ewakuowano śmigłowcem grupę turystów, którzy nie mogli bezpiecznie zejść."
+  ]
+ },
+ {
+  "place": "Czarny Staw Gąsienicowy",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 4,
+   "uraz/wypadek": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "11.40 - Znad Czarnego Stawu Gąsienicowego transport śmigłowcem do szpitala turysty z podejrzenie zawału serca.",
+   "Przed godz. 14.30 powiadomiono Centralę TOPR, że na progu Czarnego Stawu Gąsienicowego poślizgnął się na śliskich ( zalodzonych) kamieniach sporo ważący turysta doznając urazu stawu skokowego. Postanowiono, że śmigłowiec…",
+   "Środa 02.02. Po godz. 18-tej do Centrali TOPR zadzwonił turysta informując, że wzdłuż Czarnego Potoku szedł nad Czarny Staw Gąsienicowy. Brnąc w zaspach ma problemy z dojściem do Stawu . Poproszono by zawrócił po swoich …"
+  ]
+ },
+ {
+  "place": "Kobylarzowy Żleb",
+  "count": 8,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zasłabnięcie/choroba": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 2
+  },
+  "examples": [
+   "W czasie tych działań do Centrali TOPR zadzwoniła ekipa turystów z Łotwy ( 3-os. dorosłe + dwoje dzieci , jedno 2 lat, drugie 3 miesiące) informując, że są gdzieś pomiędzy Małołączniakiem a Kobylarzowym Żlebem. Wystartow…",
+   "Po godz.15.20 do Centrali TOPR zadzwonił turysta informując, że podczas zejścia Kobylarzowym Żlebem schodząc stromym terenem ( próg z łańcuchami) poślizgnął się na mokrych wapiennych skałach i upadając doznał urazu biodr…",
+   "Przed godz. 15.30 powiadomiono Centralę TOPR, że w Kobylarzowym Żlebie, poniżej łańcuchów znajduje się turysta, który doznał urazu nogi. Został on śmigłowcem przetransportowany do szpitala."
+  ]
+ },
+ {
+  "place": "Dolina Małej Łąki",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 5,
+   "uraz/wypadek": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Przed godz. 14.30 powiadomiono Centralę TOPR, że w Dol. Małej Łąki , kilka minut drogi powyżej wejścia do Doliny, znajduje się 43 letnia turystka, która ma problemy z oddychaniem. Przekazano ratownikom, że jest ona po pr…",
+   "Przed 22-gą z Dol. Małej Łąki przetransportowano do szpitala 72-letnią turystkę, która doznała urazu stawu skokowego.",
+   "Z Doliny Złotej przetransportowano do SOR turystkę z urazem podudzia, a z Doliny Małej Łąki turystę z objawami odwodnienia."
+  ]
+ },
+ {
+  "place": "Wodogrzmoty Mickiewicza",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 6,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Poniedziałek 14.06. Po godz. 12-tej pracownik TPN zadzwonił do Centrali TOPR z informacją, że na Wodogrzmotach Mickiewicza znajduje się chora turystka, ma silne dolegliwości gastryczne, jest osłabiona , nie zejdzie o wła…",
+   "Po godz. 14.30 ze szlaku z Wodogrzotów do 5-ciu Stawów przetransportowano śmigłowcem do szpitala mocno odwodnioną i osłabioną turystkę.",
+   "Po godz. 20-tej z Wodogrzmotów na Palenicę przetransportowano turystę, który doznał urazu nogi."
+  ]
+ },
+ {
+  "place": "Suche Czuby",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "uraz/wypadek": 2,
+   "zabłądzenie/poszukiwania": 2,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "20.20 Informacja, że w rejonie Suchych Czub na skalnym progu jest zmarznięta turystka, która dostała blokady psychomotorycznej. Przy niej kolega, który nie jest w stanie jej przekonać by przeszła trudne dla niej miejsce.…",
+   "Przed godz. 10-tą powiadomiono ratowników, że ze szlaku pomiędzy Suchymi Czubami a Suchym Wierchem Kondrackim spadł kilkanaście m turysta. Wystartował śmigłowiec. Z jego pokładu w pobliżu miejsca wypadku desantowali się …",
+   "Po godz. 12-tej do TOPR zadzwoniła turystka informując, że wraz z mężem szli od Przeł. pod Kopą Kondracką na Kasprowy. W rejonie Suchych Czub mąż stracił równowagę i zsunął się około 50 m w kierunku Dol. Cichej. Nie odni…"
+  ]
+ },
+ {
+  "place": "Żleb Kulczyńskiego",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 3,
+   "uraz/wypadek": 3,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 22.30 powiadomiono Centralę TOPR, że w górnej części Żlebu Kulczyńskiego są dwaj zmęczeni, ale dobrze wyekwipowani turyści, którzy zamierzali tamtędy dotrzeć do 5-ciu Stawów, gdzie w schronisku mieli zarezerwowa…",
+   "Po godz. 23-szej ze Żlebu Kulczyńskiego sprowadzono troje turystów, którzy z braku światła ( tylko jedna latarka) i blokady psychomotorycznej jednego z turystów mieli problemy z zejściem.",
+   "Po godz. 22.30 do Centrali TOPR dotarła informacją od 4-osobowej grupy turystów, że znajdują się oni na Orlej Perci pomiędzy Żlebem Kulczyńskiego a Zadnim Granatem. Pada deszcz, jest mgła ograniczająca widoczność. Mają p…"
+  ]
+ },
+ {
+  "place": "Grzęda Rysów",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "śmiertelny": 2,
+   "zasłabnięcie/choroba": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Przed godz. 10-tą do Centrali TOPR dotarła informacja o wypadku dwóch turystów podchodzących Grzędą na Rysy. Wystartował śmigłowiec. Z jego pokładu w rejonie dolnej części Grzędy desantowali się ratownicy. Okazało się, ż…",
+   "Po godz. 12.30 powiadomiono ratowników, że na Grzędzie Rysów znajduje się 26-cio letnia turystka, która dostała skurczów całego ciała. Wystartował śmigłowiec. Śmigłowiec poleciał najpierw na Grzędę Rysów, tam desantowali…",
+   "W tym samym czasie z Grzędy Rysów przetransportowano śmigłowcem do szpitala turystkę, która doznała urazu nogi."
+  ]
+ },
+ {
+  "place": "Schronisko PTTK na Hali Ornak",
+  "count": 7,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zasłabnięcie/choroba": 2,
+   "zabłądzenie/poszukiwania": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 13-tej ze schroniska na Ornaku przetransportowano do szpitala mocno osłabioną i źle się czującą turystkę.",
+   "Poniedziałek 24.01.2022. Po godz. 16-tej ze schroniska na Ornaku przewieziono do szpitala turystkę, która upadła na schodach uderzając w nie głową.",
+   "Po godz. 14-tej spod schroniska na Ornaku przewieziono do szpitala turystę, który upadając złamał rękę."
+  ]
+ },
+ {
+  "place": "Liliowe",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zablokowanie/utknięcie (nie może zejść)": 2
+  },
+  "examples": [
+   "Tuż po 14-tej powiadomiono Centralę TOPR, że podczas podchodzenia ( z buta) w rejonie Liliowego utknęło dwoje skitourowców. Ze względu na stromiznę stoku, narciarka skitourowa doznała blokady psychomotorycznej. W tamten …",
+   "7.48 utknięcie turystów pod Liliowym. Z pomocą wychodzi ratownik z Murowańca. W czasie dojścia do turystów, na Lilowe wyprowadzają ich inni turyści. Tam czekają na ratownika, który po dojściu wyprowadza ich na Kasprowy.",
+   "11.11. Upadek turystki spod Liliowego w kierunku Zielonego Stawu. Turystka z podejrzeniem urazu kręgosłupa, nóg i rąk przetransportowana śmigłowcem do szpitala."
+  ]
+ },
+ {
+  "place": "Piekiełko",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 2,
+   "zasłabnięcie/choroba": 2,
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "W czasie tych działań przed godz. 14.30 powiadomiono Centralę TOPR, że w Piekiełku w Dol. Kondratowej narciarka skitourowy doznała urazu nogi. Potrzebna pomoc. Z Centrali na Kondratową wyjechało 3 ratowników, którzy po 1…",
+   "Tuż przed godz. 13-tą powiadomiono TOPR, że na szlaku na Giewont w rejonie Piekiełka znajduje się 45-letni turysta, który skarży się na silny ból w klatce piersiowej. W trakcie rozmowy z dzwoniącymi okazało się, że turys…",
+   "Po godz. 17-tej ze szlaku z Kondratowej na Giewont z rejonu Piekiełka przetransportowano śmigłowcem do szpitala turystę, który upadając złamał rękę."
+  ]
+ },
+ {
+  "place": "Grześ",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zasłabnięcie/choroba": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "2. 12.23. Informacja od turysty, że na szlaku pomiędzy Grzesiem a Rakoniem znajduje się 50-60-letni turysta, z którym jest utrudniony kontakt. Raczej nie zejdzie on o własnych siłach, potrzebna pomoc. Wystartował śmigłow…",
+   "4 kwietnia warunki lawinowe zaczęły się stopniowo stabilizować i ogłoszono trzeci stopień zagrożenia lawinowego. O godzinie 15:06 centrala została powiadomiona o wypadku turystycznym w pobliżu wierzchołka Grzesia. Turyst…",
+   "Godz. 14 19 – Do centrali wpływa zgłoszenie o kobiecie z urazem barku w rejonie Grzesia. Na miejsce leci śmigłowiec. Ratownicy po desancie udzielają kobiecie pomocy, wciągają turystkę na pokład śmigłowca i przewożą do sz…"
+  ]
+ },
+ {
+  "place": "Czerwona Przełęcz",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zasłabnięcie/choroba": 1,
+   "inne": 1
+  },
+  "examples": [
+   "14.18 transport śmigłowcem z Czerwonej Przełęczy do szpitala turysty z silnymi dolegliwościami serca.",
+   "Po godz. 15.15 powiadomiono Centralę TOPR, że na szlaku pomiędzy Czerwoną Przeł. a Dol. Strążyską znajduje się turystka, która doznała urazu nogi uniemożliwiającego dalsze samodzielne schodzenie. Z Centrali do Dol. Strąż…",
+   "o godz. 11.40 zgłoszenie o urazie kończyny dolnej i górnej w wyniku poślizgnięcia na lodzie pod Czerwoną Przełęczą – Ścieżka nad Reglami. Poszkodowana została zniesiona w noszach do Doliny Strążyskiej i dalej samochodem …"
+  ]
+ },
+ {
+  "place": "Kępa",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 6
+  },
+  "examples": [
+   "Po godz. 19-tej z rejonu Kempy przetransportowano śmigłowcem do szpitala turystkę z urazem stawu skokowego, uniemożliwiającego dalsze samodzielne schodzenie.",
+   "Pomiędzy godz. 16-18-tą śmigłowcem przetransportowano do szpitala: 2. Z rejonu Kępy turystkę, która złamała nogę.",
+   "Pomiędzy godz. 15-17 śmigłowcem przetransportowano do szpitala: 2. Ze szlaku pomiędzy Kępą w M. Okiem turystkę z urazem kolana."
+  ]
+ },
+ {
+  "place": "Schronisko nad Morskim Okiem",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 3,
+   "uraz/wypadek": 2,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Pomiędzy 16.30 a 18.30 dyżurny z Morskiego Oka zwiózł na Palenicę dwie starsze osoby, które opadły z sił i nie były w stanie samodzielnie dotrzeć na parking i turystkę, która upadła na schodach schroniska i doznała urazu…",
+   "Przed godz. 16.50 ratownik pełniący dyżur w M. Oku powiadomił Centralę TOPR, że przy schronisku znajduje się turysta, któremu nagle przeprogramował się rozrusznik serca. Potrzebna pomoc. Turystę śmigłowcem przetransporto…",
+   "Był to również kolejny dzień, kiedy ratownicy przy pomocy pojazdów ATV oraz samochodów transportowali turystów do Zakopanego. Pomocy potrzebowały turystki na Boczaniu, Przysłopie Miętusim oraz wielu turystów ze schronisk…"
+  ]
+ },
+ {
+  "place": "Kozie Czuby",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 5,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "O godz. 16.15 do TOPR zadzwonił jeden z turystów informując, że wraz z kolegą przez Kozią Przeł. wyszli na Kozie Czuby. Robi się ciemno, mają kłopoty orientacyjne jak dojść na Kozi Wierch. Ratownik dyżurny zapytał ich ja…",
+   "Wtorek 31.05. Po godz. 15-tej powiadomiono Centralę TOPR, że na Kozich Czubach blokady psychomotorycznej dostał turysta. Nie jest w stanie dalej się poruszać. Wystartował śmigłowiec. Z jego pokładu w pobliżu desantowali …",
+   "Przed godz. 20-tą za pośrednictwem CPR powiadomiono Centralę TOPR, że na Kozich Czubach utknęło troje ukraińskich turystów. Nie są w stanie samodzielnie zejść. Proszą o pomoc . Z Centrali na Halę Gąsienicową wyjechali ra…"
+  ]
+ },
+ {
+  "place": "Próg Stawiarski",
+  "count": 6,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4,
+   "zabłądzenie/poszukiwania": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "15.37 upadek i zsuniecie się turysty po śniegach Progiem Stawiarskim. Turysta doznał potłuczeń klatki piersiowej. Przetransportowany śmigłowcem do szpitala.",
+   "W ślady męża poszła jego żona? Która też zsunęła się w tamtym rejonie doznając urazów rąk, obtarć i potłuczeń.",
+   "Środa 16.03. Do Centrali zadzwoniła turystka informując, że wraz z koleżanką podchodziły Stawiarskim Progiem do schroniska w Stawach. We mgle zgubiły szlak, są gdzieś pod liną wyciągu towarowego. Turystki odnalazł ratown…"
+  ]
+ },
+ {
+  "place": "Zawratowy Żleb",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "uraz/wypadek": 2,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "W czasie tych działań, przed godz. 12.30 do TOPR zadzwonił turysta informując, że podczas podejścia na Zawrat zsunął się Zawratowym Żlebem, gubiąc po drodze czekan. Oprócz strachu spowodowanego zdarzeniem nic mu się nie …",
+   "Po godz. 12-tej do Centrali TOPR zadzwoniła turystka informując, że podczas zejścia spadła Zawratowym Żlebem zatrzymując się poniżej łańcuchów. Nie ma poważniejszych obrażeń. Doszli do niej turyści, którzy nie są w stani…",
+   "W trakcie lądowania w Zakopanem, załoga została powiadomiona o upadku turystki po śniegu w Zawratowym Żlebie. Śmigłowiec natychmiast poleciał pod Zawrat. Ratownicy desantowali się na wciągarce z całym sprzętem medycznym …"
+  ]
+ },
+ {
+  "place": "Iwaniacka Przełęcz",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "Czwartek 06.05. Po godz. 15.30 ze schroniska Ornak przetransportowano do szpitala turystę, który schodząc z Iwaniackiej Przeł. zranił udo.",
+   "O godz. 20.45. do TOPR zadzwoniła turystka informując, że będąc poniżej Iwaniackiej Przeł. po stronie dol. Starej Roboty w wyniku poślizgnięcia i upadku doznała bolesnego urazu stawu skokowego. Nie da rady dalej samodzie…",
+   "W rejonie Iwaniackiej Przełęczy turystka doznała ataku drgawek. Po udzieleniu pierwszej pomocy, przytomną kobietę przetransportowano śmigłowcem do szpitala."
+  ]
+ },
+ {
+  "place": "Ornak",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 3,
+   "zabłądzenie/poszukiwania": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Tuż po 16-tej do TOPR zadzwonił turysta informując, że schodząc z grani Ornaków na Iwanicką Przeł. zgubił szlak. Dzięki aplikacji „Ratunek” udało się go naprowadzić na szlak i bezpiecznie dotarł do schroniska na Ornaku.",
+   "16.15 Z Ornaczańskiego Wierch przetransportowano śmigłowcem do szpitala bardzo osłabionego mającego wysokie ciśnienie i zawroty głowy turystę.",
+   "14.23 Informacja o turystce, która na Ornaku została ukąszona przez osę dostała silnego uczulenia, ma problemy z oddychaniem. Została ona śmigłowcem przetransportowana do szpitala."
+  ]
+ },
+ {
+  "place": "Małołączniak",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 3,
+   "inne": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "9. 15.38. Masyw Małołączniaka. Pijany 45-letni „turysta” z Kórnika. Transport śmigłowcem do szpitala. Ponieważ gość był trochę agresywny, na lądowisku przywitał go patrol Policji.",
+   "Po godz. 14-tej z Małołączniaka do szpitala przetransportowano śmigłowcem turystę który zasłabł ( odwodnienie?) i nie był w stanie kontynuować wycieczki.",
+   "O godz. 13-tej do TOPR zadzwonił turysta informując, że wraz ze znajomą schodzili z Małołaczniaka w kierunku Kopy Kondrackiej. Znajoma dostała silnych skurczów nóg i nie jest w stanie dalej wędrować, potrzebuje pomocy Sp…"
+  ]
+ },
+ {
+  "place": "Wielka Siklawa",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zasłabnięcie/choroba": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "9.36 Informacja o zasłabnięciu turystki rejonie Siklawy. Z pomocą pospieszył ratownik pełniący dyżur w 5-ciu Stawach. Po dotarciu na miejsce okazało się, że turystka poczuła się lepiej i odmówiła dalszej pomocy.",
+   "Przed godz. 14-tą do TOPR zadzwoniła turystka podchodząca z 10-cio letnim dzieckiem szlakiem przez Siklawę do 5-ciu Stawów informując, że córka dostała blokady psychomotorycznej na wysokości Siklawy. Z pomocą pospieszył …",
+   "O godz. 20-tej do Centrali TOPR zadzwonił turysta znajdujący się w schronisku w 5-ciu Stawach informując, że o 12.30 wraz z dwoma kolegami wyszli z Wodogrzmotów do Stawów, gdzie mieli zarezerwowany nocleg. Ponieważ koled…"
+  ]
+ },
+ {
+  "place": "Skupniów Upłaz",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "20.45 Ze Skupniowego Upłazu zwieziono do Kuźnic dwoje starszych turystów, którzy bez światła mieli problemy z bezpiecznym zejściem",
+   "Po godz. 20-tej ze Skupniowego Upłazu zwieziono pojazdem terenowym Traxter turystkę, który doznał urazu stawu skokowego.",
+   "Po godz. 16-tej spod Skupniowego Upłazu przetransportowano do szpitala turystkę, która doznała urazu kolana."
+  ]
+ },
+ {
+  "place": "Świstowa Czuba",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 4,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "14.10 informacja o 23-letnie turystce, która zemdlała na podejściu ze schroniska w Stawach na Świstową Czubę. Została ona śmigłowcem przetransportowana do szpitala.",
+   "Po godz. 15-tej z rejonu Świstowej Czuby przetransportowano śmigłowcem do szpitala, turystkę skarżącą się na silny ból w klatce piersiowej i mającej problemy z oddychaniem.",
+   "Po godz. 16-tej z rejonu Świstowej Czuby przetransportowano śmigłowcem do szpitala turystkę z objawami silnego wyczerpania ( odwodnienia?)."
+  ]
+ },
+ {
+  "place": "Dolina Goryczkowa",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 2,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "narciarstwo/skitury": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 18.40 do TOPR zadzwonił turysta przekazując, że w dwie osoby wyszli z Kuźnic niebieskim szlakiem z zamiarem dojścia na Kondratową. Zgubili szlak, doszli do dolnej stacji jakiegoś wyciągu. Nie wiedzą gdzie są pro…",
+   "Po godz. 14-tej do Centrali TOPR zadzwonił turysta informując, że podchodził z Kuźnic przez Myślenickie Turnie na Kasprowy. Utknął w stromym, zaśnieżonym terenie. Podał swoje współrzędne. Okazało się , że znajduje się on…",
+   "Do podobnego wypadku doszło po godz. 15-tej na trasie w Goryczkowej. Tam na 5-cio letniego chłopca najechał snowboardzista. Chłopiec doznał złamania nogi i ran głowy. I tym razem do transportu rannego wykorzystano śmigło…"
+  ]
+ },
+ {
+  "place": "Błyszcz",
+  "count": 5,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zabłądzenie/poszukiwania": 1,
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "13.19 poślizgnięcie i upadek w rejonie Błyszcza. Turysta doznał chwilowej utraty przytomności, otarć i potłuczeń. Został on śmigłowcem przetransportowany do szpitala.",
+   "Przed godz. 15-tą do TOPR zadzwonił turysta informując, że wraz z kolegą szli na Bystrą. Będąc pomiędzy Błyszczem i Bystrą kolega zsunął się do Dol. Gaborowej. Nie ma z nim, kontaktu. O zdarzeniu powiadomiono HZS. Chwilę…",
+   "Sobota 19.02. Po godz. 16-tej informacja od turystów schodzących z Błyszcza , że przed chwilą jeden z trzyosobowej grupy stracił równowagę i zsunął się po stromych zalodzonych śniegach. Nie widzą go i nie mają kontaktu g…"
+  ]
+ },
+ {
+  "place": "Zielony Staw Gąsienicowy",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 2,
+   "uraz/wypadek": 1,
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Tuż przed 16-tą do Centrali TOPR dotarła informacja, że w rejonie Zielonego Stawu turystka mocno zraniła nogę rakiem. Z pomocą pospieszył ratownik pełniący dyżur na Hali Gąsienicowej. Po zaopatrzeniu zwiózł ją do Murowań…",
+   "Po godz. 12-tej powiadomiono Centralę TOPR, że doszło do kolejnego wypadku skitourowego, tym razem powyżej Zielonego Stawu. Zjeżdżająca narciarka upadając doznała urazu kolana. I tym razem kontuzjowaną do szpitala przetr…",
+   "Po godz. 17-tej do Centrali TOPR zadzwonili taternicy informując, że sprowadzają swojego kolegą, który podczas wspinaczki idąc na drugiego odpadł i wybił bark. Są w tej chwili przy Zielonym Stawie. Z pomocą pospieszył zn…"
+  ]
+ },
+ {
+  "place": "Ceprostrada",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz.21. 20 do TOPR zadzwonił taternik z prośbą o pomoc dla partnera, który zasłabł i nie jest w stanie kontynuować zejścia. Wspinali się cały dzień w rejonie Mnicha. Mieli mało picia i jedzenia. Są na „ Ceprostradzie…",
+   "W tym czasie kolejna informacja o wypadku tym razem na Ceprostradzie, poniżej Kieszonkowych Turni, gdzie turystka w wyniku poślizgnięcia i upadku doznała urazu stawu skokowego. Kolejny lot śmigłowca tym razem do M. Oka. …",
+   "W tym czasie powiadomiono Centralę TOPR, że na Ceprostradzie znajduje się turystka z urazem stawu skokowego, potrzebuje pomocy. Wystartował śmigłowiec. Z Jego pokładu w pobliżu turystki desantowali się ratownicy. W pobli…"
+  ]
+ },
+ {
+  "place": "Sarnia Skała",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 4
+  },
+  "examples": [
+   "Po godz. 17-tej z Dol. Strążyskiej przewieziono do szpitala dziewczynkę, która w rejonie Sarniej Skały doznała rany kolana.",
+   "Po godz. 16-tej z rejonu Sarniej Skały przetransportowano śmigłowcem do szpitala turystkę, która, w wyniku poślizgnięcia i upadku doznała poważnego urazu stawu skokowego.",
+   "Po godz. 13-tej do Centrali TOPR zadzwoniła turystka informując, że schodząc z Sarniej Skały do Dol. Strążyskiej upadla i złamała rękę. Z Centrali do Dol. Strążyskiej wyjechało 4 ratowników, którzy po 13.40 dotarli do po…"
+  ]
+ },
+ {
+  "place": "Kozia Dolinka",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zabłądzenie/poszukiwania": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Przed godz. 12-tą do TOPR dotarła wiadomość od Straży Parku, że w Koziej Dolince na początku wejścia na Dolny Taras prowadzący w kierunku Filara Staszla natknęli się na części garderoby. Zrobione zdjęcia wskazywały, że m…",
+   "Sobota 25.06. Po godz. 11-tej z Koziej Dolinki przetransportowano śmigłowcem do szpitala turystę, który w wyniku poślizgnięcia i upadku doznał bolesnego urazu barku.",
+   "Tuż przed godziną 23:00 dnia 14 lutego do centrali TOPR dotarło zgłoszenie o turyście, który miał udać się w rejon Orlej Perci i od godziny 13:40 nie ma z nim kontaktu. Na poszukiwania z centrali wyruszyły grupy ratownik…"
+  ]
+ },
+ {
+  "place": "Piec",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 2,
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Wtorek 8.06. Po godz. 9-tej ze szlaku z Zahradzisk na Ciemniak, z rejonu Pieca, przetransportowano śmigłowcem do szpitala turystkę, która upadając złamała rękę .",
+   "Po godz. 20-tej ze szlaku z Ciemniaka na Zahradziska , przetransportowano śmigłowcem do szpitala turystę, który 6 godz. schodził z Ciemniaka ale w rejonie Pieca silny ból nóg nie pozwolił mu na dalsze samodzielne zejście…",
+   "W czasie powyższych działań o godz. 22-ciej do Centrali zadzwonił mężczyzna informując, że na szlaku z Ciemniaka na Zahradziska zaginął jego znajomy. Ostatni raz miał z nim kontakt o 20-tej , gdy kolega był nad Piecem. P…"
+  ]
+ },
+ {
+  "place": "Zadni Granat",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1,
+   "wspinaczka/taternictwo": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Czwartek 10.06. Tego dnia prowadzono w rejonie Zadniego Granata poszukiwania zaginione we wrześniu 2020 roku Joanny F. Znaleziono elementu ubrania i przedmiotów, które przekazano policji celem stwierdzenia czy należały d…",
+   "O godz. 16.45 powiadomiono Centralę TOPR o wypadku taternickim na Zadnim Granacie. Podczas wspinaczki taterniczka została ugodzona spadającym kamieniem doznając urazu barku. Zespół zrezygnował z dalszej wspinaczki i Kozi…",
+   "O 18.20 do TOPR zadzwoniła turystka informując, że wraz z mężem utknęli w trudnym dla nich terenie w masywie Zadniego Granata w pobliżu Żlebu Kulczyńskiego. Jest ciemno, nie widzą dalszej bezpiecznej drogi, boją się wróc…"
+  ]
+ },
+ {
+  "place": "Kazalnica Mięguszowiecka",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "zabłądzenie/poszukiwania": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "16.00 Informacja od turystki, że schodząc z Kazalnicy w kierunku Czarnego Stawu zgubiła szlak. Wystartował śmigłowiec . Z pokładu śmigłowca przy zagubionej turystce w masywie Kazalnicy desantował się 1 ratownik a śmigłow…",
+   "Godz. 5.30 do TOPR zadzwonił turysta podchodzący szlakiem na Przeł. pod Chłopkiem informując, że w rejonie Kazalnicy spadł około 5 m doznając urazu kolana, ręki, otarć i potłuczeń. O godz. 6.24 w tamten rejon wystartował…",
+   "Przed godz. 10.30 do TOPR zadzwonili turyści z informacją, że w 3 osoby szli szlakiem na Mięguszowiecką Przeł. pod Chłopkiem Doszli na Kazalnicę. Szlak jest zalodzony. Jeden z nich ma raki pozostali tylko raczki. Dalsze …"
+  ]
+ },
+ {
+  "place": "Dolina za Mnichem",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "narciarstwo/skitury": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "12.20 Z Dol. za Mnichem przetransportowano śmigłowcem do szpitala turystkę z urazem nogi.",
+   "Wtorek 30.03. Po godz. 15-tej z Dol. za Mnichem przetransportowano śmigłowcem do szpitala turystę, który doznał urazu nogi uniemożliwiającego dalsze samodzielne wędrowanie.",
+   "Niedziela 03.04. Po godz. 13. Do Centrali TOPR dotarła informacja, że w Dol. za Mnichem urazu nogi doznała narciarka skitourowa. Z M. Oka w tamten rejon wyruszyli pełniący tam dyżur ratownicy. Podchodząc na miejsce zdarz…"
+  ]
+ },
+ {
+  "place": "Sucha Przełęcz",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "uraz/wypadek": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz. 17-tej z Suchej Przeł. do szpitala przetransportowano śmigłowcem turystkę po utracie przytomności.",
+   "O godz. 1.40 do TOPR zadzwoniła zaniepokojona żona informując, że o godz. 18.30 zadzwonił jej mąż informując, że z Kasprowego schodzi do Zakopanego. Od tej pory nie ma z nim kontaktu, jego tel. nie odpowiada. Ratownik dy…",
+   "Gdy załoga śmigłowca przygotowywała się do lotu, do Centrali TOPR dotarła informacja, że na Suchej Przeł. znajduje się turystka, która doznała urazu stawu skokowego, potrzebuje pomocy. Wystartował śmigłowiec. Z jego pokł…"
+  ]
+ },
+ {
+  "place": "Ciemniak",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zasłabnięcie/choroba": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 17-tej transport śmigłowcem do szpitala turysty schodzącego z Ciemniaka, który w wyniku upadku doznał urazu klatki piersiowej.",
+   "O godz. 14.40 powiadomiono Centralę TOPR, że na zejściu Z Ciemniaka w kierunku Mułowej Przeł. upadł turysta i nie oddycha. Poproszono znajdujących się w pobliżu turystów by rozpoczęli reanimację. Wystartował śmigłowiec. …",
+   "O godz. 13.30 do TOPR zadzwoniły 2 turystki informując, że z grupą ruszyły z Zahradzisk przez Ciemniak na Kondratową. Ponieważ szły wolniej, reszta grupy nie czekając na nie ruszyła przodem. Gdy doszły na Ciemniak ich zn…"
+  ]
+ },
+ {
+  "place": "Dolina Starorobociańska",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "narciarstwo/skitury": 1,
+   "zasłabnięcie/choroba": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Przed godz. 19.30 informacja o urazie nogi u turystki znajdującej się w Dol. Starorobociańskiej Do Dol. Starorobociańskiej wyjeżdża pojazdem terenowym ratownik, który zwozi turystkę do Dol. Chochołowskiej .",
+   "Po godz.16-tej z górnej części Dol. Starorobociańskiej przetransportowano śmigłowcem do szpitala narciarkę skitourową, która podczas zjazdu doznała urazu nogi.",
+   "W godzinach popołudniowych do centrali dotarły kolejne zgłoszenia o kontuzjach i zachorowaniach turystów oraz narciarzy. W Dolinie Wyżniej Chochołowskiej narciarka doznała kontuzji stawu kolanowego, natomiast w Dolinie S…"
+  ]
+ },
+ {
+  "place": "Starorobociański Wierch",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "13.16. Zsunięcie się po stromych śniegach turysty spod Starorobociańskiej grani w kierunku Starorobociańskiej Przeł. Po chwili kolejna informacja od zgłaszającego wypadek, o kolejnym zsunięciu się w tym rejonie kolejnego…",
+   "Zsunięcie się po stromych śniegach turysty spod Starorobociańskiej grani w kierunku Starorobociańskiej Przeł. Po chwili kolejna informacja od zgłaszającego wypadek, o kolejnym zsunięciu się w tym rejonie kolejnego turyst…",
+   "W sobotę 7.03 o godz. 11:23 do centrali TOPR wpłynęło zgłoszenie od świadków o wypadku w rejonie Starorobociańskiego Wierchu. Turysta nagle przewrócił się, prawdopodobnie stracił przytomność i zsunął się po śniegu stromy…"
+  ]
+ },
+ {
+  "place": "Siwa Przełęcz",
+  "count": 4,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 2,
+   "uraz/wypadek": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Czwartek 24.03. Po 16.40 do TOPR zadzwonił narciarz skitourowy informując, że podczas zjazdu z Siwej Przeł. do Dol. Starorobociańkiej upadł i doznał urazu kolana. Wystartował śmigłowiec. Z jego pokładu dostrzeżono skitou…",
+   "O godz. 16:13 do centrali wpłynęło kolejne zgłoszenie o wypadku narciarskim. W rejonie Siwej Przełęczy kobieta podczas zjazdu upadła, doznając urazu głowy oraz kończyny dolnej. Ratownicy ponownie udali się na miejsce śmi…",
+   "Około południa z okolic Siwej Przełęczy śmigłowcem przetransportowano turystkę z kontuzją stawu skokowego."
+  ]
+ },
+ {
+  "place": "Niżnie Rysy",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "W czasie tych działań do TOPR zadzwoniła dziewczyna informując, że jej chłopak utknął w rejonie Niżnich Rysów. Jest w miejscu, z którego nie jest w stanie dalej się ruszyć. Potrzebuje pomocy. Po desancie śmigłowiec polec…",
+   "Niedziela 6.06. Po godz. 7-mej powiadomiono TOPR, że podczas zejścia z Niżnych Rysów turystka została wytrącona z równowagi przez niewielki zsuw śniegu i zjechała po stromych śniegach w kierunku Żlebu Orłowskiego, słyszą…",
+   "Przed 16-tą ratownicy działający przy wypadku pod Rysami sprowadzili z rejonu Niżnich Rysów na Bulę pod Rysami osłabionego, mającego problemy z samodzielnym zejściem turystę, który przy okazji kolejnego lotu w rejon Rysó…"
+  ]
+ },
+ {
+  "place": "Kocioł Goryczkowy",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 3
+  },
+  "examples": [
+   "Sobota 08.05. Po godz. 17-tej z górnej części Kotła Goryczkowego przetransportowano śmigłowcem do szpitala narciarkę skitourowy, która doznała urazu kolana.",
+   "Sporo pracy mieli również ratownicy dyżurujący na Kasprowym Wierchu, interweniując przy kilkunastu wypadkach w Kotle Gąsienicowym i Kotle Goryczkowym.",
+   "W tym samym czasie załoga śmigłowca została poproszona o pomoc przy innym zdarzeniu – narciarzu z bolesnym złamaniem podudzia w Kotle Goryczkowym. Poszkodowanego przetransportowano na pokładzie śmigłowca w noszach."
+  ]
+ },
+ {
+  "place": "Mięguszowiecki Szczyt Wielki",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Przed godz. 23.30 do TOPR dotarła informacja, że w kopule szczytowej Mięguszowieckiego Szczytu Wielkiego znajduje się dwoje turystów, którzy mają problemy orientacyjne. Próby naprowadzenia ich na właściwe zejście na Hińc…",
+   "Tuż przed 17-tą od turystów znajdujących się na wierzchołku Mięguszowieckiego Szczytu Wielkiego, do Centrali TOPR dociera informacja że nadciąga burza. Oni nie wiedzą co robić. Zalecono im by zeszli z wierzchołka i przec…",
+   "Tuż po 15-tej do Centrali TOPR zadzwonił turysta informując, że jest w rejonie Mięguszowieckiego Szczytu Wielkiego. Utknął w eksponowanym terenie ( grani?), skąd boi się ruszyć Potrzebuje pomocy. Wystartował śmigłowiec. …"
+  ]
+ },
+ {
+  "place": "Schronisko w Dolinie Chochołowskiej",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Sobota 22.05. O godz. 15.20 powiadomiono Centralę TOPR, że w schronisku na Chochołowskiej znajduje się turystka z silną reakcją alergiczną. Z Centrali do Dol. Chochołowskie wyjechało 2 ratowników, którzy przetransportowa…",
+   "Po godz.23-ciej powiadomiono Centralę TOPR, że w schronisku na Chochołowskiej tak nieszczęśliwie upadla na schodach turystka, ze doznała urazu głowy. Została ona po udzieleniu I pomocy i włożeniu na materac próżniowy kar…",
+   "Równocześnie, o godz. 22:00, ze schroniska na Polanie Chochołowskiej przetransportowano do szpitala turystkę z silnym bólem brzucha."
+  ]
+ },
+ {
+  "place": "Jaskinia Raptawicka",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "jaskinia": 1
+  },
+  "examples": [
+   "Wtorek 1.06. Przed godz. 12-tą powiadomiono ratowników, że tuż pod Jaskinią Raptawicką turystka złamała podudzie. Wystartował śmigłowiec. Z jego pokładu w pobliżu turystki desantowali się ratownicy. Po udzieleniu pomocy …",
+   "O godz. 13.45 do TOPR zadzwonił świadek zdarzenia, informując, że pod wejściem do Jaskini Raptawickiej turysta złamał nogę. Wystartował śmigłowiec. Z jego pokładu w pobliżu miejsca zdarzenia desantowali się ratownicy. Po…",
+   "Przed godz. 14-tą powiadomiono Centralę TOPR, że w Jaskini Raptawickiej znajduje się turystka, która zeszła do jaskini po drabince, ale podczas próby wyjścia dostałą ataku paniki i nie da rady wyjść. Z Centrali do Dol. K…"
+  ]
+ },
+ {
+  "place": "Smreczyński Staw",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 17.30 do TOPR zadzwonił jeden z turystów schodzących znad Smreczyńskiego Stawu do schroniska informując, że na szlaku spotkali niedźwiedzia. Poproszono turystów, by spokojnie wycofali się. O darzeniu powiadomion…",
+   "17.30. Informacja o urazie nogi u 15-letniego turysty na Smreczyńskim Stawem. Z Centrali do Dol. Kościeliskiej wyjechało 4 ratowników , którzy po 18.30 dotarli na miejsce zdarzenia. Po udzieleniu I pomocy zniesiono go w …",
+   "Po godz. 16-tej z Dol. Kościeliskiej do szpitala przewieziono turystkę, która schodzą znad Smreczyńskiego Stawu upadła doznając urazu nogi."
+  ]
+ },
+ {
+  "place": "Kozia Przełęcz Wyżnia",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Przed godz. 21-szą do TOPR zadzwonił turysta informując, że wraz z kolegą byli świadkami, jak z Koziej Przeł. Wyżniej w kierunku Dol. Pustej zsunął się turysta, który doznał urazu nadgarstka , otarć i potłuczeń. Wraz z k…",
+   "Po godz. 15.15 powiadomiono Centralę TOPR, że na Koziej Przeł. Wyżniej turystka dostała blokady psychomotorycznej. Nie jest w stanie dalej się poruszać. Wystartował śmigłowiec. Z jego pokładu desantował się w pobliżu tur…",
+   "O godz. 14.34 na centralę TOPR dotarło zgłoszenie od ukraińskiego turysty, który utknął na Orlej Perci w rejonie Koziej Przełęczy Wyżniej i nie jest w stanie samodzielnie kontynuować wycieczki. Ze względu na pogorszenie …"
+  ]
+ },
+ {
+  "place": "Kopieniec",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3
+  },
+  "examples": [
+   "Środa 9.06. Po godz. 11-tej z Kopieńca do szpitala przetransportowano pojazdem terenowym Traxter turystkę, która doznała urazu nogi.",
+   "Po godz. 13-tej ze szlaku na Kopieniec przetransportowano na Cyrhlę pojazdem terenowym Traxter, 60-cio letnią turystkę , która upadając złamała nogę. Z Cyrhli do szpitala przewieziono ją samochodem TOPR.",
+   "Po godz. 18-tej do Centrali TOPR dotarła informacja , że na szlaku z Kopieńca na Cyrhlę turysta upadając złamała nogę. Z Centrali na miejsce zdarzenia wyjechało 2 ratowników, którzy przed 18.50 dotarli do turystki. Po ud…"
+  ]
+ },
+ {
+  "place": "Schronisko w Dolinie Roztoki",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Niedziela 13.06. Po godz. 15.30 pracownica schroniska w Roztoce powiadomiła TOPR, że zasłabł tam, bez utraty przytomności turysta. Do Roztoki wyjechał ratownik pełniący dyżur w M. Oku. Po dotarciu na miejsce podczas wywi…",
+   "20.35 Ze schroniska w Roztoce przewieziono do szpitala turystkę, który doznał silnego bólu brzucha.",
+   "27.06 Godz. 9 00 – Ze schroniska w Roztoce przewieziono turystę z urazem stawu skokowego"
+  ]
+ },
+ {
+  "place": "Łopata",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Po godz. 11.30 z rejonu Łopaty przetransportowano śmigłowcem do szpitala turystkę, która doznała urazu stawu skokowego.",
+   "Po 5.30 do TOPR zadzwonił zaniepokojony syn informując, że 12.01. do Zakopanego wyjechał jego ojciec. O 13-tej wysłał mu zdjęcie zrobione z okolic Łopaty w kierunku Rohacza Ostrego. Od tego czasu nie ma kontaktu z ojcem.…",
+   "Gdy ratownicy przygotowywali się do działań, do Centrali dotarła informacja o wypadku narciarza skitourowego w Dol. Wyżniej Chochołowskiej, który doznał urazu nogi. Wystartował śmigłowiec. Okazało się, że wypadek ma miej…"
+  ]
+ },
+ {
+  "place": "Nosalowa Przełęcz",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3
+  },
+  "examples": [
+   "Przed godz. 17-tą ze szlaku pomiędzy Kuźnicami a Nosalową Przeł. zniesiono w noszach 14-letnią turystkę, która doznała kontuzji stawu skokowego. W Kuźnicach jej opiekunka odmówiła transportu dziewczynki do szpitala.",
+   "Po godz. 18-tej z Nosalowej Przeł. do Kuźnic zniesiono turystę, który upadając doznał urazu uda. Tam poszkodowanego przekazano załodze karetki pogotowia.",
+   "godz. 13:08 – upadek na zielonym szlaku poniżej Nosalowej Przełęczy. Turystka doznała urazu stawu kolanowego i została przetransportowana do Kuźnic, gdzie przekazano ją zespołowi ratownictwa medycznego."
+  ]
+ },
+ {
+  "place": "Wołowy Żleb",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3
+  },
+  "examples": [
+   "Sobota. 19.06. O godz. 5.35 do TOPR zadzwonił turysta informując, że napotkał w rejonie wsch. brzegu Czarnego Stawu po Rysami turystę z widocznymi obrażeniami, który nic nie pamięta co się stało. Został on zaopatrzony pr…",
+   "8.15 ratownik z M. Oka będąc na patrolu w rejonie Czarnego Stawu usłyszał wołanie o pomoc dochodzące z rejonu wylotu Wołowego Żlebu. Okazało się, że podczas podejścia na Rysy zsunął się eksponowanym, zalodzonym i zaśnież…",
+   "godz. 16:06 – turysta z kontuzją stawu skokowego podczas zejścia z Rysów poprosił o pomoc. Ratownik dyżurny z Morskiego Oka dotarł do niego w dolnej części Wołowego Żlebu, zaopatrzył go i pomógł w zejściu do Morskiego Ok…"
+  ]
+ },
+ {
+  "place": "Wrota Chałubińskiego",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Niedziela 20.06 O godz. 8.35 do TOPR zadzwoniła turystka informując, że przed chwilą ze szlaku na Wrota Chałubińskiego zsunęła się po śniegach jej koleżanka. W wyniku upadku doznała rany nogi, otarć i potłuczeń. Potrzebu…",
+   "17.35 Z grani pomiędzy Wrotami Chałubińskiego a Szpiglasowym W. przetransportowano do Zakopanego turystę, który utknął w eksponowanym miejscu i nie był w stanie bezpiecznie się wycofać. W tym rejonie nie przebiega żaden …",
+   "Przed godz. 24-tą do Centrali TOPR zadzwonił mężczyzna informując, że jego kolega nie mogąc się dodzwonić do TOPR ze względu na brak zasięgu, przysłał mu wiadomość, że zostawił swojego osłabionego i odwodnionego partnera…"
+  ]
+ },
+ {
+  "place": "Mięguszowiecka Przełęcz pod Chłopkiem",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "uraz/wypadek": 1,
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "7. 14.01. Przeł. pod Chłopkiem. utrata przytomności u 47- letniego turysty. Transport śmigłowcem do szpitala",
+   "12 września, piątek godz. 12.10 na centralę TOPR dotarło zgłoszenie o turyście, który doznał urazu nogi w rejonie sztucznych ułatwień na szlaku na Przełęcz pod Chłopkiem. Ze względu na trudne warunki nie udało się użyć ś…",
+   "W godzinach wieczornych do centrali zadzwonił taternik, który utknął w żlebie opadającym z Przełęczy Pod Chłopkiem do Bandziocha. Trudną ewakuację ze ściany wykonała załoga śmigłowca. Po dolocie na miejsce, zauważono czł…"
+  ]
+ },
+ {
+  "place": "Palenica Białczańska",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "11.10 Zasłabnięcie na Palenicy 18-letniego turysty. Z pomocą jedzie ratownik dyżurny z M. Oka. Po udzieleniu I pomocy turystę przekazuje załodze karetki pogotowia, która dotarła na parking na Palenicy.",
+   "Przed godz. 13-tą turyści powiadomili Centralę TOPR, że na szlaku z Palenicy na Rusinową Polanę znajduje się nieprzytomny mężczyzna. Wystartował śmigłowiec. Na miejsce zdarzenia dotarł również znajdujący się w pobliżu ra…",
+   "O godz. 16.38 do Centrali TOPR zadzwonił mężczyzna informując, że podczas zejścia z M. Oka w rejonie Palenicy zgubił będącego pod „ mocnym wpływem….” kolegę, który nagle mu uciekł . Dzwoniący liczył, że kolega wyruszył w…"
+  ]
+ },
+ {
+  "place": "Przełęcz Nowickiego",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po desancie śmigłowiec poleciał do Dol. Pańszczycy by sprawdzić informację od turystów, że w żlebie spadającym z Przeł. Nowickiego widzieli jakiś czerwony przedmiot- odzież lub plecak. Tam desantował się jeden z ratownik…",
+   "16.12 Dwoje turystów, którzy zamierzali ze Skrajnego Granata dotrzeć na Zadni Granat pomyliło kierunki i jak się okazało doszli na Przeł. Nowickiego. Dzięki aplikacji „Ratunek” pozyskano ich pozycję i zaproponowano by za…",
+   "W czasie tych działań do Centrali TOPR zadzwonił turysta informując, że utknął pod Przeł. Nowickiego, po stronie Dol. Pańszczycy. Wystartował śmigłowiec. Po dolocie w rejon Przeł. nad turystą desantowali się ratownicy, a…"
+  ]
+ },
+ {
+  "place": "Chuda Przełączka",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 3
+  },
+  "examples": [
+   "Śmigłowcem do szpitala przetransportowano: Po godz. 13-tej z rejonu Chudej Przełączki turystkę, która doznała urazu nogi",
+   "Po godz. 11-tej powiadomiono Centralę TOPR, że w rejonie Chudej Przeł. uczestnik biegu wysokogórskiego doznał urazu nogi. Potrzebna pomoc. Gdy załoga śmigłowca przygotowywała się do lotu, po godz. 11.30 powiadomiono Cent…",
+   "godz. 16:38 – o pomoc poprosił turysta, który w wyniku przeciążenia doznał urazu stawu kolanowego. Mężczyzna znajdował się w okolicy Chudej Przełączki w związku z czym do działań wykorzystano śmigłowiec."
+  ]
+ },
+ {
+  "place": "Kończysty Wierch",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po kilku minutach telefon od turystki wędrującą z córką pomiędzy Kończystą nad Jarząbczą Trzydniowiańskim W. z informacją, że córka doznała bolesnego urazu nogi i nie da rady dalej się poruszać. Wystartował śmigłowiec. N…",
+   "Po godz. 17-tej do Centrali TOPR zadzwoniła turystka informując, że wraz ze znajomym po godz. 11-tej wyszli ze schroniska na Chochołowskiej z zamiarem dojścia granią na Ornak. Są zmęczeni, wychłodzeni, nie wiedzą gdzie s…",
+   "Poniedziałek 23.05. Po godz. 17-tej powiadomiono Centralę TOPR, że pod Kończystym Wierchem zasłabła 36 letnia turystka, który potrzebuje pomocy. Wystartował śmigłowiec. Z jego pokładu w pobliżu turystki desantowali się r…"
+  ]
+ },
+ {
+  "place": "Kondracka Przełęcz Wyżnia",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 8-mej z Kondrackiej Przeł. Wyżniej przetransportowano śmigłowcem do szpitala turystkę, która doznała urazu nogi.",
+   "Tuż po 17-tej do TOPR zadzwoniła turystka informując, że w rejonie Kondrackiej Przeł. Wyżniej znajduje się prawdopodobnie „ naćpany” lub pijany mężczyzna. Słania się na nogach, potrzebna pomoc. O zdarzeniu powiadomiono S…",
+   "W czasie powyżej opisanych działań tuż przed 15-tą do TOPR dociera kolejna informacją o poważnych problemach kardiologicznych turysty znajdującego się pomiędzy Przeł. Kondracką Wyżnią i Siodłową Przeł. Śmigłowiec po prze…"
+  ]
+ },
+ {
+  "place": "Równia Waksmundzka",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 19.45 powiadomiono Centralę TOPR, że na szlaku z Równi Waksmundzkiej na Halę Gąsienicową znajduje się turystka, która doznała urazu nogi. Potrzebna pomoc. Z Centrali Na Halę Gąsienicową wyjechała ekipa ratowników…",
+   "Po godz. 18-tej do Centrali TOPR zadzwoniła turystka informując, że w zapadającym zmroku zgubiła szlak w rejonie Równi Waksmundzkiej. Dzięki aplikacji „Ratunek” uzyskano jej koordynaty GPS. Próby telefonicznego naprowadz…",
+   "O godz. 15.53 turysta będący na szlaku pomiędzy Równią Waksmundzką a Murowańcem prosi o pomoc, gdyż nie jest w stanie ze względu na warunki (oblodzenie) dalej iść. Na miejsce udał się ratownik dyżurujący w Murowańcu, któ…"
+  ]
+ },
+ {
+  "place": "Hala Ornak",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 20-tej ze schroniska na Ornaku przewieziono do szpitala turystkę, która wędrując w tamtym rejonie doznała urazu nogi.",
+   "Wieczorem przewieziono do szpitala kontuzjowanych turystów z Hali Ornak oraz Murowańca.",
+   "Był to również kolejny dzień, kiedy ratownicy przy pomocy pojazdów ATV oraz samochodów transportowali turystów do Zakopanego. Pomocy potrzebowały turystki na Boczaniu, Przysłopie Miętusim oraz wielu turystów ze schronisk…"
+  ]
+ },
+ {
+  "place": "Czubik",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 12.40 do TOPR zadzwonili turyści informując, że schodząc z Kończystego Wierchu w kierunku Trzydniowiańskiego W. zgubili szlak. Poprzez aplikację „Ratunek” ustalono ich położenie. Okazało się, że turyści są na sz…",
+   "Tego dnia znów w rejonie Kończystego W. turystka schodząc w kierunku Czubika zgubiła szlak. Znów dzięki aplikacji „Ratunek” okazało się, że turystka jest na Czubiku, kilka m od zasypanego szlaku. Wkrótce dotarła na Trzyd…",
+   "14.07. Informacja o urazie nogi turystki znajdującej się pomiędzy Czubikiem a Trzydniowiańskim Wierchem. Poszkodowanych śmigłowcem przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Rówień Waksmundzka",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 3
+  },
+  "examples": [
+   "Poniedziałek 07.02. Po godz. 20.40 do Centrali TOPR zadzwonili turyści informując, że idąc z Równi Waksmundzkiej do Murowańca zgubili zasypany szlak. Nie wiedzą gdzie są. Dzięki aplikacji „Ratunek” uzyskano ich namiary G…",
+   "Piątek 13.05. Po godz. 19-tej do Centrali TOPR zadzwonił 64-letni turysta informując, że zgubił się na zielonym szlaku pomiędzy Waksmundzką Równią a Murowańcem. Z Hali Gąsienicowej na poszukiwania wyruszyło 3 ratowników,…",
+   "Przed godz. 19-tą do Centrali TOPR zadzwoniła turystka informując, że schodząc z Krzyżnego z zamiarem dojścia do Murowańca pomyliła szlaki i poszła w kierunku Równi Waksmundzkiej. Dwóch ratowników wyruszyło z Centrali w …"
+  ]
+ },
+ {
+  "place": "Grzybowiec",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Przed godz. 12-tą do Centrali TOPR zadzwoniła turystka informując, że na szlaku z Dol. Strążyskiej na Grzybowiec znajduje się turysta , który doznał urazu nogi. Z Centrali do Dol. Strążyskiej wyjechało 4 ratowników, któr…",
+   "Po godz. 11-tej z rejonu Grzybowca zniesiono do Dol. Strążyskiej i dalej przewieziono do szpitala turystę, który doznał urazu kręgosłupa. W działaniach wzięło udział 5-ciu ratowników.",
+   "Tuż po 20-tej do Centrali TOPR zadzwonił turysta informując, że podczas zejścia z Grzybowca do Dol. Strążyskiej przewrócił się i rozbił okulary, bez których bardzo źle widzi i ma problemy z zejściem. Prosi o pomoc w spro…"
+  ]
+ },
+ {
+  "place": "Dolina Wyżnia Chochołowska",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1,
+   "narciarstwo/skitury": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Piątek 16.04. Po godz. 13.30 do Centrali TOPR zadzwonił mężczyzna informując, że z wycieczki w rejon Dol. Wyżniej Chochołowskiej nie wróciła jego znajoma. Nie ma z nią łączności telefonicznej. Ponadto poinformował ,że tu…",
+   "W godzinach popołudniowych do centrali dotarły kolejne zgłoszenia o kontuzjach i zachorowaniach turystów oraz narciarzy. W Dolinie Wyżniej Chochołowskiej narciarka doznała kontuzji stawu kolanowego, natomiast w Dolinie S…",
+   "O godz. 13:00 ratownik dyżurny ze schroniska na Polanie Chochołowskiej pomógł turystce w zejściu z Doliny Wyżniej Chochołowskiej."
+  ]
+ },
+ {
+  "place": "Granacka Przełęcz",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zabłądzenie/poszukiwania": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Piątek 20.05. Przed godz. 13.50 do TOPR zadzwoniła turystka informując, że w 3 osoby wyszli ze schroniska w Stawach na Krzyżne, zgubiły szlak są na grani , przy łańcuchach, w trudnym terenie, boją się dalej iść. Uzyskano…",
+   "Po 19.30 do Centrali TOPR zadzwonił jeden z czteroosobowej grupy turystów informując, że są na Skrajnym Granacie. Nie są w stanie( nie wiedzą jak?) zejść do Murowańca. Uzyskano ich koordynaty GPS. Okazało się, że są w re…",
+   "Niedziela, 26.04.2026 O 16:22 dotarło zgłoszenie od turysty, który spadł z Orlej Perci z rejonu Granackiej Przełęczy na stronę Doliny Pańszczycy. Turysta w wyniku kilkusetmetrowego upadku doznał tylko niegroźnych potłucz…"
+  ]
+ },
+ {
+  "place": "Schronisko na Hali Kondratowej",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "inne": 1
+  },
+  "examples": [
+   "Przed godz. 16.30 powiadomiono Centralę TOPR, że na Kondratowej pali się schronisko. Z Centrali wyjechała tam grupa ratowników jako zabezpieczenie medyczne. Powiadomiono załogę śmigłowca by była w gotowości. Równocześnie…",
+   "Godz. 17 25 – Ze schroniska na Hali Kondratowej przewieziono do szpitala turystę z urazem stawu skokowego .",
+   "Godz. 19 43 – Ze schroniska na Kondratowej przewieziono turystkę z urazem stopy."
+  ]
+ },
+ {
+  "place": "Siodłowa Przełęcz",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Sobota 18.06. Przed godz. 13-tą z Siodłowej Przeł. przetransportowano śmigłowcem do szpitala 13-letniego chłopca, który w wyniku poślizgnięcia i upadku doznał urazu stawu kolanowego.",
+   "Po godz.16-tej z rejonu Siodłowej Przeł. przetransportowano śmigłowcem do szpitala 39-letnią turystkę, która w wyniku potknięcia i upadku doznała złamania nogi.",
+   "A ojciec dotarł na Siodłową Przeł. gdzie poczuł się źle, o czym poniżej. Wystartował śmigłowiec, który najpierw poleciał w rejon Siodłowej Przeł. gdzie pomocy potrzebował turysta z dolegliwościami kardiologicznym. Turyst…"
+  ]
+ },
+ {
+  "place": "Buczynowa Przełęcz",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "narciarstwo/skitury": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Tuż po 20-tej powiadomiono Centralę TOPR, że na Orlej Perci w rejonie Buczynowej Przeł. znajduje się mocno osłabiona ( zbyt długa, trudna trasa, odwodnienie? ) 35-letnia turystka, która nie jest w stanie dalej bezpieczni…",
+   "Godz. 15:03- do Murowańca na Hali Gąsienicowej dotarł narciarz skiturowy, który upadł podczas zjazdu z Buczynowej Przełęczy. W wyniku kilkusetmetrowego upadku po twardym śniegu doznał urazów głowy i klatki piersiowej. Zd…",
+   "Godz. 17 45- Centrala odbiera zgłoszenie o turyście, który doznał zwichnięcia stawu barkowego w rejonie Buczynowej Przełęczy. Ratownicy na miejsce polecieli śmigłowcem. Po desancie i udzieleniu pomocy, mężczyzna został w…"
+  ]
+ },
+ {
+  "place": "Niebieska Turnia",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Pomiędzy godz, 16-a 16.40 informacja o kilku wypadkach: skurcze u turystki znajdującej się na szlaku pod Niebieską Turnią, dolegliwości kardiologiczne u 44-letniego turysty znajdującego się po Kopą Kondracką, uraz nogi u…",
+   "Przed godz. 12-tą powiadomiono ratowników, że starszy turysta idący z Zawratu na Świnicę, będąc w rejonie Niebieskiej Turni zgubił szlak, wszedł w eksponowany teren, z którego nie jest w stanie samodzielnie wrócić na szl…",
+   "Jednocześnie z rejonu Świnicy zatelefonowała do centrali TOPR dwójka Litwinów, którzy zapchali się w północną ścianę. Utknęli pod Niebieską Turnią w terenie wspinaczkowym. Jak się okazało chcieli skrócić sobie drogę do P…"
+  ]
+ },
+ {
+  "place": "Mięguszowiecki Szczyt Czarny",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Przed godz. 13.45 do Centrali TOPR zadzwonił turysta z informacją, że w 3 osoby szli na Mięguszowiecką Przeł. pod Chłopkiem. Z Galeryjki chcieli wejść przez płn. ścianę na Mięguszowiecki Szczyt Czarny. Są w miejscu, z kt…",
+   "Wieczorem, tuż przed zachodem słońca, ewakuowano śmigłowcem turystę, który wyszedł na Mięguszowiecki Szczyt Czarny i nie był w stanie z niego zejść. Gdyby nie pomoc śmigłowca wyprawa złożona z ok. 20 ratowników musiałaby…",
+   "Piątek, 17 lipca godz. 9.49 zgłoszenie od turysty, który zboczył ze szlaku na Mięguszowiecką Przełęcz pod Chłopkiem i północną ścianą Mięguszowieckiego Szczytu Czarnego chciał zdobyć wierzchołek. w wyniku dziesięciometro…"
+  ]
+ },
+ {
+  "place": "Kamień",
+  "count": 3,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Tuż po 9-tej do Centrali TOPR zadzwonił turysta świadek wypadku informując, że z rejonu „Kamienia zsunęła się śnieżno skalnym terenem, zatrzymując się powyżej Czarnego Stawu turystka. Doznała urazu ręki i nogi. Wystartow…",
+   "godz. 17:51 – kolejne zgłoszenie ze szlaku na Rysy. Turysta nie był w stanie samodzielnie zejść z okolic tzw. Kamienia. Ratownik po zakończeniu wcześniejszej interwencji ponownie udał się na Rysy. Po doposażeniu turysty …",
+   "W kolejnym locie śmigłowiec potrzebny był m.in. w dol Jaworzynki – atak drgawek, pod wodospadem Siklawa w dol.Roztoki – wyczerpanie oraz w rejonie tzw. Kamienia na szlaku z dol.Kondratowej na przeł. pod Kopą."
+  ]
+ },
+ {
+  "place": "Kotelnica Białczańska",
+  "count": 3,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 3
+  },
+  "examples": [
+   "Godz. 17 37 – Centrala zostaje powiadomiona o poważnym wypadku rowerowym na Kotelnicy Białczańskiej. Mężczyzna zostaje śmigłowcem przewieziony do zakopiańskiego szpitala.",
+   "W godzinach wieczornych centrala została powiadomiona o poważnym wypadku na Kotelnicy Białczańskiej. W wypadku na quadzie ciężko ranne zostały dwie osoby. Na miejsce zostały skierowane służby: Straż Pożarna, Zespoły Rato…",
+   "W godzinach wieczornych z Kotelnicy Białczańskiej, przewieziono śmigłowcem do szpitala, rowerzystę ze złamaniem uda."
+  ]
+ },
+ {
+  "place": "Trzydniowiański Wierch",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "O godz.14.45 na Centralę TOPR zadzwoniła turystka informując, że jest na Trzydniowiańskim rozbolała ją pachwina, ma problemy z poruszaniem się. Wystartował śmigłowiec. Z jego pokładu w pobliżu desantowali się ratownicy. …",
+   "Po godz. 14-tej ze zboczy Trzydniowiańskiego W. przetransportowano śmigłowcem do szpitala narciarza skitourowego, który zjeżdżając do Dol. Jarząbczej upadł i doznał urazu nogi."
+  ]
+ },
+ {
+  "place": "Wołowiec",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2
+  },
+  "examples": [
+   "Tuż po 16-tej do Centrali TOPR zadzwoniła turystka informując, że przed chwilą zsunęła się z Wołowca jakimś stromym Żlebem w kierunku dol. Wyżniej Chochołowskiej. Nie odniosła obrażeń, ale boi się schodzić po stromych śn…",
+   "21.37 Informacja , że w rejonie Wołowca znajduje się turysta, któremu wysiadła czołówka. Ma problemy z zejściem. Z pomocą pospieszył ratownik znajdujący się w schronisku na Chochołowskiej, który po 23-ciej dotarł do tury…"
+  ]
+ },
+ {
+  "place": "Dolina Litworowa",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Tuż po 20-tej do TOPR zadzwonił turysta informując, że wraz ze znajomą schodzili z Małołączniaka Kobylarzowym Żlebem. Mgła i zapadający zmrok spowodowały, że się zagubili. Nie są pewni czy idą dobrze. Są jeszcze powyżej …",
+   "Sobota 05.03. O godz. 21-szej do Centrali TOPR zadzwoniła zaniepokojona żona informując, że do tej pory z wycieczki na Czerwone Wierchy nie powrócił jej mąż. O godz. 12.30 miała z nim ostatni kontakt telefoniczny. Mąż by…"
+  ]
+ },
+ {
+  "place": "Pośredni Goryczkowy Wierch",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Niedziela 18.04. Po godz. 15-tej powiadomiono Centralę TOPR, że z grani pomiędzy Pośrednim Goryczkowym a Goryczkową Czubą, zsunęła się po śniegach do Świńskiego Kotła turystka. O zdarzeniu powiadomiła jedna z jej znajomy…",
+   "Po godz. 14-tej do Centrali TOPR zadzwonił jeden z 3-osobowej grupy turystów z informacją, że znajdują się na Pośrednim Goryczkowym. Są kiepsko wyposażeni, mają trudności orientacyjne, do tego ich koleżanka słabnie. Potr…"
+  ]
+ },
+ {
+  "place": "Litworowy Żleb",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 17.45 do TOPR zadzwonił narciarz skitourowy, który poinformował, że podczas zjazdu z 5-ciu Stawów Litworowym Żlebem upadł i wybił bark. Kontuzja jest bolesna, potrzebuje pomocy. Wystartował śmigłowiec. Z jego pok…",
+   "W środę 4.03 o godz. 14:38 zadzwonił turysta informując, że znajduje się w Litworowym Żlebie w Dolinie Roztoki. Utknął w stromym śniegu i poprosił o pomoc. Na miejsce udał się ratownik dyżurny z Pięciu Stawów, który z as…"
+  ]
+ },
+ {
+  "place": "Krzesanica",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Środa 28.04. Po godz. 11.tej z Krzesanicy przetransportowano śmigłowcem do szpitala narciarza skitourowego, który upadając wybił bark.",
+   "Poniedziałek 31.05. Po godz. 15.40 do TOPR zadzwonił jeden z turystów informując, że w czteroosobowej grupie są na Krzesanicy. Nie potrafią zejść, nie mają raków i czekanów. Potrzebują pomocy. Sugestia by wrócili po swoi…"
+  ]
+ },
+ {
+  "place": "Szymoszkowa",
+  "count": 2,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Po godz. 15-tej ze stoku narciarskiego na Szymoszkowej przetransportowano do szpitala turystkę, która doznała urazu stawu skokowego.",
+   "Po godz. 15-tej ze stoku na Szymoszkowej przewieziono do szpitala 15-letniego chłopca, który zbiegając przewrócił się i doznał urazu głowy i twarzy."
+  ]
+ },
+ {
+  "place": "Mały Giewont",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Chwilę po tym kolejny telefon. Dzwoni turystka informując, że wraz z koleżanką są na czerwonym szlaku w rejonie Małego Giewontu. Przed chwilą jej znajoma upadła i złamała nogę. Wystartował śmigłowiec, który najpierw pole…",
+   "W niedzielę o godzinie 14:35 do centrali TOPR zadzwonił turysta z informacją, że znajduje się w rejonie Małego Giewontu. Wszedł w trudny teren i nie jest w stanie kontynuować wycieczki. Z centrali do Doliny Kondratowej w…"
+  ]
+ },
+ {
+  "place": "Zabrat",
+  "count": 2,
+  "area": "Tatry SK",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Przed godz. 16.30 do TOPR zadzwoniła turystka informując, że podczas zejścia z Przeł. Zabracie do Dol. Wyżniej Chochołowskiej poślizgnęła się na stromych śniegach i zsuwając się uderzyła głową w wystające kamienie. Ma kr…",
+   "Po godz. 12.30 turystka schodząca szlakiem z Przeł. Zabracie do Dol. Wyżniej Chochołowskiej, poślizgnęła się na stromych śniegach i skręciła nogę. Nie da rady dalej schodzić, potrzebuje pomocy. Turystkę śmigłowcem przetr…"
+  ]
+ },
+ {
+  "place": "Dolina Białego",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "3. 11.47. Dol. Białego. 15-letnia turystka doznała uraz stawu skokowego. Samochodem przewieziona do szpitala.",
+   "Środa 25.05. Po godz. 11.30 z Dol. Białego przetransportowano śmigłowcem do szpitala 17-letnią turystkę, która straciła przytomność."
+  ]
+ },
+ {
+  "place": "Wielki Staw Polski",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "4. 18.18. Dol. 5-ciu Stawów. Sprowadzenie znad Wielkiego Stawu 31-letniej, turystki, która tak osłabła ( odwodniła się?) , że miała problemy z samodzielnym dojściem do schroniska.",
+   "Przed godz. 17-tą, ratownik idący na dyżur do 5-ciu Stawów natknął się przy wypływie Wielkiego Stawu na mężczyznę bez oznak życia. Z przygodnymi turystami rozpoczęto reanimację. Powiadomiono Centralę TOPR. Wystartował śm…"
+  ]
+ },
+ {
+  "place": "Wanta",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 15-tej powiadomiono Centralę TOPR, że na Drodze do M. Oka powyżej Wanty jest 5-cio letni chłopiec, który ma uczulenie na konie. Dostał duszności, potrzebna pomoc. Ze schroniska w M. Oku na miejsce zdarzenia pojec…",
+   "Po godz. 9.30 ratownik dyżurujący w M. Oku zwiózł z Wanty na Palenicę turystę, który upadając wybił bark. Stamtąd własnym samochodem miał udać się do szpitala."
+  ]
+ },
+ {
+  "place": "Wielki Wołowy Żleb",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "W czasie dolotu informacja, że w Wielkim Wołowym Żlebie w okolicy „Kamienia” turystka upadając złamała rękę. Z pokładu śmigłowca przy zagubionej turystce w masywie Kazalnicy desantował się 1 ratownik a śmigłowiec polecia…",
+   "Przed godz. 15.40 powiadomiono Centralę TOPR, że na szlaku z Rysów w Wielkim Wołowym Żlebie, turysta w wyniku poślizgnięcia na mokrych skałach i upadku doznał złamania podudzia. Wystartował śmigłowiec zabierając spod Cen…"
+  ]
+ },
+ {
+  "place": "Rysa Zaruskiego",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 2
+  },
+  "examples": [
+   "14.05 Informacją od turysty, że utknął w Żlebie Kulczyńskiego. Chwilę potem kolejny telefon od turysty, że znajduje się w Rysie Zaruskiego. Wystartował śmigłowiec. Z jego pokładu przy turyście desantował się ratownik. Ok…",
+   "Przed 10-tą do Centrali TOPR zadzwoniło dwoje turystów informując, że utknęli w Rysie Zaruskiego. Nie są w stanie ruszyć się w żadną stronę, potrzebują pomocy. Wystartował śmigłowiec. Z jego pokładu w pobliżu turystów de…"
+  ]
+ },
+ {
+  "place": "Dolina Olczyska",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "13.28 Z Dol. Olczyskiej przewieziono do szpitala turystkę, która doznała urazu nogi.",
+   "Po godz. 11-tej powiadomiono Centralę TOPR, że w Dol. Olczyskiej 6-cio letnie dziecko upadło uderzając głową w kamienie. Chłopiec doznał ran głowy. Do Dol. Olczyskiej wyjechało samochodem terenowym dwóch ratowników, któr…"
+  ]
+ },
+ {
+  "place": "Stoły",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 12.30 powiadomiono Centralę TOPR, że na szlaku na Stoły znajduje się mocno osłabiony 80-cio letni turysta, który nie jest w stanie zejść do drogi, potrzebna pomoc. Z Centrali do Dol. Kościeliskiej wyjechało 7-miu…",
+   "Przed godz. 12.40 powiadomiono Centralę TOPR, że na Stołach turystka upadając złamała rękę. Z Centrali do Dol. Kościeliskiej wyjechało 2 ratowników, którzy przed 13.40 dotarli do turystki. Po udzieleniu I pomocy sprowadz…"
+  ]
+ },
+ {
+  "place": "Droga Surdela",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 2
+  },
+  "examples": [
+   "Przed 21.30 do TOPR zadzwonili taternicy, którzy wspinali się Drogą Surdela na MSW informując, że mają problemy z odnalezieniem drogi zejściowej do Hińczowej Przeł. Zaproponowano, że bezpieczniej będzie im dotrzeć na Prz…",
+   "18.34 zgłoszenie od dwójki taterników, którzy utknęli na drodze Surdela na płn. – wsch. ścianie Mięguszowieckiego Szczytu Wielkiego tuż nad Kominem Kiszkanta. Nie byli w stanie dalej kontynuować wspinaczki. Podczas skomp…"
+  ]
+ },
+ {
+  "place": "Mała Buczynowa Turnia",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Przed godz. 20-tą do TOPR zadzwonił turysta informując, że będąc na Orlej Perci w okolicach Małej Buczynowej Turni zgubił szlak, wszedł w eksponowany teren, z którego boi się ruszyć. Potrzebuje pomocy. Z Murowańca przez …",
+   "We wtorek 11. 08 o godz. 18:18 centrala TOPR została powiadomiona o wypadku w Dolinie Pańszczycy. Turysta schodzący z Przełęczy Krzyżne przekazał, że pod ścianami Małej Buczynowej Turni zauważył leżącą osobę. Na miejsce …"
+  ]
+ },
+ {
+  "place": "Buczynowa Dolinka",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Przed godz. 20-to do Centrali TOPR zadzwonił turysta informując, że schodząc z Krzyżnego do Stawów spadł kilkanaście m z trawersu Buczynowej Dolinki. Nic mu się nie stało, ale nie jest w stanie wydostać się na szlak. Pot…",
+   "O godz. 21:24 centrala otrzymała zgłoszenie dotyczące odwodnionego i wyczerpanego turysty znajdującego się na progu Dolinki Buczynowej. Ratownik dyżurny z Pięciu Stawów, po dotarciu na miejsce, stwierdził, że konieczny b…"
+  ]
+ },
+ {
+  "place": "Dziurawa Przełęcz",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "Po godz. 15-tej zgłoszenie od turysty znajdującego się na grani pomiędzy Wołowcem a Łopatą, że jego kolega, z którym wędruje poważnie zasłabł i nie jest w stanie kontynuować wycieczki. Wystartował śmigłowiec. Najpierw na…",
+   "Poniedziałek 06.06. Po godz.17-tej z rejonu Dziurawej Przeł. przetransportowano śmigłowcem do Zakopanego niepełnosprawnego 19- letniego chłopaka wraz z opiekunami, który w czasie długiej wycieczki opadł z sił i nie był w…"
+  ]
+ },
+ {
+  "place": "Dziadula",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz.16-tej powiadomiono Centralę TOPR, że podczas zejścia z 5-ciu Stawów na Wodogrzmoty, będąca w rejonie Dziaduli turystka wyniku poślizgnięcia i upadku doznała urazu nogi. Z Centrali na Wodogrzmoty i dalej na miejs…",
+   "Po godz. 16-tej do Centrali TOPR zadzwonił turysta informując, że są na szlaku w Dolinie Roztoki w rejonie Dziaduli. Żona leczy się kardiologicznie, przed chwilą dostała ataku. Potrzebuje pomocy. Z Centrali na Wodogrzmot…"
+  ]
+ },
+ {
+  "place": "Wielka Polana Małołącka",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Przed godz.11.50 powiadomiono Centralę TOPR, że na szlaku pomiędzy Wielką Małołącką Polaną a Sotrą upadła starsza turystka uderzając głową o kamienia. Straciła na chwilę przytomność. Wystartował śmigłowiec. Z jego pokład…",
+   "Po godz. 14.30 do TOPR zadzwonił turysta informując, że w Dol. Małej Łąki na Wielkiej Małołąckiej Polanie turystka doznała urazu stawu skokowego. Potrzebuje pomocy. Z Centrali pojazdem terenowym Traxter wyjechał do Małej…"
+  ]
+ },
+ {
+  "place": "Ścieżka nad Reglami",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Przed godz. 13.15 do Centrali TOPR dotarła informacja, że na Ścieżce nad Reglami, w rejonie odejścia szlaku do Dol. Białego w wyniku poślizgnięcia i upadku 59 letnia turystka doznała urazu nogi oraz uderzyła głową o podł…",
+   "Godz. 11 25 – Kolejne zgłoszenie. Na Ścieżce nad Reglami starszy mężczyzna upadł doznając urazu głowy. Na miejsce skierowano śmigłowiec. Po desancie i udzieleniu pomocy, turysta został przetransportowany do szpitala."
+  ]
+ },
+ {
+  "place": "Wysoka",
+  "count": 2,
+  "area": "poza Tatrami",
+  "types": {
+   "śmiertelny": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 11.35 ratownicy Grupy Podhalańskiej GOPR poprosili o przylot naszego śmigłowca w rejon Wysokiej w Małych Pieninach, gdzie nagłego zatrzymania krążenia doznał 52-letni turysta z Warszawy. Po dolocie ratownicy des…",
+   "Po godz. 22.20 ratownicy HZS powiadomili TOPR, że w rejonie Wysokiej zaginął polski turysta, który rano samotnie wyruszył z Popradzkiego Stawu przez Dol. Złomisk. Znajomy,, który rozstał się z poszukiwanym przy Popradzki…"
+  ]
+ },
+ {
+  "place": "Beskid",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Przed godz. 17-tą powiadomiono Centralę TOPR, że na szlaku z Kasprowego do Murowańca , na trawersie Beskidu, 25-letni turysta upadł i złamał nogę . Został on śmigłowcem przetransportowany do szpitala.",
+   "Po godz. 14.40 ratownicy dyżurujący na Kasprowym wyprowadzili ze stoków Beskidu do budynku kolejki turystów, którzy utknęli w stromym, zalodzonym terenie."
+  ]
+ },
+ {
+  "place": "Karczmisko",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Przed godz. 18-tą powiadomiono Centralę TOPR, że na Karczmisku znajduję się turystka, która doznała urazu stawu skokowego. Z Hali wyruszył pełniący tam dyżur ratownik. Z Centrali do pomocy w transporcie wyjechało 5-ciu r…",
+   "Wtorek, 21 lipca godz. 15.52 otrzymano zgłoszenie o turyście na Karczmisku (Hala Gąsienicowa), który ma problemy z poruszaniem się (hipotonia mięśniowa). Na miejsce udał się ratownik dyżurny z Hali Gąsienicowej, a także …"
+  ]
+ },
+ {
+  "place": "Wielka Galeria Cubryńska",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Wieczorem turyści znajdujący się w M. Oku powiadomili Centralę TOPR, że od dłuższego czasu na Wielkiej Galerii Cubryńskiej, poniżej Hińczowej Przeł. widać w jednym miejscu światło. Sprawdzono wpisy do książki wyjść tater…",
+   "Chwilę po telefonie od turystów z Kazalnicy o godz. 10.40 do Centrali TOPR dociera informacja od jednego z ratowników znajdujących się na Mnichu, że przed chwilą z progu Wielkiej Galerii spadł do Mnichowego Żlebu jakiś t…"
+  ]
+ },
+ {
+  "place": "Jarząbczy Wierch",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1,
+   "śmiertelny": 1
+  },
+  "examples": [
+   "O godz. 16-tej do TOPR zadzwonił turysta informując, że w 4 osoby wędrują od Wołowca. Są w tej chwili w rejonie Jarząbczego Wierchu. Wieje silny wiatr, marzną. Proszą o pomoc. Poinformowano ich, że o tej porze zapada zmr…",
+   "17.45. Zakopiańska Policja zgłosiła zaginięcie 46 letniego turysty, który miał udać się na wycieczkę w Tatry Zachodnie i w sobotę 8.01. wrócić do pensjonatu. Sprawdzono okoliczne schroniska, tam się nie meldował. Od rodz…"
+  ]
+ },
+ {
+  "place": "Gienkowe Mury",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Przed godz. 12-tą powiadomiono Centralę TOPR, że podczas zejścia z Kasprowego w rejonie Gienkowych Murów turysta doznał bolesnego urazu kolana. Z pomocą wyruszyli ratownicy pełniący dyżur na Kasprowym. Po udzieleniu I po…",
+   "Stamtąd poleciał w rejon Gienkowych Murów, skąd na pokład włożono 13-letnią dziewczynkę z urazem nogi. Poszkodowanych przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Gładki Wierch",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "15.39 Upadek po stromych śniegach turysty z Gładkiego W. w kierunku Gładkiej Przeł. Tym razem Anioł Stróż czuwał. Turysta nie doznał żadnych obrażeń.",
+   "12.47 upadek z Gładkiego W. w kierunku Stawów 2 osób. Turystów , którzy nie odnieśli poważniejszych obrażeń przetransportowano śmigłowcem do Zakopanego."
+  ]
+ },
+ {
+  "place": "Dolina Tomanowa",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1,
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "15.45. Utknięcie 5 osób na trawersie z Dol. Tomanowej do Chudej Przeł. Turyści nie posiadają sprzętu, nieprzygotowani do zimowych warunków. Z Centrali wyjechało 4 ratowników, którzy o 19.30 dotarli do turystów i przed 22…",
+   "Przed 17-tą do Centrali TOPR zadzwonił turysta informując, że jego dziewczyna znajduje się w Dol. Tomanowej, obtarły ją buty tak, że nie jest w stanie dalej schodzić. Z Centrali do Tomanowej wyjechał pojazdem terenowy ra…"
+  ]
+ },
+ {
+  "place": "Jaskinia Czarna",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 2
+  },
+  "examples": [
+   "Po godz. 17.40 telefon do TOPR od jednego z uczestników szkolenia jaskiniowego prowadzonego w Jaskini Czarnej z informacją , że kontuzji palca wskazującego i mocnego krwawienia doznał jeden z uczestników szkolenia. Jest …",
+   "Godz. 20 01 – Do centrali wpłynęło zgłoszenie o przekroczeniu godziny alarmowej przez grotołazów w Jaskini Czarnej. Grotołazi zostali odnalezieni 10 min. po północy w jaskini i wyprowadzeni na powierzchnię. W wyprawie br…"
+  ]
+ },
+ {
+  "place": "Przełęcz Zabrat",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "lawina": 1,
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "O godz. 11.18 do TOPR zadzwonił turysta znajdujący się pod Rakoniem i powiadomił Centralę TOPR, że widział jak spod Przeł. Zabracie zeszła przed chwilą lawina. Na jej torze byli dwaj turyści. W tej chwili widzi jednego t…",
+   "Po godz. 15.30 do Centrali TOPR zadzwonił turysta informując, że podczas zejścia z Wołowca do Dol. Chochołowskiej zgubił szlak. Znajduje się przy słowackim znaku z napisem „Sedlo Zabrat”. Telefonicznie naprowadzono go na…"
+  ]
+ },
+ {
+  "place": "Uhrocie Kasprowe",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1,
+   "lawina": 1
+  },
+  "examples": [
+   "Sobota 29.01. O godz. 14.53. do TOPR zadzwonił mężczyzna jadący koleją krzesełkową w Kotle Gąsienicowym informując, że widział jak przed chwilą z Uhrocia Kasprowego zeszła lawina w kierunku kolei krzesełkowej i zasypała …",
+   "Środa 09.02. O godz.20.20 ratownik pełniący dyżur w Murowańcu poinformował Centralę, że z Uhrocia Kasprowego zeszła duża lawina, która przejechała przez szlak prowadzący od Dolnej Stacji kolei krzesełkowej na Gąsienicowe…"
+  ]
+ },
+ {
+  "place": "Przełęcz pod Rysami",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Sobota 26.02. Po godz. 8.40 do TOPR zadzwonił turysta informując, że jest na Przeł. pod Rysami. Skręcił nogę, nie da rady samodzielnie zejść do M. Oka. Turystę śmigłowcem przetransportowano do szpitala.",
+   "Środa 11.05. Po godz. 14.25 ratownik znajdujący się akurat na Rysach zauważył na Przeł. pod Rysami mężczyznę, który w eksponowanym terenie pokrytym twardym śniegiem, nie był w stanie się ruszyć. Powiadomił Centralę. W ta…"
+  ]
+ },
+ {
+  "place": "Żleb Kirkora",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Czwartek 07.04. Tuż przed 17-tą do Centrali TOPR zadzwoniła turystka informując, że wraz z matką schodziły z Kopuły Giewontu. Matka będąc przy ostatnim łańcuchu straciła równowagę i zsunęła się po śniegach około 150 m Żl…",
+   "06.05 Piątek Przed godz.12-tą do Centrali TOPR zadzwonił turysta informując, że schodząc z Giewontu pomylił drogę i wszedł do Żlebu Kirkora którym zaczął schodzić w dół. Utknął nad jednym z progów nie mogąc się ruszyć w …"
+  ]
+ },
+ {
+  "place": "Ministrant",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "12.54. Informacja o urazie nogi w rejonie Ministranta. Poszkodowanego śmigłowcem przetransportowano do szpitala.",
+   "15 marca 2026 niedziela godz. 11.40 zgłoszenie od turystki spod Ministranta w Dolince za Mnichem, która niefortunnie zraniła się rakiem w mięsień łydki i nie była w stanie kontynuować samodzielnie zejścia. Poszkodowana z…"
+  ]
+ },
+ {
+  "place": "Dolina Pyszna",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po godz. 17.30 do Centrali TOPR zadzwoniło dwoje turystów informując, że schodzili z Błyszcza, zgubili szlak i zeszli do Dol. Pysznej. Nie wiedzą jak dojść do schroniska. Są zmęczeni i spanikowani. Przez aplikację „Ratun…",
+   "23.21 zgłoszenie od turysty, który schodząc z Bystrej „na skróty” przez Dolinę Pyszną utknął w wiatrołomach i nie mógł kontynuować zejścia. Przy pomocy drona udało się dokładnie ustalić jego lokalizację i przekazać zesta…"
+  ]
+ },
+ {
+  "place": "Wyżnia Kondracka Przełęcz",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Niedziela 26.06. Po godz. 8-mej z Kondrackiej Przeł. Wyżniej przetransportowano śmigłowce do szpitala turystkę, która w wyniku poślizgnięcia i upadku złamała nogę.",
+   "Około godziny 17 do centrali dotarło zgłoszenie o 4 wypadkach. Pomocy potrzebowali turyści z urazami kończyn w górnych partiach szlaku w Dolinie Jaworzynki, Liliowym, Wyżniej Kondrackiej Przełęczy oraz wyczerpany turysta…"
+  ]
+ },
+ {
+  "place": "Pościel Jasińskiego",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Przed godz. 17-tą do Centrali TOPR zadzwonił turysta informując, że wraz ze znajomą są w rejonie Orlej Baszty. Znajoma opadła z sił (odwodnienie? przegrzanie? ), nie jest w stanie kontynuować wycieczki. Wystartował śmigł…",
+   "Tuż przed 17-ta informacja o blokadzie psychomotorycznej u turystki znajdującej się pomiędzy Orlą Basztą a Przeł. Nowickiego. Wystartował śmigłowiec. Z jego pokładu, ze względu na warunki w Pańszczyckim Żlebie desantowal…"
+  ]
+ },
+ {
+  "place": "Żółty Potok",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "W czasie działań w rejonie Rysów, do Centrali TOPR o godz. 20.30 zadzwonił turysta informując, ze wraz z córką są na szlaku w rejonie Żółtego Potoku. Córce odnowiła się kontuzja kolana. Ma problem z dojściem do Murowańca…",
+   "Przed godz. 19.30 do Centrali TOPR zadzwonili turyści, którzy we dwójkę utknęli bez światła na szlaku w rejonie Żółtego Potoku. Z Murowańca w ich kierunku wyruszył pełniący tam dyżur ratownik. Po dotarciu do turystów ase…"
+  ]
+ },
+ {
+  "place": "Orla Baszta",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz.12.40 Do Centrali TOPR zadzwonił turysta, jeden z uczestników wycieczki z informacją, że przed chwilą spadł z Orlej Perci, z rejonu Orlej Baszty do Dol. Pańszczycy ich kolega. Na szlaku ( Pościel Jasińskiego), po…",
+   "13.14 spod Orlej Baszty śmigłowcem przetransportowano turystę ze skurczem mięśni uda"
+  ]
+ },
+ {
+  "place": "Goryczkowa Przełęcz Świńska",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "O godzinie 17:19 do centrali wpłynęło kolejne zgłoszenie. Dwójka węgierskich turystów, idąc z Przełęczy pod Kopą w stronę Kasprowego Wierchu, poprosiła o pomoc. Znajdowali się w rejonie Czuby Goryczkowej, byli bardzo zmę…",
+   "Godz. 13 32 – Zasłabnięcie turystki na Przełęczy Goryczkowej Świńskiej. Ratownicy ewakuują kobietę śmigłowcem do szpitala."
+  ]
+ },
+ {
+  "place": "Droga pod Reglami",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Tego dnia ratownicy transportowali także samochodami terenowymi do szpitala turystów z urazami kończyn z Drogi pod Reglami, Morskiego Oka oraz dwukrotnie z Doliny Chochołowskiej.",
+   "27.07 Z Drogi pod Reglami oraz Wiktorówek przewieziono do szpitala osoby z kontuzjami kończyn."
+  ]
+ },
+ {
+  "place": "Dolina Złota",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1,
+   "inne": 1
+  },
+  "examples": [
+   "Z Doliny Złotej przetransportowano do SOR turystkę z urazem podudzia, a z Doliny Małej Łąki turystę z objawami odwodnienia.",
+   "Tego dnia samochodami terenowymi przewieziono również turystów z Hali Gąsienicowej, Hali Kondratowej, Doliny Złotej, Morskiego Oka i Doliny Kościeliskiej."
+  ]
+ },
+ {
+  "place": "Brzeziny",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Godz. 12 22 – Zgłoszenie wypadku na drodze Brzeziny- Murowaniec. Rowerzysta z urazem uda zostaje przetransportowany samochodem do szpitala.",
+   "Przed 9 ze szlaku wiodącego z Brzezin na Halę Gąsienicową zwieziono turystę z urazem nogi."
+  ]
+ },
+ {
+  "place": "Siklawa",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "o 12.35 z rejonu Siklawy śmigłowcowcem przetransportowano turystę po utracie przytomności",
+   "W kolejnym locie śmigłowiec potrzebny był m.in. w dol Jaworzynki – atak drgawek, pod wodospadem Siklawa w dol.Roztoki – wyczerpanie oraz w rejonie tzw. Kamienia na szlaku z dol.Kondratowej na przeł. pod Kopą."
+  ]
+ },
+ {
+  "place": "Żleb Żandarmerii",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 2
+  },
+  "examples": [
+   "Godz. 15 51- Zgłoszenie wypadku w Żlebie Żandarmerii, kobieta uległa poważnej kontuzji stawu skokowego. Turystka śmigłowcem została przewieziona do szpitala.",
+   "Między godz. 13:00 a 15:00 do centrali wpłynęło wiele zgłoszeń o osobach potrzebujących pomocy. Załoga śmigłowca w ciągu dwóch godzin udzieliła pomocy i ewakuowała poszkodowanych ze Żlebu Żandarmerii (złamanie podudzia),…"
+  ]
+ },
+ {
+  "place": "Dolina Rybiego Potoku",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1,
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Tego dnia pomocy ratowników wymagali również turyści w dol. Pięciu Stawów Polskich, dol. Rybiego Potoku oraz dol. Jaworzynki.",
+   "Liczne interwencje ratowników związane z odwodnieniem, osłabieniem i wyczerpaniem. Pomocy udzielono m.in. na Hali Gąsienicowej i w dol. Rybiego Potoku."
+  ]
+ },
+ {
+  "place": "Suchy Wierch Kondracki",
+  "count": 2,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 2
+  },
+  "examples": [
+   "Przed godz. 14 załoga śmigłowca udzielała pomocy kobiecie, która z powodu odwodnienia i wyczerpania nie była w stanie samodzielnie kontynuować marszu. Wypadek miał miejsce w rejonie Suchego Wierchu Kondrackiego.",
+   "Niemal z tego samego miejsca niecałą godzinę później ewakuowano śmigłowcem do szpitala mężczyznę uskarżającego się na ból w klatce piersiowej."
+  ]
+ },
+ {
+  "place": "Kazalnica Cubryńska",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Tego dnia na Kazalnicy Cubryńskiej wspinały się dwa zespoły taterników. Jeden 3 osobowy, drugi 2 osobowy. Zespół 2 osobowy około 18-tej wycofywał się ze ściany zjazdami. Podczas kolejnego zjazdu jeden z taterników zahacz…"
+  ]
+ },
+ {
+  "place": "Upłaziańska Kopa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "O godz. 13.40 do TOPR dotarła wiadomość, że w rejonie Upłaziańskiej Kopy, zjeżdżający narciarz skitourowy upadając doznał urazu kolana. Nie jest w stanie dalej samodzielnie się poruszać, potrzebna pomoc. W rejon zdarzeni…"
+  ]
+ },
+ {
+  "place": "Padaki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Przed godz. 15.30 powiadomiono Centralę TOPR, że podczas jazdy Padakami ( Trasa FIS 2) powyżej drogi dojazdowej na Kondratową narciarz skiturowy doznał urazu nogi. Z Centrali w tamten rejon pojazdem terenowym Traxter wyj…"
+  ]
+ },
+ {
+  "place": "Cyrhla",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Czwartek 15.04. Przed godz.12.30 powiadomiono Centralę TOPR, że na szlaku z Cyrhli na Kopieniec przy kasie biletowej TPN znajduje się osłabiony 61-letni turysta, który nie jest w stanie dalej się poruszać. Z Centrali w t…"
+  ]
+ },
+ {
+  "place": "Zadni Ornak",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Sobota 17.04. Tuż po 13-tej przez aplikację Ratunek dotarła do TOPR informacja o wypadku skitourowym na zach. zboczach Zadniego Ornaku, gdzie zjeżdżająca narciarka upadła na kamień doznając urazu klatki piersiowej. Z Cen…"
+  ]
+ },
+ {
+  "place": "Super diretissima",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "O godz. 9.00 do TOPR zadzwonił jeden z trójki taterników wspinających się Super diretissimą w płn. ścianie Mięguszowieckiego Szczytu Wielkiego informując, że prowadzący I wyciąg taternik odpadł i w wyniku około 80 m lotu…"
+  ]
+ },
+ {
+  "place": "Żleb Piszczałki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 16.30 do TOPR zadzwoniła turystka informując, że zgubiła się idąc z Dol. Kościeliskiej na grań Ornaków. Okazało się, że turysta znajduje się w Żlebie Piszczałki. Telefonicznie naprowadzono ją na szlak, na którym…"
+  ]
+ },
+ {
+  "place": "Kominiarski Wierch",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 21-szej do TOPR zadzwonił mężczyzna informując, że jego kolega zgubił się w rejonie Kominiarskiego Wierchu, prawdopodobnie w okolicach wierzchołka. Jest przemoczony i wychłodzony. Prosi o pomoc, gdyż nie jest w …"
+  ]
+ },
+ {
+  "place": "Przechód",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 1
+  },
+  "examples": [
+   "Piątek 4.06. Przed godz. 3-cią rano do TOPR zadzwonił jeden ze świadków zdarzenia przekazując, że z „Przechodu” w Dol. Małej Łąki spadła dziewczyna. Nie ma z nią kontaktu, ale spróbują zejść do niej. O 3.07 kolejny telef…"
+  ]
+ },
+ {
+  "place": "Żleb Honoratka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Piątek 11.06. Tuż po 15-tej do TOPR zadzwonił turysta informując, że wraz z żoną utknęli w śniegach w rejonie Koziego W. Dzięki aplikacji „Ratunek” namierzono ich w Żlebie Honoratka, blisko Zmarzłej Przeł. Wyżniej. Wysta…"
+  ]
+ },
+ {
+  "place": "Mały Kościelec",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 19.30 do Murowańca dotarł turysta, który w rejonie Małego Kościelca upadł doznając rany głowy i ręki. Po udzieleniu I pomocy został przewieziony na Brzeziny skąd własnym samochodem miał udać się do szpitala."
+  ]
+ },
+ {
+  "place": "Suche Czuby Kondrackie",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Czwartek 17.06 Po godz. 16-tej z rejonu Suchych Czub Kondrackich przetransportowano śmigłowcem do szpitala turystę, który doznał urazu stawu skokowego."
+  ]
+ },
+ {
+  "place": "Magura Witowska",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "1. 10.52. Przygniecenie przez traktor podczas prac leśnych ( rolnych?) w rejonie Magury Witowskiej. 50-cio letni mieszkaniec Chochołowa przetransportowany śmigłowcem do szpitala w Nowym Targu."
+  ]
+ },
+ {
+  "place": "Jaworzyna",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "16.50 Do TOPR zadzwonił zaniepokojony brat, informując, że od środy nie ma kontaktu ze swoim bratem, który wyjechał do Zakopanego lub na Słowację. Podano jego rysopis, nr rejestracyjny i typ samochodu, którym poruszał si…"
+  ]
+ },
+ {
+  "place": "Ścieżka pod Reglami",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "17.20 Ze Ścieżki pod Reglami do szpitala przewieziono 50-cio letniego turystę, który zasłabł."
+  ]
+ },
+ {
+  "place": "Kościelisko",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "15.06 Informacja, że w Kościeliskach 3,5 letnie dziecko uderzyło głową o kamienie. Potrzebna szybka pomoc. Dziecko śmigłowcem przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Polana Trzydniówka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "13.03 Informacja o upadku biegacza, uczestnika zawodów powyżej Polany Trzydniówka, który doznał urazu głowy i złamał rękę. Z Centrali do Dol. Chochołowskiej wyjechało 2 ratowników, którzy po 14-tej dotarli na miejsce zda…"
+  ]
+ },
+ {
+  "place": "Droga Wrześniaków",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "16.10 Informacja o wypadku taternickim na Zamarłej Turni na Drodze Wrześniaków. Na ostatnim zjeździe wzdłuż zacięcia, taternik najprawdopodobniej wypadł z liny, spadł około 5-10 m i wpadł do szczeliny brzeżnej znajdujące…"
+  ]
+ },
+ {
+  "place": "Jaskinia Wielka Śnieżna",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 1
+  },
+  "examples": [
+   "O godz. 9.05 powiadomiono Centralę TOPR, że o oznaczonej godzinie alarmowej nie wyszło z systemu jaskiniowego Wielka Litworowa-Wielka Śnieżna dwoje grotołazów. Wejście do jaskini Wielkiej Litworowej nastąpiło w niedzielę…"
+  ]
+ },
+ {
+  "place": "Przełęcz w Grzybowcu",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "11.21 Informacja o zasłabnięciu turystki na szlaku z Dol. Strążyskiej na Przeł. w Grzybowcu. Z Centrali do Strążyskiej wyjechała 6-cio osobowa ekipa ratowników, którzy po 12-tej dotarli do turystki. Po udzieleniu I pomoc…"
+  ]
+ },
+ {
+  "place": "Zmarzła Przełączka Wyżnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "8.28 Dzwoni turysta informując o wypadku w Żlebie Honoratka. Jego kolega poleciał około 100 m. Widzi go i ma z nim kontakt głosowy. Wystartował śmigłowiec. Z jego pokładu w pobliżu turysty desantował się ratownik. Okazał…"
+  ]
+ },
+ {
+  "place": "Cubryna",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "12.23 Do TOPR dotarła informacja, że turysta znajdujący się w masywie Cubryny zapchał się w trudne dla niego miejsce, z którego nie jest się w stanie ruszyć. Potrzebuje pomocy. Wystartował śmigłowiec. Z jego pokładu w po…"
+  ]
+ },
+ {
+  "place": "Prawe Żeberko Skrajnego Granata",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "12.21 Informacją o wypadku taternickim na Prawym Żeberku Skrajnego Granata. Taternik prowadzący II wyciąg odpadł i poleciał około 40 m. Współtowarzysze nie mają z nim kontaktu. Wystartował śmigłowiec. Z jego pokładu rato…"
+  ]
+ },
+ {
+  "place": "Wąwóz Homole",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz. 13-tej na prośbę ratowników GP. GOPR śmigłowiec TOPR poleciał do Wąwozu Homole , gdzie trwała reanimacja nieprzytomnego mężczyzny. Niestety nie dało się go uratować. Śmigłowiec powrócił do bazy."
+  ]
+ },
+ {
+  "place": "Świńska Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Pomiędzy godz. 16-18-tą śmigłowcem przetransportowano do szpitala: 3. Z Przeł. Świńskiej turystę z urazem stawu skokowego"
+  ]
+ },
+ {
+  "place": "Rohatka",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po 2-giej w nocy policja powiadomiła TOPR, że poszukują niemieckiej turystki, która utknęła gdzieś w lesie. Podano rejon, w którym logował się jej telefon czyli pomiędzy Remiaszowem a Jankulakowskim W. w rejonie Białki T…"
+  ]
+ },
+ {
+  "place": "Smocza Jama",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 8.30 powiadomiono Centralę TOPR, że w Wąwozie Kraków turysta spadł spod otworu Smoczej Jamy do Wąwozu. Jest przytomny, ale ma uraz głowy i ręki. Z Centrali do Dol. Kościeliskiej wyjechała ekipa ratowników. Po do…"
+  ]
+ },
+ {
+  "place": "Hurchoci Wierch",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Śmigłowcem do szpitala przetransportowano: Po godz. 12-tej z Hurchociego W. mężczyznę z atakiem padaczki."
+  ]
+ },
+ {
+  "place": "Żabia Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Przed godz. 21.30 do TOPR zadzwonili taternicy (2 osoby) znajdujący się pomiędzy Żabią Przeł. a Rysami informując, że utknęli w ścianie w trudnym terenie. Potrzebują pomocy – stoją w dobrym miejscu. Z Centrali do M. Oka …"
+  ]
+ },
+ {
+  "place": "Prawy Dziędzielewicz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Tuż przed 13-tą do TOPR zadzwoniła taterniczka informując, ze wraz z partnerem rozpoczęli wspinaczkę na Zach, ścianie Kościelca drogą „Prawy Dziędzielewicz”. Jej partner prowadzący I wyciąg utknął w trudnym miejscu około…"
+  ]
+ },
+ {
+  "place": "Szary Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "19.30 informacja o turystce z urazem nogi znajdującej się nad łańcuchami w Szarym Żlebie. Do Szarego Żlebu wyrusza 11-osobowa ekipa ratowników, którzy o 21.45 docierają do oczekującej na pomoc turystki. Po zaopatrzeniu z…"
+  ]
+ },
+ {
+  "place": "Przełęcz Bacug",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 15.30 powiadomiono Centralę TOPR, że na szlaku z Giewontu w kierunku Dol. Strążyskiej znajduje się turystka, która upadając złamała rękę. Dzięki aplikacji „Ratunek” zlokalizowano poszkodowaną na Przeł. Bacug. Z …"
+  ]
+ },
+ {
+  "place": "Mokra Wanta",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Przed godz. 22.30 do TOPR zadzwonili taternicy, którzy po wspinacze na Żabim Mnichu schodząc, zapchali się w teren, z którego nie mogą się wycofać. Przekazali swoje koordynaty GPS. W rozmowie podali, że zjeżdżali z Mokre…"
+  ]
+ },
+ {
+  "place": "Setka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Po godz. 13.20 powiadomiono Centralę TOPR o wypadku taternickim na Drodze „100” na Zadnim Kościelcu, gdzie podczas wspinaczki odpadła prowadząca kolejny wyciąg taterniczka. W wyniku około 6 m lotu doznała urazu nogi , ot…"
+  ]
+ },
+ {
+  "place": "Nadspady",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 16-tej ze szlaku pomiędzy M. Okiem A Szpiglasową Przeł. z rejonu Nadspadów przetransportowano śmigłowcem do szpitala turystkę, która upadając doznała otwartego złamania nogi."
+  ]
+ },
+ {
+  "place": "Waksmundzki Potok",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 13.30 do TOPR powiadomiono Centralę TOPR, że w Dol. Waksmundzkiej, koło mostka na Waksmundzkim Potoku, turystka doznała urazu nogi. Potrzebna pomoc. Z Centrali w tamten rejon wyruszyło 4 ratowników, którzy Przed…"
+  ]
+ },
+ {
+  "place": "Przysłop",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Na prośbę ratowników z Grupy Podhalańskiej śmigłowcem Policji obsługującym działania TOPR przetransportowano z Przysłopu do szpitala w Nowym Targu 86 letnią kobietę z podejrzeniem udaru."
+  ]
+ },
+ {
+  "place": "Krzyż Pola",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 12.40 do Centrali TOPR zadzwonił przewodnik prowadzący wycieczkę w Dol. Kościeliskiej informując, że powyżej Krzyża Pola znajduje się nieprzytomny, prawdopodobnie pijany, młody mężczyzna. Z Centrali do Dol. Kośc…"
+  ]
+ },
+ {
+  "place": "Dolinka Pusta",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Przed 7.30 do TOPR zdzwonił jeden turysta z 5-cio osobowej grupy, która przez Dol. Pustą podchodziła na Kozią Przeł. informując, że jedna z uczestniczek podchodząc upadła rozcięła łuk brwiowy. Mocno krwawi, potrzebny tra…"
+  ]
+ },
+ {
+  "place": "Mnichy Chochołowskie",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "Po godz. 12.20 zadzwonił mieszkaniec Podhala informując, że podczas zejścia z rejonu Mnichów Chochołowskich został pogryziony przez niedźwiedzia. Ma rany nogi. Powoli schodzi na Polanę Chochołowska, ale ze względu na krw…"
+  ]
+ },
+ {
+  "place": "Białczańska Przełęcz Wyżnia",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "W czasie tych działań do Dyżurnego w M. Oku przyszedł turysta informując, że będąc w rejonie Żabiego Mnicha znalazł czarny plecak. W pobliżu nie ma jego właściciela. W plecaku nie ma dokumentów więc nie wie do kogo należ…"
+  ]
+ },
+ {
+  "place": "Szpiglasowy Wierch",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 6.48 telefon od turysty znajdującego się w rejonie Szpiglasowej Przeł. że widział jak ze Szpiglasowego W. spadł turysta. Jest nieprzytomny, ma uraz głowy. Po godz. 7-mej wystartował śmigłowiec. Z jego pokładu w p…"
+  ]
+ },
+ {
+  "place": "Siwarowy Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "W czasie tych działań do TOPR zadzwonił turysta informując, że jest w Siwarowym Żlebie, Ma problemy z zejściem. Na Wodogrzmoty wyjechało 2 ratowników, którzy wykorzystując drona namierzyli miejsce, w którym znajdował się…"
+  ]
+ },
+ {
+  "place": "Zagonny Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po 16.45 do TOPR zadzwonił jeden z dwuosobowego zespołu turysta informując, że wraz z kolegą szli z Krzyżnego granią Wołoszynów. Na początku zejścia Zagonnym Żlebem jego kolega doznał urazu kolana, nie jest w stanie dale…"
+  ]
+ },
+ {
+  "place": "Twarda Kopa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 11-tej powiadomiono Centralę TOPR, że na szlaku pomiędzy Twardą Kopą a Ciemniakiem stracił przytomność 57 letni mężczyzna. Znajdujący się w pobliżu turyści rozpoczęli reanimację. Wracający z Wołoszyna śmigłowiec…"
+  ]
+ },
+ {
+  "place": "Orle Turniczki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Przed godz. 11.40 do Centrali TOPR zadzwonił turysta informując, że utknął na Orlej Perci pomiędzy Skrajnym Granatem a Krzyżnym. Nie jest w stanie dalej bezpiecznie się poruszać. Potrzebuje pomocy. Wystartował śmigłowiec…"
+  ]
+ },
+ {
+  "place": "Niżnia Kopa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 17.20 do TOPR zadzwoniła turystka informując, że jest na szlaku do 5-ciu Stawów na trawersie pod Niżnią Kopą. Stoi w śniegu po pas, boi się dalej ruszyć prosi o pomoc. Przez aplikację Ratunek uzyskano jej położen…"
+  ]
+ },
+ {
+  "place": "Cudakowa Polana",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz.14.30 powiadomiono Centralę TOPR, że w Dol. Kościeliskiej w rejonie Cudakowej Polany jest nieprzytomna, kompletnie pijana kobieta. Jej współtowarzysze próbują ją nieść w dół. Do Dol. Kościeliskiej wyjechało 2 rat…"
+  ]
+ },
+ {
+  "place": "Zadnie Kamienne",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "O godz. 12. Do TOPR zadzwonił turysta informując, że w dwie osoby schodzili z Ciemniaka w kierunku Chudej Przeł. Stamtąd zamierzali przez Dol. Tomanową dojść do schroniska na Ornaku. Zgubili szlak. Dzięki aplikacji „Ratu…"
+  ]
+ },
+ {
+  "place": "Nowe Bystre",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 8.30 poproszono o przylot naszego śmigłowca w rejon Nowego Bystrego, gdzie 62-letni mężczyzna po wcześniej przebytym zawale , ma silne bóle w klatce piersiowej. Karetka pogotowia nie jest w stanie tam dojechać. …"
+  ]
+ },
+ {
+  "place": "Dolina Lejowa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 15-tej z Dol. Lejowej przetransportowano do drogi Witów- Zakopane turystkę, która doznała urazu nogi. Stamtąd do szpitala miała się udać własnym transportem."
+  ]
+ },
+ {
+  "place": "Wschodnia ściana Kościelca",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Przed 17-tą do Centrali TOPR zadzwonił taternik informując, że wraz z partnerką wspinali się wsch. ścianą Kościelca drogą 112. Są około 40 m powyżej podstawy ściany. Chcą się wycofać, ale mają problemy z założeniem stano…"
+  ]
+ },
+ {
+  "place": "Miedziane",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "O godz. 10.32 taternik znajdujący się w rejonie Czołówki MSW zgłosił do Centrali TOPR, że w rejonie Miedzianego lub Szpiglasowego Wierchu zeszła duża lawina. O zdarzeniu zawiadomiono załogę śmigłowca by przygotowało się …"
+  ]
+ },
+ {
+  "place": "Równia Królowej",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "W czasie tych działań ratownik pełniący dyżur na Hali Gąsienicowej udzielił pomocy narciarce skitourowej, która na Równi Królowej, na początku szlaku narciarskiego do Kuźnic doznała urazu nogi. Po zaopatrzeniu przetransp…"
+  ]
+ },
+ {
+  "place": "Zahradziska",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 10-tej do TOPR zadzwonili turyści informując, że w rejonie Zahradzisk spotkali samotną 7-mio letnią dziewczynkę. Czekali kilkanaście min, czy nie pojawi się jakiś opiekun. Ratownicy poprosili o sprowadzenia dzie…"
+  ]
+ },
+ {
+  "place": "Dolina ku Dziurze",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 15-tej z Dol. ku Dziurze przetransportowano do szpitala 33-letniego turystę, który upadając złamał nogę."
+  ]
+ },
+ {
+  "place": "Gerlachowski Kocioł",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "23.19. telefon od mężczyzny z informacją, że do tej pory nie powrócili do samochodu w Tatrzańskiej Polance jego dwaj koledzy, którzy z przewodnikiem UIMLA wybrali się na Gerlach. Sprawę przekazano HZS. Po godz. 9.30 na p…"
+  ]
+ },
+ {
+  "place": "Zmarzłe Czuby",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "16.35 utknięcie dwojga turystów na Zmarzłych Czubach. W tamten rejon z Hali Gąsienicowej wyruszyło 4 ratowników, którzy o 21.20 dotarli do turystów, sprowadzono ich na Zawrat i dalej do schroniska w Stawach."
+  ]
+ },
+ {
+  "place": "Klasztor Albertynek",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "Przed godz. 6-tą do TOPR zadzwonił 42-letni mężczyzna informując, że znajduje się w górach i potrzebuje pomocy. Wczoraj rano wyruszył w Tatry by popełnić samobójstwo. Jest teraz w pobliżu klasztoru Albertynek. W tamten r…"
+  ]
+ },
+ {
+  "place": "Maszynka do Mięsa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "O godz. 16.20 do TOPR zadzwonili taternicy wspinający się „ Maszynką do Mięsa informując, że utknęli poniżej Bandziocha w trudnym terenie. Potrzebują pomocy. Do M. Oka wyjechała ekipa ratowników, a po nich kolejna ekipa.…"
+  ]
+ },
+ {
+  "place": "Waksmundzka Równia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz.15.30 do Centrali TOPR zadzwonił turysta informując, że nie może odnaleźć drogi na Palenicę Białczańską. Według aplikacji „Ratunek” znajduje się około 300 m. od Równi Waksmundzkiej. Próby telefonicznego naprowadz…"
+  ]
+ },
+ {
+  "place": "Zmarzły Staw Gąsienicowy",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Po godz. 13.20 zadzwonił jeden z taterników wspinających się na lodospadach nad Zmarzłym Stawem informując, że jego partner podczas wspinaczki spadł około 1,5 m i doznał urazu stawu skokowego.. Taternika śmigłowcem przet…"
+  ]
+ },
+ {
+  "place": "Gliczarów Dolny",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 18-tej na prośbę Pogotowia, że względu na panujące warunki, pojazdem terenowym Traxter z Gliczarowa Dolnego przewieziono do drogi i przekazano karetce pogotowia chorą kobietę."
+  ]
+ },
+ {
+  "place": "Dolina Buczynowa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Środa 26.01. Tuż przed 14- tą do Centrali TOPR zadzwonił turysta informując, że poszedł na Kozi Wierch. Po drodze zabłądził we mgle, nie wie gdzie jest. Dzięki aplikacji „Ratunek” okazało się, że turysta jest na żółtym s…"
+  ]
+ },
+ {
+  "place": "Polana Smytnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Czwartek 27.01. Po godz. 12.30 powiadomiono Centralę TOPR , że na drodze w Dol. Kościeliskiej w okolicach Smytniej znajduje się turystka, która doznała urazu biodra. Z Centrali karetką terenową TOPR wyjechało 2 ratownikó…"
+  ]
+ },
+ {
+  "place": "Ząb",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Niedziela 06.02. Po godz. 10.30 na prośbę CPR z jednego z przysiółków w Zębie przetransportowano samochodem terenowym TOPR do szpitala chorą kobietę."
+  ]
+ },
+ {
+  "place": "Kościelcowa Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Wtorek 15.02. Po godz.13.15 do Centrali TOPR zadzwoniła turystka?, narciarka skitourowa? Informując, że podczas zjazdu na nartach z rejonu Kościelcowej Przeł. na stronę Stawów Gąsienicowych jej partner przewrócił się i s…"
+  ]
+ },
+ {
+  "place": "Rafaczówki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Środa 16.02. Po godz. 10.15 z Rafaczówek przetransportowano śmigłowcem do szpitala pracownika leśnego, który w czasie pracy doznał urazów."
+  ]
+ },
+ {
+  "place": "Żleb Bryji",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Piątek 18.02. Po 18-tej powiadomiono Centralę TOPR, że podczas zejścia z Kasprowego w kierunku Myślenickich Turni dwaj turyści pobłądzili. Będąc w stromy terenie jeden z nich zsunął się po stromych śniegach i boi się dal…"
+  ]
+ },
+ {
+  "place": "Jaskinia Śpiących Rycerzy",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 1
+  },
+  "examples": [
+   "Przed godz. 15-tą do TOPR zadzwonili grotołazi, którzy wyszli z Jaskini Śpiących Rycerzy, informując, że jest wśród nich kolega, który w czasie eksploracji jaskini spadł z urwanym blokiem skalnym około 4 m doznając stłuc…"
+  ]
+ },
+ {
+  "place": "Pieniny",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Niedziela 27.02. Po godz.15-tej na prośbę ratowników z Grupy Podhalańskiej GOPR śmigłowiec TOPR poleciał w Pieniny , gdzie turystka spadła około 30 m ze skałek doznając urazu głowy i uda. Została ona przetransportowana d…"
+  ]
+ },
+ {
+  "place": "Mnichowy Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Czwartek 03.03. Przed godz. 12.30 do Centrali TOPR zadzwoniła turystka? Taterniczka? informując, że są w górnej części Mnichowego Żlebu w trudnym, stromym terenie, nie są w stanie dalej się ruszyć. Wystartował śmigłowiec…"
+  ]
+ },
+ {
+  "place": "Zmarzły Staw (Gąsienicowy)",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "W czasie tych działań do Centrali zadzwonił turysta? taternik? Informując, że utknął na lodospadzie poniżej Zmarzłego Stawu i mimo posiadanych raków i czekana nie jest w stanie zejść. Z Murowańca w kierunku Zmarzłego Sta…"
+  ]
+ },
+ {
+  "place": "Północno-Wschodni Filar Mięguszowieckiego Szczytu Wielkiego",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Niedziela 13.03. O godz. 12.14 powiadomiono Centralę TOPR, że na NE Filarze Mięguszowieckiego Szczytu Wielkiego około 200 m poniżej wierzchołka odpadł prowadzący wyciąg taternik. W wyniku około 30 m lotu doznał urazu gło…"
+  ]
+ },
+ {
+  "place": "Rysa Strzelskiego",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Poniedziałek 14.03. Tuż po dziesiątej do Centrali TOPR zadzwonił taternik informując, że wraz z kolegą wspinali się Rysą Strzelskiego na Mnichowym Progu. Prowadzący wyciąg kolega odpadł, partner wyhamował lot zatrzymując…"
+  ]
+ },
+ {
+  "place": "Komin Drewnowskiego",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "W czasie tych działań powiadomiono Centralę TOPR, że podczas próby zjazdu Kominem Drewnowskiego ski alpinista doznał urazu kolana. Został on z Kotła Kościelcowego śmigłowcem przetransportowano do szpitala."
+  ]
+ },
+ {
+  "place": "Droga Długosz–Popko",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Wtorek 22.03. Przed godz. 13-tą powiadomiono Centralę TOPR o wypadku taternickim do jakiego doszło w Kotle Kazalnicy. Wystartował śmigłowiec. Z jego pokładu dostrzeżono taternika na 3-4 wyciągu na drodze Długosz – Popko.…"
+  ]
+ },
+ {
+  "place": "Lodospad Machnika",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Środa 23.03. Tuż po 19-tej do TOPR zadzwonili dwaj taternicy schodzący Żlebem spadającym z Białczańskiej Przeł. Wyżniej informując, że mają problemy ze znalezieniem właściwej drogi zejściowej. Dzięki aplikacji „Ratunek” …"
+  ]
+ },
+ {
+  "place": "Diretissima Mięguszowieckiego Szczytu Wielkiego",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Piątek 26.03. Po godz. 15-tej do TOPR zadzwonił taternik informując, że wraz z partnerem wspinali się Diretissimą MSW. Są w pobliżu początku Rynny Wawrytki. Partner doznał urazu stopy. Nie jest w stanie kontynuować wspin…"
+  ]
+ },
+ {
+  "place": "Świński Kocioł",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "Poniedziałek 04.04. Po godz. 10-tej ze Świńskiego Kotła przetransportowano śmigłowcem do szpitala narciarza, który uszkodził ścięgno Achillesa."
+  ]
+ },
+ {
+  "place": "Skrajny Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 16-tej kolejny telefon tym razem od dwójki turystów, którzy schodząc ze Świnicy utknęli w jakimś żlebie. Przez aplikację „Ratunek” uzyskano ich pozycję GPS. Okazało się, że turyści utknęli w Skrajnym Żlebie. Są t…"
+  ]
+ },
+ {
+  "place": "Dolina Cicha",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Niedziela 18.04. Po godz. 8.30 do Centrali TOPR zadzwoniła pracownica schroniska na Kondratowej z informacją, że na noc z wycieczki w nieznanym kierunku nie powrócił 51-letni turysta. Nie mają jego numeru telefonu . Popr…"
+  ]
+ },
+ {
+  "place": "Filar Koziego Wierchu",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Czwartek 21.04.2022. O godz. 18.45 do TOPR zadzwonili taternicy, informując ,że skończyli wspinaczkę Filarem Koziego Wierchu. Ze względu na warunki śniegowe mają problemy z bezpiecznym zejściem, proszą o pomoc. Wystartow…"
+  ]
+ },
+ {
+  "place": "Gąsienicowa Turnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Sobota 23.04. O 15.30 do Centrali TOPR zadzwonili 2 taternicy, którzy schodząc ze Świnicy utknęli po płn. stronie Gąsienicowej Turni. ( Warunki śniegowe? Nieznajomość terenu?). Wystartował śmigłowiec. Z jego pokładu w po…"
+  ]
+ },
+ {
+  "place": "Jaskinia Wielka Litworowa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "lawina": 1
+  },
+  "examples": [
+   "Po godz.17-tej powiadomiono Centralę TOPR, że podczas podejścia pod otwór Jaskini Wielkiej Litworowej, niewielka lawina ( zsuw) zabrała dwóch podchodzących taterników jaskiniowych, którzy zsunęli się około 100 m na dno D…"
+  ]
+ },
+ {
+  "place": "Dolina Sucha Kondracka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Piątek 29.04. O godz. 21.10 do TOPR zadzwoniła 68 letnia turystka informując, że wraz ze znajomym szli granią w kierunku Przeł. pod Kopą. Znajomy poszedł przodem, ona zgubiła się , w rejonie Czuby Goryczkowej. Po jakichś…"
+  ]
+ },
+ {
+  "place": "Miedziany Kostur",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Przed godz. 17.30 kolejna informacja od 5-cio osobowej grupy turystów, którzy schodząc ze Szpiglasowej Przeł. na stronę 5-ciu Stawów utknęli w stromych twardych śniegach pod Miedzianym Kosturem. Jedna z osób doznała uraz…"
+  ]
+ },
+ {
+  "place": "Siwiańskie Turnie",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Czwartek 09.06. Przed godz. 9-tą do Centrali TOPR zadzwoniła matka 32-letniego syna informując, że dwa dni temu prawdopodobnie w góry, syn wyszedł z domu i nie ma z nim kontaktu. Policja przekazała, że jego koledzy odnal…"
+  ]
+ },
+ {
+  "place": "Żabi Szczyt Wyżni",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Poniedziałek 20.06. Po godz. 15.40 do Centrali TOPR zadzwonił turysta?- samotny taternik? Informując, że schodził z Żabiego Wyżniego Szczytu w kierunku Żabiej Przeł. Wyżniej i doznał bolesnego urazu stawu skokowego. Nie …"
+  ]
+ },
+ {
+  "place": "Jaskinia pod Wantą",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 1
+  },
+  "examples": [
+   "Przed godz. 13-tą powiadomiono Centralę TOPR, że w Jaskini pod Wantą doszło do wypadku. Jeden z taterników jaskiniowych w wyniku poślizgnięcia i upadku doznał bolesnego urazu barku. Nie będzie w stanie samodzielnie wyjść…"
+  ]
+ },
+ {
+  "place": "Czerwone Stawki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "W czasie tych działań powiadomiono ratowników, że na szlaku na Karb ,zasłabła będąca w rejonie Czerwonych Stawków turystka. Wobec tego śmigłowiec spod Kopy Kondrackiej poleciał w rejon Czerwonych Stawków, skąd na pokład …"
+  ]
+ },
+ {
+  "place": "Mnich",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Po godz. 18.20 powiadomiono Centralę TOPR, że podczas zjazdu z Mnicha przez „Płytę” taterniczka doznała urazu stawu skokowego. Wystartowała śmigłowiec. Z jego pokładu w pobliżu taterniczki desantowali się dwaj ratownicy.…"
+  ]
+ },
+ {
+  "place": "Lodowa Przełęcz",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 12.30 na prośbę HZS śmigłowiec TOPR poleciał do Dol. Jaworowej skąd na Polanę pod Muraniem przetransportował czeską turystkę, która upadając na szlaku na Lodową Przeł. złamała nogę. Na Polanie turystkę przekazan…"
+  ]
+ },
+ {
+  "place": "Siklawica",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 12.08. powiadomiono ratowników o kolejnym zdarzeniu w Dol. Strążyskiej. 14-letni chłopak idący spod szałasu do Siklawicy upadł i uderzył głową w kamienie, doznając utraty przytomności i drgawek. Wystartował śmigł…"
+  ]
+ },
+ {
+  "place": "Kamień Karłowicza",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 18-tej ratownik dyżurny z Hali Gąsienicowej powiadomił Centralę TOPR, że na szlaku w rejonie „ Kamienia Karłowicza” upadła 58-letnia turysta i złamała nogę. Ratownik wyruszył n a miejsce zdarzenia a z Centrali c…"
+  ]
+ },
+ {
+  "place": "Kuźnice",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Przed godz. 15-tą powiadomiono Centralę TOPR że będąca niedaleko Kuźnic turystka upadając doznała ran głowy i urazu nogi. Z Centrali na miejsce wypadku wyjechało 2 ratowników, którzy po dotarciu na miejsce udzielili I po…"
+  ]
+ },
+ {
+  "place": "Kuluar Kurtyki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz.23.20 do Centrali TOPR zadzwoniła zaniepokojona żona informując, że jej mąż wyjechał samochodem na Palenicę z zamiarem przejścia do M. Oka a stamtąd dalej na Mięguszowiecką Przeł. pod Chłopkiem, Mięguszowiecki Sz…"
+  ]
+ },
+ {
+  "place": "Południowy Filar Koziego Wierchu",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Po godz. 17-tej z 5-ciu Stawów na Wodogrzmoty przetransportowano pojazdem terenowym taternika , który podczas wspinaczki Płd. Filarem na Koziego W. będąc na drugim wyciągu odpadł około 5-ciu m. doznając urazu nogi i potł…"
+  ]
+ },
+ {
+  "place": "Żleb Szczerby",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Tuż przed 9-tą turysta znajdujący się w rejonie Szczerby powiadomił Centralę, że w tamtym rejonie zauważył ciało leżącego człowieka. W podany rejon wystartował śmigłowiec. Z jego pokładu dostrzeżono ciało w Żlebie Szczer…"
+  ]
+ },
+ {
+  "place": "Pośredni Mięguszowiecki Szczyt",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po godz. 14.30 do Centrali TOPR dotarła informacja, że na Pośrednim Mięguszowieckim Szczycie utknęło 2 turystów. Chwilę po tym informacja o kolejnym zdarzeniu. Wystartował śmigłowiec. Po desancie śmigłowiec poleciał na P…"
+  ]
+ },
+ {
+  "place": "Lodowe Źródło",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 18.20 za pośrednictwem CPR powiadomiono Centralę TOPR, że w okolicach Lodowego Źródła znajduje się turysta, który dostał udaru cieplnego i traci przytomność. Z Centrali terenową karetką TOPR wyjechało do Kościel…"
+  ]
+ },
+ {
+  "place": "Dolina Pyszniańska",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Przed godz. 20-tą do Centrali TOPR zadzwonił turysta informując, że zgubił się obok schroniska na Ornaku, wychodząc do najbliższego lasu za potrzebą. Próby naprowadzenia go na drogę do schroniska nie powiodły się. turyst…"
+  ]
+ },
+ {
+  "place": "Zacięcie Kosińskiego",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Gdy załoga śmigłowca przygotowywała się do lotu, po godz. 11.30 powiadomiono Centralę TOPR, że na Mnichu na Drodze w „ Zacięciu Kosińskiego” doszło do wypadku taternickiego. Prowadzący wyciąg taternik odpadł i uderzył pl…"
+  ]
+ },
+ {
+  "place": "Molkówka",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "O godz.21-szej do Centrali TOPR zadzwonił turysta informując, że zgubił się idąc z Orawic na Siwą Polanę. Nie udało się uzyskać jego pozycji GPS. Na poszukiwania turysty wyjechał do Dol. Chochołowskiej ratownik z dronem.…"
+  ]
+ },
+ {
+  "place": "Kazalnica",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "W czasie dolotu do ratowników dociera informacja, że na Kazalnicy znajduje się turystka, która dostała wymiotów, biegunki i osłabienia. Po desancie wziął kurs na Kazalnicę, tam przy turystce desantował się jeden ratownik…"
+  ]
+ },
+ {
+  "place": "Długi Staw",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 16-tej z rejonu Długiego Stawu przetransportowano śmigłowcem do szpitala turystę z silnymi dolegliwościami gastrycznymi, osłabieniem i odwodnieniem."
+  ]
+ },
+ {
+  "place": "Chata pod Rysami",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz. 9.30 HZS powiadomił Centralę TOPR, że w Chacie pod Rysami znajduje się turysta z silnym zatruciem pokarmowym i odwodnieniem. Proszą o przylot śmigłowca TOPR bo u nich nisko zalegają chmury i ich śmigłowiec nie d…"
+  ]
+ },
+ {
+  "place": "Glazisty Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 15.20 powiadomiono Centralę TOPR, że podczas zejścia, będąca poniżej wylotu Glazistego Żlebu do Małej Łąki, 48-letnia turystka upadłą i doznała urazu nogi. Z Centrali do Małej Łąki wyjechało 4 ratowników, którzy…"
+  ]
+ },
+ {
+  "place": "Droga Mogilnickich",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Po godz. 13.10 do Centrali TOPR dotarła informacja o wypadku taternickim na Drodze Mogilnickich na Mnichu. Prowadzący pierwszy wyciąg taternik odpadł i po 3-4 m locie uderzył nogami w półkę doznając urazu nogi. Partnerka…"
+  ]
+ },
+ {
+  "place": "Harenda",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "-11.04 Wypadek rowerowy na stoku na Harendzie. Poszkodowany przewieziony do szpitala."
+  ]
+ },
+ {
+  "place": "Diabełek",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Po godz.11.30 ze Skupniowego Upłazu (z rejonu Diabełka), przetransportowano śmigłowcem do szpitala 15-letniego turystę z podejrzeniem ataku wyrostka."
+  ]
+ },
+ {
+  "place": "Góra Zamkowa",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 16-tej na prośbę ratowników z Grupy Podhalańskiej przetransportowano z rejonu Góry Zamkowej w Pieninach do szpitala w N. Targu turystę, który w wyniku upadku doznał urazu głowy i kręgosłupa."
+  ]
+ },
+ {
+  "place": "Lichajówki",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz.16.20 do Centrali TOPR zadzwoniła Policja z prośbą o pomoc w poszukiwaniu 70-cio letniego turysty, który zaginął podczas spaceru na Lichajówkach. Na poszukiwania w przydzielony rejon wyjechali ratownicy z dronem.…"
+  ]
+ },
+ {
+  "place": "Żleb Komarnickich",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Na prośbę HZS śmigłowiec TOPR poleciał w rejon Zadniego Gerlacha po dwójkę turystów z Czech, którzy od soboty nie byli w stanie znaleźć drogi zejściowej i oczekiwali na pomoc w Żlebie Komarnickich. Uzyskano ich koordynat…"
+  ]
+ },
+ {
+  "place": "Zachód Kościelcowy",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po godz. 15-tej do Centrali TOPR zadzwonił turysta informując, że wraz z partnerką utknęli w górnej części Zachodu Kościelcowego. Ponieważ pojawiło się okno pogodowe wystartował śmigłowiec. Z jego pokładu desantowało się…"
+  ]
+ },
+ {
+  "place": "Galicowa Grapa",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 11-tej powiadomiono ratowników, że w czasie spaceru w masywie Galicowej Grapy 75-letnia turystka w wyniku poślizgnięcia i upadku złamała nogę. Z Centrali w tamten rejon wyruszyło 5-ciu ratowników, którzy o 12.30…"
+  ]
+ },
+ {
+  "place": "Dzianisz",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 14-tej na prośbę Policji z Centrali TOPR wyruszyła 6-cio osobowa ekipa ratowników zabierając ze sobą drony + dwa psy lawinowe, na poszukiwania 69-letniego mieszkańca Dzianisza, który wieczorem 03.10. wyszedł z d…"
+  ]
+ },
+ {
+  "place": "Galeryjki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Tuż po 9-tej do Centrali TOPR zadzwonił turysta ( świadek zdarzenia), informując, że przed chwilą z górnej części szlaku na Mięguszowiecką Przeł. pod Chłopkiem ( Galeryjki) spadł do górnej części Bandziocha turysta. Po c…"
+  ]
+ },
+ {
+  "place": "Kobylarz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Przed godz. 19.40 do Centrali TOPR zadzwonił turysta informując, że podczas zejścia z Małołączniaka zgubił żonę. Ostatni raz widział ją około 3 godz. temu nad łańcuchami w Kobylarzowym Żlebie. Sam doszedł do Przysłopu i …"
+  ]
+ },
+ {
+  "place": "Kogutek",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 17-tej ratownicy HZS proszą o przylot śmigłowca TOPR do Chaty pod Rysami by przetransportować poważnie rannego turystę, który spadł z Kogutka. Wystartował śmigłowiec. Ze względu na zalegające chmury śmigłowiec n…"
+  ]
+ },
+ {
+  "place": "Galeryjka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz. 18-tej zadzwonił mężczyzna informując, że nie ma kontaktu z bratem, 13.01 wyjechał autobusem do Zakopanego. Zameldował się w pensjonacie, tam pozostawił swoje rzeczy. Miał zamiar wybrać się na Cubrynę. Nie odbie…"
+  ]
+ },
+ {
+  "place": "Fajki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 17.38 do Centrali TOPR zadzwonił mężczyzna informując, że jego koleżanka (taterniczka ?) utknęła podczas samotnej wspinaczki na grani Fajek. Po uzyskaniu od niego numeru telefonu skontaktowano się z taterniczką, …"
+  ]
+ },
+ {
+  "place": "Krywań",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Po godz. 9.30 ratownicy HZS poprosili o przylot naszego śmigłowca, w rejon Krywania (skrzyżowanie szlaków pod Krywaniem ) gdzie na pomoc oczekiwał turysta, który doznał urazu nogi. Wystartował śmigłowiec. Przed godz. 10.…"
+  ]
+ },
+ {
+  "place": "Skrajna Świnkowa Szczerbina",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Przed godz. 17-tą do Centrali TOPR zadzwonił polski turysta informując, że wraz z partnerem szli granią od Kołowego Szczytu. W rejonie Świnkowej Szczerbiny jego kolega spadł do Kołowej Doliny. Nie ma z nim kontaktu. Prze…"
+  ]
+ },
+ {
+  "place": "Zadni Gerlach",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Po godz. 16-tej HZS poprosiła o przylot naszego śmigłowca na Gerlacha, gdzie z Zach. ścianie Zadniego Gerlacha utknęła turystka. Podano koordynaty GPS czekającej na pomoc turystki. Wystartował śmigłowiec. Ze względu na s…"
+  ]
+ },
+ {
+  "place": "Siwy Wierch",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 23 ratownicy HZS poprosili ratowników TOPR o pomoc w poszukiwaniach 16-letniego chłopca, który zagubił się w rejonie Siwego W. Przed godz. 24-tą z Centrali w rejon poszukiwań wyjechało 3 ratowników z dronami.. O…"
+  ]
+ },
+ {
+  "place": "Gerlach",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Po godz. 8.20 do TOPR zadzwonili ratownicy Słowaccy z prośbą o przylot naszego śmigłowca ( śmigłowiec wojskowy, bo śmigłowiec TOPR przechodzi okresowy przegląd), by wesprzeć ich w poszukiwaniach polskiego turysty, który …"
+  ]
+ },
+ {
+  "place": "Niżni Kostur",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "lawina": 1
+  },
+  "examples": [
+   "W czasie działań na Kondratowej doszło do kolejnego wypadku lawinowego, tym razem w 5-ciu Stawach pod Kosturami. O godz. 12.45 do Centrali TOPR zadzwonił turysta zgłaszając wypadek lawinowy, do którego doszło pod Przeł. …"
+  ]
+ },
+ {
+  "place": "Pośrednia Sucha Czuba",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "lawina": 1
+  },
+  "examples": [
+   "Przed godz. 13.30 do Centrali TOPR zadzwonił zaniepokojony mężczyzna informując, że od godz. 10.30 nie ma kontaktu z bratem, który miał wyjść na Przeł pod Kopą Kondracką i dalej granią na Kasprowy. Próby telefonicznego k…"
+  ]
+ },
+ {
+  "place": "Przełączka w Rysach",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "O godz. 16.30 powiadomiono Centralę TOPR, że z rejonu Przełączki w Rysach zsunęła się do Rysy i dalej w dół turystka. Nie ma z nią kontaktu. Na wierzchołu pozostała jej koleżanka. Po kontakcie z turystką znajdującą się n…"
+  ]
+ },
+ {
+  "place": "Gładki Przechód",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Drugie zdarzenie można nazwać cudownym ocaleniem. O godz. 12.42 zadzwoniła turystka, która spadła z grani Suchych Czub. Ustalono, że turystka znajduje się w Dolinie Suchej Kondrackiej. Na miejsce wyruszył ponownie śmigło…"
+  ]
+ },
+ {
+  "place": "Żółta Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "W czwartek 5.03 o godz. 11:43 centrala została powiadomiona o zdarzeniu w rejonie Żółtej Turni. Narciarz zjeżdżający z Żółtej Przełęczy do Doliny Pańszczycy, w wyniku upadku doznał kontuzji stawu kolanowego. Ratownicy ud…"
+  ]
+ },
+ {
+  "place": "Krowiniec",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "14 marca 2026 sobota o godz. 9.04 TOPR otrzymał zgłoszenie od turystki, która nie była w stanie zejść żlebem Krowiniec. Turystka została sprowadzona w dół i przetransportowana do Zakopanego."
+  ]
+ },
+ {
+  "place": "Rakoń",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "narciarstwo/skitury": 1
+  },
+  "examples": [
+   "o godz. 15.53 centrala otrzymała zgłoszenie o narciarzu skiturowym, który doznał złamania kości podudzia podczas zjazdu z Rakonia do Doliny Wyżniej Chochołowskiej. Po zaopatrzeniu został on przetransportowany śmigłowcem …"
+  ]
+ },
+ {
+  "place": "Spadowiec",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "godz. 12.35 Ratownicy udzielili pomocy turystce na Drodze pod Reglami w rejonie Spadowca, która doznała bolesnego urazu biodra poślizgnąwszy się na lodzie. Turystkę przetransportowano na SOR."
+  ]
+ },
+ {
+  "place": "Pan Józek",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "o godz. 15.20 do centrali TOPR dotarło zgłoszenie o wypadku taternickim na wschodniej ścianie Kościelca. Podczas próby wycofu z trzeciego wyciągu drogi „Pan Józek” taterniczka założyła pętlę na blok, który pod obciążenie…"
+  ]
+ },
+ {
+  "place": "Przełączka nad Dolinką Buczynową",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Godz. 16:01- Kolejne zgłoszenie do centrali. Trójka turystów poinformowała, że znajdują się w rejonie Przełączki Nad Dolinką Buczynową na Orlej Perci i potrzebują pomocy. Z powodu wyczerpania nie są w stanie dalej kontyn…"
+  ]
+ },
+ {
+  "place": "Żleb Orłowskiego",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Poniedziałek 27.04.2026. O godzinie 11.50 dotarło zgłoszenie o wypadku na Świnicy. Turysta idący od Zawratu na Świnicę, schodząc szlakiem ze szczytu, spadł na stronę Doliny Walentkowej tzw. Żlebem Orłowskiego. Na miejsce…"
+  ]
+ },
+ {
+  "place": "Wielka Turnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "1 maja godz. 10:44 – do centrali zadzwonił samotny turysta, który utknął w stromym, śnieżno-trawiasto-skalnym terenie w rejonie wierzchołka Wielkiej Turni. Po dotarciu na miejsce stwierdzono, że mężczyzna, bez odpowiedni…"
+  ]
+ },
+ {
+  "place": "Tarasówka",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "godz. 13:23 – zgłoszenie od turysty z urazami przeciążeniowymi obu nóg na szlaku pomiędzy Małem Cichem a Tarasówką. Po zaopatrzeniu został ewakuowany samochodem terenowym TOPR."
+  ]
+ },
+ {
+  "place": "Świstowa Kopa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "godz. 16:22 – zgłoszenie od dwójki młodych turystów, którzy utknęli na zamkniętym szlaku w rejonie Świstowej Kopy. Nieprzygotowani sprzętowo i kondycyjnie zostali sprowadzeni do Morskiego Oka, a następnie przewiezieni sa…"
+  ]
+ },
+ {
+  "place": "Zameczki",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "godz. 12:55 – turystka doznała urazu nadgarstka po poślizgnięciu na ścieżce nad Reglami w rejonie Zameczków. Po zaopatrzeniu została sprowadzona na Kalatówki i przewieziona do szpitala w Zakopanem."
+  ]
+ },
+ {
+  "place": "Zawrat Kasprowy",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Od godzin porannych prowadzono poszukiwania turysty, który ostatni kontakt z rodziną miał 16 maja. Z wykonanych przez niego zdjęć wynikało, że przebywał w rejonie Zawratu Kasprowego. Podczas lotu poszukiwawczego śmigłowc…"
+  ]
+ },
+ {
+  "place": "Orla Perć",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "O godz. 20:10 do centrali wpłynęło zgłoszenie od zaniepokojonej rodziny o turyście, który nie wrócił z wycieczki na Orlą Perć i od dłuższego czasu nie było z nim kontaktu telefonicznego. Ratownicy wystartowali śmigłowcem…"
+  ]
+ },
+ {
+  "place": "Grań Zadniego Kościelca",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "O godz. 11:35 centrala przyjęła zgłoszenie o taterniczce, która doznała kontuzji stawu skokowego podczas wspinaczki Granią Zadniego Kościelca. Ratownicy udali się na miejsce śmigłowcem. Dwóch ratowników desantowało się n…"
+  ]
+ },
+ {
+  "place": "Mały Kozi Wierch",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "O godz. 08:41 do centrali zadzwonił turysta, informując, że pobłądził podczas podejścia na Zawrat. Znajdował się w stromym, zaśnieżonym terenie i prosił o pomoc. Na miejsce udał się ratownik dyżurny z Murowańca. O godz. …"
+  ]
+ },
+ {
+  "place": "Kohutówka",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "17:20 pomocy potrzebowała rowerzystka na polanie Kohutówka (Bukowina Tatrzańska) Ratownicy po udzieleniu pomocy i zwiezieniu quadem, przekazali poszkodowaną załodze karetki pogotowia."
+  ]
+ },
+ {
+  "place": "Granaty",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "17:39 zgłoszenie od turystki z rejonu Granatów, która ze względu na pogarszające się warunki pogodowe prosi o pomoc. Ratowaną napotkano w dolince Koziej i sprowadzono na Halę Gąsienicową."
+  ]
+ },
+ {
+  "place": "Bobrowiecka Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "16:16 Spod Bobrowieckiej Przełęczy Quadem przetransportowano turystkę z urazem nogi."
+  ]
+ },
+ {
+  "place": "Przehyba",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "12.06 Godz. 10:34 – GOPR Podhale poinformował centralę o wypadku podczas prac leśnych w rejonie Przehyby w Beskidzie Sądeckim. Drzewo przygniotło pilarza. Na miejsce skierowano śmigłowiec z ratownikami. Po dolocie ratown…"
+  ]
+ },
+ {
+  "place": "Marchwiczny Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Godz. 14 35 – Z okolicy Marchwicznego Żlebu nad Morskim Okiem, przewieziono śmigłowcem do szpitala w Nowym Targu turystę z poważnym urazem głowy."
+  ]
+ },
+ {
+  "place": "Zadni Kościelec",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Godz. 13 55- Zgłoszenie wypadku taternickiego na drodze „100” na Zadnim Kościelcu. Taternik po upadku doznał urazu kończyny dolnej. Po dolocie śmigłowcem, na miejsce wypadku zostało opuszczonych dwóch ratowników. Po zaop…"
+  ]
+ },
+ {
+  "place": "Trzy Korony",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "16.44 na prośbę GOPR w rejon Trzech Koron w Pieninach wystartował śmigłowiec, gdzie pomocy wymagała turystka po upadku. Niestety, ze względu na trudne warunki atmosferyczne śmigłowiec musiał wrócić do bazy"
+  ]
+ },
+ {
+  "place": "Krokiew",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "4 lipca 9.53 na prośbę zakopiańskiej Policji ratownicy rozpoczęli dzień od poszukiwań mieszkańca Dzianisza w rejonie Krokwi. Wyruszyły trzy grupy ratowników, użyto także drona. Po godzinie odnaleziono poszukiwanego, nies…"
+  ]
+ },
+ {
+  "place": "Lodowa Baszta",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "jaskinia": 1
+  },
+  "examples": [
+   "O 22.54 wpłynęło zgłoszenie od naukowców prowadzących badania w Jaskini Lodowej w Ciemniaku, że jeden z nich, po wyjściu na powierzchnię, złamał nogę. Wypadek wydarzył się w rejonie Lodowej Baszty. Z centrali wyruszyła t…"
+  ]
+ },
+ {
+  "place": "Suchy Wierch Ornaczański",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O 15.39 wpłynęło zgłoszenie z Suchego Wierchu Ornaczańskiego, gdzie jedna z turystek doznała bolesnego urazu nogi. Ze względu na niski pułap chmur nie mógł wystartować śmigłowiec. Z centrali wyruszyła grupa siedmiu ratow…"
+  ]
+ },
+ {
+  "place": "Herbaciana Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Godz. 13 44- Turysta zgłasza że doznał urazu stawu kolanowego. Znajduje się na Herbacianej Przełęczy. Śmigłowiec przetransportował mężczyznę na lądowisko przy szpitalu."
+  ]
+ },
+ {
+  "place": "Małe Ciche",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "Przetransportowano również turystów z rejonu Morskiego Oka i Małego Cichego."
+  ]
+ },
+ {
+  "place": "Grapa Litwinki",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Niedziela, 19 lipca o godz. 19.15 na prośbę zakopiańskiego pogotowia śmigłowiec TOPR przetransportował z Grapy Litwinki (Czarna Góra) kobietę ze zwichniętym stawem biodrowym."
+  ]
+ },
+ {
+  "place": "Zadni Mnich",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Poniedziałek, 20 lipca godz. 12.42 na centralę dotarło zgłoszenie, że na uskoku Zadniego Mnicha doszło do wypadku taternickiego. W wyniku ok. 15-metrowego lotu (prawdopodobnie z ruchomym blokiem) wspinający się solo z as…"
+  ]
+ },
+ {
+  "place": "Białka Tatrzańska",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "O godz. 16.38 na prośbę dyspozytora medycznego 999 załoga śmigłowca TOPR pomagała w udzieleniu pomocy i przetransportowania dziecka z urazem czaszkowo-mózgowym do szpitala w Nowym Targu. Do wypadku komunikacyjnego doszło…"
+  ]
+ },
+ {
+  "place": "Przełączka pod Rysami",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "26.07 W godzinach porannych do centrali zadzwonili dwaj turyści, którzy podczas wejścia na Rysy zgubili szlak i znaleźli się na grani w pobliżu Przełączki pod Rysami. Poinformowali, że utknęli w eksponowanym terenie i ni…"
+  ]
+ },
+ {
+  "place": "Murzasichle",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "O godz. 17:05 Centrum Powiadamiania Ratunkowego poinformowało centralę o poważnym wypadku podczas prac polowych w Murzasichlu. Doszło do przewrócenia ciągnika i przygniecenia pasażera przez maszynę. Na miejsce skierowano…"
+  ]
+ },
+ {
+  "place": "Polana Chochołowska",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Z Polany Chochołowskiej śmigłowcem ewakuowano rowerzystę po utracie przytomności."
+  ]
+ },
+ {
+  "place": "Pośredni Granat",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "W piątek, 31 lipca, pomocy potrzebowało 10 osób. Do poważniejszych zdarzeń doszło przed południem na Pośrednim Granacie, gdzie otwartego złamania palca doznała turystka z Polski. Śmigłowiec wrócił po turystkę z Granatów …"
+  ]
+ },
+ {
+  "place": "Pośrednia Sieczkowa Przełączka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "Dniem tragicznym okazała się sobota 1 sierpnia. Kilka minut po godzinie 11 na Centralę TOPR dotarła informacja o upadku z wysokości turysty z Pośredniej Sieczkowej Przełączki, przez którą przebiega Orla Perć. Ze zgłoszen…"
+  ]
+ },
+ {
+  "place": "Droga Świerza",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "W trakcie przyjmowania zgłoszenia z Orlej Perci na Centralę TOPR, dociera zgłoszenie przekazane przez słowacki HZS o wypadku taternickim w rejonie Mięguszowieckiego Szczytu Wielkiego od strony Morskiego Oka. Zgłoszenie n…"
+  ]
+ },
+ {
+  "place": "Filar Staszla",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "Tej nocy w działaniach ratowniczych brała również sekcja Cybertech. W pierwszym przypadku pomagano taternikom na Hali Gąsienicowej, którzy podczas wycofu z Filara Staszla z powodu braku światła oraz słabej znajomości ter…"
+  ]
+ },
+ {
+  "place": "Siedem Granatów",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "Do niecodziennego zdarzenia doszło we wtorek 18 sierpnia. Na prośbę pracowników Tatrzańskiego Parku Narodowego, ratownicy przy pomocy Drona dokonali rozpoznania terenu w okolicy Siedmiu Granatów nad Morskim Okiem, gdzie …"
+  ]
+ },
+ {
+  "place": "Markowe Szczawiny",
+  "count": 1,
+  "area": "poza Tatrami",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "26.08. W godzinach popołudniowych do centrali TOPR wpłynęło zgłoszenie od Grupy Beskidzkiej GOPR. W schronisku na Markowych Szczawinach znajdował się nieprzytomny mężczyzna. Obecni na miejscu ratownicy GOPR poprosili o p…"
+  ]
+ },
+ {
+  "place": "Żleb Blatona",
+  "count": 1,
+  "area": "Tatry SK",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 21:03 dwójka turystów poinformowała centralę, że podczas zejścia ze Świnicy utknęli w eksponowanym terenie i nie są w stanie samodzielnie wrócić na szlak. Z przesłanych do centrali współrzędnych wynikało, że znaj…"
+  ]
+ },
+ {
+  "place": "Mięguszowieckie Szczyty",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zasłabnięcie/choroba": 1
+  },
+  "examples": [
+   "Z grani Mięguszowieckich Szczytów ewakuowano taternika z podejrzeniem hipoglikemii."
+  ]
+ },
+ {
+  "place": "Mylna Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Również z tego samego powodu ewakuowano turystkę z przeł. Mylnej."
+  ]
+ },
+ {
+  "place": "Zmarzła Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Około południa ze Zmarzłej Przełęczy do szpitala przetransportowano śmigłowcem turystę z urazem stawu kolanowego."
+  ]
+ },
+ {
+  "place": "Głęboki Żleb",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zabłądzenie/poszukiwania": 1
+  },
+  "examples": [
+   "Po godz. 16 do TOPR dotarło zgłoszenie od 4 turystów, którzy zabłądzili na szlaku prowadzącym z Morskiego Oka przez Świstówkę Roztocką do dol.Pięciu Stawów Polskich. Po ustaleniu ich dokładnego położenia zostali odnalezi…"
+  ]
+ },
+ {
+  "place": "Mułowa Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 15:30 o pomoc poprosiła turystka, która w wyniku potknięcia nabawiła się kontuzji stawu skokowego na przeł. Mułowej. Tutaj znów najszybszym sposobem dotarcia do poszkodowanej okazał się lot śmigłowca."
+  ]
+ },
+ {
+  "place": "WHP 100",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Do zdarzeń doszło m.in. na Siwej Przełęczy, Kopie Kondrackiej, Progu Czarnego Stawu pod Rysami, Giewoncie czy Zadnim Kościelcu. Doszło do dwóch wypadków taternickich. W jednym z wypadków kontuzji stawu skokowego nabawił …"
+  ]
+ },
+ {
+  "place": "Międzymiastowa",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "wspinaczka/taternictwo": 1
+  },
+  "examples": [
+   "Drugi wypadek zdarzył się na Mnichu na drodze Międzymiastowa. W wyniku upadku na prowadzeniu ostatniego wyciągu, taternik doznał urazu stawu skokowego. Samodzielnie wraz z partnerem ukończył wspinaczkę i dotarł do schron…"
+  ]
+ },
+ {
+  "place": "Świnicka Kotlinka",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O godz. 14 śmigłowiec wraz z ratownikami poleciał do Kotlinki Świnickiej gdzie na pomoc oczekiwała kobieta z urazem stawu skokowego. Po zaopatrzeniu turystka została przetransportowana do szpitala w Zakopanem."
+  ]
+ },
+ {
+  "place": "Goryczkowa Przełęcz nad Zakosy",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "O 7:45 centrala TOPR odebrała zgłoszenie od turystki, która schodząc z Kasprowego w kierunku przeł. Nad Zakosy doznała kontuzji nogi i nie była w stanie kontynuować wycieczki. Z pomocą ruszył ratownik pełniący dyżur na K…"
+  ]
+ },
+ {
+  "place": "Wielka Buczynowa Turnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "zablokowanie/utknięcie (nie może zejść)": 1
+  },
+  "examples": [
+   "O godz. 18.56 z Orlej Perci, okolic Wielkiej Buczynowej Turni, dzwonią turyści, którzy mają problem z kontynuowaniem marszu ze względu na brak światła i zmęczenie. Z centrali wyruszają dwie grupy ratowników, pierwsza na …"
+  ]
+ },
+ {
+  "place": "Dolinka ku Dziurze",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "14 września, poniedziałek godz. 16.05 z Dolinki ku Dziurze przetransportowano turystkę, która w rejonie jaskini upadła i doznała urazu nogi i głowy."
+  ]
+ },
+ {
+  "place": "Zawratowa Turnia",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "śmiertelny": 1
+  },
+  "examples": [
+   "godz. 11.27 na centralę dotarło zgłoszenie od turystów będących na szlaku na Zawrat, którzy byli świadkami upadku z wysokości z okolic północnej grani Zawratowej Turni. Na miejsce udał się śmigłowiec TOPR. Niestety, rato…"
+  ]
+ },
+ {
+  "place": "Małołącka Przełęcz",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "uraz/wypadek": 1
+  },
+  "examples": [
+   "Następnie tego samego popołudnia, załoga śmigłowca ewakuowała turystę ze szlaku na Rysy z urazem nogi, turystkę z Małołąckiej Przełęczy z urazem nogi, turystkę ze szlaku Świnica-Zawrat- utknięcie na łańcuchach."
+  ]
+ },
+ {
+  "place": "Polana pod Wołoszynem",
+  "count": 1,
+  "area": "Tatry PL",
+  "types": {
+   "inne": 1
+  },
+  "examples": [
+   "Tego dnia ratownicy udzielają pomocy turystom na Hali Gąsienicowej (wyczerpanie), a także w rejonie Polany pod Wołoszynem."
+  ]
+ }
+]
