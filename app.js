@@ -46,7 +46,7 @@ function borderDist(lat, lon) { let m = Infinity; for (const p of BPTS) { const 
 const KIND = {
   peak: "szczyt", saddle: "przełęcz", valley: "dolina", kociol: "kocioł", zleb: "żleb", lake: "staw", stream: "potok",
   hut: "schronisko", cave: "jaskinia", town: "miejscowość", locality: "miejsce / polana", ridge: "grzbiet / grań", rescue: "ratownictwo",
-  waterfall: "wodospad", aerial: "kolej linowa", topr: "miejsce akcji"
+  waterfall: "wodospad", aerial: "kolej linowa", topr: "miejsce akcji", wpt: "miejsce", trailsec: "szlak"
 };
 const FE = [];
 function merc(lat, lon) { const s = Math.sin(lat * rad); return [(lon + 180) / 360 * 256, (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * 256]; }
@@ -54,6 +54,7 @@ function add(o) {
   o.id = FE.length; o.n = norm(o.name); o.na = norm(o.alt); o.hot = 0;
   o.w = merc(o.lat, o.lon);
   if (o.geom) o.gw = o.geom.map(p => merc(p[0], p[1]));
+  if (o.lines) o.gws = o.lines.map(g => g.map(p => merc(p[0], p[1])));
   o.pl = isPL(o.lat, o.lon);
   FE.push(o); return o;
 }
@@ -127,6 +128,29 @@ function linkKB(item, kind, group) {
 (KB.trails || []).forEach(i => i.group = "trails");
 const KBALL = [...(KB.valleys || []), ...(KB.peaks || []), ...(KB.huts || []), ...(KB.trails || [])];
 
+/* ---------- Wikipedia places + named trail sections ---------- */
+// every pl.wikipedia article about Tatra topography on the Polish side; linked to the OSM object of the same name when one is close
+const WKIND = { "szczyt": "peak", "przełęcz": "saddle", "schronisko": "hut", "jaskinia": "cave", "polana": "locality" };
+const WIDE = new Set(["dolina", "kocioł", "grań", "równia/upłaz", "polana", "woda", "żleb", "szlak"]);
+for (const w of D.wiki || []) {
+  const n = norm(w.name);
+  let best = null, bd = 1500;
+  for (const f of FE) {
+    if ((f.n !== n && f.na !== n) || f.wiki) continue;
+    const d = f.geom ? distToLine(w.lat, w.lon, f.geom) : dist(w.lat, w.lon, f.lat, f.lon);
+    if (d < bd) { bd = d; best = f; }
+  }
+  const f = best || add({ k: WKIND[w.kind] || "wpt", name: w.name, alt: "", lat: w.lat, lon: w.lon, prio: 40 });
+  f.wiki = w.title; f.wkind = w.kind; f.wide = WIDE.has(w.kind);
+}
+const TCOL = { red: "czerwony", blue: "niebieski", green: "zielony", yellow: "żółty", black: "czarny" };
+for (const t of D.trailSecs || []) {
+  const all = t.lines.flat(), m = all[Math.floor(all.length / 2)];
+  if (!isPL(m[0], m[1]) || m[0] > 49.285) continue;   // Slovak paths and town streets
+  const f = add({ k: "trailsec", name: t.name, alt: "", lat: m[0], lon: m[1], lines: t.lines, prio: 0 });
+  f.wkind = "szlak " + TCOL[t.color]; f.color = t.color;
+}
+
 /* ---------- TOPR data ---------- */
 const T = D.topr || { incidents: [], ranking: [], geo: {} };
 const INC = T.incidents || [];
@@ -175,7 +199,7 @@ const LAYERDEF = [
   ["Ludzie", [["trail", "▬", "Szlaki"], ["hut", "■", "Schroniska"], ["rescue", "✚", "Ratownictwo"], ["aerial", "┼", "Koleje linowe"], ["place", "·", "Miejscowości, polany"], ["cave", "◒", "Jaskinie"]]],
   ["Nauka", [["border", "- -", "Granica PL/SK"], ["hot", "◉", "Miejsca akcji TOPR"], ["photo", "◘", "Zdjęcia"]]]
 ];
-const layerOf = f => ({ peak: "peak", saddle: "saddle", valley: "valley", kociol: "zleb", zleb: "zleb", lake: "lake", stream: "stream", hut: "hut", cave: "cave", town: "place", locality: "place", ridge: "ridge", rescue: "rescue", waterfall: "stream", topr: "hot" }[f.k]);
+const layerOf = f => ({ wpt: "place",  peak: "peak", saddle: "saddle", valley: "valley", kociol: "zleb", zleb: "zleb", lake: "lake", stream: "stream", hut: "hut", cave: "cave", town: "place", locality: "place", ridge: "ridge", rescue: "rescue", waterfall: "stream", topr: "hot" }[f.k]);
 
 const state = { sel: null, blind: false, quiz: null, hover: null };
 const dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -252,12 +276,14 @@ function draw(cv, ctx) {
   const sel = state.sel;
   const hl = (f, color) => {
     if (!f) return;
+    if (f.gws) { for (const g of f.gws) { path(g); ctx.strokeStyle = "rgba(255,255,255,.9)"; ctx.lineWidth = 10; ctx.lineCap = "round"; ctx.stroke(); path(g); ctx.strokeStyle = color; ctx.lineWidth = 5; ctx.stroke(); } return; }
     if (f.gw) { path(f.gw, f.k === "lake"); ctx.strokeStyle = "rgba(255,255,255,.9)"; ctx.lineWidth = 9; ctx.lineCap = "round"; ctx.stroke(); path(f.gw, f.k === "lake"); ctx.strokeStyle = color; ctx.lineWidth = 4.5; ctx.stroke(); }
     else { const x = X(f.w), y = Y(f.w); ctx.beginPath(); ctx.arc(x, y, 13, 0, 7); ctx.strokeStyle = "rgba(255,255,255,.9)"; ctx.lineWidth = 6; ctx.stroke(); ctx.beginPath(); ctx.arc(x, y, 13, 0, 7); ctx.strokeStyle = color; ctx.lineWidth = 3; ctx.stroke(); }
   };
   if (sel) hl(sel, "#d0312d");
   const qz = state.quiz;
-  if (qz && qz.show) hl(qz.show, qz.showColor || "#d0312d");
+  // trails get violet: red would blend with red-marked trails
+  if (qz && qz.show) hl(qz.show, qz.show.lines ? "#8a2be2" : qz.showColor || "#d0312d");
   if (qz && qz.click) {
     const cw = merc(qz.click[0], qz.click[1]); const x = X(cw), y = Y(cw);
     if (qz.show && qz.answered) { const tx = X(qz.show.w), ty = Y(qz.show.w); ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.setLineDash([5, 4]); ctx.strokeStyle = "#111"; ctx.lineWidth = 1.5; ctx.stroke(); ctx.setLineDash([]); }
@@ -297,7 +323,7 @@ function draw(cv, ctx) {
     const lk = layerOf(f); if (!lk || !LAYERS[lk]) continue;
     if (f.k === "stream" && !f.river && z < 13.5) continue;
     if (f.k === "topr") continue;
-    const p = f === sel ? 999 : f.prio;
+    const p = f === sel || (qz && qz.show === f) ? 999 : f.prio;
     if (p < t) continue;
     const x = X(f.w), y = Y(f.w); if (!inView(x, y, 10)) continue;
     cand.push([p, f, x, y]);
@@ -433,6 +459,7 @@ function select(f, fly = true) {
   if (f && innerWidth <= 860) $("#side").scrollTop = 0;
 }
 function focus(f, minZ = 13.5) {
+  if (f.lines) { map.flyToBounds(L.latLngBounds(f.lines.flat()).pad(.3), { maxZoom: 14.5, duration: .6 }); return; }
   if (f.geom && f.geom.length > 1) { const b = L.latLngBounds(f.geom.map(p => [p[0], p[1]])); map.flyToBounds(b.pad(f.k === "lake" ? 2.5 : 0.25), { maxZoom: 14.5, duration: .6 }); }
   else map.flyTo([f.lat, f.lon], Math.max(map.getZoom(), minZ), { duration: .6 });
 }
@@ -464,7 +491,7 @@ function search(q, limit = 12, filter) {
   for (const [, f] of res) { const key = f.n + f.k; if (seen.has(key)) continue; seen.add(key); out.push(f); if (out.length >= limit) break; }
   return out;
 }
-const kindLabel = f => KIND[f.k] || f.k;
+const kindLabel = f => f.wkind || KIND[f.k] || f.k;
 let qi = -1;
 $("#q").addEventListener("input", () => {
   const r = search($("#q").value); qi = -1;
@@ -715,9 +742,12 @@ function weightedPick(list, keyf, avoid) {
   for (let i = 0; i < list.length; i++) { r -= w[i]; if (r <= 0) return list[i]; }
   return list[list.length - 1];
 }
-const QCAT = [["core", "Najważniejsze"], ["peak", "Szczyty"], ["saddle", "Przełęcze"], ["valley", "Doliny"], ["lake", "Stawy"], ["hut", "Schroniska"], ["hot", "Miejsca akcji TOPR"]];
+const QCAT = [["wiki", "Polskie Tatry: wszystko"], ["core", "Najważniejsze"], ["peak", "Szczyty"], ["saddle", "Przełęcze"], ["valley", "Doliny"], ["lake", "Stawy"], ["hut", "Schroniska"], ["hot", "Miejsca akcji TOPR"], ["trail", "Szlaki"]];
+const WTYPES = [["szczyt", "Szczyty"], ["skała", "Turnie i skały"], ["przełęcz", "Przełęcze"], ["dolina", "Doliny"], ["kocioł", "Kotły"], ["żleb", "Żleby"], ["grań", "Granie i grzbiety"], ["polana", "Polany"], ["równia/upłaz", "Równie i upłazy"], ["woda", "Stawy i wody"], ["schronisko", "Schroniska"], ["szlak", "Szlaki"], ["jaskinia", "Jaskinie"]];
 const QSCOPE = [["pl", "Polska strona"], ["border", "PL + 3 km za granicą"], ["all", "Całe Tatry"]];
-const qcfg = store.get("qcfg", { cat: "core", scope: "border", level: "key" });
+const qcfg = store.get("qcfg", { cat: "wiki", scope: "border", level: "key" });
+if (!qcfg.types) { qcfg.cat = "wiki"; qcfg.types = WTYPES.map(t => t[0]).filter(t => t !== "jaskinia"); store.set("qcfg", qcfg); }
+const wtype = f => f.k === "trailsec" ? "szlak" : f.wkind;
 function inScope(o, scope = qcfg.scope) {
   if (scope === "all" || o.pl) return true;
   if (scope === "pl") return false;
@@ -726,6 +756,8 @@ function inScope(o, scope = qcfg.scope) {
 }
 function quizPool(cat = qcfg.cat, scope = qcfg.scope, level = qcfg.level) {
   return FE.filter(f => {
+    if (cat === "wiki") return (f.wiki || f.k === "trailsec") && qcfg.types.includes(wtype(f)) && inScope(f, scope);
+    if (cat === "trail") return f.k === "trailsec";
     if (!f.name || ["stream", "cave", "town", "aerial"].includes(f.k) || (f.k === "topr" && !f.hot)) return false;
     if (cat === "core") { if (!(f.kb || f.hot || f.prio >= 60)) return false; }
     else if (cat === "hot") { if (!f.hot) return false; }
@@ -737,6 +769,7 @@ function quizPool(cat = qcfg.cat, scope = qcfg.scope, level = qcfg.level) {
   });
 }
 function targetDist(f, lat, lon) {
+  if (f.lines) return Math.min(...f.lines.map(g => distToLine(lat, lon, g)));
   if (f.k === "lake" && pip(lat, lon, f.geom)) return 0;
   if (f.geom) return distToLine(lat, lon, f.geom);
   return dist(lat, lon, f.lat, f.lon);
@@ -847,6 +880,7 @@ function buildHub() {
       <div class="kicker">Ustawienia</div>
       <div class="row"><span class="lbl">Zakres</span><div class="seg" id="qscope">${QSCOPE.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.scope === k}">${l}</button>`).join("")}</div></div>
       <div class="row"><span class="lbl">Obiekty na mapie</span><div class="seg" id="qcat">${QCAT.map(([k, l]) => `<button data-k="${k}" aria-pressed="${qcfg.cat === k}">${l}</button>`).join("")}</div></div>
+      ${qcfg.cat === "wiki" ? `<div class="row"><span class="lbl">Typy</span><div class="seg" id="qtypes">${WTYPES.map(([k, l]) => `<button data-t="${k}" aria-pressed="${qcfg.types.includes(k)}">${l} <span class="mono" style="opacity:.6">${FE.filter(f => (f.wiki || f.k === "trailsec") && wtype(f) === k && inScope(f)).length}</span></button>`).join("")}</div></div>` : ""}
       <div class="row"><span class="lbl">Poziom</span><div class="seg" id="qlevel"><button data-k="key" aria-pressed="${qcfg.level === "key"}">Ważniejsze</button><button data-k="all" aria-pressed="${qcfg.level === "all"}">Wszystkie nazwane</button></div><span class="score" id="qpool"></span></div>
     </div>
     <div class="card" style="display:grid;gap:8px">
@@ -864,7 +898,8 @@ function buildHub() {
     </div>`;
   const updPool = () => { $("#qpool").textContent = quizPool().length + " obiektów · " + ALLPH.filter(usable).length + " zdjęć w zakresie"; };
   const segs = (id, key) => $(id).onclick = ev => { const b = ev.target.closest("button"); if (!b) return; qcfg[key] = b.dataset.k; store.set("qcfg", qcfg); $(id).querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); updPool(); };
-  segs("#qcat", "cat"); segs("#qscope", "scope"); segs("#qlevel", "level"); updPool();
+  segs("#qcat", "cat"); $("#qcat").addEventListener("click", () => buildHub());
+  const qt = $("#qtypes"); if (qt) qt.onclick = ev => { const b = ev.target.closest("button"); if (!b) return; const t = b.dataset.t, i = qcfg.types.indexOf(t); if (i >= 0) { if (qcfg.types.length > 1) qcfg.types.splice(i, 1); } else qcfg.types.push(t); store.set("qcfg", qcfg); buildHub(); }; segs("#qscope", "scope"); segs("#qlevel", "level"); updPool();
   P.querySelectorAll(".mode").forEach(b => b.onclick = () => startGame(b.dataset.m));
   const r = $("#qreset"); if (r) r.onclick = () => { if (r.dataset.c) { Object.keys(stats).forEach(k => delete stats[k]); Object.keys(best).forEach(k => delete best[k]); store.set("stats", stats); store.set("best", best); buildHub(); } else { r.dataset.c = 1; r.textContent = "Kliknij jeszcze raz, żeby potwierdzić"; } };
   const hr = $("#hubResume"); if (hr) hr.onclick = () => go("mapa");
@@ -925,7 +960,8 @@ function onGameClick(ll) {
     const named = [p.see, p.from].filter(Boolean).flatMap(n => n.split(",")).map(n => findByName(n.trim())).filter(Boolean);
     q.reveal = new Set([...named, ...nearby({ lat: at.lat, lon: at.lon }, ["peak", "saddle", "hut", "lake", "valley"], 2500, 14).map(x => x[1])]);
   } else {
-    const f = q.target; d = targetDist(f, ll.lat, ll.lng); pts = distPts(d, f.geom ? 300 : 150, f.geom ? 1100 : 800);
+    const f = q.target, wide = f.geom || (f.wide && !f.lines);
+    d = targetDist(f, ll.lat, ll.lng); pts = distPts(d, wide ? 350 : 150, wide ? 1100 : 800);
     q.show = f; q.reveal = new Set([f, ...nearby(f, ["peak", "saddle", "hut", "lake", "valley"], 2500, 12).map(x => x[1])]);
   }
   q.dist = d;
@@ -936,6 +972,10 @@ function nextQuestion() {
   const g = state.game; g.i++;
   if (g.i >= g.qs.length) { g.done = true; state.quiz = { panel: gamePanel, bind: bindGame, hideHot: true }; state.blind = false; const pct = Math.round(g.pts / (g.qs.length * 100) * 100); if (best[g.mode] == null || pct > best[g.mode]) { best[g.mode] = pct; store.set("best", best); } g.pct = pct; overview(qcfg.scope); redraw(); renderPanel(); return; }
   showQuestion();
+}
+function learnLinks(f) {
+  const wiki = f.wiki ? `<a class="btn ghost sm" href="https://pl.wikipedia.org/wiki/${encodeURIComponent(f.wiki.replace(/ /g, "_"))}" target="_blank" rel="noopener">Wikipedia</a>` : "";
+  return `<div class="row">${wiki}<a class="btn ghost sm" href="https://www.google.com/search?q=${encodeURIComponent(f.name + " Tatry")}" target="_blank" rel="noopener">Google</a></div>`;
 }
 const TYPELABEL = { photoWhere: "Zdjęcie: gdzie?", photoWhat: "Zdjęcie: co to?", mapWhere: "Wskaż na mapie", mapWhat: "Co to jest?", topr: "Akcja TOPR", order: "Kolejność na grani", dir: "Kierunek", fact: "Pytanie" };
 const DIRBTN = { N: "Pn", NE: "Pn-Wsch", E: "Wsch", SE: "Pd-Wsch", S: "Pd", SW: "Pd-Zach", W: "Zach", NW: "Pn-Zach" };
@@ -1012,7 +1052,7 @@ function gamePanel() {
   } else if (q.type === "mapWhere") {
     const t = q.target;
     body = `<div class="kicker">Wskaż na mapie</div><div class="q">${esc(t.name)}</div><div class="score">${esc(kindLabel(t))}${t.pl ? "" : " · Słowacja"}</div>
-      ${q.answered ? distLine() + (t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : "") : `<p class="empty" style="margin:0">Kliknij na mapie bez podpisów.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
+      ${q.answered ? distLine() + (t.kb ? `<p style="margin:0">${esc(t.kb.summary || "")}</p>` : "") + learnLinks(t) : `<p class="empty" style="margin:0">Kliknij na mapie bez podpisów.</p><div class="row"><button class="btn ghost" id="gSkip">Nie wiem</button></div>`}`;
   } else if (q.type === "mapWhat") {
     const t = q.target;
     body = `<div class="kicker">Co jest zaznaczone na mapie?</div><div class="q">${esc(kindLabel(t))}${q.answered && t.ele ? " · " + t.ele + " m" : ""}</div>
