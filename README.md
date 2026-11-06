@@ -6,7 +6,7 @@ Gra do nauki topografii Tatr przed egzaminem do TOPR. Najwięcej szczegółów d
 - **Egzamin:** 20 pytań mieszanych, na końcu wynik w procentach i przebieg z błędami.
 - **Zdjęcie: gdzie to jest?** Około 1300 zdjęć z Wikimedia Commons. Klikasz na mapie i dostajesz punkty za odległość.
 - **Zdjęcie: co to za miejsce?** Wybór jednej z czterech nazw.
-- **Mapa: wskaż miejsce / co to jest?** Szczyty, przełęcze, doliny, stawy i schroniska.
+- **Mapa: wskaż miejsce / co to jest?** Domyślnie losuje z ~1400 nazw polskich Tatr: wszystkie artykuły polskiej Wikipedii o topografii Tatr (szczyty, turnie, przełęcze, doliny, kotły, żleby, granie, polany, upłazy, wody, schroniska) i nazwane odcinki szlaków z OSM. Typy można włączać i wyłączać. Po odpowiedzi są linki do Wikipedii i Google.
 - **Akcje TOPR: gdzie to było?** Prawdziwe opisy akcji z ukrytą nazwą miejsca.
 - **Grań, kierunki, pytania z opisów.**
 
@@ -77,6 +77,7 @@ Kroki można też uruchamiać osobno:
 | `make fetch` | pobiera dane źródłowe (DEM, OSM) |
 | `make relief` | renderuje `relief.jpg` |
 | `make map` | przetwarza dane OSM i profil grani |
+| `make wiki` | zbiera miejsca polskich Tatr z polskiej Wikipedii (`data/wiki_places.json`) |
 | `make photos` | zbiera zdjęcia do gry z Wikimedia Commons (wolne, API ma limity) |
 | `make topr` | lokalizuje miejsca z raportów TOPR na mapie |
 | `make data` | składa `data.js` |
